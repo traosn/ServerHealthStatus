@@ -1,16 +1,83 @@
 {
     "Computer":  "FRWSTH",
     "OS":  "Microsoft Windows 11 Pro",
-    "CPUPercent":  5.7,
+    "CPUPercent":  7.2,
+    "CPUTooltip":  "Top Memory-Using Processes:\nCursor: 0.63GB RAM\nexplorer: 0.46GB RAM\nchrome: 0.45GB RAM\nchrome: 0.42GB RAM\nchrome: 0.41GB RAM\nchrome: 0.4GB RAM\nchrome: 0.37GB RAM\nchrome: 0.35GB RAM\nchrome: 0.33GB RAM\nmsedge: 0.33GB RAM",
+    "TopCPUProcesses":  [
+                            {
+                                "Memory":  0.63,
+                                "Name":  "Cursor"
+                            },
+                            {
+                                "Memory":  0.46,
+                                "Name":  "explorer"
+                            },
+                            {
+                                "Memory":  0.45,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.42,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.41,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.4,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.37,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.35,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.33,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.33,
+                                "Name":  "msedge"
+                            }
+                        ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  13.9,
-    "RAMUsedPercent":  43.7,
-    "RAMFreeGB":  17.9,
-    "DiskFreePercent":  72.3,
-    "Uptime":  "3d 0h 57m",
+    "RAMUsedGB":  14.3,
+    "RAMUsedPercent":  45,
+    "RAMFreeGB":  17.5,
+    "DiskFreePercent":  72.6,
+    "DiskTooltip":  "Disk Usage:\nC: Label: \n  65GB used, 172.2GB free (72.6% free)\n  Total: 237.2GB",
+    "Volumes":  {
+                    "Label":  "",
+                    "Drive":  "C",
+                    "UsedGB":  65,
+                    "FreeGB":  172.2,
+                    "TotalGB":  237.2,
+                    "FreePercent":  72.6
+                },
+    "Uptime":  "3d 1h 29m",
     "UptimeTooltip":  "Boot Time: 2025-08-08 10:05:41\nShutdown Type: User Initiated\n",
     "BootTime":  "\/Date(1754672741000)\/",
     "ShutdownReason":  "User Initiated",
     "ShutdownDetail":  "",
-    "LastPoll":  "08/11 11:02"
+    "CriticalEvents":  [
+                           {
+                               "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.",
+                               "TimeCreated":  "\/Date(1754901587469)\/",
+                               "Level":  "Error",
+                               "Source":  "Microsoft-Windows-WindowsUpdateClient"
+                           },
+                           {
+                               "Message":  "Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b\r",
+                               "TimeCreated":  "\/Date(1754896147484)\/",
+                               "Level":  "Error",
+                               "Source":  "Application Error"
+                           }
+                       ],
+    "EventTooltip":  "Critical Events (24h):\n01:39:47: [Error] Microsoft-Windows-WindowsUpdateClient - Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.\n00:09:07: [Error] Application Error - Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b\r",
+    "LastPoll":  "08/11 11:35"
 }
