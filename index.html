@@ -37,7 +37,7 @@
                                 <th>Memory</th>
                                 <th>Disk</th>
                                 <th>Uptime</th>
-                                <th>Events (24h)</th>
+                                <th>Critical Events</th>
                                 <th>Last Update</th>
                             </tr>
                         </thead>
@@ -55,10 +55,25 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Event Details</h5>
+                    <h5 class="modal-title">Critical Events</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-                <div class="modal-body" id="eventDetails">
+                <div class="modal-body">
+                    <div id="eventServer" class="h6 mb-3"></div>
+                    <div class="table-responsive">
+                        <table class="table table-hover" id="eventDetails">
+                            <thead>
+                                <tr>
+                                    <th>Time</th>
+                                    <th>Source</th>
+                                    <th>Event ID</th>
+                                    <th>Message</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,27 +108,43 @@
     }
 
     // Show event details
-    function showEventSearch(event, eventId, errorCode, updateTitle, source, message) {
-        event.preventDefault();
-        const details = `
-            <div class="mb-3">
-                <strong>Event ID:</strong> ${eventId}<br>
-                <strong>Error Code:</strong> ${errorCode || 'N/A'}<br>
-                <strong>Update Title:</strong> ${updateTitle || 'N/A'}<br>
-                <strong>Source:</strong> ${source}<br>
-                <strong>Message:</strong> ${message}
-            </div>
-            <div id="aiResponse" class="alert alert-info">
-                Researching solution... please wait...
-            </div>`;
+    function showEventDetails(serverName, events) {
+        document.getElementById('eventServer').textContent = `Server: ${serverName}`;
+        const tbody = document.querySelector('#eventDetails tbody');
+        tbody.innerHTML = '';
         
-        document.getElementById('eventDetails').innerHTML = details;
+        events.forEach(event => {
+            const row = document.createElement('tr');
+            const time = new Date(event.TimeCreated).toLocaleString();
+            row.innerHTML = `
+                <td>${time}</td>
+                <td>${event.Source}</td>
+                <td>${event.Id}</td>
+                <td>${event.Message}</td>
+                <td>
+                    <button class="btn btn-sm btn-outline-primary" 
+                            onclick="researchEvent('${event.Id}', '${event.ErrorCode || ''}', '${event.UpdateTitle || ''}', '${event.Source}', '${event.Message.replace(/'/g, "\\'")}')"
+                    >Research</button>
+                </td>
+            `;
+            tbody.appendChild(row);
+        });
+        
         eventModal.show();
+    }
+    
+    // Research specific event
+    function researchEvent(eventId, errorCode, updateTitle, source, message) {
+        const row = event.target.closest('tr');
+        const actionCell = row.querySelector('td:last-child');
+        const originalContent = actionCell.innerHTML;
+        
+        actionCell.innerHTML = '<div class="spinner-border spinner-border-sm" role="status"><span class="visually-hidden">Loading...</span></div>';
         
         // Simulate AI research (placeholder)
         setTimeout(() => {
-            document.getElementById('aiResponse').innerHTML = 
-                'This is a placeholder for the AI response. The actual implementation will search for solutions using the Gemini API.';
+            actionCell.innerHTML = '<div class="alert alert-info p-2 mb-0">This is a placeholder for the AI response. The actual implementation will search for solutions using the Gemini API.</div>';
+            setTimeout(() => actionCell.innerHTML = originalContent, 3000);
         }, 1500);
     }
 
@@ -141,14 +172,11 @@
                     
                     // Create event summary
                     let eventSummary = '';
-                    if (data.CriticalEvents && data.CriticalEvents.length > 0) {
-                        eventSummary = data.CriticalEvents.map(event => {
-                            const eventMsg = event.Message.replace(/"/g, '&quot;');
-                            return `<a href="#" class="event-link" 
-                                      onclick="showEventSearch(event, '${event.Id}', '${event.ErrorCode || ''}', '${event.UpdateTitle || ''}', '${event.Source}', '${eventMsg}')">[Research]</a> ${event.Source}: ${eventMsg}`;
-                        }).join('<br>');
+                    const eventCount = data.CriticalEvents ? data.CriticalEvents.length : 0;
+                    if (eventCount > 0) {
+                        eventSummary = `<a href="#" class="event-link" onclick="showEventDetails('${data.Computer}', ${JSON.stringify(data.CriticalEvents).replace(/'/g, "\\'")})">${eventCount} event${eventCount > 1 ? 's' : ''}</a>`;
                     } else {
-                        eventSummary = 'No critical events';
+                        eventSummary = 'No events';
                     }
 
                     // Calculate status colors
