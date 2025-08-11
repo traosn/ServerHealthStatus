@@ -1,8 +1,8 @@
 {
     "Computer":  "FRWSTH",
     "OS":  "Microsoft Windows 11 Pro",
-    "CPUPercent":  6.5,
-    "CPUTooltip":  "Top Memory-Using Processes:\nCursor: 0.68GB RAM\nchrome: 0.45GB RAM\nexplorer: 0.44GB RAM\nchrome: 0.41GB RAM\nchrome: 0.41GB RAM\nchrome: 0.4GB RAM\nchrome: 0.39GB RAM\nchrome: 0.35GB RAM\nchrome: 0.35GB RAM\nmsedge: 0.33GB RAM",
+    "CPUPercent":  5.9,
+    "CPUTooltip":  "Top Memory-Using Processes:\nCursor: 0.68GB RAM\nchrome: 0.45GB RAM\nexplorer: 0.44GB RAM\nMemory Compression: 0.42GB RAM\nchrome: 0.41GB RAM\nchrome: 0.41GB RAM\nchrome: 0.41GB RAM\nchrome: 0.4GB RAM\nchrome: 0.35GB RAM\nchrome: 0.35GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.68,
@@ -17,6 +17,14 @@
                                 "Name":  "explorer"
                             },
                             {
+                                "Memory":  0.42,
+                                "Name":  "Memory Compression"
+                            },
+                            {
+                                "Memory":  0.41,
+                                "Name":  "chrome"
+                            },
+                            {
                                 "Memory":  0.41,
                                 "Name":  "chrome"
                             },
@@ -29,26 +37,18 @@
                                 "Name":  "chrome"
                             },
                             {
-                                "Memory":  0.39,
-                                "Name":  "chrome"
-                            },
-                            {
                                 "Memory":  0.35,
                                 "Name":  "chrome"
                             },
                             {
                                 "Memory":  0.35,
                                 "Name":  "chrome"
-                            },
-                            {
-                                "Memory":  0.33,
-                                "Name":  "msedge"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  14.6,
-    "RAMUsedPercent":  45.9,
-    "RAMFreeGB":  17.2,
+    "RAMUsedGB":  14.4,
+    "RAMUsedPercent":  45.3,
+    "RAMFreeGB":  17.4,
     "DiskFreePercent":  72.6,
     "DiskTooltip":  "Disk Usage:\nC: Label: \n  65GB used, 172.2GB free (72.6% free)\n  Total: 237.2GB",
     "Volumes":  {
@@ -89,5 +89,5 @@
                            }
                        ],
     "EventTooltip":  "Critical Events (24h):\n01:39:47: [Error] Microsoft-Windows-WindowsUpdateClient - Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.\n00:09:07: [Error] Application Error - Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b\r",
-    "LastPoll":  "08/11 11:47"
+    "LastPoll":  "08/11 11:48"
 }
