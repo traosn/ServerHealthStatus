@@ -1,79 +1,47 @@
 {
     "Computer":  "FRWSTH",
-    "Customer":  "khoetech",
     "OS":  "Microsoft Windows 11 Pro",
-    "CPUPercent":  4.2,
-    "CPUTooltip":  "Top CPU Processes:\nMemory Compression: 67.2% CPU, 1.01GB RAM\nCursor: 41505.7% CPU, 0.72GB RAM\nchrome: 50.8% CPU, 0.43GB RAM\nchrome: 780.4% CPU, 0.39GB RAM\nchrome: 312% CPU, 0.38GB RAM\nchrome: 707% CPU, 0.38GB RAM\nchrome: 3165.1% CPU, 0.35GB RAM\nchrome: 196.8% CPU, 0.32GB RAM\nexplorer: 499.6% CPU, 0.3GB RAM\nmsedge: 384.6% CPU, 0.26GB RAM",
-    "TopCPUProcesses":  [
-                            {
-                                "Memory":  1.01,
-                                "CPU":  67.2,
-                                "Name":  "Memory Compression"
-                            },
-                            {
-                                "Memory":  0.72,
-                                "CPU":  41505.7,
-                                "Name":  "Cursor"
-                            },
-                            {
-                                "Memory":  0.43,
-                                "CPU":  50.8,
-                                "Name":  "chrome"
-                            },
-                            {
-                                "Memory":  0.39,
-                                "CPU":  780.4,
-                                "Name":  "chrome"
-                            },
-                            {
-                                "Memory":  0.38,
-                                "CPU":  312,
-                                "Name":  "chrome"
-                            },
-                            {
-                                "Memory":  0.38,
-                                "CPU":  707,
-                                "Name":  "chrome"
-                            },
-                            {
-                                "Memory":  0.35,
-                                "CPU":  3165.1,
-                                "Name":  "chrome"
-                            },
-                            {
-                                "Memory":  0.32,
-                                "CPU":  196.8,
-                                "Name":  "chrome"
-                            },
-                            {
-                                "Memory":  0.3,
-                                "CPU":  499.6,
-                                "Name":  "explorer"
-                            },
-                            {
-                                "Memory":  0.26,
-                                "CPU":  384.6,
-                                "Name":  "msedge"
-                            }
-                        ],
+    "CPUPercent":  5.4,
     "RAMTotalGB":  31.8,
     "RAMUsedGB":  13.8,
     "RAMUsedPercent":  43.4,
     "RAMFreeGB":  18,
-    "DiskFreePercent":  68.4,
-    "TotalSize":  "237.2GB",
-    "DiskTooltip":  "Total Storage: 237.2GB\n\nDisk Usage:\nC:\\ - Used: 74.9GB, Free: 162.3GB of 237.2GB (68.4% free)",
-    "Volumes":  {
-                    "Label":  "",
-                    "FreePercent":  68.4,
-                    "TotalSize":  "237.2GB",
-                    "SizeBytes":  254706446336,
-                    "FreeSize":  "162.3GB",
-                    "UsedSize":  "74.9GB",
-                    "Letter":  "C"
-                },
+    "DiskFreePercent":  68.1,
     "Uptime":  "3d 6h 3m",
-    "UptimeTooltip":  "Boot Time: 2025-08-08 10:05:41\nSystem has been running for:\n3 days, 6 hours, 3 minutes",
     "BootTime":  "\/Date(1754672741000)\/",
+    "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1754946301015)\/",
+                               "Level":  "Error",
+                               "Id":  20,
+                               "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                               "ErrorCode":  "0x80073D02",
+                               "UpdateTitle":  "9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB",
+                               "EventRecordID":  1276,
+                               "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB."
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754901587469)\/",
+                               "Level":  "Error",
+                               "Id":  20,
+                               "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                               "ErrorCode":  "0x80073D02",
+                               "UpdateTitle":  "9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB",
+                               "EventRecordID":  1215,
+                               "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB."
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754896147484)\/",
+                               "Level":  "Error",
+                               "Id":  1000,
+                               "Source":  "Application Error",
+                               "ErrorCode":  "0x688a554b",
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  1258,
+                               "Message":  "Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b\r"
+                           }
+                       ],
     "LastPoll":  "08/11 16:09"
 }
