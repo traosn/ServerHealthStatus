@@ -1,32 +1,32 @@
 {
     "Computer":  "CRMSERVER2019",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  0.1,
-    "CPUTooltip":  "Top CPU Processes:\ndns: 280.9% CPU, 0.36GB RAM\nMsMpEng: 16920.3% CPU, 0.31GB RAM\nsvchost: 29.5% CPU, 0.2GB RAM\npowershell: 7% CPU, 0.2GB RAM\nSearchUI: 5.8% CPU, 0.15GB RAM\nSecure System: 0% CPU, 0.13GB RAM\ndwm: 1.2% CPU, 0.11GB RAM\nexplorer: 14.5% CPU, 0.11GB RAM\nServerManager: 6.7% CPU, 0.11GB RAM\nlsass: 770.5% CPU, 0.1GB RAM",
+    "CPUPercent":  1.3,
+    "CPUTooltip":  "Top CPU Processes:\ndns: 281.2% CPU, 0.36GB RAM\nMsMpEng: 16929.3% CPU, 0.31GB RAM\nsvchost: 30.2% CPU, 0.21GB RAM\npowershell: 7.5% CPU, 0.2GB RAM\nSearchUI: 7% CPU, 0.15GB RAM\nSecure System: 0% CPU, 0.13GB RAM\ndwm: 1.2% CPU, 0.11GB RAM\nexplorer: 16.1% CPU, 0.11GB RAM\nServerManager: 6.9% CPU, 0.11GB RAM\nlsass: 770.8% CPU, 0.1GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.36,
-                                "CPU":  280.9,
+                                "CPU":  281.2,
                                 "Name":  "dns"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  16920.3,
+                                "CPU":  16929.3,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.2,
-                                "CPU":  29.5,
+                                "Memory":  0.21,
+                                "CPU":  30.2,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.2,
-                                "CPU":  7,
+                                "CPU":  7.5,
                                 "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  5.8,
+                                "CPU":  7,
                                 "Name":  "SearchUI"
                             },
                             {
@@ -41,24 +41,24 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  14.5,
+                                "CPU":  16.1,
                                 "Name":  "explorer"
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  6.7,
+                                "CPU":  6.9,
                                 "Name":  "ServerManager"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  770.5,
+                                "CPU":  770.8,
                                 "Name":  "lsass"
                             }
                         ],
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  6.9,
-    "RAMUsedPercent":  10.8,
-    "RAMFreeGB":  56.9,
+    "RAMUsedGB":  7.1,
+    "RAMUsedPercent":  11.1,
+    "RAMFreeGB":  56.7,
     "DiskFreePercent":  53.7,
     "TotalSize":  "7.3TB",
     "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.4TB, Free: 3.9TB of 7.3TB (53.7% free)",
@@ -71,23 +71,55 @@
                     "UsedSize":  "3.4TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "5d 23h 7m",
-    "UptimeTooltip":  "Boot Time: 2025-08-06 14:42:00\nSystem has been running for:\n5 days, 23 hours, 7 minutes",
+    "Uptime":  "5d 23h 11m",
+    "UptimeTooltip":  "Boot Time: 2025-08-06 14:42:00\nSystem has been running for:\n5 days, 23 hours, 11 minutes",
     "BootTime":  "\/Date(1754516520000)\/",
-    "CriticalEvents":  {
-                           "TimeCreated":  "\/Date(1754869002445)\/",
-                           "Source":  "Microsoft-Windows-Perflib",
-                           "LogName":  "Application",
-                           "Level":  "Error",
-                           "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
-                           "Id":  1023,
-                           "ErrorCode":  {
+    "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1754944047587)\/",
+                               "Source":  "Microsoft-Windows-TaskScheduler",
+                               "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                               "Level":  "Error",
+                               "Message":  "Task Scheduler failed to start instance \"{60fd922f-a27f-4a48-94fd-8d48aea1eac5}\" of \"\\Microsoft\\Windows\\WindowsColorSystem\\Calibration Loader\"  task for user \"KHOETECH\\traoh\" . Additional Data: Error Value: 2147500037.",
+                               "Id":  103,
+                               "ErrorCode":  {
 
-                                         },
-                           "UpdateTitle":  {
+                                             },
+                               "UpdateTitle":  {
 
-                                           },
-                           "EventRecordID":  21630
-                       },
-    "LastPoll":  "08/11 13:49"
+                                               },
+                               "EventRecordID":  107877
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754944047587)\/",
+                               "Source":  "Microsoft-Windows-TaskScheduler",
+                               "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                               "Level":  "Error",
+                               "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\WindowsColorSystem\\Calibration Loader\" , instance \"{60fd922f-a27f-4a48-94fd-8d48aea1eac5}\" , action \"Color Calibration Loader\" . Additional Data: Error Value: 2147500037.",
+                               "Id":  202,
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  107876
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754869002445)\/",
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "LogName":  "Application",
+                               "Level":  "Error",
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                               "Id":  1023,
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  21630
+                           }
+                       ],
+    "LastPoll":  "08/11 13:53"
 }
