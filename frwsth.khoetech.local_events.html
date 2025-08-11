@@ -15,8 +15,8 @@
     <div class="container-fluid mt-3">
         <div class="row mb-3">
             <div class="col">
-                <h2>Critical Events - FRWSTH</h2>
-                <p class="text-muted">Last Updated: 2025-08-11 13:57:30</p>
+                <h2>Critical Events - <span id="serverName"></span></h2>
+                <p class="text-muted">Last Updated: <span id="lastUpdate"></span></p>
                 <a href="index.html" class="btn btn-outline-secondary mb-3">â† Back to Dashboard</a>
             </div>
         </div>
@@ -33,61 +33,9 @@
                                 <th>Actions</th>
                             </tr>
                         </thead>
-                        <tbody>                            <tr>
-                                <td>2025-08-11 10:30:09</td>
-                                <td>Microsoft-Windows-TaskScheduler</td>
-                                <td>103</td>
-                                <td class="event-message">Task Scheduler failed to start instance &quot;{581ad6ac-90f3-48fd-babf-b42408486b20}&quot; of &quot;\Microsoft\Windows\DiskFootprint\StorageSense&quot;  task for user &quot;NT AUTHORITY\SYSTEM&quot; . Additional Data: Error Value: 2147746132.</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '103', '', '', 'Microsoft-Windows-TaskScheduler', 'Task Scheduler failed to start instance &quot;{581ad6ac-90f3-48fd-babf-b42408486b20}&quot; of &quot;\Microsoft\Windows\DiskFootprint\StorageSense&quot;  task for user &quot;NT AUTHORITY\SYSTEM&quot; . Additional Data: Error Value: 2147746132.')">Research</button>
-                                    <div class="research-result alert alert-info"></div>
-                                </td>
-                            </tr>                            <tr>
-                                <td>2025-08-11 10:30:09</td>
-                                <td>Microsoft-Windows-TaskScheduler</td>
-                                <td>202</td>
-                                <td class="event-message">Task Scheduler failed to complete task &quot;\Microsoft\Windows\DiskFootprint\StorageSense&quot; , instance &quot;{581ad6ac-90f3-48fd-babf-b42408486b20}&quot; , action &quot;StorageUsage State Reporter Task Handler&quot; . Additional Data: Error Value: 2147746132.</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '202', '', '', 'Microsoft-Windows-TaskScheduler', 'Task Scheduler failed to complete task &quot;\Microsoft\Windows\DiskFootprint\StorageSense&quot; , instance &quot;{581ad6ac-90f3-48fd-babf-b42408486b20}&quot; , action &quot;StorageUsage State Reporter Task Handler&quot; . Additional Data: Error Value: 2147746132.')">Research</button>
-                                    <div class="research-result alert alert-info"></div>
-                                </td>
-                            </tr>                            <tr>
-                                <td>2025-08-11 02:08:55</td>
-                                <td>Microsoft-Windows-TaskScheduler</td>
-                                <td>101</td>
-                                <td class="event-message">Task Scheduler failed to start &quot;\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker&quot; task for user &quot;NT AUTHORITY\SYSTEM&quot;. Additional Data: Error Value: 2147942402.</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '101', '', '', 'Microsoft-Windows-TaskScheduler', 'Task Scheduler failed to start &quot;\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker&quot; task for user &quot;NT AUTHORITY\SYSTEM&quot;. Additional Data: Error Value: 2147942402.')">Research</button>
-                                    <div class="research-result alert alert-info"></div>
-                                </td>
-                            </tr>                            <tr>
-                                <td>2025-08-11 02:08:55</td>
-                                <td>Microsoft-Windows-TaskScheduler</td>
-                                <td>203</td>
-                                <td class="event-message">Task Scheduler failed to launch action &quot;%systemroot%\system32\MusNotification.exe&quot; in instance &quot;{a73feb0f-0258-49d7-8526-4a6ca4fb7352}&quot; of task &quot;\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker&quot;. Additional Data: Error Value: 2147942402.</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '203', '', '', 'Microsoft-Windows-TaskScheduler', 'Task Scheduler failed to launch action &quot;%systemroot%\system32\MusNotification.exe&quot; in instance &quot;{a73feb0f-0258-49d7-8526-4a6ca4fb7352}&quot; of task &quot;\Microsoft\Windows\UpdateOrchestrator\USO_UxBroker&quot;. Additional Data: Error Value: 2147942402.')">Research</button>
-                                    <div class="research-result alert alert-info"></div>
-                                </td>
-                            </tr>                            <tr>
-                                <td>2025-08-11 01:39:47</td>
-                                <td>Microsoft-Windows-WindowsUpdateClient</td>
-                                <td>20</td>
-                                <td class="event-message">Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '20', '0x80073D02', '9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB', 'Microsoft-Windows-WindowsUpdateClient', 'Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.')">Research</button>
-                                    <div class="research-result alert alert-info"></div>
-                                </td>
-                            </tr>                            <tr>
-                                <td>2025-08-11 00:09:07</td>
-                                <td>Application Error</td>
-                                <td>1000</td>
-                                <td class="event-message">Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b</td>
-                                <td>
-                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '1000', '0x688a554b', '', 'Application Error', 'Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b')">Research</button>
-                                    <div class="research-result alert alert-info"></div>
-                                </td>
-                            </tr>                        </tbody>
+                        <tbody id="eventData">
+                            <!-- Data will be populated by JavaScript -->
+                        </tbody>
                     </table>
                 </div>
             </div>
@@ -95,6 +43,52 @@
     </div>
 
     <script>
+    // Get server name from filename
+    const serverName = window.location.pathname.split('/').pop().replace('_events.html', '');
+    document.getElementById('serverName').textContent = serverName;
+
+    // Load events data
+    async function loadEvents() {
+        try {
+            const response = await fetch(serverName + '_events.json');
+            const data = await response.json();
+            
+            document.getElementById('lastUpdate').textContent = data.LastPoll;
+            const tbody = document.getElementById('eventData');
+            
+            if (data.Events && data.Events.length > 0) {
+                data.Events.forEach(event => {
+                    const row = document.createElement('tr');
+                    const time = new Date(event.TimeCreated).toLocaleString();
+                    row.innerHTML = 
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="event-message"></td>
+                        <td>
+                            <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '', '', '', '', '')">Research</button>
+                            <div class="research-result alert alert-info"></div>
+                        </td>
+                    ;
+                    tbody.appendChild(row);
+                });
+            } else {
+                tbody.innerHTML = '<tr><td colspan="5" class="text-center">No critical events found</td></tr>';
+            }
+        } catch (error) {
+            console.error('Error loading events:', error);
+            document.getElementById('eventData').innerHTML = 
+                <tr>
+                    <td colspan="5" class="text-center text-danger">
+                        <div class="alert alert-danger">
+                            Error loading events data: <br>
+                            Please try refreshing the page.
+                        </div>
+                    </td>
+                </tr>;
+        }
+    }
+
     function researchEvent(button, eventId, errorCode, updateTitle, source, message) {
         const resultDiv = button.nextElementSibling;
         
@@ -107,6 +101,9 @@
             resultDiv.innerHTML = 'This is a placeholder for the AI response. The actual implementation will search for solutions using the Gemini API.';
         }, 1500);
     }
+
+    // Load events when page loads
+    document.addEventListener('DOMContentLoaded', loadEvents);
     </script>
 </body>
 </html>
