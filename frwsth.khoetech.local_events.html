@@ -51,7 +51,8 @@
     async function loadEvents() {
         try {
             console.log('Loading events for server:', serverName);
-            const response = await fetch(https://raw.githubusercontent.com/traosn/ServerHealthStatus/main/_events.json);
+                                const response = await fetch(https://raw.githubusercontent.com/traosn/ServerHealthStatus/main/_events.json);
+                    console.log('Fetching:', https://raw.githubusercontent.com/traosn/ServerHealthStatus/main/_events.json);
             if (!response.ok) {
                 throw new Error(HTTP error! status: );
             }
@@ -82,17 +83,18 @@
                 tbody.innerHTML = '<tr><td colspan="5" class="text-center">No critical events found</td></tr>';
             }
         } catch (error) {
-            console.error('Error loading events:', error);
-            document.getElementById('eventData').innerHTML = 
-                <tr>
-                    <td colspan="5" class="text-center text-danger">
-                        <div class="alert alert-danger">
-                            Error loading events data: <br>
-                            URL: _events.json<br>
-                            Please check browser console for details.
-                        </div>
-                    </td>
-                </tr>;
+                                console.error('Error loading events:', error);
+                    const url = https://raw.githubusercontent.com/traosn/ServerHealthStatus/main/_events.json;
+                    document.getElementById('eventData').innerHTML = 
+                        <tr>
+                            <td colspan="5" class="text-center text-danger">
+                                <div class="alert alert-danger">
+                                    Error loading events data: <br>
+                                    URL: <a href="" target="_blank"></a><br>
+                                    Please check browser console for details.
+                                </div>
+                            </td>
+                        </tr>;
             document.getElementById('serverName').textContent = serverName + ' (Error Loading Data)';
         }
     }
