@@ -45,7 +45,7 @@
     <script>
     // Get server name from filename
     const serverName = window.location.pathname.split('/').pop().replace('_events.html', '');
-    document.getElementById('serverName').textContent = serverName;
+    document.getElementById('serverName').textContent = decodeURIComponent(serverName);
 
     // Load events data
     async function loadEvents() {
@@ -63,7 +63,9 @@
             if (data.Events && data.Events.length > 0) {
                 data.Events.forEach(event => {
                     const row = document.createElement('tr');
-                    const time = new Date(event.TimeCreated).toLocaleString();
+                    // Parse Microsoft JSON date format (/Date(timestamp)/)
+                    const timestamp = parseInt(event.TimeCreated.replace('/Date(', '').replace(')/', ''));
+                    const time = new Date(timestamp).toLocaleString();
                     row.innerHTML = 
                         <td></td>
                         <td></td>
