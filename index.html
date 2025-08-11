@@ -102,14 +102,22 @@
                     const diskTooltip = data.DiskTooltip || `Free Space: ${data.DiskFreePercent}%`;
                     const uptimeTooltip = data.UptimeTooltip || data.Uptime;
                     
-                    // Create event summary with link to events page
-                    let eventSummary = '';
-                    const eventCount = data.CriticalEvents ? data.CriticalEvents.length : 0;
-                    if (eventCount > 0) {
+                    // Load events count from events.json
+                    let eventSummary = 'Loading...';
+                    try {
                         const serverName = file.name.replace('_status.json', '');
-                        eventSummary = `<a href="${serverName}_events.html" target="_blank">${eventCount} event${eventCount > 1 ? 's' : ''}</a>`;
-                    } else {
-                        eventSummary = 'No events';
+                        const eventsResponse = await fetch(`${serverName}_events.json`);
+                        const eventsData = await eventsResponse.json();
+                        const eventCount = eventsData.Events ? eventsData.Events.length : 0;
+                        
+                        if (eventCount > 0) {
+                            eventSummary = `<a href="${serverName}_events.html" target="_blank">${eventCount} event${eventCount > 1 ? 's' : ''}</a>`;
+                        } else {
+                            eventSummary = 'No events';
+                        }
+                    } catch (error) {
+                        console.error('Error loading events:', error);
+                        eventSummary = 'Error loading events';
                     }
 
                     // Calculate status colors
