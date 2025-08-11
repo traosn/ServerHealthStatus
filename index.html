@@ -98,42 +98,48 @@
 
     // Create progress bar
     function createProgressBar(value, max, type = "primary", text = "") {
-        const percent = value.toFixed(2);  // Keep 2 decimal places
+        const percent = Number(value).toFixed(1);  // Keep 1 decimal place
         const width = Math.round((value / max) * 100);
-        const display = text || `${percent.padStart(6, ' ')}%`;  // Pad to minimum 6 chars (4 digits + . + %)
-        return `<div class="progress">
+        const display = text || `${percent.toString().padStart(4, ' ')}%`;  // Pad to minimum 4 chars (nn.n%)
+        return `<div class="progress" style="min-width: 80px;">
                     <div class="progress-bar bg-${type}" role="progressbar" 
                          style="width: ${width}%" aria-valuenow="${width}" 
                          aria-valuemin="0" aria-valuemax="100">
-                         <span style="font-family: monospace;">${display}</span>
+                         <span style="font-family: monospace; white-space: pre;">${display}</span>
                     </div>
                 </div>`;
     }
 
     // Show event details
-    function showEventDetails(serverName, events) {
-        document.getElementById('eventServer').textContent = `Server: ${serverName}`;
-        const tbody = document.querySelector('#eventDetails tbody');
-        tbody.innerHTML = '';
-        
-        events.forEach(event => {
-            const row = document.createElement('tr');
-            const time = new Date(event.TimeCreated).toLocaleString();
-            row.innerHTML = `
-                <td>${time}</td>
-                <td>${event.Source}</td>
-                <td>${event.Id}</td>
-                <td>${event.Message}</td>
-                <td>
-                    <button class="btn btn-sm btn-outline-primary" 
-                            onclick="researchEvent('${event.Id}', '${event.ErrorCode || ''}', '${event.UpdateTitle || ''}', '${event.Source}', '${event.Message.replace(/'/g, "\\'")}')"
-                    >Research</button>
-                </td>
-            `;
-            tbody.appendChild(row);
-        });
-        
-        eventModal.show();
+    function showEventDetails(serverName, encodedEvents) {
+        try {
+            document.getElementById('eventServer').textContent = `Server: ${serverName}`;
+            const tbody = document.querySelector('#eventDetails tbody');
+            tbody.innerHTML = '';
+            
+            const events = JSON.parse(decodeURIComponent(encodedEvents));
+            
+            events.forEach(event => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${event.TimeCreated}</td>
+                    <td>${event.Source}</td>
+                    <td>${event.Id}</td>
+                    <td>${event.Message}</td>
+                    <td>
+                        <button class="btn btn-sm btn-outline-primary" 
+                                onclick="researchEvent('${event.Id}', '${event.ErrorCode || ''}', '${event.UpdateTitle || ''}', '${event.Source}', '${event.Message}')"
+                        >Research</button>
+                    </td>
+                `;
+                tbody.appendChild(row);
+            });
+            
+            eventModal.show();
+        } catch (error) {
+            console.error('Error showing event details:', error);
+            alert('Error loading event details. Please try again.');
+        }
     }
     
     // Research specific event
@@ -177,7 +183,14 @@
                     let eventSummary = '';
                     const eventCount = data.CriticalEvents ? data.CriticalEvents.length : 0;
                     if (eventCount > 0) {
-                        eventSummary = `<a href="#" class="event-link" onclick="showEventDetails('${data.Computer}', ${JSON.stringify(data.CriticalEvents).replace(/'/g, "\\'")})">${eventCount} event${eventCount > 1 ? 's' : ''}</a>`;
+                        // Escape special characters and prepare events data
+                        const eventsData = data.CriticalEvents.map(event => ({
+                            ...event,
+                            Message: event.Message.replace(/"/g, '&quot;').replace(/'/g, "\\'"),
+                            TimeCreated: new Date(event.TimeCreated).toLocaleString()
+                        }));
+                        const encodedEvents = encodeURIComponent(JSON.stringify(eventsData));
+                        eventSummary = `<a href="#" class="event-link" onclick="showEventDetails('${data.Computer}', '${encodedEvents}')">${eventCount} event${eventCount > 1 ? 's' : ''}</a>`;
                     } else {
                         eventSummary = 'No events';
                     }
