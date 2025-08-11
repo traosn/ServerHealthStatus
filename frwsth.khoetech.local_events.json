@@ -2,6 +2,47 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1754946301015)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.",
+                       "Id":  20,
+                       "ErrorCode":  "0x80073D02",
+                       "UpdateTitle":  "9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB",
+                       "EventRecordID":  1276
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1754946298256)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  {
+
+                                       },
+                       "EventRecordID":  7076
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1754946298256)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{c66dca3e-150a-49d5-854e-4d796629aa9b}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  {
+
+                                       },
+                       "EventRecordID":  7075
+                   },
+                   {
                        "TimeCreated":  "\/Date(1754933409471)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -32,47 +73,6 @@
                        "EventRecordID":  6551
                    },
                    {
-                       "TimeCreated":  "\/Date(1754903335829)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
-                       "Id":  101,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  {
-
-                                       },
-                       "EventRecordID":  5963
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1754903335829)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{a73feb0f-0258-49d7-8526-4a6ca4fb7352}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
-                       "Id":  203,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  {
-
-                                       },
-                       "EventRecordID":  5962
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1754901587469)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB",
-                       "EventRecordID":  1215
-                   },
-                   {
                        "TimeCreated":  "\/Date(1754896147484)\/",
                        "Source":  "Application Error",
                        "LogName":  "Application",
@@ -86,5 +86,5 @@
                        "EventRecordID":  1258
                    }
                ],
-    "LastPoll":  "08/11 14:02"
+    "LastPoll":  "08/11 14:07"
 }
