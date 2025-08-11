@@ -1,23 +1,28 @@
 {
     "Computer":  "CRMSERVER2019",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  0.5,
-    "CPUTooltip":  "Top CPU Processes:\ndns: 280.2% CPU, 0.36GB RAM\nMsMpEng: 16896.5% CPU, 0.31GB RAM\nsvchost: 28.6% CPU, 0.2GB RAM\nSearchUI: 5.8% CPU, 0.15GB RAM\nSecure System: 0% CPU, 0.13GB RAM\ndwm: 1.2% CPU, 0.11GB RAM\nexplorer: 11.2% CPU, 0.11GB RAM\nServerManager: 6.5% CPU, 0.11GB RAM\nlsass: 769% CPU, 0.1GB RAM\npowershell: 3.7% CPU, 0.1GB RAM",
+    "CPUPercent":  0.1,
+    "CPUTooltip":  "Top CPU Processes:\ndns: 280.9% CPU, 0.36GB RAM\nMsMpEng: 16920.3% CPU, 0.31GB RAM\nsvchost: 29.5% CPU, 0.2GB RAM\npowershell: 7% CPU, 0.2GB RAM\nSearchUI: 5.8% CPU, 0.15GB RAM\nSecure System: 0% CPU, 0.13GB RAM\ndwm: 1.2% CPU, 0.11GB RAM\nexplorer: 14.5% CPU, 0.11GB RAM\nServerManager: 6.7% CPU, 0.11GB RAM\nlsass: 770.5% CPU, 0.1GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.36,
-                                "CPU":  280.2,
+                                "CPU":  280.9,
                                 "Name":  "dns"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  16896.5,
+                                "CPU":  16920.3,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.2,
-                                "CPU":  28.6,
+                                "CPU":  29.5,
                                 "Name":  "svchost"
+                            },
+                            {
+                                "Memory":  0.2,
+                                "CPU":  7,
+                                "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.15,
@@ -36,71 +41,53 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  11.2,
+                                "CPU":  14.5,
                                 "Name":  "explorer"
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  6.5,
+                                "CPU":  6.7,
                                 "Name":  "ServerManager"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  769,
+                                "CPU":  770.5,
                                 "Name":  "lsass"
-                            },
-                            {
-                                "Memory":  0.1,
-                                "CPU":  3.7,
-                                "Name":  "powershell"
                             }
                         ],
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  6.8,
-    "RAMUsedPercent":  10.7,
-    "RAMFreeGB":  57,
+    "RAMUsedGB":  6.9,
+    "RAMUsedPercent":  10.8,
+    "RAMFreeGB":  56.9,
     "DiskFreePercent":  53.7,
-    "DiskTooltip":  "Disk Usage:\nC:\\ - Used: 3447.3GB, Free: 4002.1GB of 7449.4GB (53.7% free)",
+    "TotalSize":  "7.3TB",
+    "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.4TB, Free: 3.9TB of 7.3TB (53.7% free)",
     "Volumes":  {
                     "Label":  "",
-                    "SizeGB":  7449.4,
-                    "FreeGB":  4002.1,
-                    "UsedGB":  3447.3,
                     "FreePercent":  53.7,
+                    "TotalSize":  "7.3TB",
+                    "SizeBytes":  7998730661888,
+                    "FreeSize":  "3.9TB",
+                    "UsedSize":  "3.4TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "5d 22h 55m",
-    "UptimeTooltip":  "Boot Time: 2025-08-06 14:42:00\nSystem has been running for:\n5 days, 22 hours, 55 minutes",
+    "Uptime":  "5d 23h 7m",
+    "UptimeTooltip":  "Boot Time: 2025-08-06 14:42:00\nSystem has been running for:\n5 days, 23 hours, 7 minutes",
     "BootTime":  "\/Date(1754516520000)\/",
-    "CriticalEvents":  [
-                           {
-                               "TimeCreated":  "\/Date(1754869002445)\/",
-                               "Level":  "Error",
-                               "Id":  1023,
-                               "Source":  "Microsoft-Windows-Perflib",
-                               "ErrorCode":  {
+    "CriticalEvents":  {
+                           "TimeCreated":  "\/Date(1754869002445)\/",
+                           "Source":  "Microsoft-Windows-Perflib",
+                           "LogName":  "Application",
+                           "Level":  "Error",
+                           "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                           "Id":  1023,
+                           "ErrorCode":  {
 
-                                             },
-                               "UpdateTitle":  {
+                                         },
+                           "UpdateTitle":  {
 
-                                               },
-                               "EventRecordID":  21630,
-                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
-                           },
-                           {
-                               "TimeCreated":  "\/Date(1754868972643)\/",
-                               "Level":  "Error",
-                               "Id":  1023,
-                               "Source":  "Microsoft-Windows-Perflib",
-                               "ErrorCode":  {
-
-                                             },
-                               "UpdateTitle":  {
-
-                                               },
-                               "EventRecordID":  21629,
-                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
-                           }
-                       ],
-    "LastPoll":  "08/11 13:37"
+                                           },
+                           "EventRecordID":  21630
+                       },
+    "LastPoll":  "08/11 13:49"
 }
