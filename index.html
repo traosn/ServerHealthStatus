@@ -179,18 +179,12 @@
                     const diskTooltip = data.DiskTooltip || `Free Space: ${data.DiskFreePercent}%`;
                     const uptimeTooltip = data.UptimeTooltip || data.Uptime;
                     
-                    // Create event summary
+                    // Create event summary with link to events page
                     let eventSummary = '';
                     const eventCount = data.CriticalEvents ? data.CriticalEvents.length : 0;
                     if (eventCount > 0) {
-                        // Escape special characters and prepare events data
-                        const eventsData = data.CriticalEvents.map(event => ({
-                            ...event,
-                            Message: event.Message.replace(/"/g, '&quot;').replace(/'/g, "\\'"),
-                            TimeCreated: new Date(event.TimeCreated).toLocaleString()
-                        }));
-                        const encodedEvents = encodeURIComponent(JSON.stringify(eventsData));
-                        eventSummary = `<a href="#" class="event-link" onclick="showEventDetails('${data.Computer}', '${encodedEvents}')">${eventCount} event${eventCount > 1 ? 's' : ''}</a>`;
+                        const serverName = file.name.replace('_status.json', '');
+                        eventSummary = `<a href="${serverName}_events.html" target="_blank">${eventCount} event${eventCount > 1 ? 's' : ''}</a>`;
                     } else {
                         eventSummary = 'No events';
                     }
