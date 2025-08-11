@@ -1,78 +1,43 @@
 {
     "Computer":  "CRMSERVER2019",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  16.9,
-    "CPUTooltip":  "Top CPU Processes:\ndns: 285.7% CPU, 0.36GB RAM\nMsMpEng: 17100.5% CPU, 0.31GB RAM\nsvchost: 32.6% CPU, 0.21GB RAM\npowershell: 11% CPU, 0.16GB RAM\nSearchUI: 7% CPU, 0.15GB RAM\nSecure System: 0% CPU, 0.13GB RAM\nexplorer: 20.8% CPU, 0.11GB RAM\ndwm: 1.3% CPU, 0.11GB RAM\nServerManager: 8.1% CPU, 0.1GB RAM\nlsass: 778.7% CPU, 0.1GB RAM",
-    "TopCPUProcesses":  [
-                            {
-                                "Memory":  0.36,
-                                "CPU":  285.7,
-                                "Name":  "dns"
-                            },
-                            {
-                                "Memory":  0.31,
-                                "CPU":  17100.5,
-                                "Name":  "MsMpEng"
-                            },
-                            {
-                                "Memory":  0.21,
-                                "CPU":  32.6,
-                                "Name":  "svchost"
-                            },
-                            {
-                                "Memory":  0.16,
-                                "CPU":  11,
-                                "Name":  "powershell"
-                            },
-                            {
-                                "Memory":  0.15,
-                                "CPU":  7,
-                                "Name":  "SearchUI"
-                            },
-                            {
-                                "Memory":  0.13,
-                                "CPU":  0,
-                                "Name":  "Secure System"
-                            },
-                            {
-                                "Memory":  0.11,
-                                "CPU":  20.8,
-                                "Name":  "explorer"
-                            },
-                            {
-                                "Memory":  0.11,
-                                "CPU":  1.3,
-                                "Name":  "dwm"
-                            },
-                            {
-                                "Memory":  0.1,
-                                "CPU":  8.1,
-                                "Name":  "ServerManager"
-                            },
-                            {
-                                "Memory":  0.1,
-                                "CPU":  778.7,
-                                "Name":  "lsass"
-                            }
-                        ],
+    "CPUPercent":  1.3,
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  7.2,
-    "RAMUsedPercent":  11.3,
-    "RAMFreeGB":  56.6,
+    "RAMUsedGB":  7.1,
+    "RAMUsedPercent":  11.1,
+    "RAMFreeGB":  56.7,
     "DiskFreePercent":  53.7,
-    "TotalSize":  "7.3TB",
-    "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.4TB, Free: 3.9TB of 7.3TB (53.7% free)",
-    "Volumes":  {
-                    "Label":  "",
-                    "FreePercent":  53.7,
-                    "TotalSize":  "7.3TB",
-                    "SizeBytes":  7998730661888,
-                    "FreeSize":  "3.9TB",
-                    "UsedSize":  "3.4TB",
-                    "Letter":  "C"
-                },
-    "Uptime":  "5d 0h 13m",
-    "UptimeTooltip":  "Boot Time: 2025-08-06 14:42:00\nSystem has been running for:\n5 days, 0 hours, 13 minutes",
+    "Uptime":  "5d 0h 17m",
     "BootTime":  "\/Date(1754516520000)\/",
-    "LastPoll":  "08/11 14:55"
+    "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1754869002445)\/",
+                               "Level":  "Error",
+                               "Id":  1023,
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  21630,
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754868972643)\/",
+                               "Level":  "Error",
+                               "Id":  1023,
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  21629,
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
+                           }
+                       ],
+    "LastPoll":  "08/11 15:00"
 }
