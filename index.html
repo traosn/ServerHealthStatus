@@ -13,7 +13,6 @@
         #lastUpdate { font-size: 0.9em; color: #666; }
         #countdown { font-weight: bold; }
         .tooltip-inner { max-width: 350px; text-align: left; }
-        .event-link { cursor: pointer; text-decoration: none; }
     </style>
 </head>
 <body>
@@ -32,12 +31,14 @@
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr>
+                                <th>Customer</th>
                                 <th>Server</th>
                                 <th>CPU</th>
                                 <th>Memory</th>
                                 <th>Disk</th>
                                 <th>Uptime</th>
                                 <th>Critical Events</th>
+                                <th>Status</th>
                                 <th>Last Update</th>
                             </tr>
                         </thead>
@@ -51,11 +52,10 @@
     </div>
 
     <script>
-    const REFRESH_INTERVAL = 30; // seconds
+    const REFRESH_INTERVAL = 30;
     let countdown = REFRESH_INTERVAL;
     let isPaused = false;
 
-    // Initialize tooltips
     function initTooltips() {
         const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
         tooltipTriggerList.map(function (tooltipTriggerEl) {
@@ -66,11 +66,10 @@
         });
     }
 
-    // Create progress bar
     function createProgressBar(value, max, type = "primary", text = "") {
-        const percent = Number(value).toFixed(1);  // Keep 1 decimal place
+        const percent = Number(value).toFixed(1);
         const width = Math.round((value / max) * 100);
-        const display = text || `${percent.toString().padStart(4, ' ')}%`;  // Pad to minimum 4 chars (nn.n%)
+        const display = text || `${percent.toString().padStart(4, ' ')}%`;
         return `<div class="progress" style="min-width: 100px;">
                     <div class="progress-bar bg-${type}" role="progressbar" 
                          style="width: 100%" aria-valuenow="${width}" 
@@ -80,29 +79,49 @@
                 </div>`;
     }
 
-    // Update the dashboard
+    function getServerStatus(lastPollString) {
+        try {
+            const now = new Date();
+            const currentYear = now.getFullYear();
+            const [datePart, timePart] = lastPollString.split(' ');
+            const [month, day] = datePart.split('/');
+            const [hour, minute] = timePart.split(':');
+            
+            const lastPoll = new Date(currentYear, month - 1, day, hour, minute);
+            const minutesAgo = Math.floor((now - lastPoll) / (1000 * 60));
+            
+            if (minutesAgo <= 10) {
+                return { status: 'good', icon: 'ðŸŸ¢', color: 'success', tooltip: `Online - Last seen ${minutesAgo} minute${minutesAgo !== 1 ? 's' : ''} ago`, minutesAgo: minutesAgo };
+            } else if (minutesAgo <= 20) {
+                return { status: 'warning', icon: 'ðŸŸ¡', color: 'warning', tooltip: `Warning - Last seen ${minutesAgo} minutes ago (missed 1-2 updates)`, minutesAgo: minutesAgo };
+            } else {
+                return { status: 'critical', icon: 'ðŸ”´', color: 'danger', tooltip: `Critical - Last seen ${minutesAgo} minutes ago (missed 3+ updates)`, minutesAgo: minutesAgo };
+            }
+        } catch (error) {
+            return { status: 'unknown', icon: 'â“', color: 'secondary', tooltip: 'Unable to determine status', minutesAgo: 999 };
+        }
+    }
+
     async function updateDashboard() {
         try {
             const serverData = document.getElementById('serverData');
             serverData.innerHTML = '';
             
-            // Get list of files in the repository
             const response = await fetch('https://api.github.com/repos/traosn/ServerHealthStatus/contents/');
             const files = await response.json();
             
-            // Process each status file
+            const servers = [];
+            
             for (const file of files) {
                 if (file.name.endsWith('_status.json')) {
                     const dataResponse = await fetch(file.download_url);
                     const data = await dataResponse.json();
                     
-                    // Create tooltips
                     const cpuTooltip = data.CPUTooltip || `CPU Usage: ${data.CPUPercent}%`;
                     const ramTooltip = `Total: ${data.RAMTotalGB} GB\nUsed: ${data.RAMUsedGB} GB\nFree: ${data.RAMFreeGB} GB`;
                     const diskTooltip = data.DiskTooltip || `Free Space: ${data.DiskFreePercent}%`;
                     const uptimeTooltip = data.UptimeTooltip || data.Uptime;
                     
-                    // Load events count from events.json
                     let eventSummary = 'Loading...';
                     try {
                         const serverName = file.name.replace('_status.json', '');
@@ -120,33 +139,64 @@
                         eventSummary = 'Error loading events';
                     }
 
-                    // Calculate status colors
+                    const serverStatus = getServerStatus(data.LastPoll);
+
                     const cpuStatus = data.CPUPercent > 90 ? 'danger' : data.CPUPercent > 80 ? 'warning' : 'success';
                     const ramStatus = data.RAMUsedPercent > 90 ? 'danger' : data.RAMUsedPercent > 80 ? 'warning' : 'success';
                     const diskStatus = data.DiskFreePercent < 10 ? 'danger' : data.DiskFreePercent < 20 ? 'warning' : 'success';
 
-                    // Create table row
-                    const row = `<tr>
-                        <td>${data.Computer}</td>
-                        <td data-bs-toggle="tooltip" title="${cpuTooltip}">
-                            ${createProgressBar(data.CPUPercent, 100, cpuStatus, data.CPUPercent + '%')}
-                        </td>
-                        <td data-bs-toggle="tooltip" title="${ramTooltip}">
-                            ${createProgressBar(data.RAMUsedGB, data.RAMTotalGB, ramStatus, Math.round(data.RAMUsedPercent) + '%')}
-                        </td>
-                        <td data-bs-toggle="tooltip" title="${diskTooltip}">
-                            ${createProgressBar(data.DiskFreePercent, 100, diskStatus, `${data.DiskFreePercent}% free of ${data.TotalSize}`)}
-                        </td>
-                        <td data-bs-toggle="tooltip" title="${uptimeTooltip}">${data.Uptime}</td>
-                        <td>${eventSummary}</td>
-                        <td>${data.LastPoll}</td>
-                    </tr>`;
-                    
-                    serverData.innerHTML += row;
+                    servers.push({
+                        customer: data.Customer || 'Unknown',
+                        computer: data.Computer,
+                        data: data,
+                        cpuTooltip: cpuTooltip,
+                        ramTooltip: ramTooltip,
+                        diskTooltip: diskTooltip,
+                        uptimeTooltip: uptimeTooltip,
+                        eventSummary: eventSummary,
+                        serverStatus: serverStatus,
+                        cpuStatus: cpuStatus,
+                        ramStatus: ramStatus,
+                        diskStatus: diskStatus
+                    });
                 }
             }
             
-            // Update last refresh time
+            servers.sort((a, b) => {
+                if (a.customer !== b.customer) {
+                    return a.customer.localeCompare(b.customer);
+                }
+                const statusOrder = { 'critical': 0, 'warning': 1, 'good': 2, 'unknown': 3 };
+                if (a.serverStatus.status !== b.serverStatus.status) {
+                    return statusOrder[a.serverStatus.status] - statusOrder[b.serverStatus.status];
+                }
+                return a.computer.localeCompare(b.computer);
+            });
+            
+            servers.forEach(server => {
+                const row = `<tr>
+                    <td>${server.customer}</td>
+                    <td>${server.data.Computer}</td>
+                    <td data-bs-toggle="tooltip" title="${server.cpuTooltip}">
+                        ${createProgressBar(server.data.CPUPercent, 100, server.cpuStatus, server.data.CPUPercent + '%')}
+                    </td>
+                    <td data-bs-toggle="tooltip" title="${server.ramTooltip}">
+                        ${createProgressBar(server.data.RAMUsedGB, server.data.RAMTotalGB, server.ramStatus, Math.round(server.data.RAMUsedPercent) + '%')}
+                    </td>
+                    <td data-bs-toggle="tooltip" title="${server.diskTooltip}">
+                        ${createProgressBar(server.data.DiskFreePercent, 100, server.diskStatus, `${server.data.DiskFreePercent}% free of ${server.data.TotalSize}`)}
+                    </td>
+                    <td data-bs-toggle="tooltip" title="${server.uptimeTooltip}">${server.data.Uptime}</td>
+                    <td>${server.eventSummary}</td>
+                    <td data-bs-toggle="tooltip" title="${server.serverStatus.tooltip}">
+                        <span class="text-${server.serverStatus.color}">${server.serverStatus.icon}</span>
+                    </td>
+                    <td>${server.data.LastPoll}</td>
+                </tr>`;
+                
+                serverData.innerHTML += row;
+            });
+            
             document.getElementById('updateTime').textContent = new Date().toLocaleString();
             initTooltips();
             
@@ -155,7 +205,7 @@
             const serverData = document.getElementById('serverData');
             serverData.innerHTML = `
                 <tr>
-                    <td colspan="7" class="text-center text-danger">
+                    <td colspan="9" class="text-center text-danger">
                         <div class="alert alert-danger">
                             Error loading data: ${error.message}<br>
                             Please check if the repository is accessible.
@@ -165,7 +215,6 @@
         }
     }
 
-    // Handle countdown
     function updateCountdown() {
         if (!isPaused) {
             countdown--;
@@ -177,9 +226,7 @@
         }
     }
 
-    // Initialize
     document.addEventListener('DOMContentLoaded', function() {
-        // Initialize pause button
         document.getElementById('pauseButton').addEventListener('click', function() {
             isPaused = !isPaused;
             this.textContent = isPaused ? 'Resume' : 'Pause';
@@ -187,7 +234,6 @@
             this.classList.toggle('btn-secondary');
         });
 
-        // Start updates
         updateDashboard();
         setInterval(updateCountdown, 1000);
     });
