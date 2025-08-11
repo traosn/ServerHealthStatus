@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Critical Events - FRWSTH</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .event-message { max-width: 600px; word-wrap: break-word; }
+        .research-result { display: none; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-3">
+        <div class="row mb-3">
+            <div class="col">
+                <h2>Critical Events - FRWSTH</h2>
+                <p class="text-muted">Last Updated: 2025-08-11 13:20:43</p>
+                <a href="index.html" class="btn btn-outline-secondary mb-3">â† Back to Dashboard</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Source</th>
+                                <th>Event ID</th>
+                                <th>Message</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>                            <tr>
+                                <td>2025-08-11 01:39:47</td>
+                                <td>Microsoft-Windows-WindowsUpdateClient</td>
+                                <td>20</td>
+                                <td class="event-message">Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '20', '0x80073D02', '9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB', 'Microsoft-Windows-WindowsUpdateClient', 'Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.')">Research</button>
+                                    <div class="research-result alert alert-info"></div>
+                                </td>
+                            </tr>                            <tr>
+                                <td>2025-08-11 00:09:07</td>
+                                <td>Application Error</td>
+                                <td>1000</td>
+                                <td class="event-message">Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary" onclick="researchEvent(this, '1000', '0x688a554b', '', 'Application Error', 'Faulting application name: WindowsTerminal.exe, version: 1.22.2507.30001, time stamp: 0x688a554b')">Research</button>
+                                    <div class="research-result alert alert-info"></div>
+                                </td>
+                            </tr>                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    function researchEvent(button, eventId, errorCode, updateTitle, source, message) {
+        const resultDiv = button.nextElementSibling;
+        
+        // Show loading
+        resultDiv.style.display = 'block';
+        resultDiv.innerHTML = '<div class="spinner-border spinner-border-sm" role="status"><span class="visually-hidden">Loading...</span></div> Researching...';
+        
+        // Simulate AI research (placeholder)
+        setTimeout(() => {
+            resultDiv.innerHTML = 'This is a placeholder for the AI response. The actual implementation will search for solutions using the Gemini API.';
+        }, 1500);
+    }
+    </script>
+</body>
+</html>
