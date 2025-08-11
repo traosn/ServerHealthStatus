@@ -94,7 +94,7 @@
                 data.Events.forEach(ev => {
                     const row = document.createElement('tr');
                     const time = parseEventTime(ev.TimeCreated);
-                    const safeMessage = toSafeString(ev.Message).replace(/\\/g, \\\\).replace(/'/g, "\\'");
+                    const safeMessage = toSafeString(ev.Message).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
                     const safeError = toSafeString(ev.ErrorCode);
                     const safeTitle = toSafeString(ev.UpdateTitle);
                     const safeSource = toSafeString(ev.Source);
