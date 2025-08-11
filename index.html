@@ -101,9 +101,9 @@
         const percent = Number(value).toFixed(1);  // Keep 1 decimal place
         const width = Math.round((value / max) * 100);
         const display = text || `${percent.toString().padStart(4, ' ')}%`;  // Pad to minimum 4 chars (nn.n%)
-        return `<div class="progress" style="min-width: 80px;">
+        return `<div class="progress" style="min-width: 100px;">
                     <div class="progress-bar bg-${type}" role="progressbar" 
-                         style="width: ${width}%" aria-valuenow="${width}" 
+                         style="width: 100%" aria-valuenow="${width}" 
                          aria-valuemin="0" aria-valuemax="100">
                          <span style="font-family: monospace; white-space: pre;">${display}</span>
                     </div>
