@@ -1,37 +1,37 @@
 {
     "Computer":  "FRWSTH",
     "OS":  "Microsoft Windows 11 Pro",
-    "CPUPercent":  15.3,
-    "CPUTooltip":  "Top CPU Processes:\nCursor: 39733.9% CPU, 0.76GB RAM\nchrome: 2808.1% CPU, 0.47GB RAM\nexplorer: 430.4% CPU, 0.44GB RAM\nchrome: 665.1% CPU, 0.41GB RAM\nchrome: 565.2% CPU, 0.41GB RAM\nchrome: 271.4% CPU, 0.4GB RAM\nMemory Compression: 53.2% CPU, 0.4GB RAM\nchrome: 780.7% CPU, 0.38GB RAM\nchrome: 698% CPU, 0.35GB RAM\nchrome: 1285.8% CPU, 0.34GB RAM",
+    "CPUPercent":  20,
+    "CPUTooltip":  "Top CPU Processes:\nCursor: 39807% CPU, 0.78GB RAM\nchrome: 2822.2% CPU, 0.47GB RAM\nexplorer: 434.6% CPU, 0.44GB RAM\nchrome: 565.9% CPU, 0.41GB RAM\nchrome: 665.4% CPU, 0.41GB RAM\nchrome: 271.5% CPU, 0.4GB RAM\nMemory Compression: 53.2% CPU, 0.4GB RAM\nchrome: 780.8% CPU, 0.38GB RAM\nmsedge: 368.9% CPU, 0.33GB RAM\nchrome: 1287.1% CPU, 0.33GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.76,
-                                "CPU":  39733.9,
+                                "Memory":  0.78,
+                                "CPU":  39807,
                                 "Name":  "Cursor"
                             },
                             {
                                 "Memory":  0.47,
-                                "CPU":  2808.1,
+                                "CPU":  2822.2,
                                 "Name":  "chrome"
                             },
                             {
                                 "Memory":  0.44,
-                                "CPU":  430.4,
+                                "CPU":  434.6,
                                 "Name":  "explorer"
                             },
                             {
                                 "Memory":  0.41,
-                                "CPU":  665.1,
+                                "CPU":  565.9,
                                 "Name":  "chrome"
                             },
                             {
                                 "Memory":  0.41,
-                                "CPU":  565.2,
+                                "CPU":  665.4,
                                 "Name":  "chrome"
                             },
                             {
                                 "Memory":  0.4,
-                                "CPU":  271.4,
+                                "CPU":  271.5,
                                 "Name":  "chrome"
                             },
                             {
@@ -41,17 +41,17 @@
                             },
                             {
                                 "Memory":  0.38,
-                                "CPU":  780.7,
+                                "CPU":  780.8,
                                 "Name":  "chrome"
                             },
                             {
-                                "Memory":  0.35,
-                                "CPU":  698,
-                                "Name":  "chrome"
+                                "Memory":  0.33,
+                                "CPU":  368.9,
+                                "Name":  "msedge"
                             },
                             {
-                                "Memory":  0.34,
-                                "CPU":  1285.8,
+                                "Memory":  0.33,
+                                "CPU":  1287.1,
                                 "Name":  "chrome"
                             }
                         ],
@@ -71,10 +71,70 @@
                     "UsedSize":  "64.9GB",
                     "Letter":  "C"
                 },
-    "Uptime":  "3d 3h 41m",
-    "UptimeTooltip":  "Boot Time: 2025-08-08 10:05:41\nSystem has been running for:\n3 days, 3 hours, 41 minutes",
+    "Uptime":  "3d 3h 46m",
+    "UptimeTooltip":  "Boot Time: 2025-08-08 10:05:41\nSystem has been running for:\n3 days, 3 hours, 46 minutes",
     "BootTime":  "\/Date(1754672741000)\/",
     "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1754933409471)\/",
+                               "Source":  "Microsoft-Windows-TaskScheduler",
+                               "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                               "Level":  "Error",
+                               "Message":  "Task Scheduler failed to start instance \"{581ad6ac-90f3-48fd-babf-b42408486b20}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                               "Id":  103,
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  6552
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754933409471)\/",
+                               "Source":  "Microsoft-Windows-TaskScheduler",
+                               "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                               "Level":  "Error",
+                               "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{581ad6ac-90f3-48fd-babf-b42408486b20}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
+                               "Id":  202,
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  6551
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754903335829)\/",
+                               "Source":  "Microsoft-Windows-TaskScheduler",
+                               "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                               "Level":  "Error",
+                               "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
+                               "Id":  101,
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  5963
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754903335829)\/",
+                               "Source":  "Microsoft-Windows-TaskScheduler",
+                               "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                               "Level":  "Error",
+                               "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{a73feb0f-0258-49d7-8526-4a6ca4fb7352}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                               "Id":  203,
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  5962
+                           },
                            {
                                "TimeCreated":  "\/Date(1754901587469)\/",
                                "Source":  "Microsoft-Windows-WindowsUpdateClient",
@@ -100,5 +160,5 @@
                                "EventRecordID":  1258
                            }
                        ],
-    "LastPoll":  "08/11 13:47"
+    "LastPoll":  "08/11 13:52"
 }
