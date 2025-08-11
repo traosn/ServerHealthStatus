@@ -127,7 +127,7 @@
                             ${createProgressBar(data.RAMUsedGB, data.RAMTotalGB, ramStatus, Math.round(data.RAMUsedPercent) + '%')}
                         </td>
                         <td data-bs-toggle="tooltip" title="${diskTooltip}">
-                            ${createProgressBar(data.DiskFreePercent, 100, diskStatus, data.DiskFreePercent + '% free')}
+                            ${createProgressBar(data.DiskFreePercent, 100, diskStatus, `${data.DiskFreePercent}% free of ${data.TotalSize}`)}
                         </td>
                         <td data-bs-toggle="tooltip" title="${uptimeTooltip}">${data.Uptime}</td>
                         <td>${eventSummary}</td>
