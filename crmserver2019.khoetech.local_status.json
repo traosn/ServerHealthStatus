@@ -1,27 +1,41 @@
 {
     "Computer":  "CRMSERVER2019",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  1.8,
+    "CPUPercent":  0,
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  7.3,
-    "RAMUsedPercent":  11.4,
-    "RAMFreeGB":  56.5,
+    "RAMUsedGB":  7.2,
+    "RAMUsedPercent":  11.3,
+    "RAMFreeGB":  56.6,
     "DiskFreePercent":  53.7,
-    "Uptime":  "6d 17h 16m",
+    "Uptime":  "6d 17h 21m",
     "BootTime":  "\/Date(1754516520000)\/",
-    "CriticalEvents":  {
-                           "TimeCreated":  "\/Date(1754955409414)\/",
-                           "Level":  "Error",
-                           "Id":  1023,
-                           "Source":  "Microsoft-Windows-Perflib",
-                           "ErrorCode":  {
+    "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1755010913847)\/",
+                               "Level":  "Error",
+                               "Id":  19,
+                               "Source":  "Microsoft-Windows-Kerberos-Key-Distribution-Center",
+                               "ErrorCode":  "",
+                               "UpdateTitle":  {
 
-                                         },
-                           "UpdateTitle":  {
+                                               },
+                               "EventRecordID":  312799,
+                               "Message":  "This event indicates an attempt was made to use smartcard logon, but the KDC is unable to use the PKINIT protocol because it is missing a suitable certificate."
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1754955409414)\/",
+                               "Level":  "Error",
+                               "Id":  1023,
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "ErrorCode":  {
 
-                                           },
-                           "EventRecordID":  21765,
-                           "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
-                       },
-    "LastPoll":  "08/12 07:58"
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  21765,
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
+                           }
+                       ],
+    "LastPoll":  "08/12 08:03"
 }
