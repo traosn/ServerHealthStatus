@@ -1,15 +1,29 @@
 {
     "Computer":  "CRMSERVER2019",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  0.8,
+    "CPUPercent":  0.3,
     "RAMTotalGB":  63.8,
     "RAMUsedGB":  7.7,
     "RAMUsedPercent":  12.1,
     "RAMFreeGB":  56.1,
     "DiskFreePercent":  53.6,
-    "Uptime":  "8d 1h 51m",
+    "Uptime":  "8d 1h 56m",
     "BootTime":  "\/Date(1754516520000)\/",
     "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1755214631724)\/",
+                               "Level":  "Error",
+                               "Id":  1023,
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  22218,
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
+                           },
                            {
                                "TimeCreated":  "\/Date(1755206154535)\/",
                                "Level":  "Error",
@@ -21,35 +35,7 @@
                                                },
                                "EventRecordID":  319715,
                                "Message":  "This event indicates an attempt was made to use smartcard logon, but the KDC is unable to use the PKINIT protocol because it is missing a suitable certificate."
-                           },
-                           {
-                               "TimeCreated":  "\/Date(1755128251895)\/",
-                               "Level":  "Error",
-                               "Id":  1023,
-                               "Source":  "Microsoft-Windows-Perflib",
-                               "ErrorCode":  {
-
-                                             },
-                               "UpdateTitle":  {
-
-                                               },
-                               "EventRecordID":  22049,
-                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
-                           },
-                           {
-                               "TimeCreated":  "\/Date(1755128221658)\/",
-                               "Level":  "Error",
-                               "Id":  1023,
-                               "Source":  "Microsoft-Windows-Perflib",
-                               "ErrorCode":  {
-
-                                             },
-                               "UpdateTitle":  {
-
-                                               },
-                               "EventRecordID":  22048,
-                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
                            }
                        ],
-    "LastPoll":  "08/14 16:33"
+    "LastPoll":  "08/14 16:38"
 }
