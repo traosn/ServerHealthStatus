@@ -1,15 +1,29 @@
 {
     "Computer":  "CRMSERVER2019",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  1.5,
+    "CPUPercent":  1,
     "RAMTotalGB":  63.8,
     "RAMUsedGB":  8.3,
     "RAMUsedPercent":  13,
     "RAMFreeGB":  55.5,
     "DiskFreePercent":  53.6,
-    "Uptime":  "11d 1h 51m",
+    "Uptime":  "11d 1h 56m",
     "BootTime":  "\/Date(1754516520000)\/",
     "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1755473873004)\/",
+                               "Level":  "Error",
+                               "Id":  1023,
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  22704,
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
+                           },
                            {
                                "TimeCreated":  "\/Date(1755469161453)\/",
                                "Level":  "Error",
@@ -23,21 +37,7 @@
                                                },
                                "EventRecordID":  329097,
                                "Message":  "Unable to start a DCOM Server: Microsoft.Windows.Cortana_1.11.6.17763_neutral_neutral_cw5n1h2txyewy!CortanaUI.AppXynb3eakad12451rv00qxextfnce9sxb8.mca as Unavailable/Unavailable. The error:\r"
-                           },
-                           {
-                               "TimeCreated":  "\/Date(1755387468608)\/",
-                               "Level":  "Error",
-                               "Id":  1023,
-                               "Source":  "Microsoft-Windows-Perflib",
-                               "ErrorCode":  {
-
-                                             },
-                               "UpdateTitle":  {
-
-                                               },
-                               "EventRecordID":  22549,
-                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
                            }
                        ],
-    "LastPoll":  "08/17 16:33"
+    "LastPoll":  "08/17 16:38"
 }
