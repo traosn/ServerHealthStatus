@@ -1,15 +1,43 @@
 {
     "Computer":  "CRMSERVER2019",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  0.8,
+    "CPUPercent":  14.1,
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  11,
-    "RAMUsedPercent":  17.2,
-    "RAMFreeGB":  52.8,
+    "RAMUsedGB":  11.1,
+    "RAMUsedPercent":  17.4,
+    "RAMFreeGB":  52.7,
     "DiskFreePercent":  53.1,
-    "Uptime":  "0d 6h 11m",
+    "Uptime":  "0d 6h 16m",
     "BootTime":  "\/Date(1755537979000)\/",
     "CriticalEvents":  [
+                           {
+                               "TimeCreated":  "\/Date(1755560343518)\/",
+                               "Level":  "Error",
+                               "Id":  1023,
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  22974,
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
+                           },
+                           {
+                               "TimeCreated":  "\/Date(1755560314005)\/",
+                               "Level":  "Error",
+                               "Id":  1023,
+                               "Source":  "Microsoft-Windows-Perflib",
+                               "ErrorCode":  {
+
+                                             },
+                               "UpdateTitle":  {
+
+                                               },
+                               "EventRecordID":  22973,
+                               "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.)."
+                           },
                            {
                                "TimeCreated":  "\/Date(1755538234329)\/",
                                "Level":  "Error",
@@ -119,35 +147,7 @@
                                                },
                                "EventRecordID":  331680,
                                "Message":  "Failed to restore configuration for port 6894F020-712E-4D8D-BED0-EF5553D5626F (Friendly Name: ) on switch FFA4CC58-1AD2-455B-967D-44D1669D978E (Friendly Name: ), status = Object Name not found.."
-                           },
-                           {
-                               "TimeCreated":  "\/Date(1755537921059)\/",
-                               "Level":  "Error",
-                               "Id":  1000,
-                               "Source":  "Microsoft-Windows-Perflib",
-                               "ErrorCode":  {
-
-                                             },
-                               "UpdateTitle":  {
-
-                                               },
-                               "EventRecordID":  22881,
-                               "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files\\SentinelOne\\Sentinel Agent 24.2.3.471\\SentinelAgent.exe\" (value from GetModuleFileName() for the binary that issued the query)."
-                           },
-                           {
-                               "TimeCreated":  "\/Date(1755537910361)\/",
-                               "Level":  "Error",
-                               "Id":  7043,
-                               "Source":  "Service Control Manager",
-                               "ErrorCode":  {
-
-                                             },
-                               "UpdateTitle":  {
-
-                                               },
-                               "EventRecordID":  331597,
-                               "Message":  "The Sentinel Agent service did not shut down properly after receiving a preshutdown control."
                            }
                        ],
-    "LastPoll":  "08/18 16:38"
+    "LastPoll":  "08/18 16:43"
 }
