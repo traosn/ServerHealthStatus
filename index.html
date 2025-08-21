@@ -14,6 +14,7 @@
         #countdown { font-weight: bold; }
         .tooltip-inner { max-width: 350px; text-align: left; }
         .event-link { cursor: pointer; text-decoration: none; }
+        .status-indicator { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: middle; }
     </style>
 </head>
 <body>
@@ -95,28 +96,24 @@
             const lastPoll = new Date(currentYear, month - 1, day, hour, minute);
             const minutesAgo = Math.floor((now - lastPoll) / (1000 * 60));
             
-            let status, tooltip, icon, color;
+            let status, tooltip, color;
             
             if (minutesAgo <= 10) {
                 status = 'good';
-                icon = 'ðŸŸ¢';
                 color = 'success';
                 tooltip = `Online - Last seen ${minutesAgo} minute${minutesAgo !== 1 ? 's' : ''} ago`;
             } else if (minutesAgo <= 20) {
                 status = 'warning';
-                icon = 'ðŸŸ¡';
                 color = 'warning';
                 tooltip = `Warning - Last seen ${minutesAgo} minutes ago (missed 1-2 updates)`;
             } else {
                 status = 'critical';
-                icon = 'ðŸ”´';
                 color = 'danger';
                 tooltip = `Critical - Last seen ${minutesAgo} minutes ago (missed 3+ updates)`;
             }
             
             return {
                 status: status,
-                icon: icon,
                 color: color,
                 tooltip: tooltip,
                 minutesAgo: minutesAgo
@@ -124,7 +121,6 @@
         } catch (error) {
             return {
                 status: 'unknown',
-                icon: 'â“',
                 color: 'secondary',
                 tooltip: 'Unable to determine status',
                 minutesAgo: 999
@@ -232,7 +228,8 @@
                     <td data-bs-toggle="tooltip" title="${server.uptimeTooltip}">${server.data.Uptime}</td>
                     <td>${server.eventSummary}</td>
                     <td data-bs-toggle="tooltip" title="${server.serverStatus.tooltip}">
-                        <span class="text-${server.serverStatus.color}">${server.serverStatus.icon}</span>
+                        <span class="status-indicator bg-${server.serverStatus.color}"></span>
+                        <span style="vertical-align: middle;">${server.serverStatus.status.charAt(0).toUpperCase() + server.serverStatus.status.slice(1)}</span>
                     </td>
                     <td>${server.data.LastPoll}</td>
                 </tr>`;
