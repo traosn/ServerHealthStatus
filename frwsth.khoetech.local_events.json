@@ -2,7 +2,18 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1755918319191)\/",
+                       "TimeCreated":  "\/Date(1755961588967)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NHT9RB2F4HD-Microsoft.Copilot.",
+                       "Id":  20,
+                       "ErrorCode":  "0x80073D02",
+                       "UpdateTitle":  "9NHT9RB2F4HD-Microsoft.Copilot",
+                       "EventRecordID":  3444
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1755961585622)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
@@ -12,31 +23,20 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  48670
+                       "EventRecordID":  50428
                    },
                    {
-                       "TimeCreated":  "\/Date(1755918319191)\/",
+                       "TimeCreated":  "\/Date(1755961585622)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{a0d72857-8b2c-4493-a8ff-2e0ed3da8582}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{496cb779-cd83-4c34-aa67-b9bcfcfe4784}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
                        "Id":  203,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  48669
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1755914785131)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NHT9RB2F4HD-Microsoft.Copilot.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9NHT9RB2F4HD-Microsoft.Copilot",
-                       "EventRecordID":  3392
+                       "EventRecordID":  50427
                    },
                    {
                        "TimeCreated":  "\/Date(1755883086562)\/",
@@ -65,5 +65,5 @@
                        "EventRecordID":  47041
                    }
                ],
-    "LastPoll":  "08/23 08:01"
+    "LastPoll":  "08/23 08:06"
 }
