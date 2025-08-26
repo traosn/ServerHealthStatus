@@ -2,13 +2,18 @@
     "Computer":  "CRMSERVER2019",
     "Customer":  "Khoetech",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  0.3,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 32002s CPU time, 0.5GB RAM\ndns: 423s CPU time, 0.36GB RAM\nMsMpEng: 42103s CPU time, 0.28GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nlsass: 2116.7s CPU time, 0.13GB RAM\npowershell: 3.2s CPU time, 0.1GB RAM\nNinjaRMMAgent: 13895s CPU time, 0.1GB RAM\nRegistry: 17s CPU time, 0.09GB RAM\nCRMServer: 8.3s CPU time, 0.09GB RAM\nAteraAgent: 163s CPU time, 0.09GB RAM",
+    "CPUPercent":  16.7,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 32015s CPU time, 0.52GB RAM\nsvchost: 877s CPU time, 0.47GB RAM\ndns: 423s CPU time, 0.36GB RAM\nMsMpEng: 42116.5s CPU time, 0.29GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nlsass: 2117.7s CPU time, 0.13GB RAM\npowershell: 3s CPU time, 0.1GB RAM\nNinjaRMMAgent: 13901.5s CPU time, 0.1GB RAM\nRegistry: 17s CPU time, 0.09GB RAM\nCRMServer: 9s CPU time, 0.09GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.5,
-                                "CPU":  32002,
+                                "Memory":  0.52,
+                                "CPU":  32015,
                                 "Name":  "SentinelAgent"
+                            },
+                            {
+                                "Memory":  0.47,
+                                "CPU":  877,
+                                "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.36,
@@ -16,8 +21,8 @@
                                 "Name":  "dns"
                             },
                             {
-                                "Memory":  0.28,
-                                "CPU":  42103,
+                                "Memory":  0.29,
+                                "CPU":  42116.5,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -27,17 +32,17 @@
                             },
                             {
                                 "Memory":  0.13,
-                                "CPU":  2116.7,
+                                "CPU":  2117.7,
                                 "Name":  "lsass"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  3.2,
+                                "CPU":  3,
                                 "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  13895,
+                                "CPU":  13901.5,
                                 "Name":  "NinjaRMMAgent"
                             },
                             {
@@ -47,19 +52,14 @@
                             },
                             {
                                 "Memory":  0.09,
-                                "CPU":  8.3,
+                                "CPU":  9,
                                 "Name":  "CRMServer"
-                            },
-                            {
-                                "Memory":  0.09,
-                                "CPU":  163,
-                                "Name":  "AteraAgent"
                             }
                         ],
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  13.9,
-    "RAMUsedPercent":  21.8,
-    "RAMFreeGB":  49.9,
+    "RAMUsedGB":  14.4,
+    "RAMUsedPercent":  22.6,
+    "RAMFreeGB":  49.4,
     "DiskFreePercent":  52.5,
     "TotalSize":  "7.3TB",
     "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.5TB, Free: 3.8TB of 7.3TB (52.5% free)",
@@ -72,8 +72,8 @@
                     "UsedSize":  "3.5TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "7d 8h 44m",
-    "UptimeTooltip":  "Boot Time: 2025-08-18 10:26:19\nSystem has been running for:\n7 days, 8 hours, 44 minutes",
+    "Uptime":  "7d 8h 49m",
+    "UptimeTooltip":  "Boot Time: 2025-08-18 10:26:19\nSystem has been running for:\n7 days, 8 hours, 49 minutes",
     "BootTime":  "\/Date(1755537979000)\/",
-    "LastPoll":  "08/25 19:10"
+    "LastPoll":  "08/25 19:15"
 }
