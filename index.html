@@ -161,6 +161,17 @@
                     const networkTooltip = data.NetworkTooltip || `Total Throughput: ${data.NetworkMbps || 0} Mbps`;
                     const updateTooltip = data.UpdateTooltip || 'No update information available';
                     
+                    // Create update summary link
+                    let updateSummary = 'Loading...';
+                    const updateCount = data.UpdateCount || 0;
+                    const serverNameForUpdate = file.name.replace('_status.json', '');
+
+                    if (updateCount > 0) {
+                        updateSummary = `<a href="${serverNameForUpdate}_updates.html" target="_blank">${updateCount} Updates</a>`;
+                    } else {
+                        updateSummary = 'Up-to-date';
+                    }
+
                     // Load events count from events.json
                     let eventSummary = 'Loading...';
                     try {
@@ -198,6 +209,7 @@
                         uptimeTooltip: uptimeTooltip,
                         networkTooltip: networkTooltip,
                         updateTooltip: updateTooltip,
+                        updateSummary: updateSummary,
                         eventSummary: eventSummary,
                         serverStatus: serverStatus,
                         cpuStatus: cpuStatus,
@@ -240,7 +252,7 @@
                     <td>${server.eventSummary}</td>
                     <td data-bs-toggle="tooltip" title="${server.networkTooltip}">${server.data.NetworkMbps || '0.00'} Mbps</td>
                     <td data-bs-toggle="tooltip" title="${server.updateTooltip}">
-                        <span class="text-${server.data.UpdateCount > 0 ? 'warning' : 'success'}">${server.data.UpdateStatus || 'Unknown'}</span>
+                        <span class="text-${server.data.UpdateCount > 0 ? 'warning' : 'success'}">${server.updateSummary}</span>
                     </td>
                     <td data-bs-toggle="tooltip" title="${server.serverStatus.tooltip}">
                         <span class="status-indicator bg-${server.serverStatus.color}"></span>
