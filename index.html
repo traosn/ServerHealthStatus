@@ -34,6 +34,9 @@
         </div>
         <div class="row">
             <div class="col">
+                <div class="mb-3">
+                    <input type="text" id="customerFilter" class="form-control" placeholder="Filter by Customer...">
+                </div>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover">
                         <thead>
@@ -309,6 +312,27 @@
         updateDashboard();
         setInterval(updateCountdown, 1000);
     });
+
+    // Filter table by customer
+    function filterTable() {
+        const filter = document.getElementById('customerFilter').value.toLowerCase();
+        const rows = document.getElementById('serverData').getElementsByTagName('tr');
+        
+        for (let i = 0; i < rows.length; i++) {
+            const customerCell = rows[i].getElementsByTagName('td')[0];
+            if (customerCell) {
+                const customerName = customerCell.textContent || customerCell.innerText;
+                if (customerName.toLowerCase().indexOf(filter) > -1) {
+                    rows[i].style.display = "";
+                } else {
+                    rows[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+    // Attach filter event
+    document.getElementById('customerFilter').addEventListener('keyup', filterTable);
     </script>
 </body>
 </html>
