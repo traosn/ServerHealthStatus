@@ -40,6 +40,7 @@
                                 <th>Disk</th>
                                 <th>Uptime</th>
                                 <th>Critical Events</th>
+                                <th>Network</th>
                                 <th>Status</th>
                                 <th>Last Update</th>
                             </tr>
@@ -151,6 +152,7 @@
                     const ramTooltip = `Total: ${data.RAMTotalGB} GB\nUsed: ${data.RAMUsedGB} GB\nFree: ${data.RAMFreeGB} GB`;
                     const diskTooltip = data.DiskTooltip || `Free Space: ${data.DiskFreePercent}%`;
                     const uptimeTooltip = data.UptimeTooltip || data.Uptime;
+                    const networkTooltip = data.NetworkTooltip || `Total Throughput: ${data.NetworkMbps || 0} Mbps`;
                     
                     // Load events count from events.json
                     let eventSummary = 'Loading...';
@@ -187,6 +189,7 @@
                         ramTooltip: ramTooltip,
                         diskTooltip: diskTooltip,
                         uptimeTooltip: uptimeTooltip,
+                        networkTooltip: networkTooltip,
                         eventSummary: eventSummary,
                         serverStatus: serverStatus,
                         cpuStatus: cpuStatus,
@@ -227,6 +230,7 @@
                     </td>
                     <td data-bs-toggle="tooltip" title="${server.uptimeTooltip}">${server.data.Uptime}</td>
                     <td>${server.eventSummary}</td>
+                    <td data-bs-toggle="tooltip" title="${server.networkTooltip}">${server.data.NetworkMbps || '0.00'} Mbps</td>
                     <td data-bs-toggle="tooltip" title="${server.serverStatus.tooltip}">
                         <span class="status-indicator bg-${server.serverStatus.color}"></span>
                         <span style="vertical-align: middle;">${server.serverStatus.status.charAt(0).toUpperCase() + server.serverStatus.status.slice(1)}</span>
@@ -246,7 +250,7 @@
             const serverData = document.getElementById('serverData');
             serverData.innerHTML = `
                 <tr>
-                    <td colspan="9" class="text-center text-danger">
+                    <td colspan="10" class="text-center text-danger">
                         <div class="alert alert-danger">
                             Error loading data: ${error.message}<br>
                             Please check if the repository is accessible.
