@@ -250,7 +250,7 @@
                     </td>
                     <td data-bs-toggle="tooltip" title="${server.uptimeTooltip}">${server.data.Uptime}</td>
                     <td>${server.eventSummary}</td>
-                    <td data-bs-toggle="tooltip" title="${server.networkTooltip}">${server.data.NetworkMbps || '0.00'} Mbps</td>
+                    <td data-bs-toggle="tooltip" title="${server.networkTooltip}">${(server.data.NetworkMbps || 0).toFixed(2)} Mbps</td>
                     <td data-bs-toggle="tooltip" title="${server.updateTooltip}">
                         <span class="text-${server.data.UpdateCount > 0 ? 'warning' : 'success'}">${server.updateSummary}</span>
                     </td>
