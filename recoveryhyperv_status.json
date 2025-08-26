@@ -2,47 +2,42 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  6,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 216148s CPU time, 0.54GB RAM\nMsMpEng: 48226.1s CPU time, 0.35GB RAM\nvmconnect: 471.9s CPU time, 0.26GB RAM\nRegistry: 62.1s CPU time, 0.24GB RAM\npowershell: 138.6s CPU time, 0.23GB RAM\nexplorer: 4077.9s CPU time, 0.23GB RAM\nAgentService: 2229582.3s CPU time, 0.17GB RAM\nSystem: 289111.6s CPU time, 0.15GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nNinjaRMMAgent: 71169.9s CPU time, 0.14GB RAM",
+    "CPUPercent":  1.1,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 216172.8s CPU time, 0.52GB RAM\nMsMpEng: 48236.2s CPU time, 0.35GB RAM\nvmconnect: 472.2s CPU time, 0.26GB RAM\npowershell: 138.7s CPU time, 0.23GB RAM\nexplorer: 4078.8s CPU time, 0.23GB RAM\nAgentService: 2229582.4s CPU time, 0.17GB RAM\nSystem: 289119.3s CPU time, 0.16GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nNinjaRMMAgent: 71177s CPU time, 0.14GB RAM\nWindowsAdminCenter: 180.2s CPU time, 0.12GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.54,
-                                "CPU":  216148,
+                                "Memory":  0.52,
+                                "CPU":  216172.8,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.35,
-                                "CPU":  48226.1,
+                                "CPU":  48236.2,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.26,
-                                "CPU":  471.9,
+                                "CPU":  472.2,
                                 "Name":  "vmconnect"
                             },
                             {
-                                "Memory":  0.24,
-                                "CPU":  62.1,
-                                "Name":  "Registry"
-                            },
-                            {
                                 "Memory":  0.23,
-                                "CPU":  138.6,
+                                "CPU":  138.7,
                                 "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.23,
-                                "CPU":  4077.9,
+                                "CPU":  4078.8,
                                 "Name":  "explorer"
                             },
                             {
                                 "Memory":  0.17,
-                                "CPU":  2229582.3,
+                                "CPU":  2229582.4,
                                 "Name":  "AgentService"
                             },
                             {
-                                "Memory":  0.15,
-                                "CPU":  289111.6,
+                                "Memory":  0.16,
+                                "CPU":  289119.3,
                                 "Name":  "System"
                             },
                             {
@@ -52,41 +47,46 @@
                             },
                             {
                                 "Memory":  0.14,
-                                "CPU":  71169.9,
+                                "CPU":  71177,
                                 "Name":  "NinjaRMMAgent"
+                            },
+                            {
+                                "Memory":  0.12,
+                                "CPU":  180.2,
+                                "Name":  "WindowsAdminCenter"
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  21.3,
-    "RAMUsedPercent":  29.6,
-    "RAMFreeGB":  50.7,
-    "DiskFreePercent":  27,
+    "RAMUsedGB":  21.2,
+    "RAMUsedPercent":  29.4,
+    "RAMFreeGB":  50.8,
+    "DiskFreePercent":  26.5,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 931.2GB, Free: 162.4GB of 1.1TB (14.8% free)\nC:\\ - Used: 65.5GB, Free: 207.4GB of 272.9GB (76% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 936.7GB, Free: 156.9GB of 1.1TB (14.3% free)\nC:\\ - Used: 66.9GB, Free: 206GB of 272.9GB (75.5% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
-                        "FreePercent":  14.8,
+                        "FreePercent":  14.3,
                         "TotalSize":  "1.1TB",
                         "SizeBytes":  1174252023808,
-                        "FreeSize":  "162.4GB",
-                        "UsedSize":  "931.2GB",
+                        "FreeSize":  "156.9GB",
+                        "UsedSize":  "936.7GB",
                         "Letter":  "F"
                     },
                     {
                         "Label":  "",
-                        "FreePercent":  76,
+                        "FreePercent":  75.5,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "207.4GB",
-                        "UsedSize":  "65.5GB",
+                        "FreeSize":  "206GB",
+                        "UsedSize":  "66.9GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "48d 0h 17m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n48 days, 0 hours, 17 minutes",
+    "Uptime":  "48d 0h 22m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n48 days, 0 hours, 22 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  32.53,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 16.26 Mbps\nReceived: 16.27 Mbps\nTotal: 32.53 Mbps",
-    "LastPoll":  "08/26 15:21"
+    "NetworkMbps":  29.32,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 14.64 Mbps\nReceived: 14.68 Mbps\nTotal: 29.32 Mbps",
+    "LastPoll":  "08/26 15:26"
 }
