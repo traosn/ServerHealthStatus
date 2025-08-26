@@ -46,6 +46,7 @@
                                 <th>Uptime</th>
                                 <th>Critical Events</th>
                                 <th>Network</th>
+                                <th>Updates</th>
                                 <th>Status</th>
                                 <th>Last Update</th>
                             </tr>
@@ -158,6 +159,7 @@
                     const diskTooltip = data.DiskTooltip || `Free Space: ${data.DiskFreePercent}%`;
                     const uptimeTooltip = data.UptimeTooltip || data.Uptime;
                     const networkTooltip = data.NetworkTooltip || `Total Throughput: ${data.NetworkMbps || 0} Mbps`;
+                    const updateTooltip = data.UpdateTooltip || 'No update information available';
                     
                     // Load events count from events.json
                     let eventSummary = 'Loading...';
@@ -195,6 +197,7 @@
                         diskTooltip: diskTooltip,
                         uptimeTooltip: uptimeTooltip,
                         networkTooltip: networkTooltip,
+                        updateTooltip: updateTooltip,
                         eventSummary: eventSummary,
                         serverStatus: serverStatus,
                         cpuStatus: cpuStatus,
@@ -236,6 +239,9 @@
                     <td data-bs-toggle="tooltip" title="${server.uptimeTooltip}">${server.data.Uptime}</td>
                     <td>${server.eventSummary}</td>
                     <td data-bs-toggle="tooltip" title="${server.networkTooltip}">${server.data.NetworkMbps || '0.00'} Mbps</td>
+                    <td data-bs-toggle="tooltip" title="${server.updateTooltip}">
+                        <span class="text-${server.data.UpdateCount > 0 ? 'warning' : 'success'}">${server.data.UpdateStatus || 'Unknown'}</span>
+                    </td>
                     <td data-bs-toggle="tooltip" title="${server.serverStatus.tooltip}">
                         <span class="status-indicator bg-${server.serverStatus.color}"></span>
                         <span style="vertical-align: middle;">${server.serverStatus.status.charAt(0).toUpperCase() + server.serverStatus.status.slice(1)}</span>
