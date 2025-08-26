@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pending Updates</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .update-description { max-width: 600px; word-wrap: break-word; white-space: pre-line; }
+        .table > tbody > tr > td { vertical-align: middle; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid mt-3">
+        <div class="row mb-3">
+            <div class="col">
+                <h2>Pending Updates - <span id="serverName"></span></h2>
+                <p class="text-muted">Last Updated: <span id="lastUpdate"></span></p>
+                <a href="index.html" class="btn btn-outline-secondary mb-3">&larr; Back to Dashboard</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>KB Article</th>
+                                <th>Size</th>
+                                <th>Title</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody id="updateData">
+                            <!-- Data will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+    const serverName = decodeURIComponent(window.location.pathname.split('/').pop().replace('_updates.html', ''));
+    document.getElementById('serverName').textContent = serverName;
+
+    function toSafeString(v) { return v === null || v === undefined ? '' : String(v); }
+
+    async function loadUpdates() {
+        try {
+            const url = `${serverName}_updates.json`;
+            const response = await fetch(url);
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            const data = await response.json();
+
+            document.getElementById('lastUpdate').textContent = data.LastPoll || '';
+            const tbody = document.getElementById('updateData');
+
+            if (data.Updates && data.Updates.length > 0) {
+                data.Updates.forEach(upd => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${toSafeString(upd.KB)}</td>
+                        <td>${toSafeString(upd.Size)}</td>
+                        <td>${toSafeString(upd.Title)}</td>
+                        <td class="update-description">${toSafeString(upd.Description)}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } else {
+                tbody.innerHTML = '<tr><td colspan="4" class="text-center">No pending updates found</td></tr>';
+            }
+        } catch (error) {
+            console.error('Error loading updates:', error);
+            const url = `${serverName}_updates.json`;
+            document.getElementById('updateData').innerHTML = `<tr><td colspan="4" class="text-center text-danger"><div class="alert alert-danger">Error loading update data: ${error.message}<br>URL: <a href="${url}" target="_blank">${url}</a></div></td></tr>`;
+            document.getElementById('serverName').textContent = serverName + ' (Error Loading Data)';
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadUpdates);
+    </script>
+</body>
+</html>
