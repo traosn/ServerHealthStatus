@@ -2,7 +2,18 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1756274173035)\/",
+                       "TimeCreated":  "\/Date(1756275821622)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9MSSGKG348SP-MicrosoftWindows.Client.WebExperience.",
+                       "Id":  20,
+                       "ErrorCode":  "0x80073D02",
+                       "UpdateTitle":  "9MSSGKG348SP-MicrosoftWindows.Client.WebExperience",
+                       "EventRecordID":  3839
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1756275801024)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
@@ -12,31 +23,20 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  64533
+                       "EventRecordID":  64652
                    },
                    {
-                       "TimeCreated":  "\/Date(1756274173035)\/",
+                       "TimeCreated":  "\/Date(1756275801024)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{c03e53bf-606a-45bd-b5f8-4fd3df5b52b0}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{131ac6af-7f67-4c7a-b350-9cf9d9127b51}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
                        "Id":  203,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  64532
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1756232394128)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9NMPJ99VJBWV-Microsoft.YourPhone",
-                       "EventRecordID":  3775
+                       "EventRecordID":  64651
                    },
                    {
                        "TimeCreated":  "\/Date(1756229623659)\/",
@@ -78,5 +78,5 @@
                        "EventRecordID":  4464
                    }
                ],
-    "LastPoll":  "08/26 23:23"
+    "LastPoll":  "08/26 23:28"
 }
