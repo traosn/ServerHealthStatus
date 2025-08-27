@@ -2,28 +2,23 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  5.2,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 217709.8s CPU time, 0.52GB RAM\nvmconnect: 485.2s CPU time, 0.26GB RAM\nMsMpEng: 49154.4s CPU time, 0.26GB RAM\nRegistry: 62.5s CPU time, 0.24GB RAM\npowershell: 140s CPU time, 0.23GB RAM\nexplorer: 4107.7s CPU time, 0.23GB RAM\nAgentService: 2258690s CPU time, 0.17GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nSystem: 292070.1s CPU time, 0.15GB RAM\nNinjaRMMAgent: 72098.9s CPU time, 0.14GB RAM",
+    "CPUPercent":  1.7,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 217719.2s CPU time, 0.52GB RAM\nvmconnect: 485.8s CPU time, 0.27GB RAM\nMsMpEng: 49158.3s CPU time, 0.26GB RAM\npowershell: 140s CPU time, 0.23GB RAM\nexplorer: 4107.8s CPU time, 0.23GB RAM\nAgentService: 2258690.1s CPU time, 0.17GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nSystem: 292076.1s CPU time, 0.15GB RAM\nNinjaRMMAgent: 72104.6s CPU time, 0.14GB RAM\nWindowsAdminCenter: 181.3s CPU time, 0.12GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.52,
-                                "CPU":  217709.8,
+                                "CPU":  217719.2,
                                 "Name":  "SentinelAgent"
                             },
                             {
-                                "Memory":  0.26,
-                                "CPU":  485.2,
+                                "Memory":  0.27,
+                                "CPU":  485.8,
                                 "Name":  "vmconnect"
                             },
                             {
                                 "Memory":  0.26,
-                                "CPU":  49154.4,
+                                "CPU":  49158.3,
                                 "Name":  "MsMpEng"
-                            },
-                            {
-                                "Memory":  0.24,
-                                "CPU":  62.5,
-                                "Name":  "Registry"
                             },
                             {
                                 "Memory":  0.23,
@@ -32,12 +27,12 @@
                             },
                             {
                                 "Memory":  0.23,
-                                "CPU":  4107.7,
+                                "CPU":  4107.8,
                                 "Name":  "explorer"
                             },
                             {
                                 "Memory":  0.17,
-                                "CPU":  2258690,
+                                "CPU":  2258690.1,
                                 "Name":  "AgentService"
                             },
                             {
@@ -47,46 +42,51 @@
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  292070.1,
+                                "CPU":  292076.1,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.14,
-                                "CPU":  72098.9,
+                                "CPU":  72104.6,
                                 "Name":  "NinjaRMMAgent"
+                            },
+                            {
+                                "Memory":  0.12,
+                                "CPU":  181.3,
+                                "Name":  "WindowsAdminCenter"
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  21.2,
-    "RAMUsedPercent":  29.4,
-    "RAMFreeGB":  50.8,
-    "DiskFreePercent":  26.8,
+    "RAMUsedGB":  21.1,
+    "RAMUsedPercent":  29.3,
+    "RAMFreeGB":  50.9,
+    "DiskFreePercent":  26.3,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 934.5GB, Free: 159.1GB of 1.1TB (14.5% free)\nC:\\ - Used: 65.3GB, Free: 207.6GB of 272.9GB (76.1% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 940.7GB, Free: 152.9GB of 1.1TB (14% free)\nC:\\ - Used: 66.6GB, Free: 206.2GB of 272.9GB (75.6% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
-                        "FreePercent":  14.5,
+                        "FreePercent":  14,
                         "TotalSize":  "1.1TB",
                         "SizeBytes":  1174252023808,
-                        "FreeSize":  "159.1GB",
-                        "UsedSize":  "934.5GB",
+                        "FreeSize":  "152.9GB",
+                        "UsedSize":  "940.7GB",
                         "Letter":  "F"
                     },
                     {
                         "Label":  "",
-                        "FreePercent":  76.1,
+                        "FreePercent":  75.6,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "207.6GB",
-                        "UsedSize":  "65.3GB",
+                        "FreeSize":  "206.2GB",
+                        "UsedSize":  "66.6GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "49d 12h 17m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n49 days, 12 hours, 17 minutes",
+    "Uptime":  "49d 12h 22m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n49 days, 12 hours, 22 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  4.25,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.06 Mbps\nReceived: 4.19 Mbps\nTotal: 4.25 Mbps",
-    "LastPoll":  "08/27 03:21"
+    "NetworkMbps":  4.21,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.04 Mbps\nReceived: 4.17 Mbps\nTotal: 4.21 Mbps",
+    "LastPoll":  "08/27 03:26"
 }
