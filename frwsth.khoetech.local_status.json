@@ -2,27 +2,32 @@
     "Computer":  "FRWSTH",
     "Customer":  "Dev Machine",
     "OS":  "Microsoft Windows 11 Pro",
-    "CPUPercent":  15.3,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 712778.4s CPU time, 0.8GB RAM\nCursor: 40960.3s CPU time, 0.55GB RAM\nexplorer: 1760.5s CPU time, 0.51GB RAM\nchrome: 315.9s CPU time, 0.41GB RAM\nMemory Compression: 296.6s CPU time, 0.41GB RAM\nchrome: 238.7s CPU time, 0.4GB RAM\nchrome: 149.8s CPU time, 0.34GB RAM\nchrome: 355.1s CPU time, 0.33GB RAM\nchrome: 185.4s CPU time, 0.33GB RAM\nchrome: 26.2s CPU time, 0.28GB RAM",
+    "CPUPercent":  20.4,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 712989s CPU time, 0.81GB RAM\nCursor: 40960.8s CPU time, 0.6GB RAM\nexplorer: 1770.5s CPU time, 0.52GB RAM\nchrome: 316.1s CPU time, 0.41GB RAM\nchrome: 239.2s CPU time, 0.41GB RAM\nMemory Compression: 296.6s CPU time, 0.41GB RAM\nchrome: 150.2s CPU time, 0.34GB RAM\nchrome: 360.9s CPU time, 0.33GB RAM\nchrome: 190.8s CPU time, 0.3GB RAM\nchrome: 47.2s CPU time, 0.28GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.8,
-                                "CPU":  712778.4,
+                                "Memory":  0.81,
+                                "CPU":  712989,
                                 "Name":  "SentinelAgent"
                             },
                             {
-                                "Memory":  0.55,
-                                "CPU":  40960.3,
+                                "Memory":  0.6,
+                                "CPU":  40960.8,
                                 "Name":  "Cursor"
                             },
                             {
-                                "Memory":  0.51,
-                                "CPU":  1760.5,
+                                "Memory":  0.52,
+                                "CPU":  1770.5,
                                 "Name":  "explorer"
                             },
                             {
                                 "Memory":  0.41,
-                                "CPU":  315.9,
+                                "CPU":  316.1,
+                                "Name":  "chrome"
+                            },
+                            {
+                                "Memory":  0.41,
+                                "CPU":  239.2,
                                 "Name":  "chrome"
                             },
                             {
@@ -31,54 +36,60 @@
                                 "Name":  "Memory Compression"
                             },
                             {
-                                "Memory":  0.4,
-                                "CPU":  238.7,
-                                "Name":  "chrome"
-                            },
-                            {
                                 "Memory":  0.34,
-                                "CPU":  149.8,
+                                "CPU":  150.2,
                                 "Name":  "chrome"
                             },
                             {
                                 "Memory":  0.33,
-                                "CPU":  355.1,
+                                "CPU":  360.9,
                                 "Name":  "chrome"
                             },
                             {
-                                "Memory":  0.33,
-                                "CPU":  185.4,
+                                "Memory":  0.3,
+                                "CPU":  190.8,
                                 "Name":  "chrome"
                             },
                             {
                                 "Memory":  0.28,
-                                "CPU":  26.2,
+                                "CPU":  47.2,
                                 "Name":  "chrome"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  14.4,
-    "RAMUsedPercent":  45.3,
-    "RAMFreeGB":  17.4,
-    "DiskFreePercent":  54.2,
-    "TotalSize":  "237.2GB",
-    "DiskTooltip":  "Total Storage: 237.2GB\n\nDisk Usage:\nC:\\ - Used: 108.6GB, Free: 128.6GB of 237.2GB (54.2% free)",
-    "Volumes":  {
-                    "Label":  "",
-                    "FreePercent":  54.2,
-                    "TotalSize":  "237.2GB",
-                    "SizeBytes":  254706446336,
-                    "FreeSize":  "128.6GB",
-                    "UsedSize":  "108.6GB",
-                    "Letter":  "C"
-                },
-    "Uptime":  "13d 0h 6m",
-    "UptimeTooltip":  "Boot Time: 2025-08-14 14:17:09\nSystem has been running for:\n13 days, 0 hours, 6 minutes",
+    "RAMUsedGB":  14.5,
+    "RAMUsedPercent":  45.6,
+    "RAMFreeGB":  17.3,
+    "DiskFreePercent":  93.9,
+    "TotalSize":  "2.1TB",
+    "DiskTooltip":  "Total Storage: 2.1TB\n\nDisk Usage:\nE:\\ (My Passport) - Used: 19.9GB, Free: 1.8TB of 1.8TB (98.9% free)\nC:\\ - Used: 108.5GB, Free: 128.7GB of 237.2GB (54.3% free)",
+    "Volumes":  [
+                    {
+                        "Label":  "My Passport",
+                        "FreePercent":  98.9,
+                        "TotalSize":  "1.8TB",
+                        "SizeBytes":  2000363188224,
+                        "FreeSize":  "1.8TB",
+                        "UsedSize":  "19.9GB",
+                        "Letter":  "E"
+                    },
+                    {
+                        "Label":  "",
+                        "FreePercent":  54.3,
+                        "TotalSize":  "237.2GB",
+                        "SizeBytes":  254706446336,
+                        "FreeSize":  "128.7GB",
+                        "UsedSize":  "108.5GB",
+                        "Letter":  "C"
+                    }
+                ],
+    "Uptime":  "13d 0h 11m",
+    "UptimeTooltip":  "Boot Time: 2025-08-14 14:17:09\nSystem has been running for:\n13 days, 0 hours, 11 minutes",
     "BootTime":  "\/Date(1755206229000)\/",
-    "NetworkMbps":  0.07,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.02 Mbps\nReceived: 0.05 Mbps\nTotal: 0.07 Mbps",
+    "NetworkMbps":  0.05,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.01 Mbps\nReceived: 0.04 Mbps\nTotal: 0.05 Mbps",
     "UpdateStatus":  "Up-to-date",
     "UpdateCount":  0,
     "UpdateTooltip":  "No pending updates found.",
-    "LastPoll":  "08/27 14:23"
+    "LastPoll":  "08/27 14:28"
 }
