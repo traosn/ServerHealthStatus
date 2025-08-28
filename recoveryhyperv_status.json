@@ -2,32 +2,27 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  11,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 222013.6s CPU time, 0.54GB RAM\nMsMpEng: 52080.9s CPU time, 0.32GB RAM\nvmconnect: 515s CPU time, 0.28GB RAM\nRegistry: 63.8s CPU time, 0.24GB RAM\nexplorer: 4154.9s CPU time, 0.23GB RAM\npowershell: 143.3s CPU time, 0.22GB RAM\nAgentService: 2333844.4s CPU time, 0.17GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nNinjaRMMAgent: 74489.3s CPU time, 0.15GB RAM\nSystem: 298848.2s CPU time, 0.15GB RAM",
+    "CPUPercent":  4.2,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 222041.4s CPU time, 0.52GB RAM\nMsMpEng: 52085.8s CPU time, 0.32GB RAM\nvmconnect: 515.5s CPU time, 0.27GB RAM\nexplorer: 4155.2s CPU time, 0.23GB RAM\npowershell: 143.3s CPU time, 0.22GB RAM\nAgentService: 2333844.5s CPU time, 0.17GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nNinjaRMMAgent: 74496s CPU time, 0.15GB RAM\nSystem: 298854.6s CPU time, 0.15GB RAM\nWindowsAdminCenter: 184.4s CPU time, 0.12GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.54,
-                                "CPU":  222013.6,
+                                "Memory":  0.52,
+                                "CPU":  222041.4,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.32,
-                                "CPU":  52080.9,
+                                "CPU":  52085.8,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.28,
-                                "CPU":  515,
+                                "Memory":  0.27,
+                                "CPU":  515.5,
                                 "Name":  "vmconnect"
                             },
                             {
-                                "Memory":  0.24,
-                                "CPU":  63.8,
-                                "Name":  "Registry"
-                            },
-                            {
                                 "Memory":  0.23,
-                                "CPU":  4154.9,
+                                "CPU":  4155.2,
                                 "Name":  "explorer"
                             },
                             {
@@ -37,7 +32,7 @@
                             },
                             {
                                 "Memory":  0.17,
-                                "CPU":  2333844.4,
+                                "CPU":  2333844.5,
                                 "Name":  "AgentService"
                             },
                             {
@@ -47,46 +42,51 @@
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  74489.3,
+                                "CPU":  74496,
                                 "Name":  "NinjaRMMAgent"
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  298848.2,
+                                "CPU":  298854.6,
                                 "Name":  "System"
+                            },
+                            {
+                                "Memory":  0.12,
+                                "CPU":  184.4,
+                                "Name":  "WindowsAdminCenter"
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  21.3,
-    "RAMUsedPercent":  29.6,
-    "RAMFreeGB":  50.7,
-    "DiskFreePercent":  26.6,
+    "RAMUsedGB":  21.1,
+    "RAMUsedPercent":  29.3,
+    "RAMFreeGB":  50.9,
+    "DiskFreePercent":  26.1,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 938GB, Free: 155.6GB of 1.1TB (14.2% free)\nC:\\ - Used: 65.2GB, Free: 207.6GB of 272.9GB (76.1% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 944GB, Free: 149.6GB of 1.1TB (13.7% free)\nC:\\ - Used: 66.6GB, Free: 206.3GB of 272.9GB (75.6% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
-                        "FreePercent":  14.2,
+                        "FreePercent":  13.7,
                         "TotalSize":  "1.1TB",
                         "SizeBytes":  1174252023808,
-                        "FreeSize":  "155.6GB",
-                        "UsedSize":  "938GB",
+                        "FreeSize":  "149.6GB",
+                        "UsedSize":  "944GB",
                         "Letter":  "F"
                     },
                     {
                         "Label":  "",
-                        "FreePercent":  76.1,
+                        "FreePercent":  75.6,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "207.6GB",
-                        "UsedSize":  "65.2GB",
+                        "FreeSize":  "206.3GB",
+                        "UsedSize":  "66.6GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "50d 19h 17m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n50 days, 19 hours, 17 minutes",
+    "Uptime":  "50d 19h 22m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n50 days, 19 hours, 22 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  20.34,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 8.16 Mbps\nReceived: 12.18 Mbps\nTotal: 20.34 Mbps",
-    "LastPoll":  "08/28 10:21"
+    "NetworkMbps":  20.740000000000002,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 8.33 Mbps\nReceived: 12.41 Mbps\nTotal: 20.74 Mbps",
+    "LastPoll":  "08/28 10:26"
 }
