@@ -15,13 +15,19 @@
         .tooltip-inner { max-width: 350px; text-align: left; }
         .event-link { cursor: pointer; text-decoration: none; }
         .status-indicator { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: middle; }
+        .header-container { display: flex; align-items: center; gap: 15px; }
+        #logo { height: 50px; }
+        #customerFilter { max-width: 400px; }
     </style>
 </head>
 <body>
     <div class="container-fluid mt-3">
         <div class="row mb-3">
             <div class="col">
-                <h2>Server Health Dashboard</h2>
+                <div class="header-container">
+                    <img src="synapseLG.png" alt="Synapse Tech Logo" id="logo">
+                    <h2>Server Health Dashboard</h2>
+                </div>
                 <div id="lastUpdate">Last Update: <span id="updateTime"></span> (Refreshing in <span id="countdown">30</span>s)
                     <button id="pauseButton" class="btn btn-sm btn-outline-secondary">Pause</button>
                 </div>
@@ -29,6 +35,9 @@
         </div>
         <div class="row">
             <div class="col">
+                <div class="mb-3">
+                    <input type="text" id="customerFilter" class="form-control" placeholder="Filter by Customer...">
+                </div>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover">
                         <thead>
@@ -40,6 +49,8 @@
                                 <th>Disk</th>
                                 <th>Uptime</th>
                                 <th>Critical Events</th>
+                                <th>Network</th>
+                                <th>Updates</th>
                                 <th>Status</th>
                                 <th>Last Update</th>
                             </tr>
@@ -151,7 +162,20 @@
                     const ramTooltip = `Total: ${data.RAMTotalGB} GB\nUsed: ${data.RAMUsedGB} GB\nFree: ${data.RAMFreeGB} GB`;
                     const diskTooltip = data.DiskTooltip || `Free Space: ${data.DiskFreePercent}%`;
                     const uptimeTooltip = data.UptimeTooltip || data.Uptime;
+                    const networkTooltip = data.NetworkTooltip || `Total Throughput: ${data.NetworkMbps || 0} Mbps`;
+                    const updateTooltip = data.UpdateTooltip || 'No update information available';
                     
+                    // Create update summary link
+                    let updateSummary = 'Loading...';
+                    const updateCount = data.UpdateCount || 0;
+                    const serverNameForUpdate = file.name.replace('_status.json', '');
+
+                    if (updateCount > 0) {
+                        updateSummary = `<a href="${serverNameForUpdate}_updates.html" target="_blank">${updateCount} Updates</a>`;
+                    } else {
+                        updateSummary = 'Up-to-date';
+                    }
+
                     // Load events count from events.json
                     let eventSummary = 'Loading...';
                     try {
@@ -187,6 +211,9 @@
                         ramTooltip: ramTooltip,
                         diskTooltip: diskTooltip,
                         uptimeTooltip: uptimeTooltip,
+                        networkTooltip: networkTooltip,
+                        updateTooltip: updateTooltip,
+                        updateSummary: updateSummary,
                         eventSummary: eventSummary,
                         serverStatus: serverStatus,
                         cpuStatus: cpuStatus,
@@ -227,6 +254,10 @@
                     </td>
                     <td data-bs-toggle="tooltip" title="${server.uptimeTooltip}">${server.data.Uptime}</td>
                     <td>${server.eventSummary}</td>
+                    <td data-bs-toggle="tooltip" title="${server.networkTooltip}">${(server.data.NetworkMbps || 0).toFixed(2)} Mbps</td>
+                    <td data-bs-toggle="tooltip" title="${server.updateTooltip}">
+                        <span class="text-${server.data.UpdateCount > 0 ? 'warning' : 'success'}">${server.updateSummary}</span>
+                    </td>
                     <td data-bs-toggle="tooltip" title="${server.serverStatus.tooltip}">
                         <span class="status-indicator bg-${server.serverStatus.color}"></span>
                         <span style="vertical-align: middle;">${server.serverStatus.status.charAt(0).toUpperCase() + server.serverStatus.status.slice(1)}</span>
@@ -246,7 +277,7 @@
             const serverData = document.getElementById('serverData');
             serverData.innerHTML = `
                 <tr>
-                    <td colspan="9" class="text-center text-danger">
+                    <td colspan="10" class="text-center text-danger">
                         <div class="alert alert-danger">
                             Error loading data: ${error.message}<br>
                             Please check if the repository is accessible.
@@ -282,6 +313,27 @@
         updateDashboard();
         setInterval(updateCountdown, 1000);
     });
+
+    // Filter table by customer
+    function filterTable() {
+        const filter = document.getElementById('customerFilter').value.toLowerCase();
+        const rows = document.getElementById('serverData').getElementsByTagName('tr');
+        
+        for (let i = 0; i < rows.length; i++) {
+            const customerCell = rows[i].getElementsByTagName('td')[0];
+            if (customerCell) {
+                const customerName = customerCell.textContent || customerCell.innerText;
+                if (customerName.toLowerCase().indexOf(filter) > -1) {
+                    rows[i].style.display = "";
+                } else {
+                    rows[i].style.display = "none";
+                }
+            }
+        }
+    }
+
+    // Attach filter event
+    document.getElementById('customerFilter').addEventListener('keyup', filterTable);
     </script>
 </body>
 </html>
