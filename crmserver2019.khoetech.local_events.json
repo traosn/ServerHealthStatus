@@ -1,45 +1,17 @@
 {
     "Computer":  "CRMSERVER2019",
-    "Events":  [
-                   {
-                       "TimeCreated":  "\/Date(1756424469384)\/",
-                       "Source":  "Microsoft-Windows-Perflib",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
-                       "Id":  1023,
-                       "ErrorCode":  {
+    "Events":  {
+                   "TimeCreated":  "\/Date(1756424469384)\/",
+                   "Source":  "Microsoft-Windows-Perflib",
+                   "LogName":  "Application",
+                   "Level":  "Error",
+                   "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                   "Id":  1023,
+                   "ErrorCode":  {
 
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  25679
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1756422359253)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{5b829b0d-9d48-4ad4-9db5-348bc16e0acd}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  159604
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1756422359253)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{5b829b0d-9d48-4ad4-9db5-348bc16e0acd}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  159603
-                   }
-               ],
-    "LastPoll":  "08/29 16:01"
+                                 },
+                   "UpdateTitle":  null,
+                   "EventRecordID":  25679
+               },
+    "LastPoll":  "08/29 16:06"
 }
