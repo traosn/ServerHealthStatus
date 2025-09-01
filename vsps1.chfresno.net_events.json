@@ -1,15 +1,30 @@
 {
     "Computer":  "VSPS1",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1756712499462)\/",
-                   "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                   "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                   "Level":  "Error",
-                   "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
-                   "Id":  25,
-                   "ErrorCode":  "0x8024402F",
-                   "UpdateTitle":  null,
-                   "EventRecordID":  6254
-               },
-    "LastPoll":  "09/01 02:01"
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1756717437032)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to download an update.",
+                       "Id":  31,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  "Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.435.509.0) - Current Channel (Broad)",
+                       "EventRecordID":  6290
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1756712499462)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
+                       "Id":  25,
+                       "ErrorCode":  "0x8024402F",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  6254
+                   }
+               ],
+    "LastPoll":  "09/01 02:06"
 }
