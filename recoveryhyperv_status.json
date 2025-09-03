@@ -2,17 +2,17 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  11.1,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 244198.9s CPU time, 0.54GB RAM\nMsMpEng: 64008s CPU time, 0.32GB RAM\nvmconnect: 670.7s CPU time, 0.28GB RAM\nexplorer: 4306.8s CPU time, 0.22GB RAM\nAgentService: 2675585.1s CPU time, 0.19GB RAM\npowershell: 158.5s CPU time, 0.19GB RAM\nNinjaRMMAgent: 85347.1s CPU time, 0.15GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nSystem: 330688.8s CPU time, 0.14GB RAM\nsvchost: 8811.6s CPU time, 0.12GB RAM",
+    "CPUPercent":  5.9,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 244209.9s CPU time, 0.55GB RAM\nMsMpEng: 64012.1s CPU time, 0.32GB RAM\nvmconnect: 670.7s CPU time, 0.28GB RAM\nRegistry: 74.5s CPU time, 0.24GB RAM\nexplorer: 4306.8s CPU time, 0.22GB RAM\npowershell: 158.5s CPU time, 0.19GB RAM\nAgentService: 2675778.8s CPU time, 0.18GB RAM\nNinjaRMMAgent: 85354.4s CPU time, 0.15GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nSystem: 330706.7s CPU time, 0.14GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.54,
-                                "CPU":  244198.9,
+                                "Memory":  0.55,
+                                "CPU":  244209.9,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.32,
-                                "CPU":  64008,
+                                "CPU":  64012.1,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -21,14 +21,14 @@
                                 "Name":  "vmconnect"
                             },
                             {
+                                "Memory":  0.24,
+                                "CPU":  74.5,
+                                "Name":  "Registry"
+                            },
+                            {
                                 "Memory":  0.22,
                                 "CPU":  4306.8,
                                 "Name":  "explorer"
-                            },
-                            {
-                                "Memory":  0.19,
-                                "CPU":  2675585.1,
-                                "Name":  "AgentService"
                             },
                             {
                                 "Memory":  0.19,
@@ -36,8 +36,13 @@
                                 "Name":  "powershell"
                             },
                             {
+                                "Memory":  0.18,
+                                "CPU":  2675778.8,
+                                "Name":  "AgentService"
+                            },
+                            {
                                 "Memory":  0.15,
-                                "CPU":  85347.1,
+                                "CPU":  85354.4,
                                 "Name":  "NinjaRMMAgent"
                             },
                             {
@@ -47,22 +52,17 @@
                             },
                             {
                                 "Memory":  0.14,
-                                "CPU":  330688.8,
+                                "CPU":  330706.7,
                                 "Name":  "System"
-                            },
-                            {
-                                "Memory":  0.12,
-                                "CPU":  8811.6,
-                                "Name":  "svchost"
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  21.2,
-    "RAMUsedPercent":  29.4,
-    "RAMFreeGB":  50.8,
+    "RAMUsedGB":  21.4,
+    "RAMUsedPercent":  29.7,
+    "RAMFreeGB":  50.6,
     "DiskFreePercent":  24.9,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 960.4GB, Free: 133.2GB of 1.1TB (12.2% free)\nC:\\ - Used: 66.3GB, Free: 206.6GB of 272.9GB (75.7% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 960.4GB, Free: 133.2GB of 1.1TB (12.2% free)\nC:\\ - Used: 66.3GB, Free: 206.5GB of 272.9GB (75.7% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
@@ -78,18 +78,18 @@
                         "FreePercent":  75.7,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "206.6GB",
+                        "FreeSize":  "206.5GB",
                         "UsedSize":  "66.3GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "56d 13h 50m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n56 days, 13 hours, 50 minutes",
+    "Uptime":  "56d 13h 55m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n56 days, 13 hours, 55 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  4.16,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.03 Mbps\nReceived: 4.13 Mbps\nTotal: 4.16 Mbps",
+    "NetworkMbps":  4.17,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.03 Mbps\nReceived: 4.14 Mbps\nTotal: 4.17 Mbps",
     "UpdateStatus":  "3 Updates",
     "UpdateCount":  3,
     "UpdateTooltip":  "Click for details on 3 pending updates.",
-    "LastPoll":  "09/03 04:55"
+    "LastPoll":  "09/03 05:00"
 }
