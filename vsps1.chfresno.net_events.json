@@ -1,15 +1,30 @@
 {
     "Computer":  "VSPS1",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1757086299406)\/",
-                   "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                   "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                   "Level":  "Error",
-                   "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
-                   "Id":  25,
-                   "ErrorCode":  "0x8024402F",
-                   "UpdateTitle":  null,
-                   "EventRecordID":  8807
-               },
-    "LastPoll":  "09/05 10:41"
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1757094301274)\/",
+                       "Source":  "Microsoft-Windows-RestartManager",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Application or service \u0027Print Audit FM Information Collection Engine Updater\u0027 could not be restarted.",
+                       "Id":  10007,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  8637
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1757086299406)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
+                       "Id":  25,
+                       "ErrorCode":  "0x8024402F",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  8807
+                   }
+               ],
+    "LastPoll":  "09/05 10:46"
 }
