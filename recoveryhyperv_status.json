@@ -2,28 +2,33 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  2.8,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 251264.7s CPU time, 0.55GB RAM\nvmconnect: 711.2s CPU time, 0.29GB RAM\nMsMpEng: 67621.5s CPU time, 0.29GB RAM\nexplorer: 4348.2s CPU time, 0.22GB RAM\npowershell: 162.8s CPU time, 0.19GB RAM\nAgentService: 2776708.4s CPU time, 0.18GB RAM\nSystem: 340024.8s CPU time, 0.15GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nsvchost: 11510.6s CPU time, 0.14GB RAM\nWindowsAdminCenter: 205.8s CPU time, 0.12GB RAM",
+    "CPUPercent":  2.1,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 251275.8s CPU time, 0.56GB RAM\nvmconnect: 711.8s CPU time, 0.29GB RAM\nMsMpEng: 67640.4s CPU time, 0.29GB RAM\nexplorer: 4348.4s CPU time, 0.22GB RAM\nAgentService: 2776711.6s CPU time, 0.19GB RAM\npowershell: 162.8s CPU time, 0.19GB RAM\nSystem: 340045.3s CPU time, 0.15GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nsvchost: 11515.7s CPU time, 0.14GB RAM\nWindowsAdminCenter: 205.8s CPU time, 0.12GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.55,
-                                "CPU":  251264.7,
+                                "Memory":  0.56,
+                                "CPU":  251275.8,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.29,
-                                "CPU":  711.2,
+                                "CPU":  711.8,
                                 "Name":  "vmconnect"
                             },
                             {
                                 "Memory":  0.29,
-                                "CPU":  67621.5,
+                                "CPU":  67640.4,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  4348.2,
+                                "CPU":  4348.4,
                                 "Name":  "explorer"
+                            },
+                            {
+                                "Memory":  0.19,
+                                "CPU":  2776711.6,
+                                "Name":  "AgentService"
                             },
                             {
                                 "Memory":  0.19,
@@ -31,13 +36,8 @@
                                 "Name":  "powershell"
                             },
                             {
-                                "Memory":  0.18,
-                                "CPU":  2776708.4,
-                                "Name":  "AgentService"
-                            },
-                            {
                                 "Memory":  0.15,
-                                "CPU":  340024.8,
+                                "CPU":  340045.3,
                                 "Name":  "System"
                             },
                             {
@@ -47,7 +47,7 @@
                             },
                             {
                                 "Memory":  0.14,
-                                "CPU":  11510.6,
+                                "CPU":  11515.7,
                                 "Name":  "svchost"
                             },
                             {
@@ -57,39 +57,39 @@
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  21.4,
-    "RAMUsedPercent":  29.7,
-    "RAMFreeGB":  50.6,
-    "DiskFreePercent":  23.6,
+    "RAMUsedGB":  21.3,
+    "RAMUsedPercent":  29.6,
+    "RAMFreeGB":  50.7,
+    "DiskFreePercent":  24.1,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 977.6GB, Free: 116GB of 1.1TB (10.6% free)\nC:\\ - Used: 66.8GB, Free: 206.1GB of 272.9GB (75.5% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 971.9GB, Free: 121.7GB of 1.1TB (11.1% free)\nC:\\ - Used: 65.6GB, Free: 207.3GB of 272.9GB (76% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
-                        "FreePercent":  10.6,
+                        "FreePercent":  11.1,
                         "TotalSize":  "1.1TB",
                         "SizeBytes":  1174252023808,
-                        "FreeSize":  "116GB",
-                        "UsedSize":  "977.6GB",
+                        "FreeSize":  "121.7GB",
+                        "UsedSize":  "971.9GB",
                         "Letter":  "F"
                     },
                     {
                         "Label":  "",
-                        "FreePercent":  75.5,
+                        "FreePercent":  76,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "206.1GB",
-                        "UsedSize":  "66.8GB",
+                        "FreeSize":  "207.3GB",
+                        "UsedSize":  "65.6GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "57d 6h 20m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n57 days, 6 hours, 20 minutes",
+    "Uptime":  "57d 6h 25m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n57 days, 6 hours, 25 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  15.88,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 5.91 Mbps\nReceived: 9.97 Mbps\nTotal: 15.88 Mbps",
+    "NetworkMbps":  15.23,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 5.6 Mbps\nReceived: 9.63 Mbps\nTotal: 15.23 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "09/04 21:25"
+    "LastPoll":  "09/04 21:30"
 }
