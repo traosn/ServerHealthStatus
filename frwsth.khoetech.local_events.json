@@ -2,7 +2,18 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1757134815219)\/",
+                       "TimeCreated":  "\/Date(1757177302263)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRFJBMP-MICROSOFT.WINDOWSSTORE.",
+                       "Id":  20,
+                       "ErrorCode":  "0x80073D02",
+                       "UpdateTitle":  "9WZDNCRFJBMP-MICROSOFT.WINDOWSSTORE",
+                       "EventRecordID":  4636
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1757177297737)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
@@ -12,31 +23,20 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  80631
+                       "EventRecordID":  82602
                    },
                    {
-                       "TimeCreated":  "\/Date(1757134815219)\/",
+                       "TimeCreated":  "\/Date(1757177297737)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{c59541b0-d164-45e6-9f38-4075ecb59fbb}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{1f9acaca-f5f3-4c5c-871c-ec71f8f9bce7}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
                        "Id":  203,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  80630
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1757131278193)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRFJBMP-MICROSOFT.WINDOWSSTORE.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9WZDNCRFJBMP-MICROSOFT.WINDOWSSTORE",
-                       "EventRecordID":  4577
+                       "EventRecordID":  82601
                    },
                    {
                        "TimeCreated":  "\/Date(1757099130590)\/",
@@ -89,5 +89,5 @@
                        "EventRecordID":  2888
                    }
                ],
-    "LastPoll":  "09/06 09:43"
+    "LastPoll":  "09/06 09:48"
 }
