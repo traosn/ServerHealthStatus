@@ -2,18 +2,23 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  2,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 258985.8s CPU time, 0.51GB RAM\nMsMpEng: 71287.2s CPU time, 0.25GB RAM\nexplorer: 4390.3s CPU time, 0.22GB RAM\nAgentService: 2906087.8s CPU time, 0.18GB RAM\npowershell: 169.2s CPU time, 0.17GB RAM\nSystem: 352151.3s CPU time, 0.15GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nsvchost: 14435.6s CPU time, 0.15GB RAM\nsvchost: 1164s CPU time, 0.11GB RAM\nWindowsAdminCenter: 211.9s CPU time, 0.11GB RAM",
+    "CPUPercent":  1.5,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 259007.2s CPU time, 0.49GB RAM\nMsMpEng: 71302.4s CPU time, 0.24GB RAM\nRegistry: 80.8s CPU time, 0.23GB RAM\nexplorer: 4390.3s CPU time, 0.22GB RAM\nAgentService: 2906088.3s CPU time, 0.19GB RAM\npowershell: 169.2s CPU time, 0.17GB RAM\nSystem: 352170.9s CPU time, 0.15GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nsvchost: 14440.8s CPU time, 0.15GB RAM\nsvchost: 1164.1s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.51,
-                                "CPU":  258985.8,
+                                "Memory":  0.49,
+                                "CPU":  259007.2,
                                 "Name":  "SentinelAgent"
                             },
                             {
-                                "Memory":  0.25,
-                                "CPU":  71287.2,
+                                "Memory":  0.24,
+                                "CPU":  71302.4,
                                 "Name":  "MsMpEng"
+                            },
+                            {
+                                "Memory":  0.23,
+                                "CPU":  80.8,
+                                "Name":  "Registry"
                             },
                             {
                                 "Memory":  0.22,
@@ -21,8 +26,8 @@
                                 "Name":  "explorer"
                             },
                             {
-                                "Memory":  0.18,
-                                "CPU":  2906087.8,
+                                "Memory":  0.19,
+                                "CPU":  2906088.3,
                                 "Name":  "AgentService"
                             },
                             {
@@ -32,7 +37,7 @@
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  352151.3,
+                                "CPU":  352170.9,
                                 "Name":  "System"
                             },
                             {
@@ -42,34 +47,29 @@
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  14435.6,
+                                "CPU":  14440.8,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  1164,
+                                "CPU":  1164.1,
                                 "Name":  "svchost"
-                            },
-                            {
-                                "Memory":  0.11,
-                                "CPU":  211.9,
-                                "Name":  "WindowsAdminCenter"
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  24.1,
-    "RAMUsedPercent":  33.5,
-    "RAMFreeGB":  47.9,
-    "DiskFreePercent":  19.6,
+    "RAMUsedGB":  25.6,
+    "RAMUsedPercent":  35.6,
+    "RAMFreeGB":  46.4,
+    "DiskFreePercent":  19.2,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 1TB, Free: 60.7GB of 1.1TB (5.6% free)\nC:\\ - Used: 65.7GB, Free: 207.1GB of 272.9GB (75.9% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 1TB, Free: 55.2GB of 1.1TB (5% free)\nC:\\ - Used: 65.9GB, Free: 207GB of 272.9GB (75.9% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
-                        "FreePercent":  5.6,
+                        "FreePercent":  5,
                         "TotalSize":  "1.1TB",
                         "SizeBytes":  1174252023808,
-                        "FreeSize":  "60.7GB",
+                        "FreeSize":  "55.2GB",
                         "UsedSize":  "1TB",
                         "Letter":  "F"
                     },
@@ -78,18 +78,18 @@
                         "FreePercent":  75.9,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "207.1GB",
-                        "UsedSize":  "65.7GB",
+                        "FreeSize":  "207GB",
+                        "UsedSize":  "65.9GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "59d 2h 0m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n59 days, 2 hours, 0 minutes",
+    "Uptime":  "59d 2h 5m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n59 days, 2 hours, 5 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  7.91,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 3.93 Mbps\nReceived: 3.98 Mbps\nTotal: 7.91 Mbps",
-    "UpdateStatus":  "2 Updates",
-    "UpdateCount":  2,
-    "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "09/06 17:05"
+    "NetworkMbps":  8.96,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 4.48 Mbps\nReceived: 4.48 Mbps\nTotal: 8.96 Mbps",
+    "UpdateStatus":  "3 Updates",
+    "UpdateCount":  3,
+    "UpdateTooltip":  "Click for details on 3 pending updates.",
+    "LastPoll":  "09/06 17:10"
 }
