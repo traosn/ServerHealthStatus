@@ -2,32 +2,27 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  2,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 262470.2s CPU time, 0.53GB RAM\nMsMpEng: 72942.1s CPU time, 0.32GB RAM\nRegistry: 82.4s CPU time, 0.24GB RAM\nexplorer: 4393.5s CPU time, 0.22GB RAM\nAgentService: 2975088s CPU time, 0.19GB RAM\npowershell: 172s CPU time, 0.17GB RAM\nSystem: 358037.2s CPU time, 0.16GB RAM\nsvchost: 15755.3s CPU time, 0.16GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nsvchost: 1199.9s CPU time, 0.11GB RAM",
+    "CPUPercent":  5.7,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 262506.8s CPU time, 0.82GB RAM\nMsMpEng: 72946.8s CPU time, 0.33GB RAM\nexplorer: 4393.6s CPU time, 0.22GB RAM\nAgentService: 2975088.2s CPU time, 0.19GB RAM\npowershell: 172s CPU time, 0.17GB RAM\nsvchost: 15760.8s CPU time, 0.16GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nSystem: 358042.8s CPU time, 0.15GB RAM\nsvchost: 1200s CPU time, 0.11GB RAM\nRegistry: 82.5s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.53,
-                                "CPU":  262470.2,
+                                "Memory":  0.82,
+                                "CPU":  262506.8,
                                 "Name":  "SentinelAgent"
                             },
                             {
-                                "Memory":  0.32,
-                                "CPU":  72942.1,
+                                "Memory":  0.33,
+                                "CPU":  72946.8,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.24,
-                                "CPU":  82.4,
-                                "Name":  "Registry"
-                            },
-                            {
                                 "Memory":  0.22,
-                                "CPU":  4393.5,
+                                "CPU":  4393.6,
                                 "Name":  "explorer"
                             },
                             {
                                 "Memory":  0.19,
-                                "CPU":  2975088,
+                                "CPU":  2975088.2,
                                 "Name":  "AgentService"
                             },
                             {
@@ -37,12 +32,7 @@
                             },
                             {
                                 "Memory":  0.16,
-                                "CPU":  358037.2,
-                                "Name":  "System"
-                            },
-                            {
-                                "Memory":  0.16,
-                                "CPU":  15755.3,
+                                "CPU":  15760.8,
                                 "Name":  "svchost"
                             },
                             {
@@ -51,45 +41,55 @@
                                 "Name":  "Secure System"
                             },
                             {
+                                "Memory":  0.15,
+                                "CPU":  358042.8,
+                                "Name":  "System"
+                            },
+                            {
                                 "Memory":  0.11,
-                                "CPU":  1199.9,
+                                "CPU":  1200,
                                 "Name":  "svchost"
+                            },
+                            {
+                                "Memory":  0.11,
+                                "CPU":  82.5,
+                                "Name":  "Registry"
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  25.5,
-    "RAMUsedPercent":  35.4,
-    "RAMFreeGB":  46.5,
-    "DiskFreePercent":  18.1,
+    "RAMUsedGB":  26,
+    "RAMUsedPercent":  36.1,
+    "RAMFreeGB":  46,
+    "DiskFreePercent":  17.9,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 1TB, Free: 40.4GB of 1.1TB (3.7% free)\nC:\\ - Used: 66GB, Free: 206.9GB of 272.9GB (75.8% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 1TB, Free: 37.8GB of 1.1TB (3.5% free)\nC:\\ - Used: 66.7GB, Free: 206.2GB of 272.9GB (75.6% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
-                        "FreePercent":  3.7,
+                        "FreePercent":  3.5,
                         "TotalSize":  "1.1TB",
                         "SizeBytes":  1174252023808,
-                        "FreeSize":  "40.4GB",
+                        "FreeSize":  "37.8GB",
                         "UsedSize":  "1TB",
                         "Letter":  "F"
                     },
                     {
                         "Label":  "",
-                        "FreePercent":  75.8,
+                        "FreePercent":  75.6,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "206.9GB",
-                        "UsedSize":  "66GB",
+                        "FreeSize":  "206.2GB",
+                        "UsedSize":  "66.7GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "60d 22h 15m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n60 days, 22 hours, 15 minutes",
+    "Uptime":  "60d 22h 20m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n60 days, 22 hours, 20 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  4.1400000000000006,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.03 Mbps\nReceived: 4.11 Mbps\nTotal: 4.14 Mbps",
+    "NetworkMbps":  4.13,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.03 Mbps\nReceived: 4.1 Mbps\nTotal: 4.13 Mbps",
     "UpdateStatus":  "3 Updates",
     "UpdateCount":  3,
     "UpdateTooltip":  "Click for details on 3 pending updates.",
-    "LastPoll":  "09/07 13:20"
+    "LastPoll":  "09/07 13:25"
 }
