@@ -2,27 +2,32 @@
     "Computer":  "VSPS1",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  5,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 20309.9s CPU time, 0.68GB RAM\nMsMpEng: 55324s CPU time, 0.31GB RAM\nMsSense: 22432.3s CPU time, 0.23GB RAM\nsvchost: 7135.7s CPU time, 0.2GB RAM\nexplorer: 117.5s CPU time, 0.19GB RAM\npowershell: 23.2s CPU time, 0.18GB RAM\nchrome: 3485.2s CPU time, 0.18GB RAM\nSearchUI: 16.6s CPU time, 0.17GB RAM\nSearchUI: 9s CPU time, 0.16GB RAM\nWmiPrvSE: 21973.8s CPU time, 0.14GB RAM",
+    "CPUPercent":  8.1,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 20320.6s CPU time, 0.68GB RAM\nMsMpEng: 55333.6s CPU time, 0.31GB RAM\nRegistry: 71.6s CPU time, 0.29GB RAM\nMsSense: 22439.3s CPU time, 0.23GB RAM\nsvchost: 7137.8s CPU time, 0.2GB RAM\nexplorer: 117.5s CPU time, 0.19GB RAM\npowershell: 23.2s CPU time, 0.18GB RAM\nchrome: 3487.5s CPU time, 0.18GB RAM\nSearchUI: 16.6s CPU time, 0.17GB RAM\nSearchUI: 9s CPU time, 0.16GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.68,
-                                "CPU":  20309.9,
+                                "CPU":  20320.6,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  55324,
+                                "CPU":  55333.6,
                                 "Name":  "MsMpEng"
                             },
                             {
+                                "Memory":  0.29,
+                                "CPU":  71.6,
+                                "Name":  "Registry"
+                            },
+                            {
                                 "Memory":  0.23,
-                                "CPU":  22432.3,
+                                "CPU":  22439.3,
                                 "Name":  "MsSense"
                             },
                             {
                                 "Memory":  0.2,
-                                "CPU":  7135.7,
+                                "CPU":  7137.8,
                                 "Name":  "svchost"
                             },
                             {
@@ -37,7 +42,7 @@
                             },
                             {
                                 "Memory":  0.18,
-                                "CPU":  3485.2,
+                                "CPU":  3487.5,
                                 "Name":  "chrome"
                             },
                             {
@@ -49,36 +54,31 @@
                                 "Memory":  0.16,
                                 "CPU":  9,
                                 "Name":  "SearchUI"
-                            },
-                            {
-                                "Memory":  0.14,
-                                "CPU":  21973.8,
-                                "Name":  "WmiPrvSE"
                             }
                         ],
     "RAMTotalGB":  16,
-    "RAMUsedGB":  6.5,
-    "RAMUsedPercent":  40.6,
-    "RAMFreeGB":  9.5,
+    "RAMUsedGB":  6.7,
+    "RAMUsedPercent":  41.9,
+    "RAMFreeGB":  9.3,
     "DiskFreePercent":  65.3,
     "TotalSize":  "126.4GB",
-    "DiskTooltip":  "Total Storage: 126.4GB\n\nDisk Usage:\nC:\\ - Used: 43.8GB, Free: 82.6GB of 126.4GB (65.3% free)",
+    "DiskTooltip":  "Total Storage: 126.4GB\n\nDisk Usage:\nC:\\ - Used: 43.9GB, Free: 82.5GB of 126.4GB (65.3% free)",
     "Volumes":  {
                     "Label":  "",
                     "FreePercent":  65.3,
                     "TotalSize":  "126.4GB",
                     "SizeBytes":  135719284736,
-                    "FreeSize":  "82.6GB",
-                    "UsedSize":  "43.8GB",
+                    "FreeSize":  "82.5GB",
+                    "UsedSize":  "43.9GB",
                     "Letter":  "C"
                 },
-    "Uptime":  "17d 11h 58m",
-    "UptimeTooltip":  "Boot Time: 2025-08-22 01:52:33\nSystem has been running for:\n17 days, 11 hours, 58 minutes",
+    "Uptime":  "18d 12h 3m",
+    "UptimeTooltip":  "Boot Time: 2025-08-22 01:52:33\nSystem has been running for:\n18 days, 12 hours, 3 minutes",
     "BootTime":  "\/Date(1755852753000)\/",
-    "NetworkMbps":  0.15,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.09 Mbps\nReceived: 0.06 Mbps\nTotal: 0.15 Mbps",
+    "NetworkMbps":  0.02,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.02 Mbps\nReceived: 0 Mbps\nTotal: 0.02 Mbps",
     "UpdateStatus":  "3 Updates",
     "UpdateCount":  3,
     "UpdateTooltip":  "Click for details on 3 pending updates.",
-    "LastPoll":  "09/08 13:51"
+    "LastPoll":  "09/08 13:56"
 }
