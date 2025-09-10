@@ -2,32 +2,37 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  23.5,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 24609.7s CPU time, 1.55GB RAM\nSSPService: 20392.4s CPU time, 0.38GB RAM\nMsMpEng: 12570.8s CPU time, 0.31GB RAM\nSophosFileScanner: 617s CPU time, 0.2GB RAM\nHSPS.eServices.DigitalHighway.Services: 133.9s CPU time, 0.16GB RAM\ndns: 30.9s CPU time, 0.13GB RAM\nRegistry: 7.3s CPU time, 0.12GB RAM\nDentrixUpdaterService: 267.4s CPU time, 0.11GB RAM\nDentrixClientService: 186.6s CPU time, 0.1GB RAM\nSystem: 6115.3s CPU time, 0.1GB RAM",
+    "CPUPercent":  26.3,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 24617s CPU time, 1.55GB RAM\nSSPService: 20418.5s CPU time, 0.38GB RAM\nMsMpEng: 12585.8s CPU time, 0.31GB RAM\nRegistry: 7.3s CPU time, 0.24GB RAM\nSophosFileScanner: 621.7s CPU time, 0.2GB RAM\nHSPS.eServices.DigitalHighway.Services: 135.4s CPU time, 0.17GB RAM\ndns: 30.9s CPU time, 0.13GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 2.7s CPU time, 0.11GB RAM\nDentrixUpdaterService: 267.8s CPU time, 0.11GB RAM\nDentrixClientService: 186.8s CPU time, 0.1GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.55,
-                                "CPU":  24609.7,
+                                "CPU":  24617,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  0.38,
-                                "CPU":  20392.4,
+                                "CPU":  20418.5,
                                 "Name":  "SSPService"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  12570.8,
+                                "CPU":  12585.8,
                                 "Name":  "MsMpEng"
                             },
                             {
+                                "Memory":  0.24,
+                                "CPU":  7.3,
+                                "Name":  "Registry"
+                            },
+                            {
                                 "Memory":  0.2,
-                                "CPU":  617,
+                                "CPU":  621.7,
                                 "Name":  "SophosFileScanner"
                             },
                             {
-                                "Memory":  0.16,
-                                "CPU":  133.9,
+                                "Memory":  0.17,
+                                "CPU":  135.4,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
@@ -36,41 +41,36 @@
                                 "Name":  "dns"
                             },
                             {
-                                "Memory":  0.12,
-                                "CPU":  7.3,
-                                "Name":  "Registry"
+                                "Memory":  0.11,
+                                "CPU":  2.7,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  267.4,
+                                "CPU":  267.8,
                                 "Name":  "DentrixUpdaterService"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  186.6,
+                                "CPU":  186.8,
                                 "Name":  "DentrixClientService"
-                            },
-                            {
-                                "Memory":  0.1,
-                                "CPU":  6115.3,
-                                "Name":  "System"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  8,
-    "RAMUsedPercent":  51,
-    "RAMFreeGB":  7.7,
-    "DiskFreePercent":  90.1,
+    "RAMUsedGB":  8.1,
+    "RAMUsedPercent":  51.6,
+    "RAMFreeGB":  7.6,
+    "DiskFreePercent":  91.2,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 102.6GB, Free: 397.4GB of 500GB (79.5% free)\nD:\\ (DATA) - Used: 266.5GB, Free: 2.9TB of 3.1TB (91.7% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 59.7GB, Free: 440.3GB of 500GB (88.1% free)\nD:\\ (DATA) - Used: 266.5GB, Free: 2.9TB of 3.1TB (91.7% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
-                        "FreePercent":  79.5,
+                        "FreePercent":  88.1,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "397.4GB",
-                        "UsedSize":  "102.6GB",
+                        "FreeSize":  "440.3GB",
+                        "UsedSize":  "59.7GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "7d 5h 23m",
-    "UptimeTooltip":  "Boot Time: 2025-09-02 16:40:55\nSystem has been running for:\n7 days, 5 hours, 23 minutes",
+    "Uptime":  "7d 5h 38m",
+    "UptimeTooltip":  "Boot Time: 2025-09-02 16:40:55\nSystem has been running for:\n7 days, 5 hours, 38 minutes",
     "BootTime":  "\/Date(1756856455000)\/",
-    "NetworkMbps":  6.63,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 6.3 Mbps\nReceived: 0.33 Mbps\nTotal: 6.63 Mbps",
+    "NetworkMbps":  0.16999999999999998,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.08 Mbps\nReceived: 0.09 Mbps\nTotal: 0.17 Mbps",
     "UpdateStatus":  "3 Updates",
     "UpdateCount":  3,
     "UpdateTooltip":  "Click for details on 3 pending updates.",
-    "LastPoll":  "09/09 22:05"
+    "LastPoll":  "09/09 22:20"
 }
