@@ -2,18 +2,28 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  43,
-    "CPUTooltip":  "Top CPU Processes:\nMsMpEng: 40.6s CPU time, 0.34GB RAM\nctreesql: 44.3s CPU time, 0.3GB RAM\nRegistry: 2.1s CPU time, 0.19GB RAM\nSSPService: 30.4s CPU time, 0.19GB RAM\nSophosFileScanner: 11.6s CPU time, 0.18GB RAM\ndns: 0.2s CPU time, 0.12GB RAM\nSystem: 31.2s CPU time, 0.11GB RAM\npowershell: 2.3s CPU time, 0.09GB RAM\nAteraAgent: 2.5s CPU time, 0.07GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 1.6s CPU time, 0.07GB RAM",
+    "CPUPercent":  2.8,
+    "CPUTooltip":  "Top CPU Processes:\nMsMpEng: 75s CPU time, 0.34GB RAM\nctreesql: 79.4s CPU time, 0.28GB RAM\nSSPService: 76.8s CPU time, 0.24GB RAM\nSophosFileScanner: 36s CPU time, 0.2GB RAM\nRegistry: 2.1s CPU time, 0.19GB RAM\ndns: 0.3s CPU time, 0.12GB RAM\nSystem: 51s CPU time, 0.11GB RAM\npowershell: 0.7s CPU time, 0.09GB RAM\nlsass: 3.7s CPU time, 0.08GB RAM\nAteraAgent: 2.8s CPU time, 0.07GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.34,
-                                "CPU":  40.6,
+                                "CPU":  75,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.3,
-                                "CPU":  44.3,
+                                "Memory":  0.28,
+                                "CPU":  79.4,
                                 "Name":  "ctreesql"
+                            },
+                            {
+                                "Memory":  0.24,
+                                "CPU":  76.8,
+                                "Name":  "SSPService"
+                            },
+                            {
+                                "Memory":  0.2,
+                                "CPU":  36,
+                                "Name":  "SophosFileScanner"
                             },
                             {
                                 "Memory":  0.19,
@@ -21,45 +31,35 @@
                                 "Name":  "Registry"
                             },
                             {
-                                "Memory":  0.19,
-                                "CPU":  30.4,
-                                "Name":  "SSPService"
-                            },
-                            {
-                                "Memory":  0.18,
-                                "CPU":  11.6,
-                                "Name":  "SophosFileScanner"
-                            },
-                            {
                                 "Memory":  0.12,
-                                "CPU":  0.2,
+                                "CPU":  0.3,
                                 "Name":  "dns"
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  31.2,
+                                "CPU":  51,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.09,
-                                "CPU":  2.3,
+                                "CPU":  0.7,
                                 "Name":  "powershell"
                             },
                             {
-                                "Memory":  0.07,
-                                "CPU":  2.5,
-                                "Name":  "AteraAgent"
+                                "Memory":  0.08,
+                                "CPU":  3.7,
+                                "Name":  "lsass"
                             },
                             {
                                 "Memory":  0.07,
-                                "CPU":  1.6,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                                "CPU":  2.8,
+                                "Name":  "AteraAgent"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  4.2,
-    "RAMUsedPercent":  26.8,
-    "RAMFreeGB":  11.5,
+    "RAMUsedGB":  4.3,
+    "RAMUsedPercent":  27.4,
+    "RAMFreeGB":  11.4,
     "DiskFreePercent":  91.1,
     "TotalSize":  "3.6TB",
     "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 62.1GB, Free: 437.9GB of 500GB (87.6% free)\nD:\\ (DATA) - Used: 266.1GB, Free: 2.9TB of 3.1TB (91.7% free)",
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "0d 0h 12m",
-    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n0 days, 0 hours, 12 minutes",
+    "Uptime":  "0d 0h 22m",
+    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n0 days, 0 hours, 22 minutes",
     "BootTime":  "\/Date(1757637451000)\/",
-    "NetworkMbps":  0,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0 Mbps\nReceived: 0 Mbps\nTotal: 0 Mbps",
+    "NetworkMbps":  0.14,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.08 Mbps\nReceived: 0.06 Mbps\nTotal: 0.14 Mbps",
     "UpdateStatus":  "Up-to-date",
     "UpdateCount":  0,
     "UpdateTooltip":  "No pending updates found.",
-    "LastPoll":  "09/11 17:49"
+    "LastPoll":  "09/11 17:59"
 }
