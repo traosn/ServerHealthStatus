@@ -2,6 +2,17 @@
     "Computer":  "SANSERV2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1757639053259)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy443 - 00000000000001B4,0x0053c198,00000215ABD930B0,0,00000215ABD920A0,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  208279
+                   },
+                   {
                        "TimeCreated":  "\/Date(1757638552516)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -115,20 +126,7 @@
                        "ErrorCode":  "0x80070005",
                        "UpdateTitle":  null,
                        "EventRecordID":  208213
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1757637500594)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
-                       "Id":  101,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  1027004
                    }
                ],
-    "LastPoll":  "09/11 17:59"
+    "LastPoll":  "09/11 18:04"
 }
