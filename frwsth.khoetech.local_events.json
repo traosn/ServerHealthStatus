@@ -2,7 +2,18 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1757702530402)\/",
+                       "TimeCreated":  "\/Date(1757707458234)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9MSSGKG348SP-MicrosoftWindows.Client.WebExperience.",
+                       "Id":  20,
+                       "ErrorCode":  "0x80073D02",
+                       "UpdateTitle":  "9MSSGKG348SP-MicrosoftWindows.Client.WebExperience",
+                       "EventRecordID":  5331
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1757707434933)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
@@ -12,20 +23,20 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  106239
+                       "EventRecordID":  106581
                    },
                    {
-                       "TimeCreated":  "\/Date(1757702530402)\/",
+                       "TimeCreated":  "\/Date(1757707434933)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{0b29396e-1e9b-4007-a7a7-84577c24349e}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{f737caa2-83bd-4731-9689-4988e436da3d}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
                        "Id":  203,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  106238
+                       "EventRecordID":  106580
                    },
                    {
                        "TimeCreated":  "\/Date(1757698627872)\/",
@@ -65,5 +76,5 @@
                        "EventRecordID":  6980
                    }
                ],
-    "LastPoll":  "09/12 13:04"
+    "LastPoll":  "09/12 13:08"
 }
