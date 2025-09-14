@@ -2,6 +2,32 @@
     "Computer":  "SANSERV2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1757871697844)\/",
+                       "Source":  "NETLOGON",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The session setup from computer \u0027FO-2\u0027 failed because the security database does not contain a trust account \u0027FO-2$\u0027 referenced by the specified computer.  \r",
+                       "Id":  5723,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  988175
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1757871511021)\/",
+                       "Source":  "NETLOGON",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The session setup from the computer FO-2 failed to authenticate. The following error occurred: \r",
+                       "Id":  5805,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  988166
+                   },
+                   {
                        "TimeCreated":  "\/Date(1757863018256)\/",
                        "Source":  "Microsoft-Windows-Perflib",
                        "LogName":  "Application",
@@ -15,32 +41,6 @@
                        "EventRecordID":  210646
                    },
                    {
-                       "TimeCreated":  "\/Date(1757857108366)\/",
-                       "Source":  "NETLOGON",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The session setup from computer \u0027FO-2\u0027 failed because the security database does not contain a trust account \u0027FO-2$\u0027 referenced by the specified computer.  \r",
-                       "Id":  5723,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  987732
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1757857108365)\/",
-                       "Source":  "NETLOGON",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The session setup from the computer FO-2 failed to authenticate. The following error occurred: \r",
-                       "Id":  5805,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  987731
-                   },
-                   {
                        "TimeCreated":  "\/Date(1757834334307)\/",
                        "Source":  "VSS",
                        "LogName":  "Application",
@@ -52,5 +52,5 @@
                        "EventRecordID":  210366
                    }
                ],
-    "LastPoll":  "09/14 10:34"
+    "LastPoll":  "09/14 10:44"
 }
