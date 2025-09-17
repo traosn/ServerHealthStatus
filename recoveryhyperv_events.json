@@ -1,15 +1,28 @@
 {
     "Computer":  "RECOVERYHYPERV",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1758008734504)\/",
-                   "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                   "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                   "Level":  "Error",
-                   "Message":  "Windows Update failed to check for updates with error 0x80244022.",
-                   "Id":  25,
-                   "ErrorCode":  "0x80244022",
-                   "UpdateTitle":  null,
-                   "EventRecordID":  15149
-               },
-    "LastPoll":  "09/16 23:25"
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1758090420331)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copies of volume F: were aborted because the shadow copy storage failed to grow.",
+                       "Id":  35,
+                       "ErrorCode":  "0x0005",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  312747
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758008734504)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x80244022.",
+                       "Id":  25,
+                       "ErrorCode":  "0x80244022",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  15149
+                   }
+               ],
+    "LastPoll":  "09/16 23:30"
 }
