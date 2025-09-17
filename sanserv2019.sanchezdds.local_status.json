@@ -2,37 +2,32 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  28.1,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 18214.5s CPU time, 1.54GB RAM\nSSPService: 14909.8s CPU time, 0.38GB RAM\nMsMpEng: 9861.9s CPU time, 0.35GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 2.1s CPU time, 0.21GB RAM\nRegistry: 8.2s CPU time, 0.2GB RAM\nSophosFileScanner: 272.3s CPU time, 0.19GB RAM\ndns: 28.7s CPU time, 0.13GB RAM\nsvchost: 1671s CPU time, 0.12GB RAM\nHSPS.eServices.DigitalHighway.Services: 78.7s CPU time, 0.12GB RAM\nDentrixUpdaterService: 239s CPU time, 0.11GB RAM",
+    "CPUPercent":  2,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 18220.4s CPU time, 1.54GB RAM\nSSPService: 14919.9s CPU time, 0.38GB RAM\nMsMpEng: 9868.5s CPU time, 0.35GB RAM\nRegistry: 8.3s CPU time, 0.2GB RAM\nSophosFileScanner: 275.4s CPU time, 0.19GB RAM\ndns: 28.7s CPU time, 0.13GB RAM\nsvchost: 1671.7s CPU time, 0.12GB RAM\nHSPS.eServices.DigitalHighway.Services: 79.2s CPU time, 0.12GB RAM\nDentrixUpdaterService: 239.1s CPU time, 0.11GB RAM\nlsass: 775.6s CPU time, 0.1GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.54,
-                                "CPU":  18214.5,
+                                "CPU":  18220.4,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  0.38,
-                                "CPU":  14909.8,
+                                "CPU":  14919.9,
                                 "Name":  "SSPService"
                             },
                             {
                                 "Memory":  0.35,
-                                "CPU":  9861.9,
+                                "CPU":  9868.5,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.21,
-                                "CPU":  2.1,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
-                            },
-                            {
                                 "Memory":  0.2,
-                                "CPU":  8.2,
+                                "CPU":  8.3,
                                 "Name":  "Registry"
                             },
                             {
                                 "Memory":  0.19,
-                                "CPU":  272.3,
+                                "CPU":  275.4,
                                 "Name":  "SophosFileScanner"
                             },
                             {
@@ -42,35 +37,40 @@
                             },
                             {
                                 "Memory":  0.12,
-                                "CPU":  1671,
+                                "CPU":  1671.7,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.12,
-                                "CPU":  78.7,
+                                "CPU":  79.2,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  239,
+                                "CPU":  239.1,
                                 "Name":  "DentrixUpdaterService"
+                            },
+                            {
+                                "Memory":  0.1,
+                                "CPU":  775.6,
+                                "Name":  "lsass"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  7.2,
-    "RAMUsedPercent":  45.9,
-    "RAMFreeGB":  8.5,
+    "RAMUsedGB":  7,
+    "RAMUsedPercent":  44.6,
+    "RAMFreeGB":  8.7,
     "DiskFreePercent":  91.2,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 62GB, Free: 438GB of 500GB (87.6% free)\nD:\\ (DATA) - Used: 265.5GB, Free: 2.9TB of 3.1TB (91.8% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 61.9GB, Free: 438.1GB of 500GB (87.6% free)\nD:\\ (DATA) - Used: 265.5GB, Free: 2.9TB of 3.1TB (91.8% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  87.6,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "438GB",
-                        "UsedSize":  "62GB",
+                        "FreeSize":  "438.1GB",
+                        "UsedSize":  "61.9GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "6d 18h 27m",
-    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n6 days, 18 hours, 27 minutes",
+    "Uptime":  "6d 18h 32m",
+    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n6 days, 18 hours, 32 minutes",
     "BootTime":  "\/Date(1757637451000)\/",
-    "NetworkMbps":  1.03,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.64 Mbps\nReceived: 0.39 Mbps\nTotal: 1.03 Mbps",
+    "NetworkMbps":  0.85000000000000009,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.45 Mbps\nReceived: 0.4 Mbps\nTotal: 0.85 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "09/17 12:04"
+    "LastPoll":  "09/17 12:10"
 }
