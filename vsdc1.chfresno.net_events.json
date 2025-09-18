@@ -1,17 +1,30 @@
 {
     "Computer":  "VSDC1",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1758166853449)\/",
-                   "Source":  "Microsoft-Windows-Perflib",
-                   "LogName":  "Application",
-                   "Level":  "Error",
-                   "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\System32\\iasperf.dll\" (Win32 error code The specified module could not be found.).",
-                   "Id":  1023,
-                   "ErrorCode":  {
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1758198161292)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x80244022.",
+                       "Id":  25,
+                       "ErrorCode":  "0x80244022",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  17759
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758166853449)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\System32\\iasperf.dll\" (Win32 error code The specified module could not be found.).",
+                       "Id":  1023,
+                       "ErrorCode":  {
 
-                                 },
-                   "UpdateTitle":  null,
-                   "EventRecordID":  60858
-               },
-    "LastPoll":  "09/18 05:22"
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  60858
+                   }
+               ],
+    "LastPoll":  "09/18 05:27"
 }
