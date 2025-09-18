@@ -1,15 +1,28 @@
 {
     "Computer":  "RECOVERYHYPERV",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1758138520534)\/",
-                   "Source":  "Volsnap",
-                   "LogName":  "System",
-                   "Level":  "Error",
-                   "Message":  "The shadow copies of volume F: were aborted because the shadow copy storage failed to grow.",
-                   "Id":  35,
-                   "ErrorCode":  "0x0005",
-                   "UpdateTitle":  null,
-                   "EventRecordID":  314943
-               },
-    "LastPoll":  "09/17 17:45"
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1758156391956)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copies of volume F: were aborted because the shadow copy storage could not grow due to a user imposed limit.",
+                       "Id":  36,
+                       "ErrorCode":  "0x0005",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  315429
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758138520534)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copies of volume F: were aborted because the shadow copy storage failed to grow.",
+                       "Id":  35,
+                       "ErrorCode":  "0x0005",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  314943
+                   }
+               ],
+    "LastPoll":  "09/17 17:55"
 }
