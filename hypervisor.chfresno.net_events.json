@@ -2,18 +2,18 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1758191549956)\/",
+                       "TimeCreated":  "\/Date(1758192158426)\/",
                        "Source":  "VSS",
                        "LogName":  "Application",
                        "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 0000000000000378,0x0053c008,000002AD9A767450,0,000002AD9A76A750,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 0000000000000248,0x0053c008,000002AD9A76FC50,0,000002AD9A763050,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
                        "Id":  12289,
                        "ErrorCode":  "0x0053c008",
                        "UpdateTitle":  null,
-                       "EventRecordID":  14249
+                       "EventRecordID":  14260
                    },
                    {
-                       "TimeCreated":  "\/Date(1758191549941)\/",
+                       "TimeCreated":  "\/Date(1758192158414)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
                        "Level":  "Error",
@@ -21,7 +21,20 @@
                        "Id":  28,
                        "ErrorCode":  "0x0001",
                        "UpdateTitle":  null,
-                       "EventRecordID":  138784
+                       "EventRecordID":  138831
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758192005716)\/",
+                       "Source":  "Microsoft-Windows-TPM-WMI",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
+                       "Id":  1796,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  138822
                    },
                    {
                        "TimeCreated":  "\/Date(1758155835493)\/",
@@ -61,19 +74,6 @@
                        "EventRecordID":  13397
                    },
                    {
-                       "TimeCreated":  "\/Date(1758148805626)\/",
-                       "Source":  "Microsoft-Windows-TPM-WMI",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
-                       "Id":  1796,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  135891
-                   },
-                   {
                        "TimeCreated":  "\/Date(1758130616891)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -100,5 +100,5 @@
                        "EventRecordID":  39967
                    }
                ],
-    "LastPoll":  "09/18 03:38"
+    "LastPoll":  "09/18 03:43"
 }
