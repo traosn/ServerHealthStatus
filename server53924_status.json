@@ -2,22 +2,22 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  9.4,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 214249s CPU time, 12.21GB RAM\nsqlservr: 12107.7s CPU time, 2.17GB RAM\nSSPService: 85379.4s CPU time, 1.36GB RAM\nDell.CoreServices.Client: 189s CPU time, 1.16GB RAM\nsvchost: 2996.5s CPU time, 0.7GB RAM\nSupportAssistAgent: 218s CPU time, 0.43GB RAM\nAppLauncher: 8.1s CPU time, 0.43GB RAM\nMsMpEng: 48512.2s CPU time, 0.35GB RAM\nTiWorker: 407.7s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 27032.2s CPU time, 0.23GB RAM",
+    "CPUPercent":  13.3,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 214277.1s CPU time, 12.21GB RAM\nsqlservr: 12107.9s CPU time, 2.17GB RAM\nSSPService: 85397.7s CPU time, 1.36GB RAM\nDell.CoreServices.Client: 189s CPU time, 1.16GB RAM\nsvchost: 3000.2s CPU time, 0.7GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 34.3s CPU time, 0.65GB RAM\nSupportAssistAgent: 218.1s CPU time, 0.43GB RAM\nAppLauncher: 8.1s CPU time, 0.43GB RAM\nMsMpEng: 48518.8s CPU time, 0.35GB RAM\nDell.TechHub.Instrumentation.SubAgent: 27035.7s CPU time, 0.23GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  12.21,
-                                "CPU":  214249,
+                                "CPU":  214277.1,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  2.17,
-                                "CPU":  12107.7,
+                                "CPU":  12107.9,
                                 "Name":  "sqlservr"
                             },
                             {
                                 "Memory":  1.36,
-                                "CPU":  85379.4,
+                                "CPU":  85397.7,
                                 "Name":  "SSPService"
                             },
                             {
@@ -27,12 +27,17 @@
                             },
                             {
                                 "Memory":  0.7,
-                                "CPU":  2996.5,
+                                "CPU":  3000.2,
                                 "Name":  "svchost"
                             },
                             {
+                                "Memory":  0.65,
+                                "CPU":  34.3,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
                                 "Memory":  0.43,
-                                "CPU":  218,
+                                "CPU":  218.1,
                                 "Name":  "SupportAssistAgent"
                             },
                             {
@@ -42,54 +47,49 @@
                             },
                             {
                                 "Memory":  0.35,
-                                "CPU":  48512.2,
+                                "CPU":  48518.8,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.24,
-                                "CPU":  407.7,
-                                "Name":  "TiWorker"
-                            },
-                            {
                                 "Memory":  0.23,
-                                "CPU":  27032.2,
+                                "CPU":  27035.7,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  27.5,
-    "RAMUsedPercent":  86.5,
-    "RAMFreeGB":  4.3,
-    "DiskFreePercent":  63.3,
+    "RAMUsedGB":  27.9,
+    "RAMUsedPercent":  87.7,
+    "RAMFreeGB":  3.9,
+    "DiskFreePercent":  62,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 83.5GB, Free: 431.5GB of 515GB (83.8% free)\nD:\\ (DATA) - Used: 3.9TB, Free: 6.5TB of 10.4TB (62.3% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 83.6GB, Free: 431.4GB of 515GB (83.8% free)\nD:\\ (DATA) - Used: 4.1TB, Free: 6.3TB of 10.4TB (60.9% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  83.8,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "431.5GB",
-                        "UsedSize":  "83.5GB",
+                        "FreeSize":  "431.4GB",
+                        "UsedSize":  "83.6GB",
                         "Letter":  "C"
                     },
                     {
                         "Label":  "DATA",
-                        "FreePercent":  62.3,
+                        "FreePercent":  60.9,
                         "TotalSize":  "10.4TB",
                         "SizeBytes":  11444131196928,
-                        "FreeSize":  "6.5TB",
-                        "UsedSize":  "3.9TB",
+                        "FreeSize":  "6.3TB",
+                        "UsedSize":  "4.1TB",
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "32d 17h 59m",
-    "UptimeTooltip":  "Boot Time: 2025-08-17 00:02:11\nSystem has been running for:\n32 days, 17 hours, 59 minutes",
+    "Uptime":  "32d 18h 4m",
+    "UptimeTooltip":  "Boot Time: 2025-08-17 00:02:11\nSystem has been running for:\n32 days, 18 hours, 4 minutes",
     "BootTime":  "\/Date(1755414131000)\/",
-    "NetworkMbps":  0.31,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.15 Mbps\nReceived: 0.16 Mbps\nTotal: 0.31 Mbps",
+    "NetworkMbps":  43.800000000000004,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 40.49 Mbps\nReceived: 3.31 Mbps\nTotal: 43.8 Mbps",
     "UpdateStatus":  "3 Updates",
     "UpdateCount":  3,
     "UpdateTooltip":  "Click for details on 3 pending updates.",
-    "LastPoll":  "09/17 18:02"
+    "LastPoll":  "09/17 18:07"
 }
