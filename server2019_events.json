@@ -2,6 +2,45 @@
     "Computer":  "SERVER2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1758262217668)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Service Control Manager tried to take a corrective action (Restart the service) after the unexpected termination of the NexHealth Synchronizer service, but this action failed with the following error: \r",
+                       "Id":  7032,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  2841749
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758262157667)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The NexHealth Synchronizer service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 60000 milliseconds: Restart the service.",
+                       "Id":  7031,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  2841746
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758262155646)\/",
+                       "Source":  "Microsoft-Windows-RestartManager",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Application or service \u0027NexHealth Synchronizer\u0027 could not be shut down.",
+                       "Id":  10006,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  242149
+                   },
+                   {
                        "TimeCreated":  "\/Date(1758260610537)\/",
                        "Source":  "LHWinService",
                        "LogName":  "Application",
@@ -26,5 +65,5 @@
                        "EventRecordID":  2838805
                    }
                ],
-    "LastPoll":  "09/18 23:06"
+    "LastPoll":  "09/18 23:11"
 }
