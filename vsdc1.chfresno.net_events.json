@@ -2,6 +2,17 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1758403475356)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({256698e6-f91d-4672-a2d4-3a6578715c05},{884b09c6-4716-4b13-b8e5-73fe1fc5f575},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
+                       "Id":  12293,
+                       "ErrorCode":  "0x8000ffff",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  63945
+                   },
+                   {
                        "TimeCreated":  "\/Date(1758400198818)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
@@ -11,17 +22,6 @@
                        "ErrorCode":  "0x0001",
                        "UpdateTitle":  null,
                        "EventRecordID":  169230
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758385435311)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({778fcee4-b2c4-42d0-b69b-e7e2817939df},{313f1a3c-61d7-4e3c-8fd5-e4448f1f3432},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
-                       "Id":  12293,
-                       "ErrorCode":  "0x8000ffff",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  63706
                    },
                    {
                        "TimeCreated":  "\/Date(1758340943337)\/",
@@ -37,5 +37,5 @@
                        "EventRecordID":  63100
                    }
                ],
-    "LastPoll":  "09/20 14:22"
+    "LastPoll":  "09/20 14:27"
 }
