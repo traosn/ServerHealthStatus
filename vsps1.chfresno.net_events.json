@@ -1,15 +1,28 @@
 {
     "Computer":  "VSPS1",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1758366109278)\/",
-                   "Source":  "Volsnap",
-                   "LogName":  "System",
-                   "Level":  "Error",
-                   "Message":  "The shadow copies of volume \\\\?\\Volume{26d27369-9611-11f0-9727-00155d611103} were aborted during detection because a critical control file could not be opened.",
-                   "Id":  27,
-                   "ErrorCode":  "0x0001",
-                   "UpdateTitle":  null,
-                   "EventRecordID":  164746
-               },
-    "LastPoll":  "09/20 08:10"
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1758381013735)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
+                       "Id":  25,
+                       "ErrorCode":  "0x800B0109",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  16380
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758366109278)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copies of volume \\\\?\\Volume{26d27369-9611-11f0-9727-00155d611103} were aborted during detection because a critical control file could not be opened.",
+                       "Id":  27,
+                       "ErrorCode":  "0x0001",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  164746
+                   }
+               ],
+    "LastPoll":  "09/20 08:12"
 }
