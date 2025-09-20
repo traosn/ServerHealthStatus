@@ -1,45 +1,17 @@
 {
     "Computer":  "CRMSERVER2019",
-    "Events":  [
-                   {
-                       "TimeCreated":  "\/Date(1758325367711)\/",
-                       "Source":  "Microsoft-Windows-Perflib",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
-                       "Id":  1023,
-                       "ErrorCode":  {
+    "Events":  {
+                   "TimeCreated":  "\/Date(1758325367711)\/",
+                   "Source":  "Microsoft-Windows-Perflib",
+                   "LogName":  "Application",
+                   "Level":  "Error",
+                   "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                   "Id":  1023,
+                   "ErrorCode":  {
 
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  43134
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758324532913)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{e44269b0-93a4-4e33-a5e7-f73ba0597fd3}\" of \"\\Microsoft\\Windows\\WindowsColorSystem\\Calibration Loader\"  task for user \"KHOETECH\\traoh\" . Additional Data: Error Value: 2147500037.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  229822
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758324532913)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\WindowsColorSystem\\Calibration Loader\" , instance \"{e44269b0-93a4-4e33-a5e7-f73ba0597fd3}\" , action \"Color Calibration Loader\" . Additional Data: Error Value: 2147500037.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  229821
-                   }
-               ],
-    "LastPoll":  "09/20 16:26"
+                                 },
+                   "UpdateTitle":  null,
+                   "EventRecordID":  43134
+               },
+    "LastPoll":  "09/20 16:31"
 }
