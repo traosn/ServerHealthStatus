@@ -3,7 +3,7 @@
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
     "CPUPercent":  0,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 27039.6s CPU time, 1.67GB RAM\nSSPService: 21535.3s CPU time, 0.38GB RAM\nMsMpEng: 4347.8s CPU time, 0.32GB RAM\nRegistry: 11.4s CPU time, 0.24GB RAM\nSophosFileScanner: 289.4s CPU time, 0.2GB RAM\nHSPS.eServices.DigitalHighway.Services: 156.2s CPU time, 0.19GB RAM\nsvchost: 2414.6s CPU time, 0.14GB RAM\ndns: 38.4s CPU time, 0.13GB RAM\nDentrixUpdaterService: 329s CPU time, 0.11GB RAM\nDentrixClientService: 208.7s CPU time, 0.1GB RAM",
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 27039.6s CPU time, 1.67GB RAM\nHSPS.eServices.PracticeDataSync: 256.3s CPU time, 0.76GB RAM\nSSPService: 21540s CPU time, 0.39GB RAM\nMsMpEng: 4355.8s CPU time, 0.32GB RAM\nRegistry: 11.4s CPU time, 0.24GB RAM\nSophosFileScanner: 292.4s CPU time, 0.2GB RAM\nsvchost: 2415.4s CPU time, 0.14GB RAM\ndns: 38.4s CPU time, 0.13GB RAM\nDentrixUpdaterService: 329.2s CPU time, 0.11GB RAM\nDentrixClientService: 208.7s CPU time, 0.1GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.67,
@@ -11,13 +11,18 @@
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.38,
-                                "CPU":  21535.3,
+                                "Memory":  0.76,
+                                "CPU":  256.3,
+                                "Name":  "HSPS.eServices.PracticeDataSync"
+                            },
+                            {
+                                "Memory":  0.39,
+                                "CPU":  21540,
                                 "Name":  "SSPService"
                             },
                             {
                                 "Memory":  0.32,
-                                "CPU":  4347.8,
+                                "CPU":  4355.8,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -27,17 +32,12 @@
                             },
                             {
                                 "Memory":  0.2,
-                                "CPU":  289.4,
+                                "CPU":  292.4,
                                 "Name":  "SophosFileScanner"
                             },
                             {
-                                "Memory":  0.19,
-                                "CPU":  156.2,
-                                "Name":  "HSPS.eServices.DigitalHighway.Services"
-                            },
-                            {
                                 "Memory":  0.14,
-                                "CPU":  2414.6,
+                                "CPU":  2415.4,
                                 "Name":  "svchost"
                             },
                             {
@@ -47,7 +47,7 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  329,
+                                "CPU":  329.2,
                                 "Name":  "DentrixUpdaterService"
                             },
                             {
@@ -57,9 +57,9 @@
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  7.2,
-    "RAMUsedPercent":  45.9,
-    "RAMFreeGB":  8.5,
+    "RAMUsedGB":  7.8,
+    "RAMUsedPercent":  49.7,
+    "RAMFreeGB":  7.9,
     "DiskFreePercent":  91.2,
     "TotalSize":  "3.6TB",
     "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 62.3GB, Free: 437.7GB of 500GB (87.5% free)\nD:\\ (DATA) - Used: 265.6GB, Free: 2.9TB of 3.1TB (91.8% free)",
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "8d 6h 42m",
-    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n8 days, 6 hours, 42 minutes",
+    "Uptime":  "8d 6h 47m",
+    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n8 days, 6 hours, 47 minutes",
     "BootTime":  "\/Date(1757637451000)\/",
     "NetworkMbps":  0,
     "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0 Mbps\nReceived: 0 Mbps\nTotal: 0 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "09/20 00:19"
+    "LastPoll":  "09/20 00:24"
 }
