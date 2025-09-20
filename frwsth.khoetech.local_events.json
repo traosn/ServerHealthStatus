@@ -2,7 +2,7 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1758381016423)\/",
+                       "TimeCreated":  "\/Date(1758387930987)\/",
                        "Source":  "Microsoft-Windows-Bits-Client",
                        "LogName":  "System",
                        "Level":  "Error",
@@ -12,7 +12,33 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  6318
+                       "EventRecordID":  6328
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758387916443)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{02532197-95e6-4acb-b7d4-6024d91ce6b5}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  131046
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758387916443)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{02532197-95e6-4acb-b7d4-6024d91ce6b5}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  131045
                    },
                    {
                        "TimeCreated":  "\/Date(1758355770026)\/",
@@ -50,33 +76,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  128626
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758301515320)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{c737b5a6-5394-489a-9199-50d653395aeb}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  127263
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758301515320)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{c737b5a6-5394-489a-9199-50d653395aeb}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  127262
                    }
                ],
-    "LastPoll":  "09/20 10:04"
+    "LastPoll":  "09/20 10:08"
 }
