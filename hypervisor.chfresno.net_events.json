@@ -2,6 +2,32 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1758414919332)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{c8099a60-26d4-446e-8391-a0204d46369d}\" of \"\\Microsoft\\Windows\\Customer Experience Improvement Program\\UsbCeip\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147942405.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  50236
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758414919332)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Customer Experience Improvement Program\\UsbCeip\" , instance \"{c8099a60-26d4-446e-8391-a0204d46369d}\" , action \"UsbCeip\" . Additional Data: Error Value: 2147942405.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  50235
+                   },
+                   {
                        "TimeCreated":  "\/Date(1758410645207)\/",
                        "Source":  "Microsoft-Windows-Security-SPP",
                        "LogName":  "Application",
@@ -11,32 +37,6 @@
                        "ErrorCode":  "0x8007232B",
                        "UpdateTitle":  null,
                        "EventRecordID":  18632
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758408512529)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{3e4b773d-8b1d-4372-b716-cf4a28125e78}\" of \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  50015
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758408512529)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\" , instance \"{3e4b773d-8b1d-4372-b716-cf4a28125e78}\" , action \"Device Directory Client Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  50014
                    },
                    {
                        "TimeCreated":  "\/Date(1758408005632)\/",
@@ -52,5 +52,5 @@
                        "EventRecordID":  150605
                    }
                ],
-    "LastPoll":  "09/20 17:33"
+    "LastPoll":  "09/20 17:38"
 }
