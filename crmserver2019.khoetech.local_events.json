@@ -2,6 +2,32 @@
     "Computer":  "CRMSERVER2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1758556023356)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{03300ba9-6c6e-4ebd-8ac0-fa370829aeaa}\" of \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319 64\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147946720.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239467
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1758556023356)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319 64\" , instance \"{03300ba9-6c6e-4ebd-8ac0-fa370829aeaa}\" , action \"\" . Additional Data: Error Value: 2147946720.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239466
+                   },
+                   {
                        "TimeCreated":  "\/Date(1758554735232)\/",
                        "Source":  "Service Control Manager",
                        "LogName":  "System",
@@ -100,33 +126,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  453423
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758554394066)\/",
-                       "Source":  "Microsoft-Windows-Eventlog",
-                       "LogName":  "Security",
-                       "Level":  "Error",
-                       "Message":  "The event logging service encountered an error while processing an incoming event from publisher  and trying to process the metadata for it.",
-                       "Id":  1107,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  3296606
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1758554393841)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Maintenance Scheduler Group Policy Settings are not properly specified for \"Invalid registry keys\". Default settings are being used.",
-                       "Id":  809,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  453372
                    }
                ],
-    "LastPoll":  "09/22 08:46"
+    "LastPoll":  "09/22 08:51"
 }
