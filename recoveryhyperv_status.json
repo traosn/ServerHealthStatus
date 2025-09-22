@@ -2,33 +2,38 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  11.2,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 336285.4s CPU time, 0.6GB RAM\nMsMpEng: 8338.1s CPU time, 0.32GB RAM\nsvchost: 39436.8s CPU time, 0.27GB RAM\nAgentService: 4308591.4s CPU time, 0.23GB RAM\nexplorer: 4749.2s CPU time, 0.22GB RAM\npowershell: 289.7s CPU time, 0.18GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nSystem: 487481.5s CPU time, 0.15GB RAM\nsvchost: 1819.6s CPU time, 0.12GB RAM\nWindowsAdminCenter: 308.6s CPU time, 0.11GB RAM",
+    "CPUPercent":  1.2,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 336314.2s CPU time, 0.6GB RAM\nMsMpEng: 8352.1s CPU time, 0.32GB RAM\nsvchost: 39442.3s CPU time, 0.27GB RAM\nRegistry: 121.5s CPU time, 0.24GB RAM\nexplorer: 4749.3s CPU time, 0.22GB RAM\nAgentService: 4308656.7s CPU time, 0.21GB RAM\npowershell: 289.7s CPU time, 0.18GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nSystem: 487495.1s CPU time, 0.15GB RAM\nsvchost: 1819.7s CPU time, 0.12GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.6,
-                                "CPU":  336285.4,
+                                "CPU":  336314.2,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.32,
-                                "CPU":  8338.1,
+                                "CPU":  8352.1,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.27,
-                                "CPU":  39436.8,
+                                "CPU":  39442.3,
                                 "Name":  "svchost"
                             },
                             {
-                                "Memory":  0.23,
-                                "CPU":  4308591.4,
-                                "Name":  "AgentService"
+                                "Memory":  0.24,
+                                "CPU":  121.5,
+                                "Name":  "Registry"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  4749.2,
+                                "CPU":  4749.3,
                                 "Name":  "explorer"
+                            },
+                            {
+                                "Memory":  0.21,
+                                "CPU":  4308656.7,
+                                "Name":  "AgentService"
                             },
                             {
                                 "Memory":  0.18,
@@ -42,54 +47,49 @@
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  487481.5,
+                                "CPU":  487495.1,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.12,
-                                "CPU":  1819.6,
+                                "CPU":  1819.7,
                                 "Name":  "svchost"
-                            },
-                            {
-                                "Memory":  0.11,
-                                "CPU":  308.6,
-                                "Name":  "WindowsAdminCenter"
                             }
                         ],
     "RAMTotalGB":  72,
-    "RAMUsedGB":  33.6,
-    "RAMUsedPercent":  46.7,
-    "RAMFreeGB":  38.4,
-    "DiskFreePercent":  44.3,
+    "RAMUsedGB":  33.8,
+    "RAMUsedPercent":  46.9,
+    "RAMFreeGB":  38.2,
+    "DiskFreePercent":  44.2,
     "TotalSize":  "1.3TB",
-    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 695.4GB, Free: 398.2GB of 1.1TB (36.4% free)\nC:\\ - Used: 65.6GB, Free: 207.3GB of 272.9GB (76% free)",
+    "DiskTooltip":  "Total Storage: 1.3TB\n\nDisk Usage:\nF:\\ (DataStore) - Used: 696.7GB, Free: 396.9GB of 1.1TB (36.3% free)\nC:\\ - Used: 65.7GB, Free: 207.2GB of 272.9GB (75.9% free)",
     "Volumes":  [
                     {
                         "Label":  "DataStore",
-                        "FreePercent":  36.4,
+                        "FreePercent":  36.3,
                         "TotalSize":  "1.1TB",
                         "SizeBytes":  1174252023808,
-                        "FreeSize":  "398.2GB",
-                        "UsedSize":  "695.4GB",
+                        "FreeSize":  "396.9GB",
+                        "UsedSize":  "696.7GB",
                         "Letter":  "F"
                     },
                     {
                         "Label":  "",
-                        "FreePercent":  76,
+                        "FreePercent":  75.9,
                         "TotalSize":  "272.9GB",
                         "SizeBytes":  292985761792,
-                        "FreeSize":  "207.3GB",
-                        "UsedSize":  "65.6GB",
+                        "FreeSize":  "207.2GB",
+                        "UsedSize":  "65.7GB",
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "75d 15h 50m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n75 days, 15 hours, 50 minutes",
+    "Uptime":  "75d 15h 55m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n75 days, 15 hours, 55 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  15.41,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 6.74 Mbps\nReceived: 8.67 Mbps\nTotal: 15.41 Mbps",
+    "NetworkMbps":  14.15,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 5.18 Mbps\nReceived: 8.97 Mbps\nTotal: 14.15 Mbps",
     "UpdateStatus":  "4 Updates",
     "UpdateCount":  4,
     "UpdateTooltip":  "Click for details on 4 pending updates.",
-    "LastPoll":  "09/22 06:55"
+    "LastPoll":  "09/22 07:01"
 }
