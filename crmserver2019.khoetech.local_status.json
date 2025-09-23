@@ -2,17 +2,17 @@
     "Computer":  "CRMSERVER2019",
     "Customer":  "Khoetech",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  24.7,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 3047.4s CPU time, 0.58GB RAM\nMsMpEng: 2548.9s CPU time, 0.41GB RAM\ndns: 25s CPU time, 0.35GB RAM\nSystem: 614.4s CPU time, 0.19GB RAM\nSearchUI: 7.7s CPU time, 0.16GB RAM\nRegistry: 1.9s CPU time, 0.14GB RAM\nsvchost: 1174.2s CPU time, 0.14GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nexplorer: 7.1s CPU time, 0.13GB RAM\npowershell: 3.2s CPU time, 0.1GB RAM",
+    "CPUPercent":  20,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 3292.5s CPU time, 0.68GB RAM\nMsMpEng: 2562.4s CPU time, 0.41GB RAM\ndns: 25s CPU time, 0.35GB RAM\nTiWorker: 305.8s CPU time, 0.24GB RAM\nSystem: 649.3s CPU time, 0.19GB RAM\nSearchUI: 7.7s CPU time, 0.16GB RAM\nsvchost: 1183.9s CPU time, 0.14GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nexplorer: 7.1s CPU time, 0.13GB RAM\nRegistry: 2s CPU time, 0.12GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.58,
-                                "CPU":  3047.4,
+                                "Memory":  0.68,
+                                "CPU":  3292.5,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.41,
-                                "CPU":  2548.9,
+                                "CPU":  2562.4,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -21,8 +21,13 @@
                                 "Name":  "dns"
                             },
                             {
+                                "Memory":  0.24,
+                                "CPU":  305.8,
+                                "Name":  "TiWorker"
+                            },
+                            {
                                 "Memory":  0.19,
-                                "CPU":  614.4,
+                                "CPU":  649.3,
                                 "Name":  "System"
                             },
                             {
@@ -32,12 +37,7 @@
                             },
                             {
                                 "Memory":  0.14,
-                                "CPU":  1.9,
-                                "Name":  "Registry"
-                            },
-                            {
-                                "Memory":  0.14,
-                                "CPU":  1174.2,
+                                "CPU":  1183.9,
                                 "Name":  "svchost"
                             },
                             {
@@ -51,15 +51,15 @@
                                 "Name":  "explorer"
                             },
                             {
-                                "Memory":  0.1,
-                                "CPU":  3.2,
-                                "Name":  "powershell"
+                                "Memory":  0.12,
+                                "CPU":  2,
+                                "Name":  "Registry"
                             }
                         ],
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  7.3,
-    "RAMUsedPercent":  11.4,
-    "RAMFreeGB":  56.5,
+    "RAMUsedGB":  8.6,
+    "RAMUsedPercent":  13.5,
+    "RAMFreeGB":  55.2,
     "DiskFreePercent":  50.5,
     "TotalSize":  "7.3TB",
     "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.6TB, Free: 3.7TB of 7.3TB (50.5% free)",
@@ -72,13 +72,13 @@
                     "UsedSize":  "3.6TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "0d 8h 40m",
-    "UptimeTooltip":  "Boot Time: 2025-09-22 08:20:48\nSystem has been running for:\n0 days, 8 hours, 40 minutes",
+    "Uptime":  "0d 8h 45m",
+    "UptimeTooltip":  "Boot Time: 2025-09-22 08:20:48\nSystem has been running for:\n0 days, 8 hours, 45 minutes",
     "BootTime":  "\/Date(1758554448000)\/",
-    "NetworkMbps":  0.01,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0 Mbps\nReceived: 0.01 Mbps\nTotal: 0.01 Mbps",
+    "NetworkMbps":  0,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0 Mbps\nReceived: 0 Mbps\nTotal: 0 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "09/22 17:01"
+    "LastPoll":  "09/22 17:06"
 }
