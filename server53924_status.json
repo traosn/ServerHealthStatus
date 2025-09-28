@@ -2,17 +2,17 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  9.2,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 295023.6s CPU time, 8.44GB RAM\nsqlservr: 14539.3s CPU time, 1.86GB RAM\nDell.CoreServices.Client: 309.5s CPU time, 1.75GB RAM\nSSPService: 121411.2s CPU time, 1.68GB RAM\nsvchost: 7741.2s CPU time, 1.22GB RAM\nSupportAssistAgent: 322.3s CPU time, 0.49GB RAM\nMsMpEng: 20546.8s CPU time, 0.32GB RAM\nAppLauncher: 8.1s CPU time, 0.29GB RAM\nDell.TechHub.Instrumentation.SubAgent: 36219.8s CPU time, 0.23GB RAM\nDentrixClientService: 1507.1s CPU time, 0.23GB RAM",
+    "CPUPercent":  10,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 295061.3s CPU time, 8.44GB RAM\nsqlservr: 14539.4s CPU time, 1.86GB RAM\nDell.CoreServices.Client: 309.5s CPU time, 1.75GB RAM\nSSPService: 121430.1s CPU time, 1.68GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 26.6s CPU time, 1.49GB RAM\nsvchost: 7742.4s CPU time, 1.22GB RAM\nSupportAssistAgent: 322.3s CPU time, 0.49GB RAM\nMsMpEng: 20551.5s CPU time, 0.32GB RAM\nAppLauncher: 8.1s CPU time, 0.29GB RAM\nDell.TechHub.Instrumentation.SubAgent: 36223.5s CPU time, 0.23GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  8.44,
-                                "CPU":  295023.6,
+                                "CPU":  295061.3,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  1.86,
-                                "CPU":  14539.3,
+                                "CPU":  14539.4,
                                 "Name":  "sqlservr"
                             },
                             {
@@ -22,12 +22,17 @@
                             },
                             {
                                 "Memory":  1.68,
-                                "CPU":  121411.2,
+                                "CPU":  121430.1,
                                 "Name":  "SSPService"
                             },
                             {
+                                "Memory":  1.49,
+                                "CPU":  26.6,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
                                 "Memory":  1.22,
-                                "CPU":  7741.2,
+                                "CPU":  7742.4,
                                 "Name":  "svchost"
                             },
                             {
@@ -37,7 +42,7 @@
                             },
                             {
                                 "Memory":  0.32,
-                                "CPU":  20546.8,
+                                "CPU":  20551.5,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -47,30 +52,25 @@
                             },
                             {
                                 "Memory":  0.23,
-                                "CPU":  36219.8,
+                                "CPU":  36223.5,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
-                            },
-                            {
-                                "Memory":  0.23,
-                                "CPU":  1507.1,
-                                "Name":  "DentrixClientService"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  25.2,
-    "RAMUsedPercent":  79.2,
-    "RAMFreeGB":  6.6,
+    "RAMUsedGB":  26.4,
+    "RAMUsedPercent":  83,
+    "RAMFreeGB":  5.4,
     "DiskFreePercent":  63.2,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 94.4GB, Free: 420.6GB of 515GB (81.7% free)\nD:\\ (DATA) - Used: 3.9TB, Free: 6.5TB of 10.4TB (62.3% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 94.3GB, Free: 420.7GB of 515GB (81.7% free)\nD:\\ (DATA) - Used: 3.9TB, Free: 6.5TB of 10.4TB (62.3% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  81.7,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "420.6GB",
-                        "UsedSize":  "94.4GB",
+                        "FreeSize":  "420.7GB",
+                        "UsedSize":  "94.3GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "42d 6h 14m",
-    "UptimeTooltip":  "Boot Time: 2025-08-17 00:02:11\nSystem has been running for:\n42 days, 6 hours, 14 minutes",
+    "Uptime":  "42d 6h 19m",
+    "UptimeTooltip":  "Boot Time: 2025-08-17 00:02:11\nSystem has been running for:\n42 days, 6 hours, 19 minutes",
     "BootTime":  "\/Date(1755414131000)\/",
-    "NetworkMbps":  3.29,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 1.73 Mbps\nReceived: 1.56 Mbps\nTotal: 3.29 Mbps",
+    "NetworkMbps":  2.88,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 1.52 Mbps\nReceived: 1.36 Mbps\nTotal: 2.88 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "09/28 06:16"
+    "LastPoll":  "09/28 06:21"
 }
