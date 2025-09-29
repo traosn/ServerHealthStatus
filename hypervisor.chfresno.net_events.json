@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759167589772)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5717 - 00000000000003A4,0x00530190,0000000000000000,0,000002AD9A76D250,4096,[0]).  hr = 0x800701b1, A device which does not exist was specified.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x00530190",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  33338
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759155534996)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -76,18 +87,7 @@
                        "ErrorCode":  "0x8007232B",
                        "UpdateTitle":  null,
                        "EventRecordID":  32080
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759096658243)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5709 - 00000000000002DC,0x00530194,0000000000000000,0,000002AD9A76E350,4096,[0]).  hr = 0x800701b1, A device which does not exist was specified.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x00530194",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  31985
                    }
                ],
-    "LastPoll":  "09/29 10:38"
+    "LastPoll":  "09/29 10:43"
 }
