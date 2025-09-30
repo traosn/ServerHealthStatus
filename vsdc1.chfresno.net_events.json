@@ -2,6 +2,17 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759249431810)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({149ff4d6-7a47-4ce0-afe1-eb91894b83d7},{3ea5d3a9-9f80-4699-8581-5480019765b2},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
+                       "Id":  12293,
+                       "ErrorCode":  "0x8000ffff",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  75455
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759246137711)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
@@ -24,17 +35,6 @@
                        "EventRecordID":  186533
                    },
                    {
-                       "TimeCreated":  "\/Date(1759245812928)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({98eab2c4-0a5f-460c-a7f6-2529d3a7a946},{684cc7f9-3754-40ba-a041-0a70d4ef37cf},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
-                       "Id":  12293,
-                       "ErrorCode":  "0x8000ffff",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  75392
-                   },
-                   {
                        "TimeCreated":  "\/Date(1759211308435)\/",
                        "Source":  "Microsoft-Windows-Perflib",
                        "LogName":  "Application",
@@ -48,5 +48,5 @@
                        "EventRecordID":  74912
                    }
                ],
-    "LastPoll":  "09/30 09:22"
+    "LastPoll":  "09/30 09:27"
 }
