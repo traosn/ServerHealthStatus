@@ -2,28 +2,38 @@
     "Computer":  "CRMSERVER2019",
     "Customer":  "Khoetech",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  23.4,
-    "CPUTooltip":  "Top CPU Processes:\ndns: 44.8s CPU time, 0.35GB RAM\nMsMpEng: 3455.9s CPU time, 0.35GB RAM\nSentinelAgent: 3029.8s CPU time, 0.31GB RAM\nSystem: 744.9s CPU time, 0.19GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nlsass: 192.2s CPU time, 0.11GB RAM\npowershell: 2.8s CPU time, 0.1GB RAM\nCRMServer: 26.1s CPU time, 0.09GB RAM\nAteraAgent: 31.2s CPU time, 0.09GB RAM\nSentinelStaticEngineScanner: 52.4s CPU time, 0.08GB RAM",
+    "CPUPercent":  36.2,
+    "CPUTooltip":  "Top CPU Processes:\nsvchost: 12.2s CPU time, 0.47GB RAM\ndns: 2.2s CPU time, 0.36GB RAM\nSentinelAgent: 169.7s CPU time, 0.32GB RAM\nMsMpEng: 146.7s CPU time, 0.32GB RAM\nSystem: 130.5s CPU time, 0.18GB RAM\nRegistry: 0.8s CPU time, 0.17GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nexplorer: 6.3s CPU time, 0.1GB RAM\nlsass: 11.5s CPU time, 0.09GB RAM\nCRMServer: 7.7s CPU time, 0.09GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.35,
-                                "CPU":  44.8,
+                                "Memory":  0.47,
+                                "CPU":  12.2,
+                                "Name":  "svchost"
+                            },
+                            {
+                                "Memory":  0.36,
+                                "CPU":  2.2,
                                 "Name":  "dns"
                             },
                             {
-                                "Memory":  0.35,
-                                "CPU":  3455.9,
-                                "Name":  "MsMpEng"
-                            },
-                            {
-                                "Memory":  0.31,
-                                "CPU":  3029.8,
+                                "Memory":  0.32,
+                                "CPU":  169.7,
                                 "Name":  "SentinelAgent"
                             },
                             {
-                                "Memory":  0.19,
-                                "CPU":  744.9,
+                                "Memory":  0.32,
+                                "CPU":  146.7,
+                                "Name":  "MsMpEng"
+                            },
+                            {
+                                "Memory":  0.18,
+                                "CPU":  130.5,
                                 "Name":  "System"
+                            },
+                            {
+                                "Memory":  0.17,
+                                "CPU":  0.8,
+                                "Name":  "Registry"
                             },
                             {
                                 "Memory":  0.13,
@@ -31,54 +41,44 @@
                                 "Name":  "Secure System"
                             },
                             {
-                                "Memory":  0.11,
-                                "CPU":  192.2,
+                                "Memory":  0.1,
+                                "CPU":  6.3,
+                                "Name":  "explorer"
+                            },
+                            {
+                                "Memory":  0.09,
+                                "CPU":  11.5,
                                 "Name":  "lsass"
                             },
                             {
-                                "Memory":  0.1,
-                                "CPU":  2.8,
-                                "Name":  "powershell"
-                            },
-                            {
                                 "Memory":  0.09,
-                                "CPU":  26.1,
+                                "CPU":  7.7,
                                 "Name":  "CRMServer"
-                            },
-                            {
-                                "Memory":  0.09,
-                                "CPU":  31.2,
-                                "Name":  "AteraAgent"
-                            },
-                            {
-                                "Memory":  0.08,
-                                "CPU":  52.4,
-                                "Name":  "SentinelStaticEngineScanner"
                             }
                         ],
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  5.7,
-    "RAMUsedPercent":  8.9,
-    "RAMFreeGB":  58.1,
-    "DiskFreePercent":  50.5,
+    "RAMUsedGB":  6.2,
+    "RAMUsedPercent":  9.7,
+    "RAMFreeGB":  57.6,
+    "DiskFreePercent":  50.6,
     "TotalSize":  "7.3TB",
-    "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.6TB, Free: 3.7TB of 7.3TB (50.5% free)",
+    "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.6TB, Free: 3.7TB of 7.3TB (50.6% free)",
     "Volumes":  {
                     "Label":  "",
-                    "FreePercent":  50.5,
+                    "FreePercent":  50.6,
                     "TotalSize":  "7.3TB",
                     "SizeBytes":  7998730661888,
                     "FreeSize":  "3.7TB",
                     "UsedSize":  "3.6TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "1d 15h 1m",
-    "UptimeTooltip":  "Boot Time: 2025-09-29 02:00:11\nSystem has been running for:\n1 days, 15 hours, 1 minutes",
-    "BootTime":  "\/Date(1759136411000)\/",
+    "Uptime":  "0d 0h 11m",
+    "UptimeTooltip":  "Boot Time: 2025-09-30 08:14:10\nSystem has been running for:\n0 days, 0 hours, 11 minutes",
+    "BootTime":  "\/Date(1759245250000)\/",
     "NetworkMbps":  0.02,
     "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.01 Mbps\nReceived: 0.01 Mbps\nTotal: 0.02 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "09/29 17:01"
+    "LastPoll":  "09/30 08:26"
 }
