@@ -2,6 +2,19 @@
     "Computer":  "CRMSERVER2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759275870019)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                       "Id":  1023,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  46520
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759245515290)\/",
                        "Source":  "Service Control Manager",
                        "LogName":  "System",
@@ -115,20 +128,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  482387
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759245195298)\/",
-                       "Source":  "Microsoft-Windows-Perflib",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files\\SentinelOne\\Sentinel Agent 24.2.3.471\\SentinelAgent.exe\" (value from GetModuleFileName() for the binary that issued the query).",
-                       "Id":  1000,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  46192
                    }
                ],
-    "LastPoll":  "09/30 16:41"
+    "LastPoll":  "09/30 16:51"
 }
