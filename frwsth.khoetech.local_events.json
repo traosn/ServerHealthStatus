@@ -2,20 +2,31 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1759180721621)\/",
-                       "Source":  "Microsoft-Windows-Bits-Client",
+                       "TimeCreated":  "\/Date(1759245081267)\/",
+                       "Source":  "NETLOGON",
                        "LogName":  "System",
                        "Level":  "Error",
-                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
-                       "Id":  16398,
+                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain KHOETECH due to the following: \r",
+                       "Id":  5719,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  8047
+                       "EventRecordID":  8196
                    },
                    {
-                       "TimeCreated":  "\/Date(1759179560394)\/",
+                       "TimeCreated":  "\/Date(1759244977189)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x80240438.",
+                       "Id":  25,
+                       "ErrorCode":  "0x80240438",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  16272
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759244583890)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
@@ -25,20 +36,46 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  166306
+                       "EventRecordID":  172488
                    },
                    {
-                       "TimeCreated":  "\/Date(1759179560394)\/",
+                       "TimeCreated":  "\/Date(1759244583890)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{7b346545-eb91-4d3f-a29c-dfcaad3c6c44}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{1c1dc876-140a-40c4-97cf-a783007fa9c1}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
                        "Id":  203,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  166305
+                       "EventRecordID":  172487
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759243757559)\/",
+                       "Source":  "Microsoft-Windows-GroupPolicy",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The processing of Group Policy failed. Windows could not obtain the name of a domain controller. This could be caused by a name resolution failure. Verify your Domain Name System (DNS) is configured and working correctly.",
+                       "Id":  1054,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  8190
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759240770937)\/",
+                       "Source":  "Microsoft-Windows-Bits-Client",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
+                       "Id":  16398,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  8186
                    },
                    {
                        "TimeCreated":  "\/Date(1759165160986)\/",
@@ -65,31 +102,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  165606
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759152257927)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                       "Level":  "Error",
-                       "Message":  "Windows Update failed to check for updates with error 0x80240438.",
-                       "Id":  25,
-                       "ErrorCode":  "0x80240438",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  15638
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759137907066)\/",
-                       "Source":  "NETLOGON",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain KHOETECH due to the following: \r",
-                       "Id":  5719,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  7984
                    }
                ],
-    "LastPoll":  "09/29 17:04"
+    "LastPoll":  "09/30 08:14"
 }
