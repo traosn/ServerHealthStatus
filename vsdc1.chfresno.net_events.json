@@ -2,6 +2,30 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759325015268)\/",
+                       "Source":  "NETLOGON",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The session setup from the computer WSNC11125 failed to authenticate. The following error occurred: \r",
+                       "Id":  5805,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  188122
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759325008968)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({8559d34d-9de6-42ac-9b7f-2142ed7598f1},{7cc7be16-e471-4882-ab6e-3523452997eb},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
+                       "Id":  12293,
+                       "ErrorCode":  "0x8000ffff",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  76477
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759314258263)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
@@ -11,17 +35,6 @@
                        "ErrorCode":  "0x0005",
                        "UpdateTitle":  null,
                        "EventRecordID":  187904
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759299804539)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({1562a3b3-17be-480e-a340-0ceea5ab983c},{4c225a0b-a1f7-41ab-85ae-2c2706acce6a},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
-                       "Id":  12293,
-                       "ErrorCode":  "0x8000ffff",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  76113
                    },
                    {
                        "TimeCreated":  "\/Date(1759298368268)\/",
@@ -48,5 +61,5 @@
                        "EventRecordID":  186536
                    }
                ],
-    "LastPoll":  "10/01 06:22"
+    "LastPoll":  "10/01 06:27"
 }
