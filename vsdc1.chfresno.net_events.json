@@ -2,6 +2,17 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759299804539)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({1562a3b3-17be-480e-a340-0ceea5ab983c},{4c225a0b-a1f7-41ab-85ae-2c2706acce6a},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
+                       "Id":  12293,
+                       "ErrorCode":  "0x8000ffff",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  76113
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759298368268)\/",
                        "Source":  "Microsoft-Windows-Perflib",
                        "LogName":  "Application",
@@ -26,17 +37,6 @@
                        "EventRecordID":  187518
                    },
                    {
-                       "TimeCreated":  "\/Date(1759249431810)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({149ff4d6-7a47-4ce0-afe1-eb91894b83d7},{3ea5d3a9-9f80-4699-8581-5480019765b2},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
-                       "Id":  12293,
-                       "ErrorCode":  "0x8000ffff",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  75455
-                   },
-                   {
                        "TimeCreated":  "\/Date(1759246137711)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
@@ -48,5 +48,5 @@
                        "EventRecordID":  186536
                    }
                ],
-    "LastPoll":  "09/30 23:22"
+    "LastPoll":  "09/30 23:27"
 }
