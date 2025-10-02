@@ -1,17 +1,45 @@
 {
     "Computer":  "CRMSERVER2019",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1759362272954)\/",
-                   "Source":  "Microsoft-Windows-Perflib",
-                   "LogName":  "Application",
-                   "Level":  "Error",
-                   "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
-                   "Id":  1023,
-                   "ErrorCode":  {
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1759363037316)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{7c4d6abe-126e-4435-9643-3d198dc6fe64}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  103,
+                       "ErrorCode":  {
 
-                                 },
-                   "UpdateTitle":  null,
-                   "EventRecordID":  47225
-               },
-    "LastPoll":  "10/01 16:56"
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  265216
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759363037316)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{7c4d6abe-126e-4435-9643-3d198dc6fe64}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  265215
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759362272954)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                       "Id":  1023,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  47225
+                   }
+               ],
+    "LastPoll":  "10/01 17:01"
 }
