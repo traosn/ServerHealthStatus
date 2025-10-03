@@ -2,28 +2,23 @@
     "Computer":  "SERVER2019",
     "Customer":  "Community Dental Group",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  15,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 304470s CPU time, 4.53GB RAM\nSSPService: 116522.6s CPU time, 1.43GB RAM\nsvchost: 3148.9s CPU time, 1.01GB RAM\nMsMpEng: 129160.6s CPU time, 0.47GB RAM\nSAgent.Service: 10076.2s CPU time, 0.29GB RAM\nSophosFileScanner: 21589s CPU time, 0.28GB RAM\nVyneSync.Service: 30087.7s CPU time, 0.24GB RAM\nVyneSync.Commands: 2111.7s CPU time, 0.22GB RAM\nRegistry: 76.5s CPU time, 0.2GB RAM\nexplorer: 268.8s CPU time, 0.19GB RAM",
+    "CPUPercent":  4.4,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 304471.6s CPU time, 4.53GB RAM\nSSPService: 116662.8s CPU time, 1.43GB RAM\nsvchost: 3154.6s CPU time, 1.01GB RAM\nSAgent.Service: 10076.2s CPU time, 0.29GB RAM\nSophosFileScanner: 21603.6s CPU time, 0.28GB RAM\nMsMpEng: 129244.3s CPU time, 0.26GB RAM\nVyneSync.Service: 30088.4s CPU time, 0.24GB RAM\nDentrixClientService: 1309s CPU time, 0.22GB RAM\nVyneSync.Commands: 2112s CPU time, 0.22GB RAM\nexplorer: 268.8s CPU time, 0.19GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  4.53,
-                                "CPU":  304470,
+                                "CPU":  304471.6,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  1.43,
-                                "CPU":  116522.6,
+                                "CPU":  116662.8,
                                 "Name":  "SSPService"
                             },
                             {
                                 "Memory":  1.01,
-                                "CPU":  3148.9,
+                                "CPU":  3154.6,
                                 "Name":  "svchost"
-                            },
-                            {
-                                "Memory":  0.47,
-                                "CPU":  129160.6,
-                                "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.29,
@@ -32,23 +27,28 @@
                             },
                             {
                                 "Memory":  0.28,
-                                "CPU":  21589,
+                                "CPU":  21603.6,
                                 "Name":  "SophosFileScanner"
                             },
                             {
+                                "Memory":  0.26,
+                                "CPU":  129244.3,
+                                "Name":  "MsMpEng"
+                            },
+                            {
                                 "Memory":  0.24,
-                                "CPU":  30087.7,
+                                "CPU":  30088.4,
                                 "Name":  "VyneSync.Service"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  2111.7,
-                                "Name":  "VyneSync.Commands"
+                                "CPU":  1309,
+                                "Name":  "DentrixClientService"
                             },
                             {
-                                "Memory":  0.2,
-                                "CPU":  76.5,
-                                "Name":  "Registry"
+                                "Memory":  0.22,
+                                "CPU":  2112,
+                                "Name":  "VyneSync.Commands"
                             },
                             {
                                 "Memory":  0.19,
@@ -57,20 +57,20 @@
                             }
                         ],
     "RAMTotalGB":  31.6,
-    "RAMUsedGB":  19.1,
-    "RAMUsedPercent":  60.4,
-    "RAMFreeGB":  12.5,
+    "RAMUsedGB":  17.1,
+    "RAMUsedPercent":  54.1,
+    "RAMFreeGB":  14.5,
     "DiskFreePercent":  87,
     "TotalSize":  "8.2TB",
-    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 56.2GB, Free: 443.8GB of 500GB (88.8% free)\nE:\\ (MONDAY) - Used: 730GB, Free: 201.5GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 305.4GB, Free: 6.5TB of 6.8TB (95.6% free)",
+    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 56.1GB, Free: 443.9GB of 500GB (88.8% free)\nE:\\ (MONDAY) - Used: 730GB, Free: 201.5GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 305.4GB, Free: 6.5TB of 6.8TB (95.6% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  88.8,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "443.8GB",
-                        "UsedSize":  "56.2GB",
+                        "FreeSize":  "443.9GB",
+                        "UsedSize":  "56.1GB",
                         "Letter":  "C"
                     },
                     {
@@ -92,13 +92,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "22d 7h 41m",
-    "UptimeTooltip":  "Boot Time: 2025-09-10 17:30:57\nSystem has been running for:\n22 days, 7 hours, 41 minutes",
+    "Uptime":  "22d 7h 45m",
+    "UptimeTooltip":  "Boot Time: 2025-09-10 17:30:57\nSystem has been running for:\n22 days, 7 hours, 45 minutes",
     "BootTime":  "\/Date(1757550657000)\/",
-    "NetworkMbps":  0.2,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.13 Mbps\nReceived: 0.07 Mbps\nTotal: 0.2 Mbps",
+    "NetworkMbps":  0.04,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.02 Mbps\nReceived: 0.02 Mbps\nTotal: 0.04 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/03 01:12"
+    "LastPoll":  "10/03 01:16"
 }
