@@ -2,12 +2,12 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  11.4,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 343671s CPU time, 9.37GB RAM\nDell.CoreServices.Client: 363.6s CPU time, 2.35GB RAM\nSSPService: 140431.8s CPU time, 1.96GB RAM\nsvchost: 9974.7s CPU time, 1.56GB RAM\nsqlservr: 15186.7s CPU time, 0.55GB RAM\nSupportAssistAgent: 353.1s CPU time, 0.52GB RAM\nRegistry: 75.5s CPU time, 0.28GB RAM\nMsMpEng: 32629.1s CPU time, 0.28GB RAM\nDentrixClientService: 1686.7s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 41836.5s CPU time, 0.24GB RAM",
+    "CPUPercent":  6.3,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 343689s CPU time, 9.37GB RAM\nDell.CoreServices.Client: 363.6s CPU time, 2.35GB RAM\nSSPService: 140449.5s CPU time, 1.96GB RAM\nsvchost: 9978.4s CPU time, 1.56GB RAM\nsqlservr: 15196.6s CPU time, 0.59GB RAM\nSupportAssistAgent: 353.1s CPU time, 0.52GB RAM\nMsMpEng: 32651.2s CPU time, 0.26GB RAM\nDentrixClientService: 1686.7s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 41839.4s CPU time, 0.24GB RAM\nSophosFileScanner: 1017.4s CPU time, 0.23GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  9.37,
-                                "CPU":  343671,
+                                "CPU":  343689,
                                 "Name":  "ctreesql"
                             },
                             {
@@ -17,17 +17,17 @@
                             },
                             {
                                 "Memory":  1.96,
-                                "CPU":  140431.8,
+                                "CPU":  140449.5,
                                 "Name":  "SSPService"
                             },
                             {
                                 "Memory":  1.56,
-                                "CPU":  9974.7,
+                                "CPU":  9978.4,
                                 "Name":  "svchost"
                             },
                             {
-                                "Memory":  0.55,
-                                "CPU":  15186.7,
+                                "Memory":  0.59,
+                                "CPU":  15196.6,
                                 "Name":  "sqlservr"
                             },
                             {
@@ -36,13 +36,8 @@
                                 "Name":  "SupportAssistAgent"
                             },
                             {
-                                "Memory":  0.28,
-                                "CPU":  75.5,
-                                "Name":  "Registry"
-                            },
-                            {
-                                "Memory":  0.28,
-                                "CPU":  32629.1,
+                                "Memory":  0.26,
+                                "CPU":  32651.2,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -52,44 +47,49 @@
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  41836.5,
+                                "CPU":  41839.4,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
+                            },
+                            {
+                                "Memory":  0.23,
+                                "CPU":  1017.4,
+                                "Name":  "SophosFileScanner"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  27.1,
-    "RAMUsedPercent":  85.2,
-    "RAMFreeGB":  4.7,
-    "DiskFreePercent":  63.1,
+    "RAMUsedGB":  26.4,
+    "RAMUsedPercent":  83,
+    "RAMFreeGB":  5.4,
+    "DiskFreePercent":  61.8,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 99.9GB, Free: 415.1GB of 515GB (80.6% free)\nD:\\ (DATA) - Used: 3.9TB, Free: 6.5TB of 10.4TB (62.3% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 99.1GB, Free: 415.9GB of 515GB (80.8% free)\nD:\\ (DATA) - Used: 4.1TB, Free: 6.3TB of 10.4TB (60.9% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
-                        "FreePercent":  80.6,
+                        "FreePercent":  80.8,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "415.1GB",
-                        "UsedSize":  "99.9GB",
+                        "FreeSize":  "415.9GB",
+                        "UsedSize":  "99.1GB",
                         "Letter":  "C"
                     },
                     {
                         "Label":  "DATA",
-                        "FreePercent":  62.3,
+                        "FreePercent":  60.9,
                         "TotalSize":  "10.4TB",
                         "SizeBytes":  11444131196928,
-                        "FreeSize":  "6.5TB",
-                        "UsedSize":  "3.9TB",
+                        "FreeSize":  "6.3TB",
+                        "UsedSize":  "4.1TB",
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "47d 1h 59m",
-    "UptimeTooltip":  "Boot Time: 2025-08-17 00:02:11\nSystem has been running for:\n47 days, 1 hours, 59 minutes",
+    "Uptime":  "47d 2h 5m",
+    "UptimeTooltip":  "Boot Time: 2025-08-17 00:02:11\nSystem has been running for:\n47 days, 2 hours, 5 minutes",
     "BootTime":  "\/Date(1755414131000)\/",
-    "NetworkMbps":  4.7799999999999994,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 2.52 Mbps\nReceived: 2.26 Mbps\nTotal: 4.78 Mbps",
+    "NetworkMbps":  49.85,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 45.45 Mbps\nReceived: 4.4 Mbps\nTotal: 49.85 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/03 02:03"
+    "LastPoll":  "10/03 02:07"
 }
