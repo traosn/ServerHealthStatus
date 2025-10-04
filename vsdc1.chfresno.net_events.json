@@ -2,6 +2,110 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759539830515)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  152175
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759539786277)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files (x86)\\NinjaOne\\NinjaRMMAgent.exe\" (value from GetModuleFileName() for the binary that issued the query).",
+                       "Id":  1000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  79384
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759539771058)\/",
+                       "Source":  "Microsoft-Windows-DistributedCOM",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "DCOM got error \"1115\" attempting to start the service TrustedInstaller with arguments \"Unavailable\" in order to run the server:\r",
+                       "Id":  10005,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  192493
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759539731985)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"powershell.exe\" in instance \"{fccea7c6-c98d-43ac-af11-cff7d035a9b6}\" of task \"\\ServerHealthMonitor\". Additional Data: Error Value: 2147943515.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  152161
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759539666859)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Update Orchestrator Service service terminated with the following error: \r",
+                       "Id":  7023,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  192483
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759539662628)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{268b6bfd-473a-481a-ac57-d0921f1440e1}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  152156
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759539662628)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{268b6bfd-473a-481a-ac57-d0921f1440e1}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  152155
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759539557327)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                       "Id":  1023,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  79379
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759508237307)\/",
                        "Source":  "Microsoft-Windows-Kerberos-Key-Distribution-Center",
                        "LogName":  "System",
@@ -22,31 +126,7 @@
                        "ErrorCode":  "0x8000ffff",
                        "UpdateTitle":  null,
                        "EventRecordID":  78925
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759503275746)\/",
-                       "Source":  "Volsnap",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The shadow copies of volume \\\\?\\Volume{015303b5-a067-11f0-ab86-00155d611102} were aborted during detection because a critical control file could not be opened.",
-                       "Id":  27,
-                       "ErrorCode":  "0x0001",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  191737
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759472428602)\/",
-                       "Source":  "Microsoft-Windows-Perflib",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\System32\\iasperf.dll\" (Win32 error code The specified module could not be found.).",
-                       "Id":  1023,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  78440
                    }
                ],
-    "LastPoll":  "10/03 17:57"
+    "LastPoll":  "10/03 18:10"
 }
