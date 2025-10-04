@@ -2,6 +2,28 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759604742434)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error CreateFileW(\\\\?\\Volume{f3294ed6-a154-11f0-ab87-00155d611102},0x80000000,0x00000003,...).  hr = 0x80070037, The specified network resource or device is no longer available.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x80000000",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  80281
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759604742137)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copies of volume \\\\?\\Volume{f3294ed8-a154-11f0-ab87-00155d611102} were aborted during detection because a critical control file could not be opened.",
+                       "Id":  27,
+                       "ErrorCode":  "0x0001",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  194070
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759591423696)\/",
                        "Source":  "VSS",
                        "LogName":  "Application",
@@ -11,17 +33,6 @@
                        "ErrorCode":  "0x8000ffff",
                        "UpdateTitle":  null,
                        "EventRecordID":  80104
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759590156142)\/",
-                       "Source":  "Volsnap",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The shadow copies of volume \\\\?\\Volume{47bb6aff-a131-11f0-ab87-00155d611102} were aborted during detection because a critical control file could not be opened.",
-                       "Id":  27,
-                       "ErrorCode":  "0x0001",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  193786
                    },
                    {
                        "TimeCreated":  "\/Date(1759566231583)\/",
@@ -111,20 +122,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  192493
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759539731985)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"powershell.exe\" in instance \"{fccea7c6-c98d-43ac-af11-cff7d035a9b6}\" of task \"\\ServerHealthMonitor\". Additional Data: Error Value: 2147943515.",
-                       "Id":  203,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  152161
                    }
                ],
-    "LastPoll":  "10/04 12:02"
+    "LastPoll":  "10/04 12:07"
 }
