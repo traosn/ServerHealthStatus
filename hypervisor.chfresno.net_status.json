@@ -2,18 +2,18 @@
     "Computer":  "HYPERVISOR",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2025 Standard",
-    "CPUPercent":  7.1,
-    "CPUTooltip":  "Top CPU Processes:\nexplorer: 2716.2s CPU time, 0.58GB RAM\nSentinelAgent: 104672.2s CPU time, 0.58GB RAM\nSecure System: 0s CPU time, 0.36GB RAM\nMsMpEng: 25179.6s CPU time, 0.28GB RAM\nLsaIso: 207.9s CPU time, 0.26GB RAM\nsvchost: 24487.9s CPU time, 0.23GB RAM\npowershell: 2661.9s CPU time, 0.22GB RAM\nSystem: 1185157.8s CPU time, 0.2GB RAM\nsvchost: 6798.2s CPU time, 0.14GB RAM\nSearchHost: 249.8s CPU time, 0.13GB RAM",
+    "CPUPercent":  6.8,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 104678s CPU time, 0.58GB RAM\nexplorer: 2716.2s CPU time, 0.58GB RAM\nSecure System: 0s CPU time, 0.36GB RAM\nMsMpEng: 25182.5s CPU time, 0.28GB RAM\nLsaIso: 207.9s CPU time, 0.26GB RAM\nsvchost: 24491.2s CPU time, 0.22GB RAM\npowershell: 2662.3s CPU time, 0.22GB RAM\nSystem: 1185465.2s CPU time, 0.2GB RAM\nsvchost: 6798.2s CPU time, 0.14GB RAM\nSearchHost: 249.8s CPU time, 0.13GB RAM",
     "TopCPUProcesses":  [
+                            {
+                                "Memory":  0.58,
+                                "CPU":  104678,
+                                "Name":  "SentinelAgent"
+                            },
                             {
                                 "Memory":  0.58,
                                 "CPU":  2716.2,
                                 "Name":  "explorer"
-                            },
-                            {
-                                "Memory":  0.58,
-                                "CPU":  104672.2,
-                                "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.36,
@@ -22,7 +22,7 @@
                             },
                             {
                                 "Memory":  0.28,
-                                "CPU":  25179.6,
+                                "CPU":  25182.5,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -31,18 +31,18 @@
                                 "Name":  "LsaIso"
                             },
                             {
-                                "Memory":  0.23,
-                                "CPU":  24487.9,
+                                "Memory":  0.22,
+                                "CPU":  24491.2,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  2661.9,
+                                "CPU":  2662.3,
                                 "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.2,
-                                "CPU":  1185157.8,
+                                "CPU":  1185465.2,
                                 "Name":  "System"
                             },
                             {
@@ -57,9 +57,9 @@
                             }
                         ],
     "RAMTotalGB":  127.5,
-    "RAMUsedGB":  46.6,
+    "RAMUsedGB":  46.5,
     "RAMUsedPercent":  36.5,
-    "RAMFreeGB":  80.9,
+    "RAMFreeGB":  81,
     "DiskFreePercent":  64.7,
     "TotalSize":  "3.6TB",
     "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ - Used: 1.3TB, Free: 2.4TB of 3.6TB (64.7% free)",
@@ -72,13 +72,13 @@
                     "UsedSize":  "1.3TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "46d 12h 33m",
-    "UptimeTooltip":  "Boot Time: 2025-08-20 15:34:41\nSystem has been running for:\n46 days, 12 hours, 33 minutes",
+    "Uptime":  "46d 12h 38m",
+    "UptimeTooltip":  "Boot Time: 2025-08-20 15:34:41\nSystem has been running for:\n46 days, 12 hours, 38 minutes",
     "BootTime":  "\/Date(1755729281000)\/",
-    "NetworkMbps":  0.2,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.12 Mbps\nReceived: 0.08 Mbps\nTotal: 0.2 Mbps",
+    "NetworkMbps":  9.68,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 5.81 Mbps\nReceived: 3.87 Mbps\nTotal: 9.68 Mbps",
     "UpdateStatus":  "3 Updates",
     "UpdateCount":  3,
     "UpdateTooltip":  "Click for details on 3 pending updates.",
-    "LastPoll":  "10/05 04:08"
+    "LastPoll":  "10/05 04:13"
 }
