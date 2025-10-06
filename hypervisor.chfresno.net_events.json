@@ -2,6 +2,28 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759719733764)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 0000000000000354,0x0053c008,000002AD9A782650,0,000002AD9A78AE50,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c008",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  43996
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759719733756)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copy of volume C: could not be created due to a failure in creating the necessary on disk structures.",
+                       "Id":  28,
+                       "ErrorCode":  "0x0001",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  207501
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759713463762)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -26,17 +48,6 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  96967
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1759713373591)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5890 - 0000000000000378,0x0053c198,000002AD9A780450,0,000002AD9A785950,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  43860
                    },
                    {
                        "TimeCreated":  "\/Date(1759707621023)\/",
@@ -89,5 +100,5 @@
                        "EventRecordID":  207099
                    }
                ],
-    "LastPoll":  "10/05 19:58"
+    "LastPoll":  "10/05 20:03"
 }
