@@ -2,18 +2,18 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1759741947286)\/",
+                       "TimeCreated":  "\/Date(1759742276384)\/",
                        "Source":  "VSS",
                        "LogName":  "Application",
                        "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 0000000000000390,0x0053c008,000002AD9A77F350,0,000002AD9A789D50,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 0000000000000288,0x0053c008,000002AD9A77D150,0,000002AD9A78AE50,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
                        "Id":  12289,
                        "ErrorCode":  "0x0053c008",
                        "UpdateTitle":  null,
-                       "EventRecordID":  44446
+                       "EventRecordID":  44456
                    },
                    {
-                       "TimeCreated":  "\/Date(1759741947279)\/",
+                       "TimeCreated":  "\/Date(1759742276378)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
                        "Level":  "Error",
@@ -21,7 +21,20 @@
                        "Id":  28,
                        "ErrorCode":  "0x0001",
                        "UpdateTitle":  null,
-                       "EventRecordID":  209003
+                       "EventRecordID":  209014
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759742263032)\/",
+                       "Source":  "NETLOGON",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain CHFRESNO due to the following: \r",
+                       "Id":  5719,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  209012
                    },
                    {
                        "TimeCreated":  "\/Date(1759713463762)\/",
@@ -100,5 +113,5 @@
                        "EventRecordID":  207099
                    }
                ],
-    "LastPoll":  "10/06 02:13"
+    "LastPoll":  "10/06 02:18"
 }
