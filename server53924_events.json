@@ -1,7 +1,45 @@
 {
     "Computer":  "SERVER53924",
-    "Events":  {
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1759842492194)\/",
+                       "Source":  "Microsoft-Windows-Eventlog",
+                       "LogName":  "Security",
+                       "Level":  "Error",
+                       "Message":  "Audit events have been dropped by the transport.  0",
+                       "Id":  1101,
+                       "ErrorCode":  {
 
-               },
-    "LastPoll":  "10/07 06:01"
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  7750508
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759842489602)\/",
+                       "Source":  "EventLog",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The previous system shutdown at 6:02:41 AM on ‎10/‎7/‎2025 was unexpected.",
+                       "Id":  6008,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1995744
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1759842479896)\/",
+                       "Source":  "Microsoft-Windows-Kernel-Power",
+                       "LogName":  "System",
+                       "Level":  "Critical",
+                       "Message":  "The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.",
+                       "Id":  41,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1995760
+                   }
+               ],
+    "LastPoll":  "10/07 06:12"
 }
