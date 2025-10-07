@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1759816166848)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5803 - 00000000000003F4,0x00530194,0000000000000000,0,000002AD9A78AE50,4096,[0]).  hr = 0x800701b1, A device which does not exist was specified.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x00530194",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  45865
+                   },
+                   {
                        "TimeCreated":  "\/Date(1759797330153)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -63,17 +74,6 @@
                        "EventRecordID":  14468
                    },
                    {
-                       "TimeCreated":  "\/Date(1759757046418)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 0000000000000348,0x0053c008,000002AD9A789D50,0,000002AD9A787B50,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c008",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  44786
-                   },
-                   {
                        "TimeCreated":  "\/Date(1759757046414)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
@@ -124,5 +124,5 @@
                        "EventRecordID":  209012
                    }
                ],
-    "LastPoll":  "10/06 22:48"
+    "LastPoll":  "10/06 22:53"
 }
