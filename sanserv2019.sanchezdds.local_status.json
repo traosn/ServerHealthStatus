@@ -2,32 +2,37 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  14.9,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 85935.6s CPU time, 3.89GB RAM\nSSPService: 70691.2s CPU time, 0.45GB RAM\nMsMpEng: 42926.5s CPU time, 0.45GB RAM\nSentinelAgent: 1422.3s CPU time, 0.36GB RAM\nsvchost: 7465.6s CPU time, 0.3GB RAM\nRegistry: 30.4s CPU time, 0.24GB RAM\nSophosFileScanner: 1427.3s CPU time, 0.22GB RAM\nHSPS.eServices.DigitalHighway.Services: 205.7s CPU time, 0.2GB RAM\ndns: 123.2s CPU time, 0.14GB RAM\nDentrixUpdaterService: 1026s CPU time, 0.13GB RAM",
+    "CPUPercent":  36.3,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 85936.4s CPU time, 3.87GB RAM\nHSPS.eServices.PracticeDataSync: 221.6s CPU time, 0.6GB RAM\nMsMpEng: 43007.2s CPU time, 0.46GB RAM\nSSPService: 70722.8s CPU time, 0.45GB RAM\nSentinelAgent: 1443.4s CPU time, 0.38GB RAM\nsvchost: 7466.9s CPU time, 0.3GB RAM\nRegistry: 30.4s CPU time, 0.24GB RAM\nSophosFileScanner: 1443.8s CPU time, 0.22GB RAM\nHSPS.eServices.DigitalHighway.Services: 205.8s CPU time, 0.2GB RAM\ndns: 123.2s CPU time, 0.14GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  3.89,
-                                "CPU":  85935.6,
+                                "Memory":  3.87,
+                                "CPU":  85936.4,
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.45,
-                                "CPU":  70691.2,
-                                "Name":  "SSPService"
+                                "Memory":  0.6,
+                                "CPU":  221.6,
+                                "Name":  "HSPS.eServices.PracticeDataSync"
                             },
                             {
-                                "Memory":  0.45,
-                                "CPU":  42926.5,
+                                "Memory":  0.46,
+                                "CPU":  43007.2,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.36,
-                                "CPU":  1422.3,
+                                "Memory":  0.45,
+                                "CPU":  70722.8,
+                                "Name":  "SSPService"
+                            },
+                            {
+                                "Memory":  0.38,
+                                "CPU":  1443.4,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  7465.6,
+                                "CPU":  7466.9,
                                 "Name":  "svchost"
                             },
                             {
@@ -37,40 +42,35 @@
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  1427.3,
+                                "CPU":  1443.8,
                                 "Name":  "SophosFileScanner"
                             },
                             {
                                 "Memory":  0.2,
-                                "CPU":  205.7,
+                                "CPU":  205.8,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
                                 "Memory":  0.14,
                                 "CPU":  123.2,
                                 "Name":  "dns"
-                            },
-                            {
-                                "Memory":  0.13,
-                                "CPU":  1026,
-                                "Name":  "DentrixUpdaterService"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  11.5,
-    "RAMUsedPercent":  73.2,
-    "RAMFreeGB":  4.2,
+    "RAMUsedGB":  12,
+    "RAMUsedPercent":  76.4,
+    "RAMFreeGB":  3.7,
     "DiskFreePercent":  91.1,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 69.8GB, Free: 430.2GB of 500GB (86% free)\nD:\\ (DATA) - Used: 261.6GB, Free: 2.9TB of 3.1TB (91.9% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 70GB, Free: 430GB of 500GB (86% free)\nD:\\ (DATA) - Used: 261.6GB, Free: 2.9TB of 3.1TB (91.9% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  86,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "430.2GB",
-                        "UsedSize":  "69.8GB",
+                        "FreeSize":  "430GB",
+                        "UsedSize":  "70GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "25d 6h 32m",
-    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n25 days, 6 hours, 32 minutes",
+    "Uptime":  "25d 6h 37m",
+    "UptimeTooltip":  "Boot Time: 2025-09-11 17:37:31\nSystem has been running for:\n25 days, 6 hours, 37 minutes",
     "BootTime":  "\/Date(1757637451000)\/",
-    "NetworkMbps":  0.3,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.24 Mbps\nReceived: 0.06 Mbps\nTotal: 0.3 Mbps",
+    "NetworkMbps":  0.16999999999999998,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.08 Mbps\nReceived: 0.09 Mbps\nTotal: 0.17 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/07 00:10"
+    "LastPoll":  "10/07 00:15"
 }
