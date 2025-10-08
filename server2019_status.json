@@ -2,37 +2,42 @@
     "Computer":  "SERVER2019",
     "Customer":  "Community Dental Group",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  8.9,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 371569.1s CPU time, 5.14GB RAM\nSSPService: 146242.6s CPU time, 1.05GB RAM\nSentinelAgent: 13974.4s CPU time, 0.5GB RAM\nMsMpEng: 170432.9s CPU time, 0.4GB RAM\nSAgent.Service: 11225.3s CPU time, 0.3GB RAM\nSophosFileScanner: 29045.1s CPU time, 0.3GB RAM\nexplorer: 332.6s CPU time, 0.21GB RAM\nServiceManagementTool: 23092s CPU time, 0.19GB RAM\nVyneSync.Service: 1238.5s CPU time, 0.19GB RAM\nSearchUI: 314.2s CPU time, 0.18GB RAM",
+    "CPUPercent":  9.2,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 371611.2s CPU time, 5.14GB RAM\nSSPService: 146261.2s CPU time, 1.05GB RAM\nHSPS.eServices.PracticeDataSync: 416.8s CPU time, 0.79GB RAM\nSentinelAgent: 13990.1s CPU time, 0.49GB RAM\nMsMpEng: 170449.5s CPU time, 0.4GB RAM\nSAgent.Service: 11225.4s CPU time, 0.3GB RAM\nSophosFileScanner: 29048s CPU time, 0.3GB RAM\nexplorer: 332.6s CPU time, 0.21GB RAM\nServiceManagementTool: 23106.3s CPU time, 0.19GB RAM\nVyneSync.Service: 1239.6s CPU time, 0.19GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  5.14,
-                                "CPU":  371569.1,
+                                "CPU":  371611.2,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  1.05,
-                                "CPU":  146242.6,
+                                "CPU":  146261.2,
                                 "Name":  "SSPService"
                             },
                             {
-                                "Memory":  0.5,
-                                "CPU":  13974.4,
+                                "Memory":  0.79,
+                                "CPU":  416.8,
+                                "Name":  "HSPS.eServices.PracticeDataSync"
+                            },
+                            {
+                                "Memory":  0.49,
+                                "CPU":  13990.1,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.4,
-                                "CPU":  170432.9,
+                                "CPU":  170449.5,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  11225.3,
+                                "CPU":  11225.4,
                                 "Name":  "SAgent.Service"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  29045.1,
+                                "CPU":  29048,
                                 "Name":  "SophosFileScanner"
                             },
                             {
@@ -42,35 +47,30 @@
                             },
                             {
                                 "Memory":  0.19,
-                                "CPU":  23092,
+                                "CPU":  23106.3,
                                 "Name":  "ServiceManagementTool"
                             },
                             {
                                 "Memory":  0.19,
-                                "CPU":  1238.5,
+                                "CPU":  1239.6,
                                 "Name":  "VyneSync.Service"
-                            },
-                            {
-                                "Memory":  0.18,
-                                "CPU":  314.2,
-                                "Name":  "SearchUI"
                             }
                         ],
     "RAMTotalGB":  31.6,
-    "RAMUsedGB":  18.5,
-    "RAMUsedPercent":  58.5,
-    "RAMFreeGB":  13.1,
+    "RAMUsedGB":  19.2,
+    "RAMUsedPercent":  60.8,
+    "RAMFreeGB":  12.4,
     "DiskFreePercent":  86.4,
     "TotalSize":  "8.2TB",
-    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 69.1GB, Free: 430.9GB of 500GB (86.2% free)\nE:\\ (MONDAY) - Used: 730.1GB, Free: 201.4GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 342.3GB, Free: 6.5TB of 6.8TB (95.1% free)",
+    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 69.5GB, Free: 430.5GB of 500GB (86.1% free)\nE:\\ (MONDAY) - Used: 730.1GB, Free: 201.4GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 342.3GB, Free: 6.5TB of 6.8TB (95.1% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
-                        "FreePercent":  86.2,
+                        "FreePercent":  86.1,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "430.9GB",
-                        "UsedSize":  "69.1GB",
+                        "FreeSize":  "430.5GB",
+                        "UsedSize":  "69.5GB",
                         "Letter":  "C"
                     },
                     {
@@ -92,13 +92,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "27d 6h 40m",
-    "UptimeTooltip":  "Boot Time: 2025-09-10 17:30:57\nSystem has been running for:\n27 days, 6 hours, 40 minutes",
+    "Uptime":  "27d 6h 45m",
+    "UptimeTooltip":  "Boot Time: 2025-09-10 17:30:57\nSystem has been running for:\n27 days, 6 hours, 45 minutes",
     "BootTime":  "\/Date(1757550657000)\/",
-    "NetworkMbps":  0.08,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.01 Mbps\nReceived: 0.07 Mbps\nTotal: 0.08 Mbps",
+    "NetworkMbps":  0.05,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.01 Mbps\nReceived: 0.04 Mbps\nTotal: 0.05 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/08 00:11"
+    "LastPoll":  "10/08 00:16"
 }
