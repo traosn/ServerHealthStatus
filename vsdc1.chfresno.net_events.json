@@ -2,6 +2,17 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760073814845)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({cdafdbb6-4c03-4d77-8e7f-4b8b33168047},{11f455ff-8896-4850-81ca-59f019011161},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
+                       "Id":  12293,
+                       "ErrorCode":  "0x8000ffff",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  86061
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760072511268)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
@@ -46,18 +57,7 @@
                        "ErrorCode":  "0x0005",
                        "UpdateTitle":  null,
                        "EventRecordID":  203916
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760001764725)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({1e0bc8e8-b9eb-43bd-a2a2-c1366049de51},{512b0de6-3a5c-4d99-b654-38e4e9e12814},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
-                       "Id":  12293,
-                       "ErrorCode":  "0x8000ffff",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  85226
                    }
                ],
-    "LastPoll":  "10/09 22:22"
+    "LastPoll":  "10/09 22:32"
 }
