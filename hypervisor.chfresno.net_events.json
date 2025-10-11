@@ -2,6 +2,28 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760179476701)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 00000000000003B8,0x0053c008,000002AD9A787B50,0,000002AD9A786A50,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c008",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  52990
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760179476697)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copy of volume C: could not be created due to a failure in creating the necessary on disk structures.",
+                       "Id":  28,
+                       "ErrorCode":  "0x0001",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  233575
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760179205658)\/",
                        "Source":  "Microsoft-Windows-TPM-WMI",
                        "LogName":  "System",
@@ -13,28 +35,6 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  233553
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760167447149)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\Volume{d8756fc3-228c-4e7e-a161-f1b6b29ef4cb} - 00000000000003AC,0x0053c008,000002AD9A789D50,0,000002AD9A788C50,4096,[0]).  hr = 0x80070299, The requested operation could not be completed due to a file system limitation\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c008",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  52767
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760167447144)\/",
-                       "Source":  "Volsnap",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The shadow copy of volume C: could not be created due to a failure in creating the necessary on disk structures.",
-                       "Id":  28,
-                       "ErrorCode":  "0x0001",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  232718
                    },
                    {
                        "TimeCreated":  "\/Date(1760143022116)\/",
@@ -100,5 +100,5 @@
                        "EventRecordID":  111080
                    }
                ],
-    "LastPoll":  "10/11 03:43"
+    "LastPoll":  "10/11 03:48"
 }
