@@ -2,32 +2,37 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  14,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 29372.6s CPU time, 2.71GB RAM\nsqlservr: 763.1s CPU time, 2.12GB RAM\nSentinelAgent: 10581.8s CPU time, 0.65GB RAM\nsvchost: 1553.9s CPU time, 0.48GB RAM\nSSPService: 15829.5s CPU time, 0.43GB RAM\nSupportAssistAgent: 33s CPU time, 0.42GB RAM\nMsMpEng: 30375s CPU time, 0.37GB RAM\nRegistry: 8.5s CPU time, 0.26GB RAM\nDell.TechHub.Instrumentation.SubAgent: 1428.6s CPU time, 0.24GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 36.3s CPU time, 0.23GB RAM",
+    "CPUPercent":  19.5,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 29398.5s CPU time, 2.71GB RAM\nsqlservr: 763.4s CPU time, 2.12GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 36s CPU time, 1.56GB RAM\nSentinelAgent: 10627.9s CPU time, 0.64GB RAM\nsvchost: 1555.4s CPU time, 0.48GB RAM\nSSPService: 15864.5s CPU time, 0.43GB RAM\nSupportAssistAgent: 33s CPU time, 0.42GB RAM\nMsMpEng: 30469.7s CPU time, 0.39GB RAM\nRegistry: 8.6s CPU time, 0.26GB RAM\nDell.TechHub.Instrumentation.SubAgent: 1432.5s CPU time, 0.24GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  2.71,
-                                "CPU":  29372.6,
+                                "CPU":  29398.5,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  2.12,
-                                "CPU":  763.1,
+                                "CPU":  763.4,
                                 "Name":  "sqlservr"
                             },
                             {
-                                "Memory":  0.65,
-                                "CPU":  10581.8,
+                                "Memory":  1.56,
+                                "CPU":  36,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
+                                "Memory":  0.64,
+                                "CPU":  10627.9,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.48,
-                                "CPU":  1553.9,
+                                "CPU":  1555.4,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.43,
-                                "CPU":  15829.5,
+                                "CPU":  15864.5,
                                 "Name":  "SSPService"
                             },
                             {
@@ -36,41 +41,36 @@
                                 "Name":  "SupportAssistAgent"
                             },
                             {
-                                "Memory":  0.37,
-                                "CPU":  30375,
+                                "Memory":  0.39,
+                                "CPU":  30469.7,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.26,
-                                "CPU":  8.5,
+                                "CPU":  8.6,
                                 "Name":  "Registry"
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  1428.6,
+                                "CPU":  1432.5,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
-                            },
-                            {
-                                "Memory":  0.23,
-                                "CPU":  36.3,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  18.2,
-    "RAMUsedPercent":  57.2,
-    "RAMFreeGB":  13.6,
+    "RAMUsedGB":  19.7,
+    "RAMUsedPercent":  61.9,
+    "RAMFreeGB":  12.1,
     "DiskFreePercent":  62.6,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 102.7GB, Free: 412.3GB of 515GB (80% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.8% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 102.9GB, Free: 412.1GB of 515GB (80% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.8% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  80,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "412.3GB",
-                        "UsedSize":  "102.7GB",
+                        "FreeSize":  "412.1GB",
+                        "UsedSize":  "102.9GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "4d 1h 4m",
-    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n4 days, 1 hours, 4 minutes",
+    "Uptime":  "4d 1h 9m",
+    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n4 days, 1 hours, 9 minutes",
     "BootTime":  "\/Date(1759842458000)\/",
-    "NetworkMbps":  4.83,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 2.56 Mbps\nReceived: 2.27 Mbps\nTotal: 4.83 Mbps",
+    "NetworkMbps":  7.43,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 3.93 Mbps\nReceived: 3.5 Mbps\nTotal: 7.43 Mbps",
     "UpdateStatus":  "Up-to-date",
     "UpdateCount":  0,
     "UpdateTooltip":  "No pending updates found.",
-    "LastPoll":  "10/11 07:11"
+    "LastPoll":  "10/11 07:16"
 }
