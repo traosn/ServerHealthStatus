@@ -2,37 +2,42 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  16.6,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 31749.8s CPU time, 2.87GB RAM\nsqlservr: 899.6s CPU time, 2.13GB RAM\nSentinelAgent: 15711.3s CPU time, 0.63GB RAM\nsvchost: 1799.2s CPU time, 0.53GB RAM\nMsMpEng: 41613.5s CPU time, 0.45GB RAM\nSSPService: 19648.8s CPU time, 0.44GB RAM\nSupportAssistAgent: 35.3s CPU time, 0.43GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 9.5s CPU time, 0.29GB RAM\nRegistry: 10.5s CPU time, 0.26GB RAM\nSophosFileScanner: 7046.6s CPU time, 0.24GB RAM",
+    "CPUPercent":  13.6,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 31781.1s CPU time, 2.87GB RAM\nsqlservr: 899.8s CPU time, 2.13GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 57s CPU time, 1.39GB RAM\nSentinelAgent: 15753.8s CPU time, 0.64GB RAM\nsvchost: 1800.9s CPU time, 0.53GB RAM\nMsMpEng: 41708.4s CPU time, 0.46GB RAM\nSSPService: 19685.2s CPU time, 0.43GB RAM\nSupportAssistAgent: 35.3s CPU time, 0.43GB RAM\nRegistry: 10.5s CPU time, 0.26GB RAM\nSophosFileScanner: 7067.3s CPU time, 0.24GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  2.87,
-                                "CPU":  31749.8,
+                                "CPU":  31781.1,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  2.13,
-                                "CPU":  899.6,
+                                "CPU":  899.8,
                                 "Name":  "sqlservr"
                             },
                             {
-                                "Memory":  0.63,
-                                "CPU":  15711.3,
+                                "Memory":  1.39,
+                                "CPU":  57,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
+                                "Memory":  0.64,
+                                "CPU":  15753.8,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.53,
-                                "CPU":  1799.2,
+                                "CPU":  1800.9,
                                 "Name":  "svchost"
                             },
                             {
-                                "Memory":  0.45,
-                                "CPU":  41613.5,
+                                "Memory":  0.46,
+                                "CPU":  41708.4,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.44,
-                                "CPU":  19648.8,
+                                "Memory":  0.43,
+                                "CPU":  19685.2,
                                 "Name":  "SSPService"
                             },
                             {
@@ -41,25 +46,20 @@
                                 "Name":  "SupportAssistAgent"
                             },
                             {
-                                "Memory":  0.29,
-                                "CPU":  9.5,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
-                            },
-                            {
                                 "Memory":  0.26,
                                 "CPU":  10.5,
                                 "Name":  "Registry"
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  7046.6,
+                                "CPU":  7067.3,
                                 "Name":  "SophosFileScanner"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  18.8,
-    "RAMUsedPercent":  59.1,
-    "RAMFreeGB":  13,
+    "RAMUsedGB":  19.9,
+    "RAMUsedPercent":  62.6,
+    "RAMFreeGB":  11.9,
     "DiskFreePercent":  62.5,
     "TotalSize":  "10.9TB",
     "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 106.3GB, Free: 408.7GB of 515GB (79.4% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.7% free)",
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "4d 11h 19m",
-    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n4 days, 11 hours, 19 minutes",
+    "Uptime":  "4d 11h 24m",
+    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n4 days, 11 hours, 24 minutes",
     "BootTime":  "\/Date(1759842458000)\/",
-    "NetworkMbps":  3.8099999999999996,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 2.01 Mbps\nReceived: 1.8 Mbps\nTotal: 3.81 Mbps",
+    "NetworkMbps":  1.83,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.97 Mbps\nReceived: 0.86 Mbps\nTotal: 1.83 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/11 17:26"
+    "LastPoll":  "10/11 17:31"
 }
