@@ -2,13 +2,18 @@
     "Computer":  "RECOVERYHYPERV",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  0.7,
-    "CPUTooltip":  "Top CPU Processes:\nsvchost: 65385.5s CPU time, 0.4GB RAM\nRegistry: 171.8s CPU time, 0.24GB RAM\nMsMpEng: 40264.9s CPU time, 0.23GB RAM\nAgentService: 5827964.6s CPU time, 0.23GB RAM\nexplorer: 5633.3s CPU time, 0.22GB RAM\npowershell: 396.4s CPU time, 0.18GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nsvchost: 2519s CPU time, 0.13GB RAM\nWindowsAdminCenter: 415.1s CPU time, 0.11GB RAM\nSearchUI: 76.3s CPU time, 0.1GB RAM",
+    "CPUPercent":  0.9,
+    "CPUTooltip":  "Top CPU Processes:\nsvchost: 65390.6s CPU time, 0.4GB RAM\nMsMpEng: 40267.5s CPU time, 0.25GB RAM\nRegistry: 171.8s CPU time, 0.24GB RAM\nAgentService: 5827964.9s CPU time, 0.23GB RAM\nexplorer: 5633.4s CPU time, 0.22GB RAM\npowershell: 396.4s CPU time, 0.18GB RAM\nSecure System: 0s CPU time, 0.15GB RAM\nsvchost: 2519.1s CPU time, 0.13GB RAM\nWindowsAdminCenter: 415.1s CPU time, 0.11GB RAM\nSearchUI: 76.3s CPU time, 0.1GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.4,
-                                "CPU":  65385.5,
+                                "CPU":  65390.6,
                                 "Name":  "svchost"
+                            },
+                            {
+                                "Memory":  0.25,
+                                "CPU":  40267.5,
+                                "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.24,
@@ -17,17 +22,12 @@
                             },
                             {
                                 "Memory":  0.23,
-                                "CPU":  40264.9,
-                                "Name":  "MsMpEng"
-                            },
-                            {
-                                "Memory":  0.23,
-                                "CPU":  5827964.6,
+                                "CPU":  5827964.9,
                                 "Name":  "AgentService"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  5633.3,
+                                "CPU":  5633.4,
                                 "Name":  "explorer"
                             },
                             {
@@ -42,7 +42,7 @@
                             },
                             {
                                 "Memory":  0.13,
-                                "CPU":  2519,
+                                "CPU":  2519.1,
                                 "Name":  "svchost"
                             },
                             {
@@ -83,13 +83,13 @@
                         "Letter":  "C"
                     }
                 ],
-    "Uptime":  "94d 1h 55m",
-    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n94 days, 1 hours, 55 minutes",
+    "Uptime":  "94d 2h 0m",
+    "UptimeTooltip":  "Boot Time: 2025-07-09 15:04:32\nSystem has been running for:\n94 days, 2 hours, 0 minutes",
     "BootTime":  "\/Date(1752098672000)\/",
-    "NetworkMbps":  34.319999999999993,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 17.08 Mbps\nReceived: 17.24 Mbps\nTotal: 34.32 Mbps",
+    "NetworkMbps":  34.3,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 17.01 Mbps\nReceived: 17.29 Mbps\nTotal: 34.3 Mbps",
     "UpdateStatus":  "4 Updates",
     "UpdateCount":  4,
     "UpdateTooltip":  "Click for details on 4 pending updates.",
-    "LastPoll":  "10/11 17:00"
+    "LastPoll":  "10/11 17:05"
 }
