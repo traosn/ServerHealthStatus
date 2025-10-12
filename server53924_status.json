@@ -2,37 +2,42 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  13.5,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 31958.1s CPU time, 2.88GB RAM\nsqlservr: 909.2s CPU time, 2.13GB RAM\nSentinelAgent: 16140.1s CPU time, 0.64GB RAM\nsvchost: 1820.8s CPU time, 0.53GB RAM\nMsMpEng: 42539.8s CPU time, 0.47GB RAM\nSSPService: 19964.5s CPU time, 0.43GB RAM\nSupportAssistAgent: 35.6s CPU time, 0.43GB RAM\nRegistry: 10.7s CPU time, 0.26GB RAM\nSophosFileScanner: 7223.3s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 1813s CPU time, 0.24GB RAM",
+    "CPUPercent":  17.6,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 31991.5s CPU time, 2.89GB RAM\nsqlservr: 910.5s CPU time, 2.13GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 22.5s CPU time, 1.37GB RAM\nSentinelAgent: 16185.9s CPU time, 0.63GB RAM\nsvchost: 1822.4s CPU time, 0.53GB RAM\nMsMpEng: 42638.5s CPU time, 0.46GB RAM\nSSPService: 20005.9s CPU time, 0.43GB RAM\nSupportAssistAgent: 35.6s CPU time, 0.43GB RAM\nRegistry: 10.7s CPU time, 0.26GB RAM\nSophosFileScanner: 7245.5s CPU time, 0.24GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  2.88,
-                                "CPU":  31958.1,
+                                "Memory":  2.89,
+                                "CPU":  31991.5,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  2.13,
-                                "CPU":  909.2,
+                                "CPU":  910.5,
                                 "Name":  "sqlservr"
                             },
                             {
-                                "Memory":  0.64,
-                                "CPU":  16140.1,
+                                "Memory":  1.37,
+                                "CPU":  22.5,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
+                                "Memory":  0.63,
+                                "CPU":  16185.9,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.53,
-                                "CPU":  1820.8,
+                                "CPU":  1822.4,
                                 "Name":  "svchost"
                             },
                             {
-                                "Memory":  0.47,
-                                "CPU":  42539.8,
+                                "Memory":  0.46,
+                                "CPU":  42638.5,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.43,
-                                "CPU":  19964.5,
+                                "CPU":  20005.9,
                                 "Name":  "SSPService"
                             },
                             {
@@ -47,30 +52,25 @@
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  7223.3,
+                                "CPU":  7245.5,
                                 "Name":  "SophosFileScanner"
-                            },
-                            {
-                                "Memory":  0.24,
-                                "CPU":  1813,
-                                "Name":  "Dell.TechHub.Instrumentation.SubAgent"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  19,
-    "RAMUsedPercent":  59.7,
-    "RAMFreeGB":  12.8,
+    "RAMUsedGB":  19.9,
+    "RAMUsedPercent":  62.6,
+    "RAMFreeGB":  11.9,
     "DiskFreePercent":  62.5,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 107.3GB, Free: 407.7GB of 515GB (79.2% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.7% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 107.1GB, Free: 407.9GB of 515GB (79.2% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.7% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  79.2,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "407.7GB",
-                        "UsedSize":  "107.3GB",
+                        "FreeSize":  "407.9GB",
+                        "UsedSize":  "107.1GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "5d 12h 9m",
-    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n5 days, 12 hours, 9 minutes",
+    "Uptime":  "5d 12h 14m",
+    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n5 days, 12 hours, 14 minutes",
     "BootTime":  "\/Date(1759842458000)\/",
-    "NetworkMbps":  3.29,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 1.74 Mbps\nReceived: 1.55 Mbps\nTotal: 3.29 Mbps",
+    "NetworkMbps":  1.78,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.93 Mbps\nReceived: 0.85 Mbps\nTotal: 1.78 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/11 18:16"
+    "LastPoll":  "10/11 18:21"
 }
