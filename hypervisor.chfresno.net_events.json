@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760258202225)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy6367 - 00000000000003D8,0x0053c198,000002AD9A781550,0,000002AD9A782650,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  54576
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760248010061)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -26,17 +37,6 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  116080
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760241154243)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy6362 - 00000000000002BC,0x0053c198,000002AD9A781550,0,000002AD9A787B50,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  54243
                    },
                    {
                        "TimeCreated":  "\/Date(1760229434483)\/",
@@ -100,5 +100,5 @@
                        "EventRecordID":  234773
                    }
                ],
-    "LastPoll":  "10/12 01:33"
+    "LastPoll":  "10/12 01:38"
 }
