@@ -2,43 +2,48 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  9.7,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 33373.7s CPU time, 2.97GB RAM\nsqlservr: 989.5s CPU time, 2.13GB RAM\nsvchost: 1969.7s CPU time, 0.56GB RAM\nMsMpEng: 43270.5s CPU time, 0.45GB RAM\nSSPService: 20891s CPU time, 0.44GB RAM\nSupportAssistAgent: 36.9s CPU time, 0.43GB RAM\nSentinelAgent: 16753s CPU time, 0.41GB RAM\nRegistry: 11.3s CPU time, 0.26GB RAM\nSophosFileScanner: 7576.5s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 2037.2s CPU time, 0.24GB RAM",
+    "CPUPercent":  10.1,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 33405.5s CPU time, 2.97GB RAM\nsqlservr: 989.8s CPU time, 2.13GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 13.3s CPU time, 0.83GB RAM\nsvchost: 1971.4s CPU time, 0.56GB RAM\nMsMpEng: 43277.4s CPU time, 0.44GB RAM\nSSPService: 20907.7s CPU time, 0.43GB RAM\nSentinelAgent: 16760.3s CPU time, 0.43GB RAM\nSupportAssistAgent: 36.9s CPU time, 0.43GB RAM\nRegistry: 11.3s CPU time, 0.26GB RAM\nSophosFileScanner: 7584.9s CPU time, 0.24GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  2.97,
-                                "CPU":  33373.7,
+                                "CPU":  33405.5,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  2.13,
-                                "CPU":  989.5,
+                                "CPU":  989.8,
                                 "Name":  "sqlservr"
                             },
                             {
+                                "Memory":  0.83,
+                                "CPU":  13.3,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
                                 "Memory":  0.56,
-                                "CPU":  1969.7,
+                                "CPU":  1971.4,
                                 "Name":  "svchost"
                             },
                             {
-                                "Memory":  0.45,
-                                "CPU":  43270.5,
+                                "Memory":  0.44,
+                                "CPU":  43277.4,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.44,
-                                "CPU":  20891,
+                                "Memory":  0.43,
+                                "CPU":  20907.7,
                                 "Name":  "SSPService"
+                            },
+                            {
+                                "Memory":  0.43,
+                                "CPU":  16760.3,
+                                "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.43,
                                 "CPU":  36.9,
                                 "Name":  "SupportAssistAgent"
-                            },
-                            {
-                                "Memory":  0.41,
-                                "CPU":  16753,
-                                "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.26,
@@ -47,30 +52,25 @@
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  7576.5,
+                                "CPU":  7584.9,
                                 "Name":  "SophosFileScanner"
-                            },
-                            {
-                                "Memory":  0.24,
-                                "CPU":  2037.2,
-                                "Name":  "Dell.TechHub.Instrumentation.SubAgent"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  18.9,
-    "RAMUsedPercent":  59.4,
-    "RAMFreeGB":  12.9,
+    "RAMUsedGB":  19.3,
+    "RAMUsedPercent":  60.7,
+    "RAMFreeGB":  12.5,
     "DiskFreePercent":  62.5,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 109.7GB, Free: 405.3GB of 515GB (78.7% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.7% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 109.8GB, Free: 405.2GB of 515GB (78.7% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.7% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  78.7,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "405.3GB",
-                        "UsedSize":  "109.7GB",
+                        "FreeSize":  "405.2GB",
+                        "UsedSize":  "109.8GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "5d 18h 4m",
-    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n5 days, 18 hours, 4 minutes",
+    "Uptime":  "5d 18h 9m",
+    "UptimeTooltip":  "Boot Time: 2025-10-07 06:07:38\nSystem has been running for:\n5 days, 18 hours, 9 minutes",
     "BootTime":  "\/Date(1759842458000)\/",
-    "NetworkMbps":  4.76,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 2.53 Mbps\nReceived: 2.23 Mbps\nTotal: 4.76 Mbps",
+    "NetworkMbps":  4.79,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 2.55 Mbps\nReceived: 2.24 Mbps\nTotal: 4.79 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/12 00:11"
+    "LastPoll":  "10/12 00:16"
 }
