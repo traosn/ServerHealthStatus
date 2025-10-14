@@ -2,6 +2,32 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760482112575)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{f9978288-c7fc-422e-b906-1f1033f51630}\" of \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  124405
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760482112575)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\" , instance \"{f9978288-c7fc-422e-b906-1f1033f51630}\" , action \"Device Directory Client Handler\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  124404
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760481605617)\/",
                        "Source":  "Microsoft-Windows-TPM-WMI",
                        "LogName":  "System",
@@ -26,32 +52,6 @@
                        "EventRecordID":  248664
                    },
                    {
-                       "TimeCreated":  "\/Date(1760403243426)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{11da35df-f377-4409-8078-a0516edc7c1f}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  121727
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760403243426)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{11da35df-f377-4409-8078-a0516edc7c1f}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  121726
-                   },
-                   {
                        "TimeCreated":  "\/Date(1760397845138)\/",
                        "Source":  "Microsoft-Windows-Security-SPP",
                        "LogName":  "Application",
@@ -63,5 +63,5 @@
                        "EventRecordID":  57421
                    }
                ],
-    "LastPoll":  "10/14 15:48"
+    "LastPoll":  "10/14 15:53"
 }
