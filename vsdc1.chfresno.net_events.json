@@ -2,6 +2,17 @@
     "Computer":  "VSDC1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760433765686)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({91e7c05c-7424-4f61-b635-c6d9f9a79223},{73285cc6-cf3c-4166-bb01-aed6cbbc1261},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
+                       "Id":  12293,
+                       "ErrorCode":  "0x8000ffff",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  90368
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760430413469)\/",
                        "Source":  "Microsoft-Windows-Perflib",
                        "LogName":  "Application",
@@ -65,17 +76,6 @@
                        "EventRecordID":  177069
                    },
                    {
-                       "TimeCreated":  "\/Date(1760361797749)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Error calling a routine on a Shadow Copy Provider {74600e39-7dc5-4567-a03b-f091d6c7b092}. Routine details BeginPrepareSnapshot({da6b9869-cc99-4700-848e-bfdc660a2e47},{9d7048a1-1f75-4da9-93c0-637a40b9179e},\\\\?\\Volume{c6def331-2795-4a00-bf35-64cc5b01fbec}\\) [hr = 0x8000ffff, Catastrophic failure\r",
-                       "Id":  12293,
-                       "ErrorCode":  "0x8000ffff",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  89504
-                   },
-                   {
                        "TimeCreated":  "\/Date(1760360545322)\/",
                        "Source":  "VDS Basic Provider",
                        "LogName":  "System",
@@ -87,5 +87,5 @@
                        "EventRecordID":  212485
                    }
                ],
-    "LastPoll":  "10/14 02:22"
+    "LastPoll":  "10/14 02:27"
 }
