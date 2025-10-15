@@ -2,6 +2,17 @@
     "Computer":  "CRMSERVER2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760526008570)\/",
+                       "Source":  "Microsoft-Windows-Kerberos-Key-Distribution-Center",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "This event indicates an attempt was made to use smartcard logon, but the KDC is unable to use the PKINIT protocol because it is missing a suitable certificate.",
+                       "Id":  19,
+                       "ErrorCode":  null,
+                       "UpdateTitle":  null,
+                       "EventRecordID":  534319
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760507730929)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -41,5 +52,5 @@
                        "EventRecordID":  56557
                    }
                ],
-    "LastPoll":  "10/15 03:56"
+    "LastPoll":  "10/15 04:01"
 }
