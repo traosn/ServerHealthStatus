@@ -2,43 +2,33 @@
     "Computer":  "SERVER2019",
     "Customer":  "Community Dental Group",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  6.7,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 477249.7s CPU time, 6.29GB RAM\nSSPService: 196185.8s CPU time, 1.06GB RAM\nSentinelAgent: 58188.8s CPU time, 0.98GB RAM\nMsMpEng: 5310s CPU time, 0.42GB RAM\nSophosFileScanner: 37756.9s CPU time, 0.3GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 8.5s CPU time, 0.26GB RAM\nVyneSync.Service: 11678.6s CPU time, 0.25GB RAM\nexplorer: 424.6s CPU time, 0.23GB RAM\nsvchost: 770.7s CPU time, 0.23GB RAM\nServiceManagementTool: 36859.4s CPU time, 0.22GB RAM",
+    "CPUPercent":  0.9,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 477369.8s CPU time, 6.3GB RAM\nSSPService: 196212.4s CPU time, 1.06GB RAM\nSentinelAgent: 58212s CPU time, 1.01GB RAM\nMsMpEng: 5339.5s CPU time, 0.42GB RAM\nSophosFileScanner: 37758.7s CPU time, 0.3GB RAM\nexplorer: 424.6s CPU time, 0.23GB RAM\nsvchost: 773.1s CPU time, 0.23GB RAM\nServiceManagementTool: 36865.9s CPU time, 0.22GB RAM\nVyneSync.Service: 11688.1s CPU time, 0.22GB RAM\nsvchost: 25.1s CPU time, 0.21GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  6.29,
-                                "CPU":  477249.7,
+                                "Memory":  6.3,
+                                "CPU":  477369.8,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  1.06,
-                                "CPU":  196185.8,
+                                "CPU":  196212.4,
                                 "Name":  "SSPService"
                             },
                             {
-                                "Memory":  0.98,
-                                "CPU":  58188.8,
+                                "Memory":  1.01,
+                                "CPU":  58212,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.42,
-                                "CPU":  5310,
+                                "CPU":  5339.5,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  37756.9,
+                                "CPU":  37758.7,
                                 "Name":  "SophosFileScanner"
-                            },
-                            {
-                                "Memory":  0.26,
-                                "CPU":  8.5,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
-                            },
-                            {
-                                "Memory":  0.25,
-                                "CPU":  11678.6,
-                                "Name":  "VyneSync.Service"
                             },
                             {
                                 "Memory":  0.23,
@@ -47,13 +37,23 @@
                             },
                             {
                                 "Memory":  0.23,
-                                "CPU":  770.7,
+                                "CPU":  773.1,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  36859.4,
+                                "CPU":  36865.9,
                                 "Name":  "ServiceManagementTool"
+                            },
+                            {
+                                "Memory":  0.22,
+                                "CPU":  11688.1,
+                                "Name":  "VyneSync.Service"
+                            },
+                            {
+                                "Memory":  0.21,
+                                "CPU":  25.1,
+                                "Name":  "svchost"
                             }
                         ],
     "RAMTotalGB":  31.6,
@@ -62,15 +62,15 @@
     "RAMFreeGB":  10.4,
     "DiskFreePercent":  85.7,
     "TotalSize":  "8.2TB",
-    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 111.1GB, Free: 388.9GB of 500GB (77.8% free)\nE:\\ (MONDAY) - Used: 730.1GB, Free: 201.4GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 352.6GB, Free: 6.4TB of 6.8TB (94.9% free)",
+    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 111.2GB, Free: 388.8GB of 500GB (77.8% free)\nE:\\ (MONDAY) - Used: 730.1GB, Free: 201.4GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 352.6GB, Free: 6.4TB of 6.8TB (94.9% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  77.8,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "388.9GB",
-                        "UsedSize":  "111.1GB",
+                        "FreeSize":  "388.8GB",
+                        "UsedSize":  "111.2GB",
                         "Letter":  "C"
                     },
                     {
@@ -92,13 +92,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "35d 16h 30m",
-    "UptimeTooltip":  "Boot Time: 2025-09-10 17:30:57\nSystem has been running for:\n35 days, 16 hours, 30 minutes",
+    "Uptime":  "35d 16h 35m",
+    "UptimeTooltip":  "Boot Time: 2025-09-10 17:30:57\nSystem has been running for:\n35 days, 16 hours, 35 minutes",
     "BootTime":  "\/Date(1757550657000)\/",
-    "NetworkMbps":  0.58000000000000007,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.27 Mbps\nReceived: 0.31 Mbps\nTotal: 0.58 Mbps",
+    "NetworkMbps":  0.63,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.31 Mbps\nReceived: 0.32 Mbps\nTotal: 0.63 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/15 10:01"
+    "LastPoll":  "10/15 10:06"
 }
