@@ -2,6 +2,58 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760540186774)\/",
+                       "Source":  "Microsoft-Windows-Bits-Client",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
+                       "Id":  16398,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  10896
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760540073816)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Huntress Rio Service service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 300000 milliseconds: Restart the service.",
+                       "Id":  7031,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  10870
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760540072794)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{e202b902-00f3-485b-aba9-21c799c36021}\" of \"\\Microsoft\\Windows\\WindowsColorSystem\\Calibration Loader\"  task for user \"KHOETECH\\traoh\" . Additional Data: Error Value: 2147942487.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  231767
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760540072794)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\WindowsColorSystem\\Calibration Loader\" , instance \"{e202b902-00f3-485b-aba9-21c799c36021}\" , action \"Color Calibration Loader\" . Additional Data: Error Value: 2147942487.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  231766
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760526576305)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -78,57 +130,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  10744
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760526203875)\/",
-                       "Source":  "Microsoft-Windows-Perflib",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\WINDOWS\\system32\\sysmain.dll\" (Win32 error code The specified module could not be found.).",
-                       "Id":  1023,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  41836
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760526152720)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service information: The COM Server with CLSID {4e14fba2-2e22-11d1-9964-00c04fbbb345} and name CEventSystem cannot be started. [0x8007045b, A system shutdown is in progress.\r",
-                       "Id":  13,
-                       "ErrorCode":  "0x8007045b",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  41761
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760526086812)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{0475ad71-b10c-46e2-b752-f5b2d5111be8}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  230856
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760526086812)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{0475ad71-b10c-46e2-b752-f5b2d5111be8}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  230855
                    }
                ],
-    "LastPoll":  "10/15 07:53"
+    "LastPoll":  "10/15 07:59"
 }
