@@ -2,6 +2,43 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760488617776)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{b5bd4f75-ddfc-4ad0-8a81-5147447d4fec}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  124754
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760488617776)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{b5bd4f75-ddfc-4ad0-8a81-5147447d4fec}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  124753
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760488564906)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9N0DX20HK701-Microsoft.WindowsTerminal.",
+                       "Id":  20,
+                       "ErrorCode":  "0x80073D02",
+                       "UpdateTitle":  "9N0DX20HK701-Microsoft.WindowsTerminal",
+                       "EventRecordID":  250911
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760484245033)\/",
                        "Source":  "Microsoft-Windows-Security-SPP",
                        "LogName":  "Application",
@@ -11,32 +48,6 @@
                        "ErrorCode":  "0x8007232B",
                        "UpdateTitle":  null,
                        "EventRecordID":  59064
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760482112575)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{f9978288-c7fc-422e-b906-1f1033f51630}\" of \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  124405
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760482112575)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\" , instance \"{f9978288-c7fc-422e-b906-1f1033f51630}\" , action \"Device Directory Client Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  124404
                    },
                    {
                        "TimeCreated":  "\/Date(1760481605617)\/",
@@ -50,18 +61,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  250400
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760452687246)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9N0DX20HK701-Microsoft.WindowsTerminal.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9N0DX20HK701-Microsoft.WindowsTerminal",
-                       "EventRecordID":  248664
                    }
                ],
-    "LastPoll":  "10/14 17:33"
+    "LastPoll":  "10/14 17:38"
 }
