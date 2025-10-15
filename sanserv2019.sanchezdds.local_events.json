@@ -1,17 +1,30 @@
 {
     "Computer":  "SANSERV2019",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1760455372814)\/",
-                   "Source":  "Microsoft-Windows-Perflib",
-                   "LogName":  "Application",
-                   "Level":  "Error",
-                   "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
-                   "Id":  1023,
-                   "ErrorCode":  {
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1760487683241)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x80240438.",
+                       "Id":  25,
+                       "ErrorCode":  "0x80240438",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  86835
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760455372814)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                       "Id":  1023,
+                       "ErrorCode":  {
 
-                                 },
-                   "UpdateTitle":  null,
-                   "EventRecordID":  236669
-               },
-    "LastPoll":  "10/14 17:21"
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  236669
+                   }
+               ],
+    "LastPoll":  "10/14 17:24"
 }
