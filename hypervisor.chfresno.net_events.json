@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760513280076)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy5889 - 0000000000000340,0x00530190,0000000000000000,0,000002AD9A77E250,4096,[0]).  hr = 0x800701b1, A device which does not exist was specified.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x00530190",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  59626
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760488617776)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -63,5 +74,5 @@
                        "EventRecordID":  250400
                    }
                ],
-    "LastPoll":  "10/15 00:28"
+    "LastPoll":  "10/15 00:33"
 }
