@@ -1,17 +1,30 @@
 {
     "Computer":  "SERVER53924",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1760428345743)\/",
-                   "Source":  "Service Control Manager",
-                   "LogName":  "System",
-                   "Level":  "Error",
-                   "Message":  "The Practice Data Sync service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 60000 milliseconds: Restart the service.",
-                   "Id":  7031,
-                   "ErrorCode":  {
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1760487288154)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x80240438.",
+                       "Id":  25,
+                       "ErrorCode":  "0x80240438",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  54033
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760428345743)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Practice Data Sync service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 60000 milliseconds: Restart the service.",
+                       "Id":  7031,
+                       "ErrorCode":  {
 
-                                 },
-                   "UpdateTitle":  null,
-                   "EventRecordID":  2046805
-               },
-    "LastPoll":  "10/14 17:14"
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  2046805
+                   }
+               ],
+    "LastPoll":  "10/14 17:19"
 }
