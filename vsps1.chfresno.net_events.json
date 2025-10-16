@@ -2,6 +2,110 @@
     "Computer":  "VSPS1",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760628173523)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The SysMain service terminated with the following error: \r",
+                       "Id":  7023,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  216284
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760628133222)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  170581
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760614086097)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files (x86)\\NinjaOne\\NinjaRMMAgent.exe\" (value from GetModuleFileName() for the binary that issued the query).",
+                       "Id":  1000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  30447
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760614071054)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Windows Defender Advanced Threat Protection Service service did not shut down properly after receiving a preshutdown control.",
+                       "Id":  7043,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  216090
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760614055457)\/",
+                       "Source":  "Microsoft-Windows-DistributedCOM",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "DCOM got error \"1115\" attempting to start the service TrustedInstaller with arguments \"Unavailable\" in order to run the server:\r",
+                       "Id":  10005,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  216086
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760614047186)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"%windir%\\system32\\speech_onecore\\common\\SpeechModelDownload.exe\" in instance \"{865801cf-b1a6-43a4-b596-34fe58d88297}\" of task \"\\Microsoft\\Windows\\Speech\\SpeechModelDownloadTask\". Additional Data: Error Value: 2147943515.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  170564
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760613848949)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{e59ba122-0d2c-4f00-b76c-03a2156ae2e4}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  170511
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760613848949)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{e59ba122-0d2c-4f00-b76c-03a2156ae2e4}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  170510
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760605379844)\/",
                        "Source":  "Volsnap",
                        "LogName":  "System",
@@ -11,18 +115,7 @@
                        "ErrorCode":  "0x0001",
                        "UpdateTitle":  null,
                        "EventRecordID":  215886
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760529162079)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                       "Level":  "Error",
-                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
-                       "Id":  25,
-                       "ErrorCode":  "0x800B0109",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  29822
                    }
                ],
-    "LastPoll":  "10/16 03:57"
+    "LastPoll":  "10/16 08:30"
 }
