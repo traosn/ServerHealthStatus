@@ -2,6 +2,121 @@
     "Computer":  "CRMSERVER2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760612777011)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "A timeout was reached (30000 milliseconds) while waiting for the CRM Web Interface service to connect.",
+                       "Id":  7009,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  538174
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612615310)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The SplashtopRemoteService service failed to start due to the following error: \r",
+                       "Id":  7000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  538148
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612588226)\/",
+                       "Source":  "Microsoft-Windows-DHCP-Server",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The DHCP server was unable to create or lookup the DHCP Administrators local group on this computer.  The error code is in the data.",
+                       "Id":  1036,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  538103
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612588085)\/",
+                       "Source":  "Microsoft-Windows-DHCP-Server",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The DHCP service was unable to create or lookup the DHCP Users local group on this computer.  The error code is in the data.",
+                       "Id":  1035,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  538102
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612586210)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error calling routine RegOpenKeyExW(-2147483646,SYSTEM\\CurrentControlSet\\Services\\VSS\\Diag,...).  hr = 0x80070005, Access is denied.\r",
+                       "Id":  8193,
+                       "ErrorCode":  "0x80070005",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  57741
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612510020)\/",
+                       "Source":  "Microsoft-Windows-Hyper-V-VmSwitch",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Failed to restore configuration for port 93E94012-713D-4323-B618-59ACA8D9606C (Friendly Name: ) on switch FFA4CC58-1AD2-455B-967D-44D1669D978E (Friendly Name: ), status = Object Name not found..",
+                       "Id":  15,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  537980
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612455842)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files (x86)\\NinjaOne\\NinjaRMMAgent.exe\" (value from GetModuleFileName() for the binary that issued the query).",
+                       "Id":  1000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  57737
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612315248)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{451bbbb9-dacc-4e6f-9ca1-ef1a3d832b1c}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  310590
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760612315248)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{451bbbb9-dacc-4e6f-9ca1-ef1a3d832b1c}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  310589
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760572013738)\/",
                        "Source":  "Microsoft-Windows-Perflib",
                        "LogName":  "Application",
@@ -13,18 +128,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  57352
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760526008570)\/",
-                       "Source":  "Microsoft-Windows-Kerberos-Key-Distribution-Center",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "This event indicates an attempt was made to use smartcard logon, but the KDC is unable to use the PKINIT protocol because it is missing a suitable certificate.",
-                       "Id":  19,
-                       "ErrorCode":  null,
-                       "UpdateTitle":  null,
-                       "EventRecordID":  534319
                    }
                ],
-    "LastPoll":  "10/16 03:56"
+    "LastPoll":  "10/16 04:11"
 }
