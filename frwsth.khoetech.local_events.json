@@ -2,6 +2,19 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760584570493)\/",
+                       "Source":  "Microsoft-Windows-Bits-Client",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
+                       "Id":  16398,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  11081
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760577301929)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -26,19 +39,6 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  233699
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760576187233)\/",
-                       "Source":  "Microsoft-Windows-Bits-Client",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
-                       "Id":  16398,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  11068
                    },
                    {
                        "TimeCreated":  "\/Date(1760556665337)\/",
@@ -132,5 +132,5 @@
                        "EventRecordID":  10744
                    }
                ],
-    "LastPoll":  "10/15 20:13"
+    "LastPoll":  "10/15 20:19"
 }
