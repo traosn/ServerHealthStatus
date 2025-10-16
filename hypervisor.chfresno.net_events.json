@@ -2,7 +2,33 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1760611205662)\/",
+                       "TimeCreated":  "\/Date(1760614704360)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{736845c4-0a7c-4c01-92fd-2ca9dcf60192}\" of \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319 64\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147946720.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  129482
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760614704360)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319 64\" , instance \"{736845c4-0a7c-4c01-92fd-2ca9dcf60192}\" , action \"\" . Additional Data: Error Value: 2147946720.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  129481
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760613943108)\/",
                        "Source":  "Microsoft-Windows-TPM-WMI",
                        "LogName":  "System",
                        "Level":  "Error",
@@ -12,47 +38,49 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  257154
+                       "EventRecordID":  258084
                    },
                    {
-                       "TimeCreated":  "\/Date(1760574912432)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "TimeCreated":  "\/Date(1760613912254)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{10ff301f-8654-4e6f-ad8f-b57d5d86ee21}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
+                       "Message":  "The Background Intelligent Transfer Service service hung on starting.",
+                       "Id":  7022,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  127806
+                       "EventRecordID":  258080
                    },
                    {
-                       "TimeCreated":  "\/Date(1760574912432)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "TimeCreated":  "\/Date(1760613909821)\/",
+                       "Source":  "Microsoft-Windows-DistributedCOM",
+                       "LogName":  "System",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{10ff301f-8654-4e6f-ad8f-b57d5d86ee21}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
+                       "Message":  "The server {4991D34B-80A1-4291-83B6-3328366B9097} did not register with DCOM within the required timeout.",
+                       "Id":  10010,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  127805
+                       "EventRecordID":  258079
                    },
                    {
-                       "TimeCreated":  "\/Date(1760570645142)\/",
-                       "Source":  "Microsoft-Windows-Security-SPP",
-                       "LogName":  "Application",
+                       "TimeCreated":  "\/Date(1760613885474)\/",
+                       "Source":  "NETLOGON",
+                       "LogName":  "System",
                        "Level":  "Error",
-                       "Message":  "License Activation (slui.exe) failed with the following error code:\r",
-                       "Id":  8198,
-                       "ErrorCode":  "0x8007232B",
+                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain CHFRESNO due to the following: \r",
+                       "Id":  5719,
+                       "ErrorCode":  {
+
+                                     },
                        "UpdateTitle":  null,
-                       "EventRecordID":  60724
+                       "EventRecordID":  258077
                    },
                    {
-                       "TimeCreated":  "\/Date(1760561614076)\/",
+                       "TimeCreated":  "\/Date(1760613831083)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
@@ -62,32 +90,45 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  127265
+                       "EventRecordID":  129365
                    },
                    {
-                       "TimeCreated":  "\/Date(1760561614076)\/",
+                       "TimeCreated":  "\/Date(1760613831082)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{2b9c01dd-27d9-44aa-953b-321a84c88bd2}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{ed4d3259-3b83-4e7b-84e7-e5a62314be02}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
                        "Id":  203,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  127264
+                       "EventRecordID":  129364
                    },
                    {
-                       "TimeCreated":  "\/Date(1760549467763)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "TimeCreated":  "\/Date(1760613802964)\/",
+                       "Source":  "Microsoft-Windows-GroupPolicy",
                        "LogName":  "System",
                        "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9N0DX20HK701-Microsoft.WindowsTerminal.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9N0DX20HK701-Microsoft.WindowsTerminal",
-                       "EventRecordID":  253800
+                       "Message":  "The processing of Group Policy failed because of lack of network connectivity to a domain controller. This may be a transient condition. A success message would be generated once the machine gets connected to the domain controller and Group Policy has successfully processed. If you do not see a success message for several hours, then contact your administrator.",
+                       "Id":  1129,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  258047
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760613745203)\/",
+                       "Source":  "Microsoft-Windows-Security-SPP",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "License Activation (slui.exe) failed with the following error code:\r",
+                       "Id":  8198,
+                       "ErrorCode":  "0x8007139F",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  61584
                    }
                ],
-    "LastPoll":  "10/16 03:58"
+    "LastPoll":  "10/16 04:39"
 }
