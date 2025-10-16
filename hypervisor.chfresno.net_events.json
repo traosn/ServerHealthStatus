@@ -2,6 +2,32 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760628639989)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{c96eaf2a-92db-450a-9c75-60b37c30fa41}\" of \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  130118
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760628639989)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\" , instance \"{c96eaf2a-92db-450a-9c75-60b37c30fa41}\" , action \"Device Directory Client Handler\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  130117
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760628017422)\/",
                        "Source":  "Microsoft-Windows-Security-SPP",
                        "LogName":  "Application",
@@ -11,32 +37,6 @@
                        "ErrorCode":  "0x8007232B",
                        "UpdateTitle":  null,
                        "EventRecordID":  61867
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760615051496)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{9db0a7d0-5873-4469-967d-8ffa759eafbe}\" of \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147946720.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  129501
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760615051496)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319\" , instance \"{9db0a7d0-5873-4469-967d-8ffa759eafbe}\" , action \"\" . Additional Data: Error Value: 2147946720.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  129500
                    },
                    {
                        "TimeCreated":  "\/Date(1760613943108)\/",
@@ -130,5 +130,5 @@
                        "EventRecordID":  258047
                    }
                ],
-    "LastPoll":  "10/16 08:28"
+    "LastPoll":  "10/16 08:33"
 }
