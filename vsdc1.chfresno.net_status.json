@@ -2,42 +2,47 @@
     "Computer":  "VSDC1",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  4.7,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 6677.1s CPU time, 0.54GB RAM\nMsMpEng: 3719.6s CPU time, 0.24GB RAM\nlsass: 3535.4s CPU time, 0.21GB RAM\ndns: 790.6s CPU time, 0.13GB RAM\npowershell: 3s CPU time, 0.1GB RAM\nsvchost: 1310.1s CPU time, 0.08GB RAM\nNinjaRMMAgent: 2141.9s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 88.5s CPU time, 0.07GB RAM\nSentinelStaticEngineScanner: 0.5s CPU time, 0.07GB RAM\nAgentService: 2532.2s CPU time, 0.05GB RAM",
+    "CPUPercent":  10.2,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 6687.2s CPU time, 0.55GB RAM\nMsMpEng: 3726.2s CPU time, 0.25GB RAM\nlsass: 3540.4s CPU time, 0.21GB RAM\nRegistry: 10.2s CPU time, 0.21GB RAM\ndns: 793.5s CPU time, 0.13GB RAM\npowershell: 2.7s CPU time, 0.1GB RAM\nsvchost: 1313.3s CPU time, 0.08GB RAM\nNinjaRMMAgent: 2148.1s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 88.5s CPU time, 0.07GB RAM\nSentinelStaticEngineScanner: 0.5s CPU time, 0.07GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.54,
-                                "CPU":  6677.1,
+                                "Memory":  0.55,
+                                "CPU":  6687.2,
                                 "Name":  "SentinelAgent"
                             },
                             {
-                                "Memory":  0.24,
-                                "CPU":  3719.6,
+                                "Memory":  0.25,
+                                "CPU":  3726.2,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.21,
-                                "CPU":  3535.4,
+                                "CPU":  3540.4,
                                 "Name":  "lsass"
                             },
                             {
+                                "Memory":  0.21,
+                                "CPU":  10.2,
+                                "Name":  "Registry"
+                            },
+                            {
                                 "Memory":  0.13,
-                                "CPU":  790.6,
+                                "CPU":  793.5,
                                 "Name":  "dns"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  3,
+                                "CPU":  2.7,
                                 "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.08,
-                                "CPU":  1310.1,
+                                "CPU":  1313.3,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.08,
-                                "CPU":  2141.9,
+                                "CPU":  2148.1,
                                 "Name":  "NinjaRMMAgent"
                             },
                             {
@@ -49,17 +54,12 @@
                                 "Memory":  0.07,
                                 "CPU":  0.5,
                                 "Name":  "SentinelStaticEngineScanner"
-                            },
-                            {
-                                "Memory":  0.05,
-                                "CPU":  2532.2,
-                                "Name":  "AgentService"
                             }
                         ],
     "RAMTotalGB":  16,
-    "RAMUsedGB":  3.9,
-    "RAMUsedPercent":  24.4,
-    "RAMFreeGB":  12.1,
+    "RAMUsedGB":  4.2,
+    "RAMUsedPercent":  26.2,
+    "RAMFreeGB":  11.8,
     "DiskFreePercent":  71,
     "TotalSize":  "199.4GB",
     "DiskTooltip":  "Total Storage: 199.4GB\n\nDisk Usage:\nC:\\ - Used: 57.8GB, Free: 141.6GB of 199.4GB (71% free)",
@@ -72,13 +72,13 @@
                     "UsedSize":  "57.8GB",
                     "Letter":  "C"
                 },
-    "Uptime":  "1d 5h 59m",
-    "UptimeTooltip":  "Boot Time: 2025-10-16 04:28:00\nSystem has been running for:\n1 days, 5 hours, 59 minutes",
+    "Uptime":  "1d 6h 4m",
+    "UptimeTooltip":  "Boot Time: 2025-10-16 04:28:00\nSystem has been running for:\n1 days, 6 hours, 4 minutes",
     "BootTime":  "\/Date(1760614080000)\/",
-    "NetworkMbps":  0.26,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.17 Mbps\nReceived: 0.09 Mbps\nTotal: 0.26 Mbps",
+    "NetworkMbps":  0.24000000000000002,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.14 Mbps\nReceived: 0.1 Mbps\nTotal: 0.24 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/17 10:27"
+    "LastPoll":  "10/17 10:33"
 }
