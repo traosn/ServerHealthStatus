@@ -2,6 +2,32 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760701454322)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{162e32d6-ae98-4e0e-a0a4-e242cbd3af61}\" of \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147946720.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  133233
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760701454322)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319\" , instance \"{162e32d6-ae98-4e0e-a0a4-e242cbd3af61}\" , action \"\" . Additional Data: Error Value: 2147946720.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  133232
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760700446905)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -102,33 +128,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  132990
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760699695490)\/",
-                       "Source":  "Microsoft-Windows-DistributedCOM",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "DCOM got error \"1115\" attempting to start the service TrustedInstaller with arguments \"Unavailable\" in order to run the server:\r",
-                       "Id":  10005,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  264240
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760699641687)\/",
-                       "Source":  "Service Control Manager",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The Update Orchestrator Service service terminated with the following error: \r",
-                       "Id":  7023,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  264217
                    }
                ],
-    "LastPoll":  "10/17 04:49"
+    "LastPoll":  "10/17 04:53"
 }
