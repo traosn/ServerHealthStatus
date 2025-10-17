@@ -2,6 +2,123 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760698971200)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\WINDOWS\\system32\\sysmain.dll\" (Win32 error code The specified module could not be found.).",
+                       "Id":  1023,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  43652
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698949668)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to load task \"\\Microsoft\\Windows\\UpdateOrchestrator\\StartOobeAppsScanAfterUpdate\" at service startup. Additional Data: Error Value: 2147942402.",
+                       "Id":  146,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239252
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698949668)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task instantiation failed \"\\Microsoft\\Windows\\UpdateOrchestrator\\StartOobeAppsScanAfterUpdate\". Check point: Ubpm-RegisterConsumer. Error Value: 2147942402.",
+                       "Id":  151,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239251
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698949624)\/",
+                       "Source":  "NETLOGON",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain KHOETECH due to the following: \r",
+                       "Id":  5719,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  11387
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698941638)\/",
+                       "Source":  "iaStorAC",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "Error log: Smart event occured on disk :49QA14SYK00N  ",
+                       "Id":  4102,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  11312
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698894790)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Hotpatch\\Monitoring\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147943515.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239218
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698894790)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\cmd.exe\" in instance \"{d3697215-bcb3-4f76-a246-f340eb68780c}\" of task \"\\Microsoft\\Windows\\Hotpatch\\Monitoring\". Additional Data: Error Value: 2147943515.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239217
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698890562)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{87de5068-d771-4dd9-af7a-f23680237496}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239209
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698890562)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{87de5068-d771-4dd9-af7a-f23680237496}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  239208
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760692241396)\/",
                        "Source":  "Microsoft-Windows-Bits-Client",
                        "LogName":  "System",
@@ -13,120 +130,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  11267
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760678165084)\/",
-                       "Source":  "Microsoft-Windows-WUSA",
-                       "LogName":  "Setup",
-                       "Level":  "Error",
-                       "Message":  "Windows update \"Security Update for Windows (KB5066835)\" could not be installed because of error 2147942593 \"\"Security Update for Windows (KB5066835)\" is not a valid Win32 application.\" (Command line: \"wusa.exe  \"C:/ProgramData/NinjaRMMAgent\\wpm\\patches\\windows11.0-kb5066835-arm64_fde0614cfac20d88f406ecc3474ea3f97c6cc17a.msu\" /quiet /norestart \")",
-                       "Id":  3,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  "\"Security Update for Windows (KB5066835)\"",
-                       "EventRecordID":  2248
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760643235026)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRFJBMP-MICROSOFT.WINDOWSSTORE.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9WZDNCRFJBMP-MICROSOFT.WINDOWSSTORE",
-                       "EventRecordID":  11180
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760635527137)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
-                       "Id":  101,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  236181
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760635527137)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{54627c7f-18e0-47cf-ad62-635cf7903656}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
-                       "Id":  203,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  236180
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760633792179)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{c37e0262-c1a5-46f2-a9d3-e4722ce3aa26}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  236059
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760633792179)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{c37e0262-c1a5-46f2-a9d3-e4722ce3aa26}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  236058
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760633033100)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                       "Level":  "Error",
-                       "Message":  "Windows Update failed to check for updates with error 0x8024402E.",
-                       "Id":  25,
-                       "ErrorCode":  "0x8024402E",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  25953
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760612858972)\/",
-                       "Source":  "NETLOGON",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain KHOETECH due to the following: \r",
-                       "Id":  5719,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  11123
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760612798667)\/",
-                       "Source":  "Microsoft-Windows-GroupPolicy",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The processing of Group Policy failed. Windows could not obtain the name of a domain controller. This could be caused by a name resolution failure. Verify your Domain Name System (DNS) is configured and working correctly.",
-                       "Id":  1054,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  11121
                    }
                ],
-    "LastPoll":  "10/17 03:58"
+    "LastPoll":  "10/17 04:03"
 }
