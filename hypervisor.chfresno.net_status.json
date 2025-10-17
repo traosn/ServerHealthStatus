@@ -2,13 +2,18 @@
     "Computer":  "HYPERVISOR",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2025 Standard",
-    "CPUPercent":  7,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 2560.7s CPU time, 0.66GB RAM\nSecure System: 0s CPU time, 0.36GB RAM\nMsMpEng: 2996.7s CPU time, 0.34GB RAM\nTiWorker: 621.1s CPU time, 0.32GB RAM\nexplorer: 34.5s CPU time, 0.28GB RAM\nsvchost: 998.1s CPU time, 0.15GB RAM\nStartMenuExperienceHost: 5.5s CPU time, 0.13GB RAM\nSearchHost: 11.5s CPU time, 0.13GB RAM\nmsedgewebview2: 21.3s CPU time, 0.13GB RAM\nRegistry: 5.9s CPU time, 0.11GB RAM",
+    "CPUPercent":  0.8,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 2592.7s CPU time, 0.62GB RAM\nMsMpEng: 3045.3s CPU time, 0.36GB RAM\nSecure System: 0s CPU time, 0.36GB RAM\nTiWorker: 696.9s CPU time, 0.31GB RAM\nexplorer: 34.6s CPU time, 0.28GB RAM\nsvchost: 1002s CPU time, 0.13GB RAM\nStartMenuExperienceHost: 5.5s CPU time, 0.13GB RAM\nSearchHost: 11.5s CPU time, 0.13GB RAM\nmsedgewebview2: 21.3s CPU time, 0.13GB RAM\npowershell: 2.2s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.66,
-                                "CPU":  2560.7,
+                                "Memory":  0.62,
+                                "CPU":  2592.7,
                                 "Name":  "SentinelAgent"
+                            },
+                            {
+                                "Memory":  0.36,
+                                "CPU":  3045.3,
+                                "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.36,
@@ -16,23 +21,18 @@
                                 "Name":  "Secure System"
                             },
                             {
-                                "Memory":  0.34,
-                                "CPU":  2996.7,
-                                "Name":  "MsMpEng"
-                            },
-                            {
-                                "Memory":  0.32,
-                                "CPU":  621.1,
+                                "Memory":  0.31,
+                                "CPU":  696.9,
                                 "Name":  "TiWorker"
                             },
                             {
                                 "Memory":  0.28,
-                                "CPU":  34.5,
+                                "CPU":  34.6,
                                 "Name":  "explorer"
                             },
                             {
-                                "Memory":  0.15,
-                                "CPU":  998.1,
+                                "Memory":  0.13,
+                                "CPU":  1002,
                                 "Name":  "svchost"
                             },
                             {
@@ -52,14 +52,14 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  5.9,
-                                "Name":  "Registry"
+                                "CPU":  2.2,
+                                "Name":  "powershell"
                             }
                         ],
     "RAMTotalGB":  127.5,
-    "RAMUsedGB":  42.9,
+    "RAMUsedGB":  42.8,
     "RAMUsedPercent":  33.6,
-    "RAMFreeGB":  84.6,
+    "RAMFreeGB":  84.7,
     "DiskFreePercent":  78.4,
     "TotalSize":  "3.6TB",
     "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ - Used: 803GB, Free: 2.9TB of 3.6TB (78.4% free)",
@@ -72,13 +72,13 @@
                     "UsedSize":  "803GB",
                     "Letter":  "C"
                 },
-    "Uptime":  "1d 21h 28m",
-    "UptimeTooltip":  "Boot Time: 2025-10-16 04:19:58\nSystem has been running for:\n1 days, 21 hours, 28 minutes",
+    "Uptime":  "1d 21h 33m",
+    "UptimeTooltip":  "Boot Time: 2025-10-16 04:19:58\nSystem has been running for:\n1 days, 21 hours, 33 minutes",
     "BootTime":  "\/Date(1760613598000)\/",
-    "NetworkMbps":  0.64,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.3 Mbps\nReceived: 0.34 Mbps\nTotal: 0.64 Mbps",
+    "NetworkMbps":  0.91,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.74 Mbps\nReceived: 0.17 Mbps\nTotal: 0.91 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/17 01:48"
+    "LastPoll":  "10/17 01:53"
 }
