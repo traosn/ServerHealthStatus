@@ -2,6 +2,32 @@
     "Computer":  "SERVER2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760660879305)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Service Control Manager tried to take a corrective action (Restart the service) after the unexpected termination of the Sentinel Agent service, but this action failed with the following error: \r",
+                       "Id":  7032,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  2930598
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760660859304)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Sentinel Agent service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 20000 milliseconds: Restart the service.",
+                       "Id":  7031,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  2930597
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760658213045)\/",
                        "Source":  "LHWinService",
                        "LogName":  "Application",
@@ -65,19 +91,6 @@
                        "EventRecordID":  2927216
                    },
                    {
-                       "TimeCreated":  "\/Date(1760574881130)\/",
-                       "Source":  "Service Control Manager",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The Sentinel Agent service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 20000 milliseconds: Restart the service.",
-                       "Id":  7031,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  2926970
-                   },
-                   {
                        "TimeCreated":  "\/Date(1760574875640)\/",
                        "Source":  "Service Control Manager",
                        "LogName":  "System",
@@ -117,5 +130,5 @@
                        "EventRecordID":  2926954
                    }
                ],
-    "LastPoll":  "10/16 17:26"
+    "LastPoll":  "10/16 17:31"
 }
