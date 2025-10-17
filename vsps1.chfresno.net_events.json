@@ -2,30 +2,82 @@
     "Computer":  "VSPS1",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1760691117687)\/",
+                       "TimeCreated":  "\/Date(1760700460486)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{67b9e41b-9032-45da-a6b8-ec471ee9bfe2}\" of \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319 64\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147946720.",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  173116
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760700388330)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files\\SentinelOne\\Sentinel Agent 24.2.3.471\\SentinelAgent.exe\" (value from GetModuleFileName() for the binary that issued the query).",
+                       "Id":  1000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  30991
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760700380417)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Sentinel Agent service did not shut down properly after receiving a preshutdown control.",
+                       "Id":  7043,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  218094
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760700168194)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"%windir%\\system32\\devicecensus.exe\" in instance \"{cddd1157-065b-4e05-8b2b-4a817589deb5}\" of task \"\\Microsoft\\Windows\\Device Information\\Device\". Additional Data: Error Value: 2147943515.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  173097
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1760698849924)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{2f085fb2-8649-4d89-8529-ff31c5497e8a}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
                        "Id":  103,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  172875
+                       "EventRecordID":  173092
                    },
                    {
-                       "TimeCreated":  "\/Date(1760691117687)\/",
+                       "TimeCreated":  "\/Date(1760698849924)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319 64\" , instance \"{67b9e41b-9032-45da-a6b8-ec471ee9bfe2}\" , action \"\" . Additional Data: Error Value: 2147946720.",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{2f085fb2-8649-4d89-8529-ff31c5497e8a}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
                        "Id":  202,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  172874
+                       "EventRecordID":  173091
                    },
                    {
                        "TimeCreated":  "\/Date(1760628173523)\/",
@@ -39,72 +91,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  216284
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760628133222)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
-                       "Id":  101,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  170581
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760614086097)\/",
-                       "Source":  "Microsoft-Windows-Perflib",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files (x86)\\NinjaOne\\NinjaRMMAgent.exe\" (value from GetModuleFileName() for the binary that issued the query).",
-                       "Id":  1000,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  30447
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760614071054)\/",
-                       "Source":  "Service Control Manager",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The Windows Defender Advanced Threat Protection Service service did not shut down properly after receiving a preshutdown control.",
-                       "Id":  7043,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  216090
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760614055457)\/",
-                       "Source":  "Microsoft-Windows-DistributedCOM",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "DCOM got error \"1115\" attempting to start the service TrustedInstaller with arguments \"Unavailable\" in order to run the server:\r",
-                       "Id":  10005,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  216086
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760614047186)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%windir%\\system32\\speech_onecore\\common\\SpeechModelDownload.exe\" in instance \"{865801cf-b1a6-43a4-b596-34fe58d88297}\" of task \"\\Microsoft\\Windows\\Speech\\SpeechModelDownloadTask\". Additional Data: Error Value: 2147943515.",
-                       "Id":  203,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  170564
                    }
                ],
-    "LastPoll":  "10/17 03:52"
+    "LastPoll":  "10/17 04:34"
 }
