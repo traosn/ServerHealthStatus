@@ -2,13 +2,18 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  8.3,
-    "CPUTooltip":  "Top CPU Processes:\nsqlservr: 18.2s CPU time, 0.62GB RAM\nSupportAssistAgent: 17.1s CPU time, 0.48GB RAM\nctreesql: 181.4s CPU time, 0.48GB RAM\nSentinelAgent: 663s CPU time, 0.43GB RAM\nMsMpEng: 631.8s CPU time, 0.38GB RAM\nDell.TechHub.Instrumentation.SubAgent: 39.9s CPU time, 0.22GB RAM\nDell.CoreServices.Client: 7.6s CPU time, 0.15GB RAM\nDell.TechHub.Diagnostics.SubAgent: 6.3s CPU time, 0.14GB RAM\nDell.TechHub.Analytics.SubAgent: 9.4s CPU time, 0.14GB RAM\nDell.Remediation.Agent: 8.5s CPU time, 0.14GB RAM",
+    "CPUPercent":  5.4,
+    "CPUTooltip":  "Top CPU Processes:\nsqlservr: 18.3s CPU time, 0.62GB RAM\nctreesql: 194.8s CPU time, 0.49GB RAM\nSupportAssistAgent: 17.1s CPU time, 0.48GB RAM\nSentinelAgent: 667s CPU time, 0.45GB RAM\nMsMpEng: 635.3s CPU time, 0.38GB RAM\nDell.TechHub.Instrumentation.SubAgent: 43.5s CPU time, 0.22GB RAM\nDell.CoreServices.Client: 7.6s CPU time, 0.15GB RAM\nDell.TechHub.Diagnostics.SubAgent: 6.3s CPU time, 0.14GB RAM\nDell.TechHub.Analytics.SubAgent: 9.4s CPU time, 0.14GB RAM\nDell.Remediation.Agent: 8.5s CPU time, 0.14GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.62,
-                                "CPU":  18.2,
+                                "CPU":  18.3,
                                 "Name":  "sqlservr"
+                            },
+                            {
+                                "Memory":  0.49,
+                                "CPU":  194.8,
+                                "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  0.48,
@@ -16,23 +21,18 @@
                                 "Name":  "SupportAssistAgent"
                             },
                             {
-                                "Memory":  0.48,
-                                "CPU":  181.4,
-                                "Name":  "ctreesql"
-                            },
-                            {
-                                "Memory":  0.43,
-                                "CPU":  663,
+                                "Memory":  0.45,
+                                "CPU":  667,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.38,
-                                "CPU":  631.8,
+                                "CPU":  635.3,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  39.9,
+                                "CPU":  43.5,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
                             },
                             {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "0d 11h 23m",
-    "UptimeTooltip":  "Boot Time: 2025-10-18 02:03:27\nSystem has been running for:\n0 days, 11 hours, 23 minutes",
+    "Uptime":  "0d 11h 28m",
+    "UptimeTooltip":  "Boot Time: 2025-10-18 02:03:27\nSystem has been running for:\n0 days, 11 hours, 28 minutes",
     "BootTime":  "\/Date(1760778207000)\/",
-    "NetworkMbps":  42.03,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 39.86 Mbps\nReceived: 2.17 Mbps\nTotal: 42.03 Mbps",
+    "NetworkMbps":  43.11,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 40.22 Mbps\nReceived: 2.89 Mbps\nTotal: 43.11 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/18 13:26"
+    "LastPoll":  "10/18 13:31"
 }
