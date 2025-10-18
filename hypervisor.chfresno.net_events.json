@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760786389722)\/",
+                       "Source":  "Microsoft-Windows-Security-SPP",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "License Activation (slui.exe) failed with the following error code:\r",
+                       "Id":  8198,
+                       "ErrorCode":  "0x8007139F",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  65067
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760763833517)\/",
                        "Source":  "VSS",
                        "LogName":  "Application",
@@ -89,44 +100,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  264629
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760700093641)\/",
-                       "Source":  "Microsoft-Windows-GroupPolicy",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The processing of Group Policy failed because of lack of network connectivity to a domain controller. This may be a transient condition. A success message would be generated once the machine gets connected to the domain controller and Group Policy has successfully processed. If you do not see a success message for several hours, then contact your administrator.",
-                       "Id":  1129,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  264584
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760700018799)\/",
-                       "Source":  "Microsoft-Windows-Security-SPP",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "License Activation (slui.exe) failed with the following error code:\r",
-                       "Id":  8198,
-                       "ErrorCode":  "0x8007139F",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  63373
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1760699921133)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to load task \"\\Microsoft\\Windows\\Application Experience\\SdbinstMergeDbTask\" at service startup. Additional Data: Error Value: 2147942402.",
-                       "Id":  146,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  132991
                    }
                ],
-    "LastPoll":  "10/18 04:18"
+    "LastPoll":  "10/18 04:23"
 }
