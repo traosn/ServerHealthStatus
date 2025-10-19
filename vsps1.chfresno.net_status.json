@@ -2,18 +2,18 @@
     "Computer":  "VSPS1",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  24.7,
-    "CPUTooltip":  "Top CPU Processes:\nMsMpEng: 6589.4s CPU time, 0.32GB RAM\nSentinelAgent: 6171.5s CPU time, 0.32GB RAM\nprintfilterpipelinesvc: 498.7s CPU time, 0.27GB RAM\nMsSense: 2553.6s CPU time, 0.13GB RAM\npowershell: 1.6s CPU time, 0.1GB RAM\nspoolsv: 4228.1s CPU time, 0.09GB RAM\nsvchost: 1458.6s CPU time, 0.09GB RAM\nRegistry: 7.1s CPU time, 0.08GB RAM\nNinjaRMMAgent: 2311.5s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 78.7s CPU time, 0.08GB RAM",
+    "CPUPercent":  4.1,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 6177.8s CPU time, 0.33GB RAM\nMsMpEng: 6596.1s CPU time, 0.32GB RAM\nprintfilterpipelinesvc: 498.7s CPU time, 0.27GB RAM\nMsSense: 2558.5s CPU time, 0.13GB RAM\npowershell: 2.1s CPU time, 0.1GB RAM\nspoolsv: 4230s CPU time, 0.09GB RAM\nsvchost: 1460.9s CPU time, 0.09GB RAM\nNinjaRMMAgent: 2317.2s CPU time, 0.08GB RAM\nRegistry: 7.1s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 78.7s CPU time, 0.08GB RAM",
     "TopCPUProcesses":  [
                             {
-                                "Memory":  0.32,
-                                "CPU":  6589.4,
-                                "Name":  "MsMpEng"
+                                "Memory":  0.33,
+                                "CPU":  6177.8,
+                                "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.32,
-                                "CPU":  6171.5,
-                                "Name":  "SentinelAgent"
+                                "CPU":  6596.1,
+                                "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.27,
@@ -22,33 +22,33 @@
                             },
                             {
                                 "Memory":  0.13,
-                                "CPU":  2553.6,
+                                "CPU":  2558.5,
                                 "Name":  "MsSense"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  1.6,
+                                "CPU":  2.1,
                                 "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.09,
-                                "CPU":  4228.1,
+                                "CPU":  4230,
                                 "Name":  "spoolsv"
                             },
                             {
                                 "Memory":  0.09,
-                                "CPU":  1458.6,
+                                "CPU":  1460.9,
                                 "Name":  "svchost"
+                            },
+                            {
+                                "Memory":  0.08,
+                                "CPU":  2317.2,
+                                "Name":  "NinjaRMMAgent"
                             },
                             {
                                 "Memory":  0.08,
                                 "CPU":  7.1,
                                 "Name":  "Registry"
-                            },
-                            {
-                                "Memory":  0.08,
-                                "CPU":  2311.5,
-                                "Name":  "NinjaRMMAgent"
                             },
                             {
                                 "Memory":  0.08,
@@ -72,13 +72,13 @@
                     "UsedSize":  "45.2GB",
                     "Letter":  "C"
                 },
-    "Uptime":  "2d 23h 35m",
-    "UptimeTooltip":  "Boot Time: 2025-10-17 04:26:43\nSystem has been running for:\n2 days, 23 hours, 35 minutes",
+    "Uptime":  "2d 23h 40m",
+    "UptimeTooltip":  "Boot Time: 2025-10-17 04:26:43\nSystem has been running for:\n2 days, 23 hours, 40 minutes",
     "BootTime":  "\/Date(1760700403000)\/",
-    "NetworkMbps":  0.03,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.02 Mbps\nReceived: 0.01 Mbps\nTotal: 0.03 Mbps",
+    "NetworkMbps":  0.04,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.02 Mbps\nReceived: 0.02 Mbps\nTotal: 0.04 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/19 04:02"
+    "LastPoll":  "10/19 04:07"
 }
