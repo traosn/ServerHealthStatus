@@ -2,18 +2,23 @@
     "Computer":  "VSDC1",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  3.3,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 15183.2s CPU time, 0.58GB RAM\nlsass: 6279s CPU time, 0.33GB RAM\nRegistry: 18.5s CPU time, 0.26GB RAM\nMsMpEng: 8677s CPU time, 0.26GB RAM\ndns: 1792.4s CPU time, 0.13GB RAM\nsvchost: 3178s CPU time, 0.1GB RAM\npowershell: 2.7s CPU time, 0.1GB RAM\nNinjaRMMAgent: 5577.8s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 3s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 95.2s CPU time, 0.08GB RAM",
+    "CPUPercent":  9.8,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 15204.8s CPU time, 0.58GB RAM\nlsass: 6286.4s CPU time, 0.33GB RAM\nMsMpEng: 8691.3s CPU time, 0.27GB RAM\nRegistry: 18.5s CPU time, 0.26GB RAM\ndns: 1794.9s CPU time, 0.13GB RAM\npowershell: 2.7s CPU time, 0.1GB RAM\nsvchost: 3185.5s CPU time, 0.1GB RAM\nNinjaRMMAgent: 5593s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 3s CPU time, 0.08GB RAM\nSentinelStaticEngineScanner: 95.2s CPU time, 0.08GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.58,
-                                "CPU":  15183.2,
+                                "CPU":  15204.8,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.33,
-                                "CPU":  6279,
+                                "CPU":  6286.4,
                                 "Name":  "lsass"
+                            },
+                            {
+                                "Memory":  0.27,
+                                "CPU":  8691.3,
+                                "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.26,
@@ -21,19 +26,9 @@
                                 "Name":  "Registry"
                             },
                             {
-                                "Memory":  0.26,
-                                "CPU":  8677,
-                                "Name":  "MsMpEng"
-                            },
-                            {
                                 "Memory":  0.13,
-                                "CPU":  1792.4,
+                                "CPU":  1794.9,
                                 "Name":  "dns"
-                            },
-                            {
-                                "Memory":  0.1,
-                                "CPU":  3178,
-                                "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.1,
@@ -41,8 +36,13 @@
                                 "Name":  "powershell"
                             },
                             {
+                                "Memory":  0.1,
+                                "CPU":  3185.5,
+                                "Name":  "svchost"
+                            },
+                            {
                                 "Memory":  0.08,
-                                "CPU":  5577.8,
+                                "CPU":  5593,
                                 "Name":  "NinjaRMMAgent"
                             },
                             {
@@ -72,13 +72,13 @@
                     "UsedSize":  "59GB",
                     "Letter":  "C"
                 },
-    "Uptime":  "3d 23h 14m",
-    "UptimeTooltip":  "Boot Time: 2025-10-16 04:28:00\nSystem has been running for:\n3 days, 23 hours, 14 minutes",
+    "Uptime":  "3d 23h 24m",
+    "UptimeTooltip":  "Boot Time: 2025-10-16 04:28:00\nSystem has been running for:\n3 days, 23 hours, 24 minutes",
     "BootTime":  "\/Date(1760614080000)\/",
-    "NetworkMbps":  0.13,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.08 Mbps\nReceived: 0.05 Mbps\nTotal: 0.13 Mbps",
+    "NetworkMbps":  0.15,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.09 Mbps\nReceived: 0.06 Mbps\nTotal: 0.15 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/19 03:42"
+    "LastPoll":  "10/19 03:52"
 }
