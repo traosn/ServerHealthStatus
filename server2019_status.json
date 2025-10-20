@@ -2,42 +2,47 @@
     "Computer":  "SERVER2019",
     "Customer":  "Community Dental Group",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  1.4,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 56294.5s CPU time, 1.85GB RAM\nsvchost: 3682.8s CPU time, 0.77GB RAM\nSentinelAgent: 20989.7s CPU time, 0.57GB RAM\nSSPService: 30678.3s CPU time, 0.45GB RAM\nMsMpEng: 30360.2s CPU time, 0.43GB RAM\nSophosFileScanner: 5617.2s CPU time, 0.31GB RAM\nVyneSync.Service: 7411.2s CPU time, 0.2GB RAM\nNexIntegration: 3737.4s CPU time, 0.18GB RAM\nNexIntegration: 3792.7s CPU time, 0.18GB RAM\nNexIntegration: 1397.7s CPU time, 0.17GB RAM",
+    "CPUPercent":  0.7,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 56350.6s CPU time, 1.85GB RAM\nsvchost: 3685s CPU time, 0.77GB RAM\nSentinelAgent: 21008.8s CPU time, 0.58GB RAM\nSSPService: 30700.7s CPU time, 0.45GB RAM\nMsMpEng: 30384.4s CPU time, 0.44GB RAM\nSophosFileScanner: 5619.3s CPU time, 0.31GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 22.8s CPU time, 0.21GB RAM\nVyneSync.Service: 7420.5s CPU time, 0.18GB RAM\nNexIntegration: 3737.4s CPU time, 0.18GB RAM\nNexIntegration: 3804s CPU time, 0.18GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.85,
-                                "CPU":  56294.5,
+                                "CPU":  56350.6,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  0.77,
-                                "CPU":  3682.8,
+                                "CPU":  3685,
                                 "Name":  "svchost"
                             },
                             {
-                                "Memory":  0.57,
-                                "CPU":  20989.7,
+                                "Memory":  0.58,
+                                "CPU":  21008.8,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.45,
-                                "CPU":  30678.3,
+                                "CPU":  30700.7,
                                 "Name":  "SSPService"
                             },
                             {
-                                "Memory":  0.43,
-                                "CPU":  30360.2,
+                                "Memory":  0.44,
+                                "CPU":  30384.4,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  5617.2,
+                                "CPU":  5619.3,
                                 "Name":  "SophosFileScanner"
                             },
                             {
-                                "Memory":  0.2,
-                                "CPU":  7411.2,
+                                "Memory":  0.21,
+                                "CPU":  22.8,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
+                                "Memory":  0.18,
+                                "CPU":  7420.5,
                                 "Name":  "VyneSync.Service"
                             },
                             {
@@ -47,30 +52,25 @@
                             },
                             {
                                 "Memory":  0.18,
-                                "CPU":  3792.7,
-                                "Name":  "NexIntegration"
-                            },
-                            {
-                                "Memory":  0.17,
-                                "CPU":  1397.7,
+                                "CPU":  3804,
                                 "Name":  "NexIntegration"
                             }
                         ],
     "RAMTotalGB":  31.6,
-    "RAMUsedGB":  13.7,
-    "RAMUsedPercent":  43.4,
-    "RAMFreeGB":  17.9,
+    "RAMUsedGB":  13.9,
+    "RAMUsedPercent":  44,
+    "RAMFreeGB":  17.7,
     "DiskFreePercent":  85.7,
     "TotalSize":  "8.2TB",
-    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 110.4GB, Free: 389.6GB of 500GB (77.9% free)\nE:\\ (MONDAY) - Used: 730.1GB, Free: 201.4GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 359.1GB, Free: 6.4TB of 6.8TB (94.8% free)",
+    "DiskTooltip":  "Total Storage: 8.2TB\n\nDisk Usage:\nC:\\ (OS) - Used: 110.2GB, Free: 389.8GB of 500GB (78% free)\nE:\\ (MONDAY) - Used: 730.1GB, Free: 201.4GB of 931.5GB (21.6% free)\nD:\\ (DATA) - Used: 359.1GB, Free: 6.4TB of 6.8TB (94.8% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
-                        "FreePercent":  77.9,
+                        "FreePercent":  78,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "389.6GB",
-                        "UsedSize":  "110.4GB",
+                        "FreeSize":  "389.8GB",
+                        "UsedSize":  "110.2GB",
                         "Letter":  "C"
                     },
                     {
@@ -92,13 +92,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "5d 15h 5m",
-    "UptimeTooltip":  "Boot Time: 2025-10-15 17:36:10\nSystem has been running for:\n5 days, 15 hours, 5 minutes",
+    "Uptime":  "5d 15h 10m",
+    "UptimeTooltip":  "Boot Time: 2025-10-15 17:36:10\nSystem has been running for:\n5 days, 15 hours, 10 minutes",
     "BootTime":  "\/Date(1760574970000)\/",
-    "NetworkMbps":  5.1899999999999995,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 3.15 Mbps\nReceived: 2.04 Mbps\nTotal: 5.19 Mbps",
+    "NetworkMbps":  5.84,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 2.96 Mbps\nReceived: 2.88 Mbps\nTotal: 5.84 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/20 08:41"
+    "LastPoll":  "10/20 08:46"
 }
