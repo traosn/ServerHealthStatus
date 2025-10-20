@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1760965368611)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy76 - 00000000000003B4,0x0053c198,000001CD70745D50,0,000001CD70740850,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  68486
+                   },
+                   {
                        "TimeCreated":  "\/Date(1760960034785)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -52,17 +63,6 @@
                        "EventRecordID":  68363
                    },
                    {
-                       "TimeCreated":  "\/Date(1760952465606)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy71 - 00000000000003B4,0x0053c198,000001CD70738150,0,000001CD70739250,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  68235
-                   },
-                   {
                        "TimeCreated":  "\/Date(1760923458207)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -89,5 +89,5 @@
                        "EventRecordID":  140939
                    }
                ],
-    "LastPoll":  "10/20 05:58"
+    "LastPoll":  "10/20 06:03"
 }
