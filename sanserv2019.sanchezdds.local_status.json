@@ -2,32 +2,37 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  25.4,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 9025.1s CPU time, 0.98GB RAM\nSentinelAgent: 6779.2s CPU time, 0.42GB RAM\nMsMpEng: 6085.7s CPU time, 0.35GB RAM\nHSPS.eServices.DigitalHighway.Services: 154.5s CPU time, 0.18GB RAM\nSystem: 2575s CPU time, 0.18GB RAM\ndns: 24.2s CPU time, 0.14GB RAM\nRegistry: 4s CPU time, 0.12GB RAM\npowershell: 0.9s CPU time, 0.11GB RAM\nDentrixUpdaterService: 115.2s CPU time, 0.11GB RAM\nDDX.Service: 4.5s CPU time, 0.11GB RAM",
+    "CPUPercent":  55.9,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 9026.7s CPU time, 0.98GB RAM\nSentinelAgent: 6784.2s CPU time, 0.44GB RAM\nMsMpEng: 6099s CPU time, 0.35GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 5.6s CPU time, 0.21GB RAM\nHSPS.eServices.DigitalHighway.Services: 154.6s CPU time, 0.18GB RAM\nSystem: 2593.1s CPU time, 0.18GB RAM\ndns: 24.2s CPU time, 0.14GB RAM\nRegistry: 4s CPU time, 0.12GB RAM\nefsvss-2008-r2-x64: 11.3s CPU time, 0.11GB RAM\nDentrixUpdaterService: 115.2s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.98,
-                                "CPU":  9025.1,
+                                "CPU":  9026.7,
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.42,
-                                "CPU":  6779.2,
+                                "Memory":  0.44,
+                                "CPU":  6784.2,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.35,
-                                "CPU":  6085.7,
+                                "CPU":  6099,
                                 "Name":  "MsMpEng"
                             },
                             {
+                                "Memory":  0.21,
+                                "CPU":  5.6,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
                                 "Memory":  0.18,
-                                "CPU":  154.5,
+                                "CPU":  154.6,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
                                 "Memory":  0.18,
-                                "CPU":  2575,
+                                "CPU":  2593.1,
                                 "Name":  "System"
                             },
                             {
@@ -42,54 +47,49 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  0.9,
-                                "Name":  "powershell"
+                                "CPU":  11.3,
+                                "Name":  "efsvss-2008-r2-x64"
                             },
                             {
                                 "Memory":  0.11,
                                 "CPU":  115.2,
                                 "Name":  "DentrixUpdaterService"
-                            },
-                            {
-                                "Memory":  0.11,
-                                "CPU":  4.5,
-                                "Name":  "DDX.Service"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  6.4,
-    "RAMUsedPercent":  40.8,
-    "RAMFreeGB":  9.3,
-    "DiskFreePercent":  88,
+    "RAMUsedGB":  6.5,
+    "RAMUsedPercent":  41.4,
+    "RAMFreeGB":  9.2,
+    "DiskFreePercent":  89.4,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 120GB, Free: 380GB of 500GB (76% free)\nD:\\ (DATA) - Used: 325.2GB, Free: 2.8TB of 3.1TB (89.9% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 120.1GB, Free: 379.9GB of 500GB (76% free)\nD:\\ (DATA) - Used: 275.3GB, Free: 2.9TB of 3.1TB (91.5% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  76,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "380GB",
-                        "UsedSize":  "120GB",
+                        "FreeSize":  "379.9GB",
+                        "UsedSize":  "120.1GB",
                         "Letter":  "C"
                     },
                     {
                         "Label":  "DATA",
-                        "FreePercent":  89.9,
+                        "FreePercent":  91.5,
                         "TotalSize":  "3.1TB",
                         "SizeBytes":  3459786993664,
-                        "FreeSize":  "2.8TB",
-                        "UsedSize":  "325.2GB",
+                        "FreeSize":  "2.9TB",
+                        "UsedSize":  "275.3GB",
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "3d 20h 12m",
-    "UptimeTooltip":  "Boot Time: 2025-10-18 02:11:54\nSystem has been running for:\n3 days, 20 hours, 12 minutes",
+    "Uptime":  "3d 20h 17m",
+    "UptimeTooltip":  "Boot Time: 2025-10-18 02:11:54\nSystem has been running for:\n3 days, 20 hours, 17 minutes",
     "BootTime":  "\/Date(1760778714000)\/",
-    "NetworkMbps":  0.22999999999999998,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.11 Mbps\nReceived: 0.12 Mbps\nTotal: 0.23 Mbps",
+    "NetworkMbps":  0.16999999999999998,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.08 Mbps\nReceived: 0.09 Mbps\nTotal: 0.17 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/20 22:24"
+    "LastPoll":  "10/20 22:29"
 }
