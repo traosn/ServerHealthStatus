@@ -2,6 +2,19 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761081091492)\/",
+                       "Source":  "Microsoft-Windows-Bits-Client",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
+                       "Id":  16398,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  12255
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761080596068)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -104,19 +117,6 @@
                        "EventRecordID":  47213
                    },
                    {
-                       "TimeCreated":  "\/Date(1761075891623)\/",
-                       "Source":  "Microsoft-Windows-Bits-Client",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
-                       "Id":  16398,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  12088
-                   },
-                   {
                        "TimeCreated":  "\/Date(1761074517246)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "System",
@@ -128,5 +128,5 @@
                        "EventRecordID":  12080
                    }
                ],
-    "LastPoll":  "10/21 14:04"
+    "LastPoll":  "10/21 14:13"
 }
