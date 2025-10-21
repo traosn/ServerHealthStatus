@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761037359591)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy89 - 00000000000002BC,0x0053c198,000001CD70739150,0,000001CD70746E50,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  69910
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761003229313)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -67,17 +78,6 @@
                        "EventRecordID":  142824
                    },
                    {
-                       "TimeCreated":  "\/Date(1760965368611)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy76 - 00000000000003B4,0x0053c198,000001CD70745D50,0,000001CD70740850,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  68486
-                   },
-                   {
                        "TimeCreated":  "\/Date(1760959189526)\/",
                        "Source":  "Microsoft-Windows-Security-SPP",
                        "LogName":  "Application",
@@ -89,5 +89,5 @@
                        "EventRecordID":  68363
                    }
                ],
-    "LastPoll":  "10/21 01:58"
+    "LastPoll":  "10/21 02:03"
 }
