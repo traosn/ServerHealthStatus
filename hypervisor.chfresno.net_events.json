@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761210184126)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy121 - 0000000000000280,0x0053c198,000001CD70738050,0,000001CD7073D550,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  73378
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761176025839)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -41,17 +52,6 @@
                        "EventRecordID":  292818
                    },
                    {
-                       "TimeCreated":  "\/Date(1761138215070)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy108 - 000000000000024C,0x0053c198,000001CD7073A250,0,000001CD7073F750,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  71915
-                   },
-                   {
                        "TimeCreated":  "\/Date(1761132482226)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -89,5 +89,5 @@
                        "EventRecordID":  71791
                    }
                ],
-    "LastPoll":  "10/23 02:03"
+    "LastPoll":  "10/23 02:08"
 }
