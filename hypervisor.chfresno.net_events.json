@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761282489933)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy134 - 00000000000003A0,0x0053c198,000001CD70744C50,0,000001CD7073E650,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  74648
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761274817234)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -87,18 +98,7 @@
                        "ErrorCode":  "0xC004E028",
                        "UpdateTitle":  null,
                        "EventRecordID":  74237
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761210184126)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy121 - 0000000000000280,0x0053c198,000001CD70738050,0,000001CD7073D550,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  73378
                    }
                ],
-    "LastPoll":  "10/23 22:03"
+    "LastPoll":  "10/23 22:28"
 }
