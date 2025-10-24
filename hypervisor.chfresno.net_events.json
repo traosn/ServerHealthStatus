@@ -2,70 +2,33 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1761299740226)\/",
+                       "TimeCreated":  "\/Date(1761312918155)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{9c9bfaab-fe42-4df6-b2fe-8bf4fc34d65e}\" of \"\\Microsoft\\Windows\\Servicing\\StartComponentCleanup\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2148468742.",
+                       "Message":  "Task Scheduler failed to start instance \"{c23e8162-469c-414e-afa0-507727285648}\" of \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147946720.",
                        "Id":  103,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  153728
+                       "EventRecordID":  154395
                    },
                    {
-                       "TimeCreated":  "\/Date(1761299740226)\/",
+                       "TimeCreated":  "\/Date(1761312918155)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Servicing\\StartComponentCleanup\" , instance \"{9c9bfaab-fe42-4df6-b2fe-8bf4fc34d65e}\" , action \"Component Based Servicing Session\" . Additional Data: Error Value: 2148468742.",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\.NET Framework\\.NET Framework NGEN v4.0.30319\" , instance \"{c23e8162-469c-414e-afa0-507727285648}\" , action \"\" . Additional Data: Error Value: 2147946720.",
                        "Id":  202,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  153727
+                       "EventRecordID":  154394
                    },
                    {
-                       "TimeCreated":  "\/Date(1761297875098)\/",
-                       "Source":  "Microsoft-Windows-DistributedCOM",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The server {E579AB5F-1CC4-44B4-BED9-DE0991FF0623} did not register with DCOM within the required timeout.",
-                       "Id":  10010,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  298585
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761297525923)\/",
-                       "Source":  "Microsoft-Windows-WinREAgent",
-                       "LogName":  "System",
-                       "Level":  "Critical",
-                       "Message":  "Windows Recovery Environment servicing failed.",
-                       "Id":  4502,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  298574
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761297197372)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy139 - 00000000000003D4,0x0053c198,000001CD70741950,0,000001CD70742A50,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  74823
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761274817234)\/",
+                       "TimeCreated":  "\/Date(1761312117173)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
@@ -75,23 +38,36 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  152906
+                       "EventRecordID":  154289
                    },
                    {
-                       "TimeCreated":  "\/Date(1761274817233)\/",
+                       "TimeCreated":  "\/Date(1761312117172)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{e728490b-b1c2-4587-8fda-d637306ffa2f}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{9afa2307-e1d0-4e0d-a5d3-df4210bfb133}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
                        "Id":  203,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  152905
+                       "EventRecordID":  154288
                    },
                    {
-                       "TimeCreated":  "\/Date(1761261821832)\/",
+                       "TimeCreated":  "\/Date(1761312026502)\/",
+                       "Source":  "NETLOGON",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain CHFRESNO due to the following: \r",
+                       "Id":  5719,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  300113
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761312026494)\/",
                        "Source":  "Microsoft-Windows-TPM-WMI",
                        "LogName":  "System",
                        "Level":  "Error",
@@ -101,10 +77,23 @@
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  296998
+                       "EventRecordID":  300115
                    },
                    {
-                       "TimeCreated":  "\/Date(1761252817711)\/",
+                       "TimeCreated":  "\/Date(1761311940168)\/",
+                       "Source":  "Microsoft-Windows-GroupPolicy",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The processing of Group Policy failed because of lack of network connectivity to a domain controller. This may be a transient condition. A success message would be generated once the machine gets connected to the domain controller and Group Policy has successfully processed. If you do not see a success message for several hours, then contact your administrator.",
+                       "Id":  1129,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  300094
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761311844575)\/",
                        "Source":  "Microsoft-Windows-Security-SPP",
                        "LogName":  "Application",
                        "Level":  "Error",
@@ -112,19 +101,34 @@
                        "Id":  16398,
                        "ErrorCode":  "0x80070490",
                        "UpdateTitle":  null,
-                       "EventRecordID":  74265
+                       "EventRecordID":  74953
                    },
                    {
-                       "TimeCreated":  "\/Date(1761252812289)\/",
-                       "Source":  "Microsoft-Windows-Security-SPP",
-                       "LogName":  "Application",
+                       "TimeCreated":  "\/Date(1761311714066)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "License Activation (slui.exe) failed with the following error code:\r",
-                       "Id":  8198,
-                       "ErrorCode":  "0xC004E028",
+                       "Message":  "Task Scheduler failed to load task \"\\Microsoft\\Windows\\Application Experience\\SdbinstMergeDbTask\" at service startup. Additional Data: Error Value: 2147942402.",
+                       "Id":  146,
+                       "ErrorCode":  {
+
+                                     },
                        "UpdateTitle":  null,
-                       "EventRecordID":  74237
+                       "EventRecordID":  154184
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761311714066)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task instantiation failed \"\\Microsoft\\Windows\\Application Experience\\SdbinstMergeDbTask\". Check point: Ubpm-RegisterConsumer. Error Value: 2147942402.",
+                       "Id":  151,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  154183
                    }
                ],
-    "LastPoll":  "10/24 03:58"
+    "LastPoll":  "10/24 06:43"
 }
