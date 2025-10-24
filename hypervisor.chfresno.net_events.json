@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761322395191)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
+                       "Id":  25,
+                       "ErrorCode":  "0x800B0109",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  24846
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761312918155)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -115,20 +126,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  154184
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761311714066)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task instantiation failed \"\\Microsoft\\Windows\\Application Experience\\SdbinstMergeDbTask\". Check point: Ubpm-RegisterConsumer. Error Value: 2147942402.",
-                       "Id":  151,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  154183
                    }
                ],
-    "LastPoll":  "10/24 09:13"
+    "LastPoll":  "10/24 09:18"
 }
