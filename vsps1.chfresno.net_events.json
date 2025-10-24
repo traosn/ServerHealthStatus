@@ -2,77 +2,135 @@
     "Computer":  "VSPS1",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1761297123995)\/",
-                       "Source":  "Volsnap",
+                       "TimeCreated":  "\/Date(1761312248937)\/",
+                       "Source":  "NETLOGON",
                        "LogName":  "System",
                        "Level":  "Error",
-                       "Message":  "The shadow copies of volume \\\\?\\Volume{db1891ba-b0b6-11f0-9729-00155d611103} were aborted during detection because a critical control file could not be opened.",
-                       "Id":  27,
-                       "ErrorCode":  "0x0001",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  232847
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761297048667)\/",
-                       "Source":  "Microsoft-Windows-DistributedCOM",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "DCOM got error \"1053\" attempting to start the service GoogleUpdaterService142.0.7416.0 with arguments \"--com-service\" in order to run the server:\r",
-                       "Id":  10005,
+                       "Message":  "This computer was not able to set up a secure session with a domain controller in domain CHFRESNO due to the following: \r",
+                       "Id":  5719,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  232834
+                       "EventRecordID":  233535
                    },
                    {
-                       "TimeCreated":  "\/Date(1761297028963)\/",
+                       "TimeCreated":  "\/Date(1761311987328)\/",
+                       "Source":  "Microsoft-Windows-Eventlog",
+                       "LogName":  "Security",
+                       "Level":  "Error",
+                       "Message":  "Audit events have been dropped by the transport.  0",
+                       "Id":  1101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  53843539
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761311982099)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  190691
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761311972887)\/",
+                       "Source":  "EventLog",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The previous system shutdown at 6:02:45 AM on ‎10/‎24/‎2025 was unexpected.",
+                       "Id":  6008,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  233372
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761311910755)\/",
+                       "Source":  "Microsoft-Windows-Kernel-Power",
+                       "LogName":  "System",
+                       "Level":  "Critical",
+                       "Message":  "The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly.",
+                       "Id":  41,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  233384
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761304115968)\/",
+                       "Source":  "Microsoft-Windows-GroupPolicy",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The processing of Group Policy failed because of lack of network connectivity to a domain controller. This may be a transient condition. A success message would be generated once the machine gets connected to the domain controller and Group Policy has successfully processed. If you do not see a success message for several hours, then contact your administrator.",
+                       "Id":  1129,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  233221
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761303963172)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Access to performance data was denied to user \"SYSTEM\" (value from GetUserName() for the running thread) as attempted from module \"C:\\Program Files (x86)\\NinjaOne\\NinjaRMMAgent.exe\" (value from GetModuleFileName() for the binary that issued the query).",
+                       "Id":  1000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  35225
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761303948073)\/",
                        "Source":  "Service Control Manager",
                        "LogName":  "System",
                        "Level":  "Error",
-                       "Message":  "A timeout was reached (30000 milliseconds) while waiting for the Google Updater Service (GoogleUpdaterService142.0.7416.0) service to connect.",
-                       "Id":  7009,
+                       "Message":  "The Windows Defender Advanced Threat Protection Service service did not shut down properly after receiving a preshutdown control.",
+                       "Id":  7043,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  232832
+                       "EventRecordID":  233025
                    },
                    {
-                       "TimeCreated":  "\/Date(1761297028963)\/",
-                       "Source":  "Service Control Manager",
-                       "LogName":  "System",
+                       "TimeCreated":  "\/Date(1761303870855)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "The Google Updater Service (GoogleUpdaterService142.0.7416.0) service failed to start due to the following error: \r",
-                       "Id":  7000,
+                       "Message":  "Task Scheduler failed to start instance \"{24bada21-8c74-4b50-a4a0-80dab2365da7}\" of \"\\Microsoft\\Windows\\Wininet\\CacheTask\"  task for user \"\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  103,
                        "ErrorCode":  {
 
                                      },
                        "UpdateTitle":  null,
-                       "EventRecordID":  232833
+                       "EventRecordID":  190334
                    },
                    {
-                       "TimeCreated":  "\/Date(1761295903276)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
+                       "TimeCreated":  "\/Date(1761303870855)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
                        "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80070103: Xerox - Extension - 7.208.0.0.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80070103",
-                       "UpdateTitle":  "Xerox - Extension - 7.208.0.0",
-                       "EventRecordID":  232794
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761295661774)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                       "Level":  "Error",
-                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
-                       "Id":  25,
-                       "ErrorCode":  "0x800B0109",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Wininet\\CacheTask\" , instance \"{24bada21-8c74-4b50-a4a0-80dab2365da7}\" , action \"Wininet Cache task object\" . Additional Data: Error Value: 2147942404.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
                        "UpdateTitle":  null,
-                       "EventRecordID":  34980
+                       "EventRecordID":  190333
                    }
                ],
-    "LastPoll":  "10/24 03:57"
+    "LastPoll":  "10/24 06:37"
 }
