@@ -2,23 +2,23 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  10.2,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 37175.8s CPU time, 3.24GB RAM\nsqlservr: 1185.2s CPU time, 2.09GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 25s CPU time, 0.57GB RAM\nSupportAssistAgent: 59s CPU time, 0.56GB RAM\nSentinelAgent: 10887.9s CPU time, 0.56GB RAM\nMsMpEng: 3981.8s CPU time, 0.3GB RAM\nDell.TechHub.Instrumentation.SubAgent: 6133s CPU time, 0.24GB RAM\nDell.CoreServices.Client: 32.3s CPU time, 0.24GB RAM\nDell.TechHub.Analytics.SubAgent: 37.1s CPU time, 0.19GB RAM\nsvchost: 584.4s CPU time, 0.19GB RAM",
+    "CPUPercent":  2.3,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 37189.4s CPU time, 3.24GB RAM\nsqlservr: 1185.3s CPU time, 2.09GB RAM\nSentinelAgent: 10894.3s CPU time, 0.56GB RAM\nSupportAssistAgent: 59s CPU time, 0.56GB RAM\nMsMpEng: 3987.7s CPU time, 0.29GB RAM\nDell.TechHub.Instrumentation.SubAgent: 6134.8s CPU time, 0.24GB RAM\nDell.CoreServices.Client: 32.4s CPU time, 0.24GB RAM\nDell.TechHub.Analytics.SubAgent: 37.1s CPU time, 0.19GB RAM\nsvchost: 585.9s CPU time, 0.19GB RAM\nDell.TechHub.DataManager.SubAgent: 132.5s CPU time, 0.18GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  3.24,
-                                "CPU":  37175.8,
+                                "CPU":  37189.4,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  2.09,
-                                "CPU":  1185.2,
+                                "CPU":  1185.3,
                                 "Name":  "sqlservr"
                             },
                             {
-                                "Memory":  0.57,
-                                "CPU":  25,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                                "Memory":  0.56,
+                                "CPU":  10894.3,
+                                "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.56,
@@ -26,23 +26,18 @@
                                 "Name":  "SupportAssistAgent"
                             },
                             {
-                                "Memory":  0.56,
-                                "CPU":  10887.9,
-                                "Name":  "SentinelAgent"
-                            },
-                            {
-                                "Memory":  0.3,
-                                "CPU":  3981.8,
+                                "Memory":  0.29,
+                                "CPU":  3987.7,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  6133,
+                                "CPU":  6134.8,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  32.3,
+                                "CPU":  32.4,
                                 "Name":  "Dell.CoreServices.Client"
                             },
                             {
@@ -52,25 +47,30 @@
                             },
                             {
                                 "Memory":  0.19,
-                                "CPU":  584.4,
+                                "CPU":  585.9,
                                 "Name":  "svchost"
+                            },
+                            {
+                                "Memory":  0.18,
+                                "CPU":  132.5,
+                                "Name":  "Dell.TechHub.DataManager.SubAgent"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  15.8,
-    "RAMUsedPercent":  49.7,
-    "RAMFreeGB":  16,
+    "RAMUsedGB":  15.3,
+    "RAMUsedPercent":  48.1,
+    "RAMFreeGB":  16.5,
     "DiskFreePercent":  61.9,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 140.9GB, Free: 374.1GB of 515GB (72.6% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.4% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 141GB, Free: 374GB of 515GB (72.6% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.4% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  72.6,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "374.1GB",
-                        "UsedSize":  "140.9GB",
+                        "FreeSize":  "374GB",
+                        "UsedSize":  "141GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "6d 1h 13m",
-    "UptimeTooltip":  "Boot Time: 2025-10-18 02:03:27\nSystem has been running for:\n6 days, 1 hours, 13 minutes",
+    "Uptime":  "6d 1h 18m",
+    "UptimeTooltip":  "Boot Time: 2025-10-18 02:03:27\nSystem has been running for:\n6 days, 1 hours, 18 minutes",
     "BootTime":  "\/Date(1760778207000)\/",
-    "NetworkMbps":  0.24,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.11 Mbps\nReceived: 0.13 Mbps\nTotal: 0.24 Mbps",
+    "NetworkMbps":  0.25,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.12 Mbps\nReceived: 0.13 Mbps\nTotal: 0.25 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/24 03:16"
+    "LastPoll":  "10/24 03:21"
 }
