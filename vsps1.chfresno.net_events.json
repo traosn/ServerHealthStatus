@@ -1,15 +1,28 @@
 {
     "Computer":  "VSPS1",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1761257263952)\/",
-                   "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                   "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                   "Level":  "Error",
-                   "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
-                   "Id":  25,
-                   "ErrorCode":  "0x8024402F",
-                   "UpdateTitle":  null,
-                   "EventRecordID":  34713
-               },
-    "LastPoll":  "10/23 22:07"
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1761282595102)\/",
+                       "Source":  "Volsnap",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The shadow copies of volume \\\\?\\Volume{2dff4130-b097-11f0-9729-00155d611103} were aborted during detection because a critical control file could not be opened.",
+                       "Id":  27,
+                       "ErrorCode":  "0x0001",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  232460
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761257263952)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
+                       "Id":  25,
+                       "ErrorCode":  "0x8024402F",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  34713
+                   }
+               ],
+    "LastPoll":  "10/23 22:12"
 }
