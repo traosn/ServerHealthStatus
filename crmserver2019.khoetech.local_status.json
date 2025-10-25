@@ -2,27 +2,32 @@
     "Computer":  "CRMSERVER2019",
     "Customer":  "Khoetech",
     "OS":  "Microsoft Windows Server 2019 Standard Evaluation",
-    "CPUPercent":  0.8,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 6159.4s CPU time, 0.46GB RAM\ndns: 70.7s CPU time, 0.36GB RAM\nMsMpEng: 5492.9s CPU time, 0.33GB RAM\nSystem: 1131.6s CPU time, 0.18GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nlsass: 327.9s CPU time, 0.11GB RAM\npowershell: 3s CPU time, 0.1GB RAM\nCRMServer: 6.8s CPU time, 0.09GB RAM\nNinjaRMMAgent: 3982.8s CPU time, 0.09GB RAM\nAteraAgent: 41.3s CPU time, 0.09GB RAM",
+    "CPUPercent":  58.1,
+    "CPUTooltip":  "Top CPU Processes:\nsvchost: 133.2s CPU time, 0.47GB RAM\nSentinelAgent: 6177.8s CPU time, 0.46GB RAM\ndns: 70.9s CPU time, 0.36GB RAM\nMsMpEng: 5568.6s CPU time, 0.31GB RAM\nSystem: 1147.4s CPU time, 0.18GB RAM\nSecure System: 0s CPU time, 0.13GB RAM\nlsass: 330.6s CPU time, 0.11GB RAM\npowershell: 2.8s CPU time, 0.1GB RAM\nCRMServer: 7.2s CPU time, 0.09GB RAM\nAteraAgent: 41.3s CPU time, 0.09GB RAM",
     "TopCPUProcesses":  [
                             {
+                                "Memory":  0.47,
+                                "CPU":  133.2,
+                                "Name":  "svchost"
+                            },
+                            {
                                 "Memory":  0.46,
-                                "CPU":  6159.4,
+                                "CPU":  6177.8,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.36,
-                                "CPU":  70.7,
+                                "CPU":  70.9,
                                 "Name":  "dns"
                             },
                             {
-                                "Memory":  0.33,
-                                "CPU":  5492.9,
+                                "Memory":  0.31,
+                                "CPU":  5568.6,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.18,
-                                "CPU":  1131.6,
+                                "CPU":  1147.4,
                                 "Name":  "System"
                             },
                             {
@@ -32,23 +37,18 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  327.9,
+                                "CPU":  330.6,
                                 "Name":  "lsass"
                             },
                             {
                                 "Memory":  0.1,
-                                "CPU":  3,
+                                "CPU":  2.8,
                                 "Name":  "powershell"
                             },
                             {
                                 "Memory":  0.09,
-                                "CPU":  6.8,
+                                "CPU":  7.2,
                                 "Name":  "CRMServer"
-                            },
-                            {
-                                "Memory":  0.09,
-                                "CPU":  3982.8,
-                                "Name":  "NinjaRMMAgent"
                             },
                             {
                                 "Memory":  0.09,
@@ -57,9 +57,9 @@
                             }
                         ],
     "RAMTotalGB":  63.8,
-    "RAMUsedGB":  6,
-    "RAMUsedPercent":  9.4,
-    "RAMFreeGB":  57.8,
+    "RAMUsedGB":  6.5,
+    "RAMUsedPercent":  10.2,
+    "RAMFreeGB":  57.3,
     "DiskFreePercent":  50.9,
     "TotalSize":  "7.3TB",
     "DiskTooltip":  "Total Storage: 7.3TB\n\nDisk Usage:\nC:\\ - Used: 3.6TB, Free: 3.7TB of 7.3TB (50.9% free)",
@@ -72,13 +72,13 @@
                     "UsedSize":  "3.6TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "1d 0h 11m",
-    "UptimeTooltip":  "Boot Time: 2025-10-24 03:59:27\nSystem has been running for:\n1 days, 0 hours, 11 minutes",
+    "Uptime":  "1d 0h 16m",
+    "UptimeTooltip":  "Boot Time: 2025-10-24 03:59:27\nSystem has been running for:\n1 days, 0 hours, 16 minutes",
     "BootTime":  "\/Date(1761303567000)\/",
-    "NetworkMbps":  0.02,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.01 Mbps\nReceived: 0.01 Mbps\nTotal: 0.02 Mbps",
-    "UpdateStatus":  "1 Updates",
-    "UpdateCount":  1,
-    "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/25 04:11"
+    "NetworkMbps":  0.03,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.01 Mbps\nReceived: 0.02 Mbps\nTotal: 0.03 Mbps",
+    "UpdateStatus":  "Up-to-date",
+    "UpdateCount":  0,
+    "UpdateTooltip":  "No pending updates found.",
+    "LastPoll":  "10/25 04:17"
 }
