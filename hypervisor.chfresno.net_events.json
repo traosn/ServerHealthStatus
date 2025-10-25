@@ -2,7 +2,20 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1761353595721)\/",
+                       "TimeCreated":  "\/Date(1761355213491)\/",
+                       "Source":  "Microsoft-Windows-TPM-WMI",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
+                       "Id":  1796,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  303007
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761355094728)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
                        "Level":  "Error",
@@ -10,7 +23,7 @@
                        "Id":  25,
                        "ErrorCode":  "0x800B0109",
                        "UpdateTitle":  null,
-                       "EventRecordID":  25054
+                       "EventRecordID":  25064
                    },
                    {
                        "TimeCreated":  "\/Date(1761348315685)\/",
@@ -78,19 +91,6 @@
                        "EventRecordID":  300113
                    },
                    {
-                       "TimeCreated":  "\/Date(1761312026494)\/",
-                       "Source":  "Microsoft-Windows-TPM-WMI",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
-                       "Id":  1796,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  300115
-                   },
-                   {
                        "TimeCreated":  "\/Date(1761311940168)\/",
                        "Source":  "Microsoft-Windows-GroupPolicy",
                        "LogName":  "System",
@@ -128,5 +128,5 @@
                        "EventRecordID":  154184
                    }
                ],
-    "LastPoll":  "10/24 18:18"
+    "LastPoll":  "10/24 18:23"
 }
