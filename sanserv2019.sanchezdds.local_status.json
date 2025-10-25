@@ -3,7 +3,7 @@
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
     "CPUPercent":  1.6,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 21905.7s CPU time, 1.17GB RAM\nHSPS.eServices.PracticeDataSync: 252s CPU time, 0.77GB RAM\nSentinelAgent: 16546s CPU time, 0.67GB RAM\nMsMpEng: 6494.5s CPU time, 0.37GB RAM\nRegistry: 7.2s CPU time, 0.28GB RAM\nSystem: 7119.2s CPU time, 0.2GB RAM\ndns: 48.8s CPU time, 0.14GB RAM\nDentrixClientService: 150.2s CPU time, 0.12GB RAM\nDentrixUpdaterService: 272.6s CPU time, 0.12GB RAM\nsvchost: 1448.6s CPU time, 0.11GB RAM",
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 21905.7s CPU time, 1.17GB RAM\nSentinelAgent: 16550.9s CPU time, 0.67GB RAM\nMsMpEng: 6498.1s CPU time, 0.37GB RAM\nRegistry: 7.2s CPU time, 0.28GB RAM\nSystem: 7120.7s CPU time, 0.2GB RAM\ndns: 48.8s CPU time, 0.14GB RAM\nDentrixClientService: 150.2s CPU time, 0.12GB RAM\nDentrixUpdaterService: 272.6s CPU time, 0.12GB RAM\nsvchost: 1449.8s CPU time, 0.11GB RAM\npowershell: 0.8s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.17,
@@ -11,18 +11,13 @@
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.77,
-                                "CPU":  252,
-                                "Name":  "HSPS.eServices.PracticeDataSync"
-                            },
-                            {
                                 "Memory":  0.67,
-                                "CPU":  16546,
+                                "CPU":  16550.9,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.37,
-                                "CPU":  6494.5,
+                                "CPU":  6498.1,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -32,7 +27,7 @@
                             },
                             {
                                 "Memory":  0.2,
-                                "CPU":  7119.2,
+                                "CPU":  7120.7,
                                 "Name":  "System"
                             },
                             {
@@ -52,14 +47,19 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  1448.6,
+                                "CPU":  1449.8,
                                 "Name":  "svchost"
+                            },
+                            {
+                                "Memory":  0.11,
+                                "CPU":  0.8,
+                                "Name":  "powershell"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  8.2,
-    "RAMUsedPercent":  52.2,
-    "RAMFreeGB":  7.5,
+    "RAMUsedGB":  7.5,
+    "RAMUsedPercent":  47.8,
+    "RAMFreeGB":  8.2,
     "DiskFreePercent":  89,
     "TotalSize":  "3.6TB",
     "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 120.1GB, Free: 379.9GB of 500GB (76% free)\nD:\\ (DATA) - Used: 291.3GB, Free: 2.9TB of 3.1TB (91% free)",
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "7d 22h 12m",
-    "UptimeTooltip":  "Boot Time: 2025-10-18 02:11:54\nSystem has been running for:\n7 days, 22 hours, 12 minutes",
+    "Uptime":  "7d 22h 17m",
+    "UptimeTooltip":  "Boot Time: 2025-10-18 02:11:54\nSystem has been running for:\n7 days, 22 hours, 17 minutes",
     "BootTime":  "\/Date(1760778714000)\/",
-    "NetworkMbps":  0,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0 Mbps\nReceived: 0 Mbps\nTotal: 0 Mbps",
+    "NetworkMbps":  0.03,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.02 Mbps\nReceived: 0.01 Mbps\nTotal: 0.03 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/25 00:24"
+    "LastPoll":  "10/25 00:29"
 }
