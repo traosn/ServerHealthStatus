@@ -2,6 +2,43 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761398727519)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{0f9c1d67-cf86-4bd6-b412-296ff2960829}\" of \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  157536
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761398727519)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\" , instance \"{0f9c1d67-cf86-4bd6-b412-296ff2960829}\" , action \"Device Directory Client Handler\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  157535
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761398630677)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
+                       "Id":  25,
+                       "ErrorCode":  "0x800B0109",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  25364
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761398413574)\/",
                        "Source":  "Microsoft-Windows-TPM-WMI",
                        "LogName":  "System",
@@ -13,44 +50,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  305719
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761397991795)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                       "Level":  "Error",
-                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
-                       "Id":  25,
-                       "ErrorCode":  "0x800B0109",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  25358
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761348315685)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{e33e9c98-3728-4b3e-b7f8-b7af6052b86a}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  155680
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761348315685)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{e33e9c98-3728-4b3e-b7f8-b7af6052b86a}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  155679
                    }
                ],
-    "LastPoll":  "10/25 06:23"
+    "LastPoll":  "10/25 06:28"
 }
