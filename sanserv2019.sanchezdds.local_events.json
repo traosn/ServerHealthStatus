@@ -1,17 +1,30 @@
 {
     "Computer":  "SANSERV2019",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1761319668541)\/",
-                   "Source":  "Microsoft-Windows-Perflib",
-                   "LogName":  "Application",
-                   "Level":  "Error",
-                   "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
-                   "Id":  1023,
-                   "ErrorCode":  {
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1761390564261)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy1502 - 0000000000000344,0x0053c198,000001F7E88350D0,0,000001F7E87DD940,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  250070
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761319668541)\/",
+                       "Source":  "Microsoft-Windows-Perflib",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                       "Id":  1023,
+                       "ErrorCode":  {
 
-                                 },
-                   "UpdateTitle":  null,
-                   "EventRecordID":  249367
-               },
-    "LastPoll":  "10/25 04:05"
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  249367
+                   }
+               ],
+    "LastPoll":  "10/25 04:12"
 }
