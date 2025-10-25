@@ -1,95 +1,17 @@
 {
     "Computer":  "CRMSERVER2019",
-    "Events":  [
-                   {
-                       "TimeCreated":  "\/Date(1761349859298)\/",
-                       "Source":  "Microsoft-Windows-Perflib",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
-                       "Id":  1023,
-                       "ErrorCode":  {
+    "Events":  {
+                   "TimeCreated":  "\/Date(1761349859298)\/",
+                   "Source":  "Microsoft-Windows-Perflib",
+                   "LogName":  "Application",
+                   "Level":  "Error",
+                   "Message":  "Windows cannot load the extensible counter DLL \"C:\\Windows\\system32\\ntdsperf.dll\" (Win32 error code The specified module could not be found.).",
+                   "Id":  1023,
+                   "ErrorCode":  {
 
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  64735
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761303915698)\/",
-                       "Source":  "Service Control Manager",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "A timeout was reached (30000 milliseconds) while waiting for the CRM Web Interface service to connect.",
-                       "Id":  7009,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  567292
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761303744774)\/",
-                       "Source":  "Service Control Manager",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The DuoAuthProxy service failed to start due to the following error: \r",
-                       "Id":  7000,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  567254
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761303719523)\/",
-                       "Source":  "Microsoft-Windows-DHCP-Server",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The DHCP server was unable to create or lookup the DHCP Administrators local group on this computer.  The error code is in the data.",
-                       "Id":  1036,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  567213
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761303718929)\/",
-                       "Source":  "Microsoft-Windows-DHCP-Server",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The DHCP service was unable to create or lookup the DHCP Users local group on this computer.  The error code is in the data.",
-                       "Id":  1035,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  567211
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761303716679)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error calling routine RegOpenKeyExW(-2147483646,SYSTEM\\CurrentControlSet\\Services\\VSS\\Diag,...).  hr = 0x80070005, Access is denied.\r",
-                       "Id":  8193,
-                       "ErrorCode":  "0x80070005",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  64283
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761303686332)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
-                       "Id":  101,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  336002
-                   }
-               ],
-    "LastPoll":  "10/25 04:01"
+                                 },
+                   "UpdateTitle":  null,
+                   "EventRecordID":  64735
+               },
+    "LastPoll":  "10/25 04:06"
 }
