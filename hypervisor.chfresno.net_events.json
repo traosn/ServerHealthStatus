@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761442091831)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
+                       "Id":  25,
+                       "ErrorCode":  "0x800B0109",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  25657
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761441929302)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -28,17 +39,6 @@
                        "EventRecordID":  158997
                    },
                    {
-                       "TimeCreated":  "\/Date(1761441792082)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                       "Level":  "Error",
-                       "Message":  "Windows Update failed to check for updates with error 0x800B0109.",
-                       "Id":  25,
-                       "ErrorCode":  "0x800B0109",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  25656
-                   },
-                   {
                        "TimeCreated":  "\/Date(1761441613488)\/",
                        "Source":  "Microsoft-Windows-TPM-WMI",
                        "LogName":  "System",
@@ -63,5 +63,5 @@
                        "EventRecordID":  76401
                    }
                ],
-    "LastPoll":  "10/25 18:28"
+    "LastPoll":  "10/25 18:33"
 }
