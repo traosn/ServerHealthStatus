@@ -2,6 +2,17 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761534352236)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy144 - 00000000000002F0,0x0053c198,0000024CCE741A50,0,0000024CCE740950,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  77603
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761533290917)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
@@ -52,17 +63,6 @@
                        "EventRecordID":  313984
                    },
                    {
-                       "TimeCreated":  "\/Date(1761519846710)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy137 - 00000000000003F0,0x0053c198,0000024CCE73E750,0,0000024CCE73B450,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  77436
-                   },
-                   {
                        "TimeCreated":  "\/Date(1761513635196)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -102,5 +102,5 @@
                        "EventRecordID":  313053
                    }
                ],
-    "LastPoll":  "10/26 20:03"
+    "LastPoll":  "10/26 20:08"
 }
