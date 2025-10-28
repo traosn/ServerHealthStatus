@@ -2,13 +2,18 @@
     "Computer":  "HYPERVISOR",
     "Customer":  "Clawson Honda",
     "OS":  "Microsoft Windows Server 2025 Standard",
-    "CPUPercent":  4,
-    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 10531.9s CPU time, 0.64GB RAM\nSecure System: 0s CPU time, 0.36GB RAM\nMsMpEng: 7849.8s CPU time, 0.33GB RAM\nTiWorker: 1479.2s CPU time, 0.32GB RAM\nSystem: 17836.1s CPU time, 0.25GB RAM\nRegistry: 21.5s CPU time, 0.14GB RAM\npowershell: 1.9s CPU time, 0.11GB RAM\nSentinelStaticEngineScanner: 0.4s CPU time, 0.11GB RAM\nNinjaRMMAgent: 15375.4s CPU time, 0.11GB RAM\nSentinelStaticEngine: 305.8s CPU time, 0.1GB RAM",
+    "CPUPercent":  5.3,
+    "CPUTooltip":  "Top CPU Processes:\nSentinelAgent: 10550.1s CPU time, 0.64GB RAM\nTiWorker: 2009s CPU time, 0.37GB RAM\nSecure System: 0s CPU time, 0.36GB RAM\nMsMpEng: 7861.1s CPU time, 0.33GB RAM\nSystem: 17880s CPU time, 0.25GB RAM\nRegistry: 21.5s CPU time, 0.14GB RAM\npowershell: 2s CPU time, 0.11GB RAM\nNinjaRMMAgent: 15401.6s CPU time, 0.11GB RAM\nSentinelStaticEngineScanner: 0.4s CPU time, 0.11GB RAM\nSentinelStaticEngine: 306.3s CPU time, 0.1GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.64,
-                                "CPU":  10531.9,
+                                "CPU":  10550.1,
                                 "Name":  "SentinelAgent"
+                            },
+                            {
+                                "Memory":  0.37,
+                                "CPU":  2009,
+                                "Name":  "TiWorker"
                             },
                             {
                                 "Memory":  0.36,
@@ -17,17 +22,12 @@
                             },
                             {
                                 "Memory":  0.33,
-                                "CPU":  7849.8,
+                                "CPU":  7861.1,
                                 "Name":  "MsMpEng"
                             },
                             {
-                                "Memory":  0.32,
-                                "CPU":  1479.2,
-                                "Name":  "TiWorker"
-                            },
-                            {
                                 "Memory":  0.25,
-                                "CPU":  17836.1,
+                                "CPU":  17880,
                                 "Name":  "System"
                             },
                             {
@@ -37,8 +37,13 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  1.9,
+                                "CPU":  2,
                                 "Name":  "powershell"
+                            },
+                            {
+                                "Memory":  0.11,
+                                "CPU":  15401.6,
+                                "Name":  "NinjaRMMAgent"
                             },
                             {
                                 "Memory":  0.11,
@@ -46,13 +51,8 @@
                                 "Name":  "SentinelStaticEngineScanner"
                             },
                             {
-                                "Memory":  0.11,
-                                "CPU":  15375.4,
-                                "Name":  "NinjaRMMAgent"
-                            },
-                            {
                                 "Memory":  0.1,
-                                "CPU":  305.8,
+                                "CPU":  306.3,
                                 "Name":  "SentinelStaticEngine"
                             }
                         ],
@@ -72,13 +72,13 @@
                     "UsedSize":  "1.1TB",
                     "Letter":  "C"
                 },
-    "Uptime":  "4d 0h 48m",
-    "UptimeTooltip":  "Boot Time: 2025-10-24 06:14:19\nSystem has been running for:\n4 days, 0 hours, 48 minutes",
+    "Uptime":  "4d 0h 58m",
+    "UptimeTooltip":  "Boot Time: 2025-10-24 06:14:19\nSystem has been running for:\n4 days, 0 hours, 58 minutes",
     "BootTime":  "\/Date(1761311659000)\/",
-    "NetworkMbps":  0.58000000000000007,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.33 Mbps\nReceived: 0.25 Mbps\nTotal: 0.58 Mbps",
-    "UpdateStatus":  "1 Updates",
-    "UpdateCount":  1,
-    "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/28 07:03"
+    "NetworkMbps":  1.6400000000000001,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 1.09 Mbps\nReceived: 0.55 Mbps\nTotal: 1.64 Mbps",
+    "UpdateStatus":  "Up-to-date",
+    "UpdateCount":  0,
+    "UpdateTooltip":  "No pending updates found.",
+    "LastPoll":  "10/28 07:13"
 }
