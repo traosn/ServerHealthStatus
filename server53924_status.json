@@ -2,37 +2,42 @@
     "Computer":  "SERVER53924",
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
-    "CPUPercent":  11.8,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 58178.8s CPU time, 4.89GB RAM\nsqlservr: 1438.7s CPU time, 2.17GB RAM\nSentinelAgent: 19805.7s CPU time, 0.67GB RAM\nsvchost: 3290.2s CPU time, 0.64GB RAM\nSupportAssistAgent: 87.6s CPU time, 0.44GB RAM\nMsMpEng: 11836.6s CPU time, 0.34GB RAM\nDell.TechHub.DataManager.SubAgent: 212.7s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 9571.1s CPU time, 0.24GB RAM\nDell.CoreServices.Client: 45.7s CPU time, 0.24GB RAM\nTiWorker: 356.3s CPU time, 0.21GB RAM",
+    "CPUPercent":  9.4,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 58214.1s CPU time, 4.89GB RAM\nsqlservr: 1439s CPU time, 2.17GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 30.3s CPU time, 1.13GB RAM\nSentinelAgent: 19812.4s CPU time, 0.68GB RAM\nsvchost: 3292s CPU time, 0.64GB RAM\nSupportAssistAgent: 87.8s CPU time, 0.44GB RAM\nMsMpEng: 11842.9s CPU time, 0.33GB RAM\nDell.TechHub.DataManager.SubAgent: 212.7s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 9576.2s CPU time, 0.24GB RAM\nDell.CoreServices.Client: 45.7s CPU time, 0.24GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  4.89,
-                                "CPU":  58178.8,
+                                "CPU":  58214.1,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  2.17,
-                                "CPU":  1438.7,
+                                "CPU":  1439,
                                 "Name":  "sqlservr"
                             },
                             {
-                                "Memory":  0.67,
-                                "CPU":  19805.7,
+                                "Memory":  1.13,
+                                "CPU":  30.3,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
+                                "Memory":  0.68,
+                                "CPU":  19812.4,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.64,
-                                "CPU":  3290.2,
+                                "CPU":  3292,
                                 "Name":  "svchost"
                             },
                             {
                                 "Memory":  0.44,
-                                "CPU":  87.6,
+                                "CPU":  87.8,
                                 "Name":  "SupportAssistAgent"
                             },
                             {
-                                "Memory":  0.34,
-                                "CPU":  11836.6,
+                                "Memory":  0.33,
+                                "CPU":  11842.9,
                                 "Name":  "MsMpEng"
                             },
                             {
@@ -42,35 +47,30 @@
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  9571.1,
+                                "CPU":  9576.2,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
                             },
                             {
                                 "Memory":  0.24,
                                 "CPU":  45.7,
                                 "Name":  "Dell.CoreServices.Client"
-                            },
-                            {
-                                "Memory":  0.21,
-                                "CPU":  356.3,
-                                "Name":  "TiWorker"
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  17.4,
-    "RAMUsedPercent":  54.7,
-    "RAMFreeGB":  14.4,
+    "RAMUsedGB":  18.3,
+    "RAMUsedPercent":  57.5,
+    "RAMFreeGB":  13.5,
     "DiskFreePercent":  61.7,
     "TotalSize":  "10.9TB",
-    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 140.3GB, Free: 374.7GB of 515GB (72.8% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.2% free)",
+    "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 140.4GB, Free: 374.6GB of 515GB (72.7% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.2% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
-                        "FreePercent":  72.8,
+                        "FreePercent":  72.7,
                         "TotalSize":  "515GB",
                         "SizeBytes":  552977035264,
-                        "FreeSize":  "374.7GB",
-                        "UsedSize":  "140.3GB",
+                        "FreeSize":  "374.6GB",
+                        "UsedSize":  "140.4GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "11d 13h 3m",
-    "UptimeTooltip":  "Boot Time: 2025-10-18 02:03:27\nSystem has been running for:\n11 days, 13 hours, 3 minutes",
+    "Uptime":  "11d 13h 8m",
+    "UptimeTooltip":  "Boot Time: 2025-10-18 02:03:27\nSystem has been running for:\n11 days, 13 hours, 8 minutes",
     "BootTime":  "\/Date(1760778207000)\/",
-    "NetworkMbps":  15.850000000000001,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 10.74 Mbps\nReceived: 5.11 Mbps\nTotal: 15.85 Mbps",
+    "NetworkMbps":  10.33,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 5.68 Mbps\nReceived: 4.65 Mbps\nTotal: 10.33 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/28 15:06"
+    "LastPoll":  "10/28 15:11"
 }
