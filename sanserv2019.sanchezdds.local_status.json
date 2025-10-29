@@ -2,18 +2,23 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  5.1,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 34646.8s CPU time, 1.52GB RAM\nMsMpEng: 15549.2s CPU time, 0.34GB RAM\nRegistry: 10.4s CPU time, 0.28GB RAM\nSentinelAgent: 979s CPU time, 0.26GB RAM\nSystem: 11423.1s CPU time, 0.22GB RAM\nHSPS.eServices.DigitalHighway.Services: 145.2s CPU time, 0.19GB RAM\nsvchost: 2985.5s CPU time, 0.15GB RAM\ndns: 75.9s CPU time, 0.14GB RAM\nDentrixUpdaterService: 384.3s CPU time, 0.12GB RAM\nDentrixClientService: 231.4s CPU time, 0.12GB RAM",
+    "CPUPercent":  0,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 34680.5s CPU time, 1.52GB RAM\nMsMpEng: 15556.3s CPU time, 0.34GB RAM\nSentinelAgent: 989s CPU time, 0.3GB RAM\nRegistry: 10.4s CPU time, 0.28GB RAM\nSystem: 11425.6s CPU time, 0.22GB RAM\nHSPS.eServices.DigitalHighway.Services: 145.9s CPU time, 0.19GB RAM\nsvchost: 2986.8s CPU time, 0.15GB RAM\ndns: 75.9s CPU time, 0.14GB RAM\nDentrixUpdaterService: 384.4s CPU time, 0.12GB RAM\nDentrixClientService: 231.4s CPU time, 0.12GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.52,
-                                "CPU":  34646.8,
+                                "CPU":  34680.5,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  0.34,
-                                "CPU":  15549.2,
+                                "CPU":  15556.3,
                                 "Name":  "MsMpEng"
+                            },
+                            {
+                                "Memory":  0.3,
+                                "CPU":  989,
+                                "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.28,
@@ -21,23 +26,18 @@
                                 "Name":  "Registry"
                             },
                             {
-                                "Memory":  0.26,
-                                "CPU":  979,
-                                "Name":  "SentinelAgent"
-                            },
-                            {
                                 "Memory":  0.22,
-                                "CPU":  11423.1,
+                                "CPU":  11425.6,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.19,
-                                "CPU":  145.2,
+                                "CPU":  145.9,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
                                 "Memory":  0.15,
-                                "CPU":  2985.5,
+                                "CPU":  2986.8,
                                 "Name":  "svchost"
                             },
                             {
@@ -47,7 +47,7 @@
                             },
                             {
                                 "Memory":  0.12,
-                                "CPU":  384.3,
+                                "CPU":  384.4,
                                 "Name":  "DentrixUpdaterService"
                             },
                             {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "11d 17h 47m",
-    "UptimeTooltip":  "Boot Time: 2025-10-18 02:11:54\nSystem has been running for:\n11 days, 17 hours, 47 minutes",
+    "Uptime":  "11d 17h 52m",
+    "UptimeTooltip":  "Boot Time: 2025-10-18 02:11:54\nSystem has been running for:\n11 days, 17 hours, 52 minutes",
     "BootTime":  "\/Date(1760778714000)\/",
     "NetworkMbps":  0.06,
     "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.03 Mbps\nReceived: 0.03 Mbps\nTotal: 0.06 Mbps",
     "UpdateStatus":  "2 Updates",
     "UpdateCount":  2,
     "UpdateTooltip":  "Click for details on 2 pending updates.",
-    "LastPoll":  "10/28 19:59"
+    "LastPoll":  "10/28 20:04"
 }
