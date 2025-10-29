@@ -2,6 +2,32 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761779537417)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  287431
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761779537417)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{6b8756fe-b0c0-4e77-a0a4-ce85a3d2f80b}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  287430
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761777121602)\/",
                        "Source":  "Microsoft-Windows-Bits-Client",
                        "LogName":  "System",
@@ -41,32 +67,6 @@
                        "EventRecordID":  286413
                    },
                    {
-                       "TimeCreated":  "\/Date(1761757154207)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
-                       "Id":  101,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  285917
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761757154207)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{b83e9538-c910-44a1-b51e-bc08d32a3d44}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
-                       "Id":  203,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  285916
-                   },
-                   {
                        "TimeCreated":  "\/Date(1761734065613)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
@@ -78,5 +78,5 @@
                        "EventRecordID":  33722
                    }
                ],
-    "LastPoll":  "10/29 16:09"
+    "LastPoll":  "10/29 16:14"
 }
