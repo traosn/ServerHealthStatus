@@ -2,6 +2,32 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761757154207)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  285917
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761757154207)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{b83e9538-c910-44a1-b51e-bc08d32a3d44}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  285916
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761752427335)\/",
                        "Source":  "Microsoft-Windows-Bits-Client",
                        "LogName":  "System",
@@ -13,32 +39,6 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  13341
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761750943153)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start \"\\ServerHealthCollector\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942667.",
-                       "Id":  101,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  285539
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761750943153)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to launch action \"powershell.exe\" in instance \"{814ffd1d-efb3-4228-9a10-cb482d187bd6}\" of task \"\\ServerHealthCollector\". Additional Data: Error Value: 2147942667.",
-                       "Id":  203,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  285538
                    },
                    {
                        "TimeCreated":  "\/Date(1761734065613)\/",
@@ -78,5 +78,5 @@
                        "EventRecordID":  282208
                    }
                ],
-    "LastPoll":  "10/29 09:59"
+    "LastPoll":  "10/29 10:04"
 }
