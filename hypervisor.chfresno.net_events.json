@@ -2,7 +2,20 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1761743593438)\/",
+                       "TimeCreated":  "\/Date(1761744013579)\/",
+                       "Source":  "Microsoft-Windows-TPM-WMI",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
+                       "Id":  1796,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  326469
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761743896636)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
                        "Level":  "Error",
@@ -10,7 +23,7 @@
                        "Id":  25,
                        "ErrorCode":  "0x800B0109",
                        "UpdateTitle":  null,
-                       "EventRecordID":  27696
+                       "EventRecordID":  27698
                    },
                    {
                        "TimeCreated":  "\/Date(1761743010447)\/",
@@ -22,19 +35,6 @@
                        "ErrorCode":  "0x0053c198",
                        "UpdateTitle":  null,
                        "EventRecordID":  80139
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761700813453)\/",
-                       "Source":  "Microsoft-Windows-TPM-WMI",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
-                       "Id":  1796,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  323731
                    },
                    {
                        "TimeCreated":  "\/Date(1761694067946)\/",
@@ -89,5 +89,5 @@
                        "EventRecordID":  166850
                    }
                ],
-    "LastPoll":  "10/29 06:18"
+    "LastPoll":  "10/29 06:23"
 }
