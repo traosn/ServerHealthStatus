@@ -2,6 +2,95 @@
     "Computer":  "SANSERV2019",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761782840302)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The DtxEventBridgeSrv service failed to start due to the following error: \r",
+                       "Id":  7000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1113790
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761782840302)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "A timeout was reached (30000 milliseconds) while waiting for the DtxEventBridgeSrv service to connect.",
+                       "Id":  7009,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1113789
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761782824056)\/",
+                       "Source":  "Microsoft-Windows-DHCP-Server",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The DHCP service failed to see a directory server for authorization.",
+                       "Id":  1059,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1113774
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761782810716)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error calling routine RegOpenKeyExW(-2147483646,SYSTEM\\CurrentControlSet\\Services\\VSS\\Diag,...).  hr = 0x80070005, Access is denied.\r",
+                       "Id":  8193,
+                       "ErrorCode":  "0x80070005",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  257954
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761782797342)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\Workplace Join\\Automatic-Device-Join\" task for user \"(default user)\". Additional Data: Error Value: 2147943568.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1185275
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761782608174)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The DentrixACEServer service did not shut down properly after receiving a preshutdown control.",
+                       "Id":  7043,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1113570
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761782600509)\/",
+                       "Source":  "Microsoft-Windows-DistributedCOM",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "DCOM got error \"1115\" attempting to start the service BITS with arguments \"Unavailable\" in order to run the server:\r",
+                       "Id":  10005,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1113565
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761751819293)\/",
                        "Source":  "Microsoft-Windows-Perflib",
                        "LogName":  "Application",
@@ -26,5 +115,5 @@
                        "EventRecordID":  257620
                    }
                ],
-    "LastPoll":  "10/29 16:59"
+    "LastPoll":  "10/29 17:41"
 }
