@@ -2,6 +2,32 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1761843296656)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{31cf4a7e-5a66-4ee6-93df-c4f140e62c8c}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  291422
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761843296656)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{31cf4a7e-5a66-4ee6-93df-c4f140e62c8c}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  291421
+                   },
+                   {
                        "TimeCreated":  "\/Date(1761842053320)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
@@ -50,33 +76,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  288245
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761763648090)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{b35465b4-f047-455c-9f4f-bcffe9bc0ab8}\" of \"\\Microsoft\\Windows\\Servicing\\StartComponentCleanup\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147942405.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  286414
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761763648090)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\Servicing\\StartComponentCleanup\" , instance \"{b35465b4-f047-455c-9f4f-bcffe9bc0ab8}\" , action \"Component Based Servicing Session\" . Additional Data: Error Value: 2147942405.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  286413
                    }
                ],
-    "LastPoll":  "10/30 09:53"
+    "LastPoll":  "10/30 09:58"
 }
