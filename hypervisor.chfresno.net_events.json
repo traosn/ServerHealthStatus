@@ -2,7 +2,18 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1761810791146)\/",
+                       "TimeCreated":  "\/Date(1761814995799)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy195 - 0000000000000324,0x0053c198,0000024CCE73D650,0,0000024CCE744D50,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  81004
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761814993560)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
                        "Level":  "Error",
@@ -10,7 +21,7 @@
                        "Id":  25,
                        "ErrorCode":  "0x800B0109",
                        "UpdateTitle":  null,
-                       "EventRecordID":  28156
+                       "EventRecordID":  28188
                    },
                    {
                        "TimeCreated":  "\/Date(1761787213431)\/",
@@ -24,17 +35,6 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  329405
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761786183678)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy187 - 0000000000000374,0x0053c198,0000024CCE745E50,0,0000024CCE73D650,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  80651
                    },
                    {
                        "TimeCreated":  "\/Date(1761780334363)\/",
@@ -89,5 +89,5 @@
                        "EventRecordID":  169558
                    }
                ],
-    "LastPoll":  "10/30 02:03"
+    "LastPoll":  "10/30 02:08"
 }
