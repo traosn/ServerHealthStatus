@@ -2,17 +2,15 @@
     "Computer":  "SANSERV2019",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1761782840302)\/",
-                       "Source":  "Service Control Manager",
-                       "LogName":  "System",
+                       "TimeCreated":  "\/Date(1761815267209)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
                        "Level":  "Error",
-                       "Message":  "The DtxEventBridgeSrv service failed to start due to the following error: \r",
-                       "Id":  7000,
-                       "ErrorCode":  {
-
-                                     },
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy1272 - 000000000000034C,0x0053c198,000001F5B9096140,0,000001F5B90880E0,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
                        "UpdateTitle":  null,
-                       "EventRecordID":  1113790
+                       "EventRecordID":  258338
                    },
                    {
                        "TimeCreated":  "\/Date(1761782840302)\/",
@@ -26,6 +24,19 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  1113789
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1761782840302)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The DtxEventBridgeSrv service failed to start due to the following error: \r",
+                       "Id":  7000,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  1113790
                    },
                    {
                        "TimeCreated":  "\/Date(1761782824056)\/",
@@ -102,18 +113,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  257702
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761745414310)\/",
-                       "Source":  "VSS",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy2241 - 000000000000036C,0x0053c198,000001F7E88320A0,0,000001F7E87D3A10,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
-                       "Id":  12289,
-                       "ErrorCode":  "0x0053c198",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  257620
                    }
                ],
-    "LastPoll":  "10/30 02:04"
+    "LastPoll":  "10/30 02:09"
 }
