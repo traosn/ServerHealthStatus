@@ -3,21 +3,26 @@
     "Customer":  "All Smiles Family, Fresno",
     "OS":  "Microsoft Windows Server 2022 Standard",
     "CPUPercent":  10.4,
-    "CPUTooltip":  "Top CPU Processes:\nsqlservr: 1287.9s CPU time, 1.96GB RAM\nctreesql: 8765.5s CPU time, 1.44GB RAM\nSentinelAgent: 2641.3s CPU time, 0.58GB RAM\nSupportAssistAgent: 25s CPU time, 0.51GB RAM\nAppLauncher: 6.8s CPU time, 0.48GB RAM\nMsMpEng: 2699.7s CPU time, 0.29GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 42.3s CPU time, 0.24GB RAM\nDell.TechHub.Instrumentation.SubAgent: 1419s CPU time, 0.24GB RAM\nTiWorker: 438.2s CPU time, 0.22GB RAM\nDell.CoreServices.Client: 12.5s CPU time, 0.2GB RAM",
+    "CPUTooltip":  "Top CPU Processes:\nsqlservr: 1288s CPU time, 1.96GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 27.4s CPU time, 1.5GB RAM\nctreesql: 8791.1s CPU time, 1.44GB RAM\nSentinelAgent: 2648.9s CPU time, 0.56GB RAM\nSupportAssistAgent: 25s CPU time, 0.51GB RAM\nAppLauncher: 6.8s CPU time, 0.48GB RAM\nMsMpEng: 2707.4s CPU time, 0.3GB RAM\nDell.TechHub.Instrumentation.SubAgent: 1423.6s CPU time, 0.24GB RAM\nTiWorker: 442.1s CPU time, 0.22GB RAM\nDell.CoreServices.Client: 12.5s CPU time, 0.2GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.96,
-                                "CPU":  1287.9,
+                                "CPU":  1288,
                                 "Name":  "sqlservr"
                             },
                             {
+                                "Memory":  1.5,
+                                "CPU":  27.4,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
+                            },
+                            {
                                 "Memory":  1.44,
-                                "CPU":  8765.5,
+                                "CPU":  8791.1,
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.58,
-                                "CPU":  2641.3,
+                                "Memory":  0.56,
+                                "CPU":  2648.9,
                                 "Name":  "SentinelAgent"
                             },
                             {
@@ -31,23 +36,18 @@
                                 "Name":  "AppLauncher"
                             },
                             {
-                                "Memory":  0.29,
-                                "CPU":  2699.7,
+                                "Memory":  0.3,
+                                "CPU":  2707.4,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.24,
-                                "CPU":  42.3,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
-                            },
-                            {
-                                "Memory":  0.24,
-                                "CPU":  1419,
+                                "CPU":  1423.6,
                                 "Name":  "Dell.TechHub.Instrumentation.SubAgent"
                             },
                             {
                                 "Memory":  0.22,
-                                "CPU":  438.2,
+                                "CPU":  442.1,
                                 "Name":  "TiWorker"
                             },
                             {
@@ -57,9 +57,9 @@
                             }
                         ],
     "RAMTotalGB":  31.8,
-    "RAMUsedGB":  12.3,
-    "RAMUsedPercent":  38.7,
-    "RAMFreeGB":  19.5,
+    "RAMUsedGB":  13.5,
+    "RAMUsedPercent":  42.5,
+    "RAMFreeGB":  18.3,
     "DiskFreePercent":  61.7,
     "TotalSize":  "10.9TB",
     "DiskTooltip":  "Total Storage: 10.9TB\n\nDisk Usage:\nC:\\ (OS) - Used: 138.4GB, Free: 376.6GB of 515GB (73.1% free)\nD:\\ (DATA) - Used: 4TB, Free: 6.4TB of 10.4TB (61.2% free)",
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "1d 5h 27m",
-    "UptimeTooltip":  "Boot Time: 2025-10-29 10:14:32\nSystem has been running for:\n1 days, 5 hours, 27 minutes",
+    "Uptime":  "1d 5h 32m",
+    "UptimeTooltip":  "Boot Time: 2025-10-29 10:14:32\nSystem has been running for:\n1 days, 5 hours, 32 minutes",
     "BootTime":  "\/Date(1761758072000)\/",
-    "NetworkMbps":  9.93,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 5.29 Mbps\nReceived: 4.64 Mbps\nTotal: 9.93 Mbps",
+    "NetworkMbps":  9.29,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 4.98 Mbps\nReceived: 4.31 Mbps\nTotal: 9.29 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/30 15:41"
+    "LastPoll":  "10/30 15:46"
 }
