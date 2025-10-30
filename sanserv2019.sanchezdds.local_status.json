@@ -2,23 +2,28 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  20.3,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 615s CPU time, 0.34GB RAM\nSentinelAgent: 392.2s CPU time, 0.32GB RAM\nSystem: 216.9s CPU time, 0.31GB RAM\nRegistry: 2.2s CPU time, 0.27GB RAM\nMsMpEng: 332.5s CPU time, 0.27GB RAM\ndns: 1.5s CPU time, 0.13GB RAM\npowershell: 0.8s CPU time, 0.11GB RAM\nDDX.Service: 3.5s CPU time, 0.1GB RAM\nlsass: 24.6s CPU time, 0.09GB RAM\nAteraAgent: 6.2s CPU time, 0.09GB RAM",
+    "CPUPercent":  10.3,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 648.3s CPU time, 0.34GB RAM\nSentinelAgent: 404s CPU time, 0.34GB RAM\nSystem: 219.2s CPU time, 0.31GB RAM\nMsMpEng: 339.6s CPU time, 0.27GB RAM\nRegistry: 2.2s CPU time, 0.27GB RAM\ndns: 1.6s CPU time, 0.13GB RAM\npowershell: 0.8s CPU time, 0.11GB RAM\nDDX.Service: 3.5s CPU time, 0.1GB RAM\nlsass: 25s CPU time, 0.09GB RAM\nAteraAgent: 6.3s CPU time, 0.09GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.34,
-                                "CPU":  615,
+                                "CPU":  648.3,
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.32,
-                                "CPU":  392.2,
+                                "Memory":  0.34,
+                                "CPU":  404,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  216.9,
+                                "CPU":  219.2,
                                 "Name":  "System"
+                            },
+                            {
+                                "Memory":  0.27,
+                                "CPU":  339.6,
+                                "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.27,
@@ -26,13 +31,8 @@
                                 "Name":  "Registry"
                             },
                             {
-                                "Memory":  0.27,
-                                "CPU":  332.5,
-                                "Name":  "MsMpEng"
-                            },
-                            {
                                 "Memory":  0.13,
-                                "CPU":  1.5,
+                                "CPU":  1.6,
                                 "Name":  "dns"
                             },
                             {
@@ -47,30 +47,30 @@
                             },
                             {
                                 "Memory":  0.09,
-                                "CPU":  24.6,
+                                "CPU":  25,
                                 "Name":  "lsass"
                             },
                             {
                                 "Memory":  0.09,
-                                "CPU":  6.2,
+                                "CPU":  6.3,
                                 "Name":  "AteraAgent"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  4.8,
-    "RAMUsedPercent":  30.6,
-    "RAMFreeGB":  10.9,
+    "RAMUsedGB":  4.9,
+    "RAMUsedPercent":  31.2,
+    "RAMFreeGB":  10.8,
     "DiskFreePercent":  88.4,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 121.1GB, Free: 378.9GB of 500GB (75.8% free)\nD:\\ (DATA) - Used: 311.1GB, Free: 2.8TB of 3.1TB (90.3% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 121.2GB, Free: 378.8GB of 500GB (75.8% free)\nD:\\ (DATA) - Used: 311.1GB, Free: 2.8TB of 3.1TB (90.3% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  75.8,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "378.9GB",
-                        "UsedSize":  "121.1GB",
+                        "FreeSize":  "378.8GB",
+                        "UsedSize":  "121.2GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "0d 3h 49m",
-    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n0 days, 3 hours, 49 minutes",
+    "Uptime":  "0d 3h 54m",
+    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n0 days, 3 hours, 54 minutes",
     "BootTime":  "\/Date(1761782729000)\/",
-    "NetworkMbps":  0.04,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.02 Mbps\nReceived: 0.02 Mbps\nTotal: 0.04 Mbps",
+    "NetworkMbps":  0.09,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.04 Mbps\nReceived: 0.05 Mbps\nTotal: 0.09 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "10/29 20:54"
+    "LastPoll":  "10/29 20:59"
 }
