@@ -1,30 +1,17 @@
 {
     "Computer":  "RECOVERYHYPERV",
-    "Events":  [
-                   {
-                       "TimeCreated":  "\/Date(1761856312513)\/",
-                       "Source":  "MsiInstaller",
-                       "LogName":  "Application",
-                       "Level":  "Error",
-                       "Message":  "Product: Sentinel Agent -- You must restart the endpoint before you install SentinelOne Agent again. If this message persists through reboots, contact Support.",
-                       "Id":  10005,
-                       "ErrorCode":  {
+    "Events":  {
+                   "TimeCreated":  "\/Date(1761856312513)\/",
+                   "Source":  "MsiInstaller",
+                   "LogName":  "Application",
+                   "Level":  "Error",
+                   "Message":  "Product: Sentinel Agent -- You must restart the endpoint before you install SentinelOne Agent again. If this message persists through reboots, contact Support.",
+                   "Id":  10005,
+                   "ErrorCode":  {
 
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  44021
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1761818746434)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                       "Level":  "Error",
-                       "Message":  "Windows Update failed to check for updates with error 0x80244022.",
-                       "Id":  25,
-                       "ErrorCode":  "0x80244022",
-                       "UpdateTitle":  null,
-                       "EventRecordID":  40824
-                   }
-               ],
-    "LastPoll":  "10/31 03:05"
+                                 },
+                   "UpdateTitle":  null,
+                   "EventRecordID":  44021
+               },
+    "LastPoll":  "10/31 03:10"
 }
