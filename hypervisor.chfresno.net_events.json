@@ -2,6 +2,32 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1762212337081)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start instance \"{d103e5bb-6006-4200-bc42-020530c8c6cc}\" of \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  103,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  184915
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1762212337081)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DiskFootprint\\StorageSense\" , instance \"{d103e5bb-6006-4200-bc42-020530c8c6cc}\" , action \"StorageUsage State Reporter Task Handler\" . Additional Data: Error Value: 2147746132.",
+                       "Id":  202,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  184914
+                   },
+                   {
                        "TimeCreated":  "\/Date(1762211891646)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
@@ -24,32 +50,6 @@
                                      },
                        "UpdateTitle":  "Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.439.659.0) - Current Channel (Broad)",
                        "EventRecordID":  30645
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1762176327335)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to start instance \"{13c645dc-a53b-41bb-8b21-3980c56ce7dc}\" of \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\"  task for user \"NT AUTHORITY\\SYSTEM\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  103,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  183720
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1762176327335)\/",
-                       "Source":  "Microsoft-Windows-TaskScheduler",
-                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
-                       "Level":  "Error",
-                       "Message":  "Task Scheduler failed to complete task \"\\Microsoft\\Windows\\DeviceDirectoryClient\\RegisterDeviceProtectionStateChanged\" , instance \"{13c645dc-a53b-41bb-8b21-3980c56ce7dc}\" , action \"Device Directory Client Handler\" . Additional Data: Error Value: 2147746132.",
-                       "Id":  202,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  183719
                    },
                    {
                        "TimeCreated":  "\/Date(1762176013549)\/",
@@ -76,5 +76,5 @@
                        "EventRecordID":  84630
                    }
                ],
-    "LastPoll":  "11/03 15:23"
+    "LastPoll":  "11/03 15:28"
 }
