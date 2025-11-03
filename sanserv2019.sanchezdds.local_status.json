@@ -2,28 +2,28 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  2.9,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 12195.5s CPU time, 0.71GB RAM\nSentinelAgent: 9656.8s CPU time, 0.51GB RAM\nMsMpEng: 9324.7s CPU time, 0.3GB RAM\nSystem: 4385.5s CPU time, 0.3GB RAM\nRegistry: 5.8s CPU time, 0.23GB RAM\nHSPS.eServices.DigitalHighway.Services: 112.7s CPU time, 0.21GB RAM\ndns: 17.3s CPU time, 0.13GB RAM\nDentrixClientService: 87s CPU time, 0.12GB RAM\npowershell: 0.8s CPU time, 0.11GB RAM\nlsass: 683.7s CPU time, 0.1GB RAM",
+    "CPUPercent":  26.6,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 12197.9s CPU time, 0.71GB RAM\nSentinelAgent: 9662.9s CPU time, 0.51GB RAM\nSystem: 4387.1s CPU time, 0.3GB RAM\nMsMpEng: 9329.8s CPU time, 0.3GB RAM\nRegistry: 5.8s CPU time, 0.23GB RAM\nHSPS.eServices.DigitalHighway.Services: 113.2s CPU time, 0.21GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 2.5s CPU time, 0.17GB RAM\ndns: 17.3s CPU time, 0.13GB RAM\nDentrixClientService: 87s CPU time, 0.12GB RAM\npowershell: 0.8s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.71,
-                                "CPU":  12195.5,
+                                "CPU":  12197.9,
                                 "Name":  "ctreesql"
                             },
                             {
                                 "Memory":  0.51,
-                                "CPU":  9656.8,
+                                "CPU":  9662.9,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  9324.7,
-                                "Name":  "MsMpEng"
+                                "CPU":  4387.1,
+                                "Name":  "System"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  4385.5,
-                                "Name":  "System"
+                                "CPU":  9329.8,
+                                "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.23,
@@ -32,8 +32,13 @@
                             },
                             {
                                 "Memory":  0.21,
-                                "CPU":  112.7,
+                                "CPU":  113.2,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
+                            },
+                            {
+                                "Memory":  0.17,
+                                "CPU":  2.5,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
                             },
                             {
                                 "Memory":  0.13,
@@ -49,11 +54,6 @@
                                 "Memory":  0.11,
                                 "CPU":  0.8,
                                 "Name":  "powershell"
-                            },
-                            {
-                                "Memory":  0.1,
-                                "CPU":  683.7,
-                                "Name":  "lsass"
                             }
                         ],
     "RAMTotalGB":  15.7,
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "4d 0h 24m",
-    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n4 days, 0 hours, 24 minutes",
+    "Uptime":  "4d 0h 29m",
+    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n4 days, 0 hours, 29 minutes",
     "BootTime":  "\/Date(1761782729000)\/",
     "NetworkMbps":  0.01,
     "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0 Mbps\nReceived: 0.01 Mbps\nTotal: 0.01 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "11/02 17:30"
+    "LastPoll":  "11/02 17:34"
 }
