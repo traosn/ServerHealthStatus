@@ -2,28 +2,33 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  19.2,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 12269s CPU time, 0.71GB RAM\nSentinelAgent: 9707.6s CPU time, 0.54GB RAM\nSystem: 4407.5s CPU time, 0.3GB RAM\nMsMpEng: 9360.7s CPU time, 0.29GB RAM\nRegistry: 5.8s CPU time, 0.23GB RAM\nHSPS.eServices.DigitalHighway.Services: 116.1s CPU time, 0.21GB RAM\ndns: 17.3s CPU time, 0.13GB RAM\nDentrixClientService: 87.6s CPU time, 0.12GB RAM\npowershell: 0.7s CPU time, 0.11GB RAM\nlsass: 687.3s CPU time, 0.1GB RAM",
+    "CPUPercent":  38.7,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 12269.4s CPU time, 0.71GB RAM\nSentinelAgent: 9712.1s CPU time, 0.51GB RAM\nSystem: 4408.7s CPU time, 0.3GB RAM\nMsMpEng: 9363.5s CPU time, 0.29GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 2.2s CPU time, 0.24GB RAM\nRegistry: 5.8s CPU time, 0.23GB RAM\nHSPS.eServices.DigitalHighway.Services: 116.2s CPU time, 0.21GB RAM\ndns: 17.3s CPU time, 0.13GB RAM\nDentrixClientService: 87.6s CPU time, 0.12GB RAM\npowershell: 0.8s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  0.71,
-                                "CPU":  12269,
+                                "CPU":  12269.4,
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.54,
-                                "CPU":  9707.6,
+                                "Memory":  0.51,
+                                "CPU":  9712.1,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  4407.5,
+                                "CPU":  4408.7,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.29,
-                                "CPU":  9360.7,
+                                "CPU":  9363.5,
                                 "Name":  "MsMpEng"
+                            },
+                            {
+                                "Memory":  0.24,
+                                "CPU":  2.2,
+                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
                             },
                             {
                                 "Memory":  0.23,
@@ -32,7 +37,7 @@
                             },
                             {
                                 "Memory":  0.21,
-                                "CPU":  116.1,
+                                "CPU":  116.2,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
@@ -47,19 +52,14 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  0.7,
+                                "CPU":  0.8,
                                 "Name":  "powershell"
-                            },
-                            {
-                                "Memory":  0.1,
-                                "CPU":  687.3,
-                                "Name":  "lsass"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  6.4,
-    "RAMUsedPercent":  40.8,
-    "RAMFreeGB":  9.3,
+    "RAMUsedGB":  6.6,
+    "RAMUsedPercent":  42,
+    "RAMFreeGB":  9.1,
     "DiskFreePercent":  88.3,
     "TotalSize":  "3.6TB",
     "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 111.6GB, Free: 388.4GB of 500GB (77.7% free)\nD:\\ (DATA) - Used: 326.8GB, Free: 2.8TB of 3.1TB (89.9% free)",
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "4d 0h 54m",
-    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n4 days, 0 hours, 54 minutes",
+    "Uptime":  "4d 0h 59m",
+    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n4 days, 0 hours, 59 minutes",
     "BootTime":  "\/Date(1761782729000)\/",
     "NetworkMbps":  0.01,
     "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0 Mbps\nReceived: 0.01 Mbps\nTotal: 0.01 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "11/02 17:59"
+    "LastPoll":  "11/02 18:04"
 }
