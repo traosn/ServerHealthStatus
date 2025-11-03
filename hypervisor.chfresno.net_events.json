@@ -2,7 +2,7 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1762132390661)\/",
+                       "TimeCreated":  "\/Date(1762133290966)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
                        "Level":  "Error",
@@ -10,7 +10,20 @@
                        "Id":  25,
                        "ErrorCode":  "0x800B0109",
                        "UpdateTitle":  null,
-                       "EventRecordID":  30342
+                       "EventRecordID":  30348
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1762132813513)\/",
+                       "Source":  "Microsoft-Windows-TPM-WMI",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
+                       "Id":  1796,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  351770
                    },
                    {
                        "TimeCreated":  "\/Date(1762128194679)\/",
@@ -74,20 +87,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  181541
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1762089613555)\/",
-                       "Source":  "Microsoft-Windows-TPM-WMI",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "The Secure Boot update failed to update a Secure Boot variable with error Secure Boot is not enabled on this machine.. For more information, please see https://go.microsoft.com/fwlink/?linkid=2169931",
-                       "Id":  1796,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  348994
                    }
                ],
-    "LastPoll":  "11/02 17:18"
+    "LastPoll":  "11/02 17:33"
 }
