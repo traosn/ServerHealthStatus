@@ -2,7 +2,33 @@
     "Computer":  "HYPERVISOR",
     "Events":  [
                    {
-                       "TimeCreated":  "\/Date(1762237391972)\/",
+                       "TimeCreated":  "\/Date(1762238149015)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to start \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\" task for user \"NT AUTHORITY\\SYSTEM\". Additional Data: Error Value: 2147942402.",
+                       "Id":  101,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  185789
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1762238149014)\/",
+                       "Source":  "Microsoft-Windows-TaskScheduler",
+                       "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
+                       "Level":  "Error",
+                       "Message":  "Task Scheduler failed to launch action \"%systemroot%\\system32\\MusNotification.exe\" in instance \"{63c62281-8447-4d92-9af0-a44ec88d9a40}\" of task \"\\Microsoft\\Windows\\UpdateOrchestrator\\USO_UxBroker\". Additional Data: Error Value: 2147942402.",
+                       "Id":  203,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  185788
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1762237991042)\/",
                        "Source":  "Microsoft-Windows-WindowsUpdateClient",
                        "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
                        "Level":  "Error",
@@ -10,7 +36,7 @@
                        "Id":  25,
                        "ErrorCode":  "0x800B0109",
                        "UpdateTitle":  null,
-                       "EventRecordID":  31058
+                       "EventRecordID":  31062
                    },
                    {
                        "TimeCreated":  "\/Date(1762219213456)\/",
@@ -65,5 +91,5 @@
                        "EventRecordID":  30645
                    }
                ],
-    "LastPoll":  "11/03 22:33"
+    "LastPoll":  "11/03 22:38"
 }
