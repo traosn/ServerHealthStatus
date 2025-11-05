@@ -2,38 +2,43 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  12.9,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 20198.2s CPU time, 1.04GB RAM\nSentinelAgent: 15142.8s CPU time, 0.69GB RAM\nMsMpEng: 14948.7s CPU time, 0.31GB RAM\nSystem: 6797.5s CPU time, 0.3GB RAM\nHSPS.eServices.DigitalHighway.Services: 161.4s CPU time, 0.26GB RAM\ndns: 36.9s CPU time, 0.13GB RAM\nRegistry: 7.1s CPU time, 0.12GB RAM\nDentrixClientService: 133.4s CPU time, 0.11GB RAM\nDentrixUpdaterService: 182.6s CPU time, 0.11GB RAM\npowershell: 0.7s CPU time, 0.11GB RAM",
+    "CPUPercent":  13.3,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 20202.3s CPU time, 1.04GB RAM\nSentinelAgent: 15157.1s CPU time, 0.65GB RAM\nMsMpEng: 14976.1s CPU time, 0.31GB RAM\nSystem: 6822s CPU time, 0.3GB RAM\nHSPS.eServices.DigitalHighway.Services: 162.2s CPU time, 0.26GB RAM\ndns: 37s CPU time, 0.13GB RAM\nefsvss-2008-r2-x64: 24.7s CPU time, 0.13GB RAM\nRegistry: 7.1s CPU time, 0.12GB RAM\nDentrixClientService: 133.4s CPU time, 0.11GB RAM\nDentrixUpdaterService: 182.7s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.04,
-                                "CPU":  20198.2,
+                                "CPU":  20202.3,
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.69,
-                                "CPU":  15142.8,
+                                "Memory":  0.65,
+                                "CPU":  15157.1,
                                 "Name":  "SentinelAgent"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  14948.7,
+                                "CPU":  14976.1,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  6797.5,
+                                "CPU":  6822,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.26,
-                                "CPU":  161.4,
+                                "CPU":  162.2,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
                                 "Memory":  0.13,
-                                "CPU":  36.9,
+                                "CPU":  37,
                                 "Name":  "dns"
+                            },
+                            {
+                                "Memory":  0.13,
+                                "CPU":  24.7,
+                                "Name":  "efsvss-2008-r2-x64"
                             },
                             {
                                 "Memory":  0.12,
@@ -47,49 +52,44 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  182.6,
+                                "CPU":  182.7,
                                 "Name":  "DentrixUpdaterService"
-                            },
-                            {
-                                "Memory":  0.11,
-                                "CPU":  0.7,
-                                "Name":  "powershell"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  7,
-    "RAMUsedPercent":  44.6,
-    "RAMFreeGB":  8.7,
-    "DiskFreePercent":  86.1,
+    "RAMUsedGB":  7.3,
+    "RAMUsedPercent":  46.5,
+    "RAMFreeGB":  8.4,
+    "DiskFreePercent":  88,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 115.8GB, Free: 384.2GB of 500GB (76.8% free)\nD:\\ (DATA) - Used: 399GB, Free: 2.8TB of 3.1TB (87.6% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 113GB, Free: 387GB of 500GB (77.4% free)\nD:\\ (DATA) - Used: 333GB, Free: 2.8TB of 3.1TB (89.7% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
-                        "FreePercent":  76.8,
+                        "FreePercent":  77.4,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "384.2GB",
-                        "UsedSize":  "115.8GB",
+                        "FreeSize":  "387GB",
+                        "UsedSize":  "113GB",
                         "Letter":  "C"
                     },
                     {
                         "Label":  "DATA",
-                        "FreePercent":  87.6,
+                        "FreePercent":  89.7,
                         "TotalSize":  "3.1TB",
                         "SizeBytes":  3459786993664,
                         "FreeSize":  "2.8TB",
-                        "UsedSize":  "399GB",
+                        "UsedSize":  "333GB",
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "6d 5h 4m",
-    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n6 days, 5 hours, 4 minutes",
+    "Uptime":  "6d 5h 11m",
+    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n6 days, 5 hours, 11 minutes",
     "BootTime":  "\/Date(1761782729000)\/",
-    "NetworkMbps":  0.2,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.14 Mbps\nReceived: 0.06 Mbps\nTotal: 0.2 Mbps",
+    "NetworkMbps":  0.25,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.12 Mbps\nReceived: 0.13 Mbps\nTotal: 0.25 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "11/04 22:10"
+    "LastPoll":  "11/04 22:16"
 }
