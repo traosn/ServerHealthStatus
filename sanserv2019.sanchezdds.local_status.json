@@ -2,38 +2,33 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  29.4,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 20243.9s CPU time, 1.04GB RAM\nSentinelAgent: 15236.5s CPU time, 0.63GB RAM\nMsMpEng: 15213.9s CPU time, 0.32GB RAM\nSystem: 7008.9s CPU time, 0.3GB RAM\nHSPS.eServices.DigitalHighway.Services: 168.7s CPU time, 0.26GB RAM\nHSPS.eServices.PracticeDataSync.Legacy: 19.9s CPU time, 0.22GB RAM\ndns: 37.4s CPU time, 0.13GB RAM\nRegistry: 7.1s CPU time, 0.12GB RAM\nDentrixClientService: 133.5s CPU time, 0.11GB RAM\nDentrixUpdaterService: 184s CPU time, 0.11GB RAM",
+    "CPUPercent":  5.1,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 20247.7s CPU time, 1.04GB RAM\nSentinelAgent: 15245.4s CPU time, 0.64GB RAM\nMsMpEng: 15231.4s CPU time, 0.33GB RAM\nSystem: 7027s CPU time, 0.3GB RAM\nHSPS.eServices.DigitalHighway.Services: 169.6s CPU time, 0.26GB RAM\ndns: 37.4s CPU time, 0.13GB RAM\nRegistry: 7.1s CPU time, 0.11GB RAM\nDentrixClientService: 133.5s CPU time, 0.11GB RAM\nDentrixUpdaterService: 184.2s CPU time, 0.11GB RAM\npowershell: 0.8s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.04,
-                                "CPU":  20243.9,
+                                "CPU":  20247.7,
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.63,
-                                "CPU":  15236.5,
+                                "Memory":  0.64,
+                                "CPU":  15245.4,
                                 "Name":  "SentinelAgent"
                             },
                             {
-                                "Memory":  0.32,
-                                "CPU":  15213.9,
+                                "Memory":  0.33,
+                                "CPU":  15231.4,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.3,
-                                "CPU":  7008.9,
+                                "CPU":  7027,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.26,
-                                "CPU":  168.7,
+                                "CPU":  169.6,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
-                            },
-                            {
-                                "Memory":  0.22,
-                                "CPU":  19.9,
-                                "Name":  "HSPS.eServices.PracticeDataSync.Legacy"
                             },
                             {
                                 "Memory":  0.13,
@@ -41,7 +36,7 @@
                                 "Name":  "dns"
                             },
                             {
-                                "Memory":  0.12,
+                                "Memory":  0.11,
                                 "CPU":  7.1,
                                 "Name":  "Registry"
                             },
@@ -52,44 +47,49 @@
                             },
                             {
                                 "Memory":  0.11,
-                                "CPU":  184,
+                                "CPU":  184.2,
                                 "Name":  "DentrixUpdaterService"
+                            },
+                            {
+                                "Memory":  0.11,
+                                "CPU":  0.8,
+                                "Name":  "powershell"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  7.3,
-    "RAMUsedPercent":  46.5,
-    "RAMFreeGB":  8.4,
-    "DiskFreePercent":  86.6,
+    "RAMUsedGB":  7,
+    "RAMUsedPercent":  44.6,
+    "RAMFreeGB":  8.7,
+    "DiskFreePercent":  87.9,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 114GB, Free: 386GB of 500GB (77.2% free)\nD:\\ (DATA) - Used: 384.3GB, Free: 2.8TB of 3.1TB (88.1% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 114.1GB, Free: 385.9GB of 500GB (77.2% free)\nD:\\ (DATA) - Used: 334.4GB, Free: 2.8TB of 3.1TB (89.6% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
                         "FreePercent":  77.2,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "386GB",
-                        "UsedSize":  "114GB",
+                        "FreeSize":  "385.9GB",
+                        "UsedSize":  "114.1GB",
                         "Letter":  "C"
                     },
                     {
                         "Label":  "DATA",
-                        "FreePercent":  88.1,
+                        "FreePercent":  89.6,
                         "TotalSize":  "3.1TB",
                         "SizeBytes":  3459786993664,
                         "FreeSize":  "2.8TB",
-                        "UsedSize":  "384.3GB",
+                        "UsedSize":  "334.4GB",
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "6d 6h 9m",
-    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n6 days, 6 hours, 9 minutes",
+    "Uptime":  "6d 6h 14m",
+    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n6 days, 6 hours, 14 minutes",
     "BootTime":  "\/Date(1761782729000)\/",
-    "NetworkMbps":  0.1,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.04 Mbps\nReceived: 0.06 Mbps\nTotal: 0.1 Mbps",
+    "NetworkMbps":  0.74,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 0.66 Mbps\nReceived: 0.08 Mbps\nTotal: 0.74 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "11/04 23:14"
+    "LastPoll":  "11/04 23:20"
 }
