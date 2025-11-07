@@ -1,17 +1,30 @@
 {
     "Computer":  "SERVER53924",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1762509645265)\/",
-                   "Source":  "Service Control Manager",
-                   "LogName":  "System",
-                   "Level":  "Error",
-                   "Message":  "The Digital Highway Server service failed to start due to the following error: \r",
-                   "Id":  7000,
-                   "ErrorCode":  {
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1762520510929)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x80244022.",
+                       "Id":  25,
+                       "ErrorCode":  "0x80244022",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  68673
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1762509645265)\/",
+                       "Source":  "Service Control Manager",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "The Digital Highway Server service failed to start due to the following error: \r",
+                       "Id":  7000,
+                       "ErrorCode":  {
 
-                                 },
-                   "UpdateTitle":  null,
-                   "EventRecordID":  2223473
-               },
-    "LastPoll":  "11/07 05:01"
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  2223473
+                   }
+               ],
+    "LastPoll":  "11/07 05:06"
 }
