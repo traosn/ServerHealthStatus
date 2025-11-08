@@ -2,6 +2,19 @@
     "Computer":  "FRWSTH",
     "Events":  [
                    {
+                       "TimeCreated":  "\/Date(1762567656608)\/",
+                       "Source":  "Microsoft-Windows-Bits-Client",
+                       "LogName":  "System",
+                       "Level":  "Error",
+                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
+                       "Id":  16398,
+                       "ErrorCode":  {
+
+                                     },
+                       "UpdateTitle":  null,
+                       "EventRecordID":  15036
+                   },
+                   {
                        "TimeCreated":  "\/Date(1762546680236)\/",
                        "Source":  "Microsoft-Windows-TaskScheduler",
                        "LogName":  "Microsoft-Windows-TaskScheduler/Operational",
@@ -26,19 +39,6 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  334598
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1762532224735)\/",
-                       "Source":  "Microsoft-Windows-Bits-Client",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "A new BITS job could not be created. The current job count for the user KHOETECH\\traoh (60) is equal to or greater than the job limit (60) specified through group policy.  To correct the problem, complete or cancel the BITS jobs that haven\u0027t made progress by looking at the error, and restart the BITS service. If this error recurs, contact your system administrator and increate the per-user and per-computer Group Policy job limits.",
-                       "Id":  16398,
-                       "ErrorCode":  {
-
-                                     },
-                       "UpdateTitle":  null,
-                       "EventRecordID":  14990
                    },
                    {
                        "TimeCreated":  "\/Date(1762513739136)\/",
@@ -89,18 +89,7 @@
                                      },
                        "UpdateTitle":  null,
                        "EventRecordID":  331516
-                   },
-                   {
-                       "TimeCreated":  "\/Date(1762481302278)\/",
-                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                       "LogName":  "System",
-                       "Level":  "Error",
-                       "Message":  "Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB.",
-                       "Id":  20,
-                       "ErrorCode":  "0x80073D02",
-                       "UpdateTitle":  "9WZDNCRD29V9-MICROSOFT.MICROSOFTOFFICEHUB",
-                       "EventRecordID":  14903
                    }
                ],
-    "LastPoll":  "11/07 18:03"
+    "LastPoll":  "11/07 18:09"
 }
