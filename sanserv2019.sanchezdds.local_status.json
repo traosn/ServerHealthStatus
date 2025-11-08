@@ -2,8 +2,8 @@
     "Computer":  "SANSERV2019",
     "Customer":  "Jose Sanchez, DDS",
     "OS":  "Microsoft Windows Server 2019 Standard",
-    "CPUPercent":  5.9,
-    "CPUTooltip":  "Top CPU Processes:\nctreesql: 30500.4s CPU time, 1.29GB RAM\nSentinelAgent: 23345.5s CPU time, 0.78GB RAM\nMsMpEng: 23275.9s CPU time, 0.32GB RAM\nSystem: 10559.5s CPU time, 0.31GB RAM\nHSPS.eServices.DigitalHighway.Services: 186s CPU time, 0.25GB RAM\ndns: 63.9s CPU time, 0.13GB RAM\nsvchost: 2206.4s CPU time, 0.13GB RAM\nDentrixClientService: 198.6s CPU time, 0.12GB RAM\nRegistry: 9.9s CPU time, 0.11GB RAM\nNinjaRMMAgent: 4883.2s CPU time, 0.11GB RAM",
+    "CPUPercent":  25.8,
+    "CPUTooltip":  "Top CPU Processes:\nctreesql: 30500.4s CPU time, 1.29GB RAM\nSentinelAgent: 23350.3s CPU time, 0.77GB RAM\nHSPS.eServices.PracticeDataSync: 139.2s CPU time, 0.37GB RAM\nMsMpEng: 23279.3s CPU time, 0.32GB RAM\nSystem: 10561.8s CPU time, 0.31GB RAM\nHSPS.eServices.DigitalHighway.Services: 186.1s CPU time, 0.25GB RAM\ndns: 63.9s CPU time, 0.13GB RAM\nsvchost: 2208.2s CPU time, 0.13GB RAM\nDentrixClientService: 198.6s CPU time, 0.12GB RAM\nRegistry: 9.9s CPU time, 0.11GB RAM",
     "TopCPUProcesses":  [
                             {
                                 "Memory":  1.29,
@@ -11,23 +11,28 @@
                                 "Name":  "ctreesql"
                             },
                             {
-                                "Memory":  0.78,
-                                "CPU":  23345.5,
+                                "Memory":  0.77,
+                                "CPU":  23350.3,
                                 "Name":  "SentinelAgent"
                             },
                             {
+                                "Memory":  0.37,
+                                "CPU":  139.2,
+                                "Name":  "HSPS.eServices.PracticeDataSync"
+                            },
+                            {
                                 "Memory":  0.32,
-                                "CPU":  23275.9,
+                                "CPU":  23279.3,
                                 "Name":  "MsMpEng"
                             },
                             {
                                 "Memory":  0.31,
-                                "CPU":  10559.5,
+                                "CPU":  10561.8,
                                 "Name":  "System"
                             },
                             {
                                 "Memory":  0.25,
-                                "CPU":  186,
+                                "CPU":  186.1,
                                 "Name":  "HSPS.eServices.DigitalHighway.Services"
                             },
                             {
@@ -37,7 +42,7 @@
                             },
                             {
                                 "Memory":  0.13,
-                                "CPU":  2206.4,
+                                "CPU":  2208.2,
                                 "Name":  "svchost"
                             },
                             {
@@ -49,28 +54,23 @@
                                 "Memory":  0.11,
                                 "CPU":  9.9,
                                 "Name":  "Registry"
-                            },
-                            {
-                                "Memory":  0.11,
-                                "CPU":  4883.2,
-                                "Name":  "NinjaRMMAgent"
                             }
                         ],
     "RAMTotalGB":  15.7,
-    "RAMUsedGB":  8,
-    "RAMUsedPercent":  51,
-    "RAMFreeGB":  7.7,
+    "RAMUsedGB":  8.3,
+    "RAMUsedPercent":  52.9,
+    "RAMFreeGB":  7.4,
     "DiskFreePercent":  86.5,
     "TotalSize":  "3.6TB",
-    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 109.2GB, Free: 390.8GB of 500GB (78.2% free)\nD:\\ (DATA) - Used: 394.5GB, Free: 2.8TB of 3.1TB (87.8% free)",
+    "DiskTooltip":  "Total Storage: 3.6TB\n\nDisk Usage:\nC:\\ (OS) - Used: 109.6GB, Free: 390.4GB of 500GB (78.1% free)\nD:\\ (DATA) - Used: 394.5GB, Free: 2.8TB of 3.1TB (87.8% free)",
     "Volumes":  [
                     {
                         "Label":  "OS",
-                        "FreePercent":  78.2,
+                        "FreePercent":  78.1,
                         "TotalSize":  "500GB",
                         "SizeBytes":  536870907904,
-                        "FreeSize":  "390.8GB",
-                        "UsedSize":  "109.2GB",
+                        "FreeSize":  "390.4GB",
+                        "UsedSize":  "109.6GB",
                         "Letter":  "C"
                     },
                     {
@@ -83,13 +83,13 @@
                         "Letter":  "D"
                     }
                 ],
-    "Uptime":  "9d 7h 9m",
-    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n9 days, 7 hours, 9 minutes",
+    "Uptime":  "9d 7h 14m",
+    "UptimeTooltip":  "Boot Time: 2025-10-29 17:05:29\nSystem has been running for:\n9 days, 7 hours, 14 minutes",
     "BootTime":  "\/Date(1761782729000)\/",
-    "NetworkMbps":  6.56,
-    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 6.38 Mbps\nReceived: 0.18 Mbps\nTotal: 6.56 Mbps",
+    "NetworkMbps":  7.03,
+    "NetworkTooltip":  "Avg Throughput (5s):\nSent: 6.84 Mbps\nReceived: 0.19 Mbps\nTotal: 7.03 Mbps",
     "UpdateStatus":  "1 Updates",
     "UpdateCount":  1,
     "UpdateTooltip":  "Click for details on 1 pending updates.",
-    "LastPoll":  "11/08 00:15"
+    "LastPoll":  "11/08 00:19"
 }
