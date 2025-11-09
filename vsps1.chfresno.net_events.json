@@ -1,15 +1,28 @@
 {
     "Computer":  "VSPS1",
-    "Events":  {
-                   "TimeCreated":  "\/Date(1762640862793)\/",
-                   "Source":  "Microsoft-Windows-WindowsUpdateClient",
-                   "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
-                   "Level":  "Error",
-                   "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
-                   "Id":  25,
-                   "ErrorCode":  "0x8024402F",
-                   "UpdateTitle":  null,
-                   "EventRecordID":  43638
-               },
-    "LastPoll":  "11/08 16:22"
+    "Events":  [
+                   {
+                       "TimeCreated":  "\/Date(1762647983842)\/",
+                       "Source":  "VSS",
+                       "LogName":  "Application",
+                       "Level":  "Error",
+                       "Message":  "Volume Shadow Copy Service error: Unexpected error DeviceIoControl(\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy696 - 00000000000001F8,0x0053c198,000001BD70D3CDA0,0,000001BD70D35D30,4096,[0]).  hr = 0x80070057, The parameter is incorrect.\r",
+                       "Id":  12289,
+                       "ErrorCode":  "0x0053c198",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  42951
+                   },
+                   {
+                       "TimeCreated":  "\/Date(1762640862793)\/",
+                       "Source":  "Microsoft-Windows-WindowsUpdateClient",
+                       "LogName":  "Microsoft-Windows-WindowsUpdateClient/Operational",
+                       "Level":  "Error",
+                       "Message":  "Windows Update failed to check for updates with error 0x8024402F.",
+                       "Id":  25,
+                       "ErrorCode":  "0x8024402F",
+                       "UpdateTitle":  null,
+                       "EventRecordID":  43638
+                   }
+               ],
+    "LastPoll":  "11/08 16:27"
 }
